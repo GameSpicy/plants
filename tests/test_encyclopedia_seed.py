@@ -91,3 +91,43 @@ def test_service_hides_retired_records(tmp_path):
 
     assert list_problems("pests", path=path) == []
     assert get_problem("pests", "retired-pest", path=path) is None
+
+
+def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_path):
+    from app.catalog import PLANT_CATALOG
+    from app.encyclopedia_catalog_seed import seed_botanical_catalog
+    from app.encyclopedia_service import get_taxon, search_taxa
+
+    path = tmp_path / "encyclopedia.db"
+    init_encyclopedia_db(path)
+    conn = sqlite3.connect(path)
+    conn.execute("PRAGMA foreign_keys=ON")
+    seed_encyclopedia(conn)
+    imported = seed_botanical_catalog(conn)
+    conn.commit()
+
+    assert imported["taxa"] == len(PLANT_CATALOG)
+    assert conn.execute("SELECT COUNT(*) FROM care_profiles").fetchone()[0] == len(PLANT_CATALOG)
+    assert conn.execute("SELECT COUNT(*) FROM fertilizer_guides").fetchone()[0] == len(PLANT_CATALOG)
+    assert conn.execute("SELECT COUNT(*) FROM taxon_pests").fetchone()[0] >= 8
+    assert conn.execute("SELECT COUNT(*) FROM taxon_diseases").fetchone()[0] >= 2
+    assert conn.execute("SELECT COUNT(*) FROM media WHERE rights_status='approved'").fetchone()[0] == 3
+    assert conn.execute("PRAGMA foreign_key_check").fetchall() == []
+    assert conn.execute("SELECT COUNT(*) FROM taxa WHERE verification_status!='needs_review'").fetchone()[0] == 0
+
+    hibiscus = get_taxon("plant-073", path=path)
+    assert hibiscus is not None
+    assert any(p["id"] == "pest-aphids" for p in hibiscus["pests"])
+    assert any("University of Minnesota" in source["publisher"] for source in hibiscus["sources"])
+
+    pothos = get_taxon("plant-001", path=path)
+    assert pothos is not None
+    assert len(pothos["media"]) == 3
+    assert pothos["media"][0]["license"] == "CC BY-SA 4.0"
+    assert pothos["fertilizer_guides"]
+    assert pothos["fertilizer_guides"][0]["sources"]
+
+    assert any(item["id"] == "plant-160" for item in search_taxa("Capsicum", path=path))
+    second = seed_botanical_catalog(conn)
+    assert all(value == 0 for value in second.values())
+    conn.close()
