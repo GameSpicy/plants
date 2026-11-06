@@ -277,3 +277,15 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent2); b
   .due-confirm span { flex-basis: 100%; }
   .due-confirm button { min-height: 44px; }
 }
+
+/* Plant encyclopedia */
+.ency-nav{display:flex;gap:8px;overflow-x:auto;padding:4px 0 8px;scrollbar-width:none}.ency-nav a{text-decoration:none;white-space:nowrap}
+.ency-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:14px}
+.ency-card{display:flex;flex-direction:column;gap:8px;min-height:180px;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--panel);color:var(--text);text-decoration:none}
+.ency-card:hover{border-color:var(--accent)}.ency-card h2{margin:2px 0 0}.ency-card p{color:var(--muted);margin:0}.ency-open{color:var(--link);font-weight:600;margin-top:auto}
+.ency-detail-head{display:flex;justify-content:space-between;align-items:center;gap:14px}.ency-detail-head h1{margin:8px 0 2px}
+.ency-symbol{display:grid;place-items:center;width:72px;height:72px;flex:none;border-radius:18px;background:var(--panel2);font-size:38px}
+.ency-section{margin:14px 0;padding:0 2px}.ency-section h3{margin:0 0 4px;font-size:15px}.ency-section p{margin:0;white-space:pre-wrap}
+.ency-guides{display:grid;gap:10px}.ency-guide{border-top:1px solid var(--line);padding:12px 0 0}.ency-guide:first-child{border-top:0;padding-top:0}.ency-guide p{margin:8px 0;white-space:pre-wrap}.ency-guide summary{cursor:pointer;color:var(--link)}
+.ency-sources{display:grid;gap:10px}.ency-source{display:grid;gap:2px}.ency-source a{font-weight:600}
+@media(max-width:650px){.ency-grid{grid-template-columns:1fr}.ency-card{min-height:150px}.ency-symbol{width:56px;height:56px;font-size:30px}}
