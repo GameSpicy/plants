@@ -192,7 +192,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Tradescantia spathacea grows as a compact rosette with sword-shaped leaves, unlike the trailing T. zebrina. NC State’s source is genus-level; the catalog species label is retained pending a closer species-level check.",
+          "content": "Tradescantia spathacea forms a stiff-leaved basal rosette, unlike the trailing T. zebrina. Care below uses NC State Tradescantia genus guidance; species-specific thresholds may differ.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -202,7 +202,7 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Check for an upright rosette of stiff, sword-shaped leaves, often green above and purple beneath. This contrasts with trailing T. zebrina, but a species-matched identification source is still needed.",
+          "content": "Look for an upright rosette of sword-shaped leaves, often green above and purple below. The linked source is genus-level, so confirm against the plant label or a species account.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -212,7 +212,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright indirect light is a safe starting point; acclimate gradually before giving direct sun.",
+          "content": "Start in bright filtered light. Tradescantia can tolerate sun, but harsh afternoon sun may scorch leaves.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -222,7 +222,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water thoroughly when the upper mix begins to dry, then drain the saucer. Adjust for heat and pot size.",
+          "content": "Water when the top inch of mix dries; aim for moist, not saturated, soil.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -232,7 +232,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use porous indoor potting mix and a container with drainage; avoid dense garden soil.",
+          "content": "Use humus-rich, acidic potting mix that drains freely.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -242,15 +242,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
+          "content": "Genus guidance places tropical Tradescantia near 60–80°F; protect this tropical species from cold drafts.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tradescantia"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Average indoor humidity is usually workable; improve airflow if foliage stays wet or leaf edges dry.",
+          "content": "Average indoor humidity is usually workable; prioritize airflow and avoid keeping the rosette constantly wet.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -260,7 +262,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
+          "content": "Use dilute balanced feed during active growth; pause when growth slows. No species-specific fertilizer rate is established.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -268,7 +270,7 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pinch leggy stems and remove yellow leaves with clean tools; avoid heavy pruning at once.",
+          "content": "Remove dead outer leaves and old flower stalks at their base; avoid cutting the central rosette.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -278,7 +280,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Stem cuttings or division may work depending on the species; use clean tools and airy, lightly moist medium.",
+          "content": "Divide mature rosettes or root offsets; the source’s genus-level stem-cutting advice mainly suits trailing forms.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -288,7 +290,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "NC State assigns low-severity poison characteristics to the Tradescantia genus. Treat ingestion and sap exposure as potential irritants; keep away from children and pets until species-specific safety is known.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -296,15 +298,17 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for mites, scale and mealybugs; yellowing can follow excess water or poor drainage.",
+          "content": "Avoid waterlogged mix and inspect for common houseplant pests; the linked source is genus-level and does not establish a species-specific pest list.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tradescantia"
+          ]
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "In Dhaka, shelter the rosette from harsh afternoon sun and ensure monsoon rain drains freely; this local seasonal advice is practical, not source-specific.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3317,7 +3321,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "This entry is a dwarf Ixora coccinea selection. Use the parent species guidance for general culture, but size, flowering and cold tolerance can vary among cultivars; the exact cultivar name is not recorded.",
+          "content": "Dwarf ixora is a compact selection of Ixora coccinea. NC State supports the parent species’ tropical shrub culture, but the exact dwarf cultivar and its mature size are unknown.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3327,7 +3331,7 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Dwarf ixora is a compact selection of Ixora coccinea with clustered tubular flowers. The source supports the parent species, not the identity of a specific dwarf cultivar; retain needs_review until the plant label or cultivar is known.",
+          "content": "Ixora coccinea has leathery dark-green leaves and clusters of tubular flowers; the dwarf selection’s exact cultivar traits are unconfirmed.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3337,7 +3341,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Sun to partial shade; morning sun with protection from harsh afternoon heat is a useful Dhaka starting point.",
+          "content": "The parent species flowers best in full sun and tolerates a little afternoon shade.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3347,7 +3351,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water deeply when the surface starts to dry; avoid both drought stress in heat and persistently soggy roots.",
+          "content": "Keep the root zone evenly moist during active growth, but do not leave the pot saturated.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3357,7 +3361,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, well-drained soil; for acid-loving types avoid lime and use an acid-forming mix.",
+          "content": "Use organically rich, acidic, well-drained soil; alkaline mix can cause chlorosis.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3367,15 +3371,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from chilling; shelter potted plants during cool spells.",
+          "content": "Ixora coccinea is tender below about 50°F; keep the dwarf container warm.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm humid conditions suit the parent Ixora species; allow airflow around the compact canopy.",
+          "content": "Warm tropical humidity suits Ixora; space plants for airflow.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3385,17 +3391,15 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use light feeding only during active growth; avoid alkaline conditions and excess fertilizer.",
+          "content": "Feed lightly with an acid-forming fertilizer during active growth; avoid high pH and overfeeding.",
           "confidence": "low",
           "status": "draft",
-          "sources": [
-            "source-ncsu-ixora"
-          ]
+          "sources": []
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead, crossing stems and spent flowers; avoid severe pruning during active bloom.",
+          "content": "The parent species is best pruned in late winter; prune lightly to preserve the dwarf habit.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3405,7 +3409,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or semi-ripe cuttings depending on species; keep cuttings warm while rooting.",
+          "content": "The species is propagated by stem cuttings; named dwarf cultivars may not come true from seed.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3415,7 +3419,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No species-specific toxicity assessment for this dwarf selection is provided here. As a precaution, do not ingest it and keep it away from children and pets.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3423,20 +3427,20 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Check new growth for aphids, scale and mites; remove diseased material and improve airflow.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "seasonal_care",
-          "title": "Seasonal care",
-          "content": "Treat as a tender tropical shrub and shelter container roots during cool spells and prolonged rain.",
+          "content": "Watch for aphids, thrips, scale, mealybugs, sooty mold and mushroom root rot; alkaline soil may cause chlorosis.",
           "confidence": "low",
           "status": "draft",
           "sources": [
             "source-ncsu-ixora"
           ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Protect this tropical shrub from cool spells and keep container drainage open through Dhaka monsoon rain.",
+          "confidence": "low",
+          "status": "draft",
+          "sources": []
         }
       ]
     },
@@ -3579,7 +3583,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Jasminum sambac is Arabian jasmine, an evergreen tropical shrub or climber with fragrant white flowers. The linked NC State page covers Jasminum at genus level, so flowering and care details may differ among species and cultivars.",
+          "content": "Jasminum sambac is Arabian jasmine, a tropical shrub or vine with fragrant flowers. NC State’s linked guide is for Jasminum as a genus, so use the care below as a starting point rather than a species-specific prescription.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3599,7 +3603,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "NC State’s Jasminum genus guide recommends full sun or at least bright light; species preferences differ.",
+          "content": "The Jasminum genus guide recommends full sun or at least bright light; acclimate a container plant gradually.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3609,7 +3613,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Most Jasminum prefer moist, well-drained soil; some species tolerate drier conditions.",
+          "content": "Most jasmines prefer moist, well-drained soil, although some species tolerate drier conditions.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3619,7 +3623,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use moist, well-drained mix; this guidance is genus-level and may vary for J. sambac.",
+          "content": "Use moist, well-drained potting mix; the linked advice is genus-level.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3629,15 +3633,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from cold and drying winds; keep warm for steady growth.",
+          "content": "Keep this tropical jasmine warm and shelter from cold drafts; no exact temperature threshold was found in the linked source.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-jasmine"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Maintain airflow and avoid prolonged leaf wetness in humid weather.",
+          "content": "Normal warm outdoor humidity is acceptable; provide airflow around a dense shrub.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3647,7 +3653,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly during active growth and reduce in cool or slow-growth periods.",
+          "content": "Feed modestly during active growth; no species-specific fertilizer rate is stated in the genus source.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3655,7 +3661,7 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Prune after flowering because jasmine flowers are borne on old growth.",
+          "content": "Prune after flowering, as jasmine flowers form on older growth; avoid trimming before the bloom flush.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3665,7 +3671,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Take a stem cutting with at least one node and root in water or a moist airy medium.",
+          "content": "Use stem cuttings or layering as practical options for a woody jasmine; species response can vary.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3675,7 +3681,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No species-specific toxicity evaluation is included here. Do not ingest it or use it medicinally; keep away from children and pets until checked.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3683,7 +3689,7 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Aphids, spider mites, leaf spot and root rot can occur; outdoor problems are generally uncommon.",
+          "content": "The genus guide notes aphids, spider mites, leaf spot and root rot; outdoor pest problems are often uncommon.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3693,7 +3699,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, provide support and airflow through monsoon weather; shelter containers from waterlogging.",
+          "content": "Grow warm, provide bright light and prune after the main flowering period; Dhaka rain and heat adjustments are practical rather than directly sourced.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4233,7 +4239,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Tagetes erecta (African marigold) is an annual commonly grown for large flower heads. NC State’s linked account is for Tagetes as a genus; cultivar size and flower form vary.",
+          "content": "African marigold (Tagetes erecta) is a warm-season annual. NC State’s Tagetes genus guide includes these species and gives broad care guidance; cultivar size and flower form vary.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4243,7 +4249,7 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Tagetes erecta commonly has upright growth and relatively large rounded flower heads. The genus-level source includes this species, but cultivar-specific flower form varies.",
+          "content": "African marigold (Tagetes erecta) has aromatic, divided foliage and showy flower heads; often has larger flower heads, but cultivar forms vary.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4253,7 +4259,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Tagetes can grow in full sun or partial sun; full sun encourages more blooms.",
+          "content": "Tagetes grows in full or partial sun; full sun usually encourages the best bloom.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4263,7 +4269,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water to establish, then avoid keeping the soil saturated; some marigolds tolerate drought once rooted.",
+          "content": "Water young plants as they establish; later, allow the soil to drain and avoid prolonged saturation. Some marigolds tolerate dry spells.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4273,7 +4279,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Tagetes tolerates many soil types if drainage is good.",
+          "content": "A range of soil types is tolerated if drainage is good.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4283,7 +4289,7 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Grow as a warm-season annual; protect from prolonged chill.",
+          "content": "Grow as a warm-season annual; protect from prolonged cool weather.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4293,7 +4299,7 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Space for airflow in humid weather to reduce leaf and stem disease.",
+          "content": "Provide spacing and airflow during humid weather to reduce leaf and stem disease.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4303,7 +4309,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Add compost or use a light balanced feed if growth is weak; excess nitrogen may reduce flowering.",
+          "content": "Use moderate fertility; no species-specific fertilizer rate is given by the genus guide.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4311,7 +4317,7 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Deadhead spent flower heads to encourage repeat bloom.",
+          "content": "Deadhead faded flower heads for repeat bloom; leave some seed heads only if collecting seed.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4321,7 +4327,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Sow seed; Tagetes often reseeds from mature flower heads.",
+          "content": "Grow from seed; remove unwanted seed heads to limit reseeding.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4331,7 +4337,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "NC State warns that large amounts may be harmful and that sap or contact can irritate skin. This is genus-level guidance; avoid ingestion and wear gloves if sensitive.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4339,7 +4345,7 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Watch for spider mites, slugs, wilt, stem rot, leaf spot and aster yellows.",
+          "content": "Watch for spider mites, Japanese beetles and slugs; diseases can include wilt, stem rot, leaf spots, botrytis and aster yellows.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4349,7 +4355,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Grow in the cooler dry season where possible; during monsoon use fast-draining pots and remove storm-damaged growth.",
+          "content": "Grow in the cooler dry season in Dhaka where possible; protect containers from monsoon waterlogging and remove storm-damaged stems.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4361,7 +4367,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Tagetes patula (French marigold) is a compact annual with showy flower heads, often bicolored. NC State’s source describes the genus, so exact cultivar traits remain variable.",
+          "content": "French marigold (Tagetes patula) is a warm-season annual. NC State’s Tagetes genus guide includes these species and gives broad care guidance; cultivar size and flower form vary.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4371,7 +4377,7 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Tagetes patula is generally shorter and more compact than T. erecta, often with smaller, bicolored flower heads; cultivar forms vary.",
+          "content": "French marigold (Tagetes patula) has aromatic, divided foliage and showy flower heads; is commonly more compact, but cultivar forms vary.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4381,7 +4387,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Tagetes can grow in full sun or partial sun; full sun generally gives best flowering.",
+          "content": "Tagetes grows in full or partial sun; full sun usually encourages the best bloom.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4391,7 +4397,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep young plants watered; once established, avoid overwatering and allow drainage.",
+          "content": "Water young plants as they establish; later, allow the soil to drain and avoid prolonged saturation. Some marigolds tolerate dry spells.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4401,7 +4407,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "French marigold tolerates a range of soils provided the pot or bed drains well.",
+          "content": "A range of soil types is tolerated if drainage is good.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4411,7 +4417,7 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Treat as a warm-season annual and protect from cool conditions.",
+          "content": "Grow as a warm-season annual; protect from prolonged cool weather.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4421,7 +4427,7 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Provide spacing and airflow in humid weather.",
+          "content": "Provide spacing and airflow during humid weather to reduce leaf and stem disease.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4431,7 +4437,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Add compost or use a light balanced feed if growth is weak; excess nitrogen may reduce flowering.",
+          "content": "Use moderate fertility; no species-specific fertilizer rate is given by the genus guide.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4439,7 +4445,7 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Deadhead regularly for continued summer flowers.",
+          "content": "Deadhead faded flower heads for repeat bloom; leave some seed heads only if collecting seed.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4449,7 +4455,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Grow from seed and remove unwanted seed heads to limit self-sowing.",
+          "content": "Grow from seed; remove unwanted seed heads to limit reseeding.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4459,7 +4465,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "NC State warns that large amounts may be harmful and that sap or contact can irritate skin. This is genus-level guidance; avoid ingestion and wear gloves if sensitive.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4467,7 +4473,7 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for spider mites and slugs; wet, crowded growth may develop leaf spots or rot.",
+          "content": "Watch for spider mites, Japanese beetles and slugs; diseases can include wilt, stem rot, leaf spots, botrytis and aster yellows.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4477,7 +4483,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Grow in the cooler dry season where possible; during monsoon use fast-draining pots and remove storm-damaged growth.",
+          "content": "Grow in the cooler dry season in Dhaka where possible; protect containers from monsoon waterlogging and remove storm-damaged stems.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4749,7 +4755,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Helianthus annuus is the common annual sunflower, with a tall stem, broad leaves and large flower heads. The linked NC State source is genus-level but includes H. annuus; garden cultivars differ in height and branching.",
+          "content": "Helianthus annuus is the common annual sunflower. NC State’s genus account includes H. annuus and supports full sun, moist soil and leaving stems/seed heads for wildlife; garden cultivar size varies.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4759,7 +4765,7 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Helianthus annuus usually has a stout upright stem, rough broad leaves and a large composite flower head; branching and head size depend on cultivar.",
+          "content": "Typical H. annuus has an erect stem, rough broad leaves and a large flower head with yellow rays around a central disc; branching and head size vary by cultivar.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4769,7 +4775,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Full sun produces the most flowers in Helianthus.",
+          "content": "Grow in full sun for the most blooms.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4779,7 +4785,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep soil moist during active growth; tolerance of poor drainage varies by species.",
+          "content": "Keep soil reasonably moist in active growth; the genus includes species with different wet-soil tolerances.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4789,7 +4795,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use ordinary garden soil with drainage; moisture needs vary among Helianthus species.",
+          "content": "Ordinary garden soil is suitable; soil moisture and drainage needs vary across Helianthus.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4799,7 +4805,7 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Grow as a warm-season annual sunflower; local cultivar height and maturity vary.",
+          "content": "Grow annual sunflower in warm weather; sow when soil has warmed and protect young plants from storms.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4809,7 +4815,7 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Give tall plants airflow and support; weather tolerance varies by cultivar.",
+          "content": "Provide airflow and support tall stems during humid, stormy periods.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4819,17 +4825,15 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Avoid excess nitrogen; use ordinary fertile soil rather than heavy feeding.",
+          "content": "Use ordinary fertile soil and avoid excessive nitrogen; no specific dose is given in the source.",
           "confidence": "low",
           "status": "draft",
-          "sources": [
-            "source-ncsu-sunflower"
-          ]
+          "sources": []
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Leave seed heads for birds; cut dry stems to 12–24 inches and leave them until they disintegrate for stem-nesting bees.",
+          "content": "Leave seed heads for birds. Cut dry stems to 12–24 inches and leave them standing for stem-nesting bees.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4839,7 +4843,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Grow annual H. annuus from seed; protect tall seedlings from wind.",
+          "content": "Grow annual H. annuus from seed; stake tall cultivars if exposed to wind.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4849,7 +4853,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "The cited genus source does not assess toxicity. Do not assume ornamental plant parts are safe to eat; keep away from children and pets pending a species-specific check.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4857,7 +4861,7 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Large heads on tall plants may need support; the genus source reports no serious common problems.",
+          "content": "Tall plants with large flower heads may need support; the NC State genus page reports no serious general pest or disease problems.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4867,7 +4871,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Grow in the cooler dry season where possible; during monsoon use fast-draining pots and remove storm-damaged growth.",
+          "content": "In Dhaka, use the cooler dry season for a better chance of flowering and stake tall cultivars before storms; this is local practical advice.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6055,7 +6059,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Hymenocallis littoralis is a tropical bulbous perennial with basal strap-shaped leaves and fragrant white spider-like flowers. NC State’s genus profile describes sun to partial shade and organic, well-drained soil; details may vary by species.",
+          "content": "Hymenocallis littoralis is a tropical bulbous perennial with strap-shaped leaves and fragrant white spider-like flowers. The linked NC State page is genus-level and notes that species differ in habitat and hardiness.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6065,7 +6069,7 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Hymenocallis has basal strap-shaped leaves and fragrant white flowers with narrow segments around a central cup. This description is genus-level; confirm the species from the bulb or plant label.",
+          "content": "Hymenocallis flowers have six narrow segments around a fused central cup, rising above basal strap leaves. Confirm H. littoralis from the bulb or plant label.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6075,7 +6079,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "NC State’s Hymenocallis genus guide recommends full sun to partial shade; species response may differ.",
+          "content": "The genus guide recommends full sun to partial shade; protect a container from extreme afternoon heat.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6085,7 +6089,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Genus-level guidance spans moist to well-drained sites; keep H. littoralis moist but do not let container bulbs stay stagnant.",
+          "content": "Keep actively growing bulbs moist but drain containers well; Hymenocallis species differ in wet-site tolerance.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6095,7 +6099,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use organic-rich soil with drainage; the genus includes species adapted to wet sites, so species context matters.",
+          "content": "Use organic-rich soil with good drainage; the genus includes both wetland and drier-site species.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6105,7 +6109,7 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Most Hymenocallis are tropical and need warm conditions; protect bulbs from chilling.",
+          "content": "Most Hymenocallis need tropical or greenhouse warmth; protect bulbs from chilling.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6115,7 +6119,7 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm humid conditions are suitable for this tropical bulb; keep airflow around foliage.",
+          "content": "Warm humid conditions suit tropical Hymenocallis; keep air moving around wet-season foliage.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6125,17 +6129,15 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly during active leafy growth; stop if the bulb is dormant.",
+          "content": "Feed lightly while leaves grow; stop feeding if the bulb becomes dormant.",
           "confidence": "low",
           "status": "draft",
-          "sources": [
-            "source-ncsu-hymenocallis"
-          ]
+          "sources": []
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove faded flower stalks and dead leaves; retain healthy leaves to recharge the bulb.",
+          "content": "Remove spent flower stalks and dead leaves; leave healthy leaves to replenish the bulb.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6145,7 +6147,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Separate offsets when dormant or after flowering; avoid damaging the basal plate.",
+          "content": "Separate offsets after flowering or during dormancy, keeping the basal plate intact.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6155,17 +6157,15 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Treat the bulb as potentially toxic: NC State reports low-severity ingestion poisoning for Hymenocallis, with nausea, vomiting and diarrhea associated with lycorine and related alkaloids. This is genus-level evidence, not a species-specific toxicology study.",
+          "content": "NC State reports low-severity poison characteristics for Hymenocallis; bulbs may cause nausea, vomiting and diarrhea due to lycorine and related alkaloids. This is genus-level evidence; keep bulbs away from children and pets.",
           "confidence": "low",
           "status": "draft",
-          "sources": [
-            "source-ncsu-hymenocallis"
-          ]
+          "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "NC State notes occasional snails, caterpillars and mealybugs at genus level.",
+          "content": "The genus account notes occasional snails, caterpillars and mealybugs; monitor rather than treating preemptively.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6175,7 +6175,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Let leaves finish naturally after bloom; maintain free drainage during Dhaka’s rainy season.",
+          "content": "In Dhaka, keep bulbs warm, provide drainage during monsoon rain and reduce watering only if foliage naturally goes dormant.",
           "confidence": "low",
           "status": "draft",
           "sources": []
