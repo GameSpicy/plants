@@ -30,6 +30,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, field_validator
 
 from app.library import LIBRARY, SOURCE as LIBRARY_SOURCE, care_suggestion
+from app.catalog import CATEGORIES as CATALOG_CATEGORIES, search_catalog
 
 BASE = Path(__file__).resolve().parent
 DATA_DIR = Path(os.getenv("PLANTS_DATA_DIR", "/app/data"))
@@ -1558,6 +1559,14 @@ def get_photo(name: str, request: Request):
 def library(request: Request):
     current_user(request)
     return {"source": LIBRARY_SOURCE, "plants": LIBRARY}
+
+
+@app.get("/api/catalog")
+def catalog(request: Request, q: str = "", category: str = "", limit: int = 500):
+    """Search the built-in encyclopedia; catalog entries are templates, not owned plants."""
+    current_user(request)
+    plants = search_catalog(q, category, limit)
+    return {"categories": CATALOG_CATEGORIES, "total": len(plants), "plants": plants}
 
 
 # ---------------------------------------------------------------- photo identification (Pl@ntNet)
