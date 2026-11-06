@@ -233,7 +233,7 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert section(batch_051_100[11], "overview")["review_status"] == "verified"  # Fittonia
     assert section(batch_051_100[22], "overview")["review_status"] == "verified"  # Hibiscus
     assert section(batch_051_100[26], "overview")["review_status"] == "verified"  # Gardenia
-    assert section(batch_051_100[27], "overview")["review_status"] == "verified"  # Jasmine genus evidence
+    assert section(batch_051_100[27], "overview")["review_status"] == "needs_review"  # Jasminum sambac; genus evidence only
     assert section(batch_051_100[41], "overview")["review_status"] == "verified"  # Oleander
     assert section(batch_051_100[41], "toxicity")["review_status"] == "verified"
     assert section(batch_051_100[9], "watering")["review_status"] == "verified"  # Asparagus densiflorus
@@ -242,8 +242,8 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert section(batch_051_100[41], "toxicity")["review_status"] == "verified"  # Oleander
     assert "smoke" in section(batch_051_100[41], "toxicity")["content"]
     assert "vinca alkaloids" in section(batch_051_100[31], "toxicity")["content"]
-    assert section(batch_051_100[43], "toxicity")["review_status"] == "needs_review"  # Jatropha integerrima, not J. podagrica
-    assert section(batch_051_100[43], "toxicity")["sources"] == []
+    assert section(batch_051_100[43], "toxicity")["review_status"] == "verified"  # Jatropha integerrima species-level source
+    assert any(src["id"] == "source-nparks-jatropha" for src in section(batch_051_100[43], "toxicity")["sources"])
     assert any(src["id"] == "source-aspca-areca-palm" for src in section(batch_051_100[17], "toxicity")["sources"])
     assert any(src["id"] == "source-aspca-parlor-palm" for src in section(batch_051_100[18], "toxicity")["sources"])
     assert any(src["id"] == "source-ncsu-asparagus-setaceus" for src in section(batch_051_100[10], "toxicity")["sources"])

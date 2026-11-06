@@ -284,34 +284,42 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Syngonium podophyllum is a tropical shrub that becomes a climbing vine with age. NC State describes juvenile arrow-shaped foliage and mature leaves that become lobed or divided.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Juvenile Syngonium podophyllum leaves are arrow-shaped; mature leaves become lobed and may divide into several segments. Leaf shape changes with maturity, so assess age before judging identity.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Provide bright shade or partial shade. NC State cautions that full sun can burn or bleach Syngonium podophyllum foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Keep the Syngonium podophyllum growing medium moist; avoid leaving the roots saturated. The source does not give a fixed watering interval.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "soil",
@@ -332,10 +340,12 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Humidity requirements and tolerance of stagnant air need species-level confirmation. Prioritize airflow and avoid keeping foliage wet for long periods.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State recommends a warm, humid setting for Syngonium podophyllum. Provide airflow and avoid stagnant, persistently wet foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "fertilizing",
@@ -348,34 +358,42 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "To keep juvenile arrowhead foliage and a bushier habit, cut stems back as they begin to climb. NC State also notes that trimming roots during occasional repotting can help manage size.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists division, layering and stem cuttings for Syngonium podophyllum.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Syngonium podophyllum contains calcium oxalate crystals. NC State reports oral irritation and swelling, drooling, vomiting and difficulty swallowing after exposure; keep away from children and pets and avoid sap contact.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State reports aphids, mealybugs and spider mites, plus bacterial leaf spots and soft rot, on Syngonium podophyllum. Check for the cause before treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -392,34 +410,42 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Syngonium podophyllum is a tropical shrub that becomes a climbing vine with age. NC State describes juvenile arrow-shaped foliage and mature leaves that become lobed or divided.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Juvenile Syngonium podophyllum leaves are arrow-shaped; mature leaves become lobed and may divide into several segments. Leaf shape changes with maturity, so assess age before judging identity.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Provide bright shade or partial shade. NC State cautions that full sun can burn or bleach Syngonium podophyllum foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Keep the Syngonium podophyllum growing medium moist; avoid leaving the roots saturated. The source does not give a fixed watering interval.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "soil",
@@ -440,10 +466,12 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Humidity requirements and tolerance of stagnant air need species-level confirmation. Prioritize airflow and avoid keeping foliage wet for long periods.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State recommends a warm, humid setting for Syngonium podophyllum. Provide airflow and avoid stagnant, persistently wet foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "fertilizing",
@@ -456,34 +484,42 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "To keep juvenile arrowhead foliage and a bushier habit, cut stems back as they begin to climb. NC State also notes that trimming roots during occasional repotting can help manage size.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists division, layering and stem cuttings for Syngonium podophyllum.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Syngonium podophyllum contains calcium oxalate crystals. NC State reports oral irritation and swelling, drooling, vomiting and difficulty swallowing after exposure; keep away from children and pets and avoid sap contact.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State reports aphids, mealybugs and spider mites, plus bacterial leaf spots and soft rot, on Syngonium podophyllum. Check for the cause before treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -500,34 +536,42 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Nephrolepis exaltata is a tropical/subtropical terrestrial or epiphytic fern grown as the Boston fern houseplant. It produces arching fronds and spores on the undersides.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-nephrolepis"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Nephrolepis exaltata is a Boston fern with divided fronds bearing rows of leaflets; spores form on the undersides of mature fronds. The ASPCA toxicity entry is specifically for the Boston fern form.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-nephrolepis"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Give Boston fern bright, indirect light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-nephrolepis"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Keep Boston fern soil moist and do not let it dry out completely. Reduce watering in winter when growth slows, while avoiding waterlogged roots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-nephrolepis"
+          ]
         },
         {
           "key": "soil",
@@ -540,18 +584,22 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "The precise preferred temperature range and heat/cold thresholds need a species-specific source before being published as verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State gives 60–70°F (about 16–21°C) as a suitable warm indoor range for Nephrolepis exaltata.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-nephrolepis"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Humidity requirements and tolerance of stagnant air need species-level confirmation. Prioritize airflow and avoid keeping foliage wet for long periods.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Boston fern needs high humidity. A humid room or pebble tray can help; allow air movement around the fronds.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-nephrolepis"
+          ]
         },
         {
           "key": "fertilizing",
@@ -580,7 +628,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "ASPCA lists the Boston fern entry (Nephrolepis exaltata bostoniensis) as non-toxic to cats and dogs. This supports only the listed pet species and Boston fern form; it is not evidence of human safety or of safety for other ferns.",
+          "content": "ASPCA lists the Boston fern form as non-toxic to cats and dogs. The catalog record is the broader species Nephrolepis exaltata, so this pet-safety claim remains under review for form equivalence and says nothing about human safety.",
           "confidence": "low",
           "status": "needs_review",
           "sources": [
@@ -610,66 +658,82 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Asplenium nidus is a tropical evergreen epiphytic fern. Its upright, strap-shaped fronds form a funnel-shaped rosette that catches leaf litter.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Look for broad, simple, strap-shaped fronds with wavy margins and a dark midrib, arranged in a central funnel-shaped rosette. Asplenium nidus reproduces by spores rather than flowers or fruit.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Bright indirect light or light shade suits Asplenium nidus; excess sun may yellow the fronds or slow growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Keep the porous fern medium moist and do not allow Asplenium nidus to dry out. Use an open mix so moisture does not become waterlogging.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a rich, moist, porous fern mix for this epiphyte.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "The precise preferred temperature range and heat/cold thresholds need a species-specific source before being published as verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State says Asplenium nidus will not survive below 40°F (about 4°C); its ideal temperature range is 60–70°F (about 16–21°C).",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Humidity requirements and tolerance of stagnant air need species-level confirmation. Prioritize airflow and avoid keeping foliage wet for long periods.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "This rainforest fern does not tolerate dry conditions; provide high humidity while avoiding stagnant air.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         },
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Fertilizer type, strength and frequency are not yet verified for this taxon. Avoid publishing a dose until supported by an appropriate source.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State notes that active growth may benefit from a monthly application of dilute liquid fertilizer. Use a conservative dilution and reduce feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         },
         {
           "key": "pruning",
@@ -698,10 +762,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Asplenium nidus is susceptible to slugs, snails, scale, mealybugs, bacterial leaf diseases and leaf nematodes. NC State cautions that the fronds are fragile and sensitive to chemical insecticides.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -718,42 +784,52 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Phlebodium aureum is a rhizomatous epiphytic fern from the American tropics. Its creeping golden-scaled rhizomes and deeply lobed blue-green fronds distinguish it from true palms despite the common name cabbage palm fern.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-phlebodium"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Identify Phlebodium aureum by its creeping, golden-scaled rhizomes and large, deeply lobed fronds; round sori occur in rows on either side of the pinna midrib.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-phlebodium"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Provide partial shade or dappled light for Phlebodium aureum.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-phlebodium"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a moist but not soggy substrate. Phlebodium aureum tolerates some drying between waterings.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-phlebodium"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a loose, organic, acidic medium with good drainage for this epiphytic fern.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-phlebodium"
+          ]
         },
         {
           "key": "temperature",
@@ -766,10 +842,12 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Humidity requirements and tolerance of stagnant air need species-level confirmation. Prioritize airflow and avoid keeping foliage wet for long periods.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Medium to high humidity and good air circulation suit Phlebodium aureum. Frond browning can indicate low humidity; curling can signal low humidity or underwatering.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-phlebodium"
+          ]
         },
         {
           "key": "fertilizing",
@@ -806,10 +884,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists spider mites, thrips, fern caterpillars and fungus gnats, with crown or root rot as possible diseases for Phlebodium aureum.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-phlebodium"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -826,26 +906,32 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "content": "The catalog identifies Adiantum raddianum, the Delta maidenhair fern. NC State’s genus page describes maidenhair ferns as shade-loving ferns and lists A. raddianum as a 1–2 ft plant with triangular pinnules and wiry dark stems; species-level care details remain limited.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-adiantum"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "content": "NC State distinguishes Adiantum raddianum by delicate fronds arranged in flat planes, triangular lobed pinnules and wiry black stems. This source lists the species within the genus profile.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-adiantum"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
+          "content": "The NC State genus page places Adiantum ferns in partial shade; keep the species-level light recommendation under review.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-adiantum"
+          ]
         },
         {
           "key": "watering",
@@ -934,42 +1020,52 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Platycerium bifurcatum is an epiphytic staghorn fern that grows on support rather than parasitizing a host. It forms sterile shield fronds and branching fertile fronds.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Staghorn fern has two frond forms: flat shield fronds at the base and branching, antler-like fertile fronds bearing sori.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Provide dappled light to partial shade for Platycerium bifurcatum.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Water the crown regularly, allowing roots to dry slightly between waterings but not to dry out completely. Ensure drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "For a pot-grown Platycerium bifurcatum, use an epiphytic orchid mix or sphagnum moss; it can also be mounted on wood or bark.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         },
         {
           "key": "temperature",
@@ -1006,10 +1102,12 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "The fern forms pups from rhizomes. NC State notes that large colonies can be divided.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         },
         {
           "key": "toxicity",
@@ -1022,10 +1120,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Watch for spider mites, aphids and mealybugs. NC State notes black spot may occur when humidity is too high.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -1516,34 +1616,42 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Pilea peperomioides is a compact, clumping evergreen houseplant native to Yunnan, China. Its round peltate leaves attach to long petioles at the center of each blade.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "The round, fleshy leaves of Pilea peperomioides are peltate: each long petiole attaches near the centre of the blade. Houseplants rarely flower.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Give Pilea peperomioides bright indirect light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a moist but well-drained potting mix for Pilea peperomioides; avoid leaving it saturated.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "soil",
@@ -1624,34 +1732,42 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Pilea peperomioides is a compact, clumping evergreen houseplant native to Yunnan, China. Its round peltate leaves attach to long petioles at the center of each blade.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "The round, fleshy leaves of Pilea peperomioides are peltate: each long petiole attaches near the centre of the blade. Houseplants rarely flower.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Give Pilea peperomioides bright indirect light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a moist but well-drained potting mix for Pilea peperomioides; avoid leaving it saturated.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "soil",
@@ -1732,26 +1848,32 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Aspidistra elatior is an evergreen, rhizomatous foliage plant with upright, leathery leaves; NC State describes it as a shade-tolerant groundcover and houseplant.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-aspidistra"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Aspidistra elatior grows hosta-like leathery leaves with parallel veins from rhizomes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-aspidistra"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Aspidistra elatior prefers partial to full shade and is intolerant of direct sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-aspidistra"
+          ]
         },
         {
           "key": "watering",
@@ -1840,42 +1962,52 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Strelitzia reginae is a clumping tropical perennial native to South Africa, grown for its bird-head-shaped orange and blue flower. Large gray-green leaves arise from underground rhizomes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Strelitzia reginae has large gray-green leaves and an orange-and-blue flower emerging from a boat-shaped spathe. The flowers may appear intermittently through the year.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Grow Strelitzia reginae in a well-lit sunny position; outdoors it tolerates sun to partial shade with air circulation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Water Strelitzia reginae freely during active growth and keep it drier in winter; provide a well-drained medium.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use fertile loamy soil that drains well for Strelitzia reginae.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "temperature",
@@ -1896,10 +2028,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Fertilizer type, strength and frequency are not yet verified for this taxon. Avoid publishing a dose until supported by an appropriate source.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State recommends regular fertilizing in spring and summer for Strelitzia reginae; reduce feeding during the drier winter rest.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "pruning",
@@ -1912,26 +2046,32 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists division for Strelitzia reginae.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State reports that Strelitzia reginae is toxic to cats, dogs and horses; it lists mild nausea, vomiting and drowsiness, mainly associated with fruit and seeds. Keep those parts away from animals.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Monitor Strelitzia reginae for mealybugs, scale and spider mites. Root rot can follow overwatering or poorly drained soil; leaf spot may cause yellow or brown marks.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2168,18 +2308,22 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Rhapis excelsa is the lady palm, a fan-leaved palm grown in clumps. NC State notes that interior specimens rarely flower.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhapis"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "content": "Rhapis excelsa has fan-shaped, segmented leaves on slender cane-like stems; it is commonly sold as a clumping potted palm.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-rhapis"
+          ]
         },
         {
           "key": "light",
@@ -2384,50 +2528,62 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Beaucarnea recurvata is an evergreen, drought-tolerant succulent tree native to Mexico. The swollen caudex stores water; the common name ponytail palm is misleading because it is not a true palm.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-beaucarnea"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Look for a swollen water-storing caudex and long, narrow, curling leaves. Beaucarnea recurvata is in the asparagus family, not the palm family.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-beaucarnea"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Provide a sunny window for Beaucarnea recurvata; acclimate gradually before moving it to a protected patio.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-beaucarnea"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Water deeply in summer, then let the mix dry between waterings. Greatly reduce watering in winter.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-beaucarnea"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a cactus/succulent mix with good drainage for Beaucarnea recurvata.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-beaucarnea"
+          ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "The precise preferred temperature range and heat/cold thresholds need a species-specific source before being published as verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State describes Beaucarnea recurvata as hardy to about 50°F (10°C); bring container plants into protection before colder conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-beaucarnea"
+          ]
         },
         {
           "key": "humidity",
@@ -2472,10 +2628,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Houseplants may develop mealybugs, scale or spider mites; NC State also lists stem rot, bacterial leaf streak and leaf spots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-beaucarnea"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2522,34 +2680,42 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Keep the root zone of tropical Hibiscus rosa-sinensis moist, with good drainage. Avoid leaving container roots in standing water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use rich, moist soil with good drainage for Hibiscus rosa-sinensis.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "The precise preferred temperature range and heat/cold thresholds need a species-specific source before being published as verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Hibiscus rosa-sinensis is a tender tropical shrub; protect it from frost and cold wind. NC State lists outdoor hardiness zones 9–11.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Humidity requirements and tolerance of stagnant air need species-level confirmation. Prioritize airflow and avoid keeping foliage wet for long periods.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State notes that Hibiscus rosa-sinensis appreciates high humidity; maintain airflow around container-grown plants.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "fertilizing",
@@ -2572,10 +2738,12 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists stem cuttings for Hibiscus rosa-sinensis.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "toxicity",
@@ -2588,10 +2756,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State reports no major problems for Hibiscus rosa-sinensis but recommends watching for scale insects.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2640,34 +2810,42 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Keep the root zone of tropical Hibiscus rosa-sinensis moist, with good drainage. Avoid leaving container roots in standing water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use rich, moist soil with good drainage for Hibiscus rosa-sinensis.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "The precise preferred temperature range and heat/cold thresholds need a species-specific source before being published as verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Hibiscus rosa-sinensis is a tender tropical shrub; protect it from frost and cold wind. NC State lists outdoor hardiness zones 9–11.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Humidity requirements and tolerance of stagnant air need species-level confirmation. Prioritize airflow and avoid keeping foliage wet for long periods.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State notes that Hibiscus rosa-sinensis appreciates high humidity; maintain airflow around container-grown plants.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "fertilizing",
@@ -2690,10 +2868,12 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists stem cuttings for Hibiscus rosa-sinensis.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "toxicity",
@@ -2706,10 +2886,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State reports no major problems for Hibiscus rosa-sinensis but recommends watching for scale insects.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2728,50 +2910,62 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Ixora coccinea is a compact tropical evergreen shrub native to Bangladesh and neighbouring South and Southeast Asian regions. It bears red tubular flower clusters and grows about 4–6 ft tall in the cited landscape account.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Ixora coccinea has leathery opposite leaves and red tubular four-petaled flowers clustered at branch ends; dark purple to black drupes follow flowering.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Full sun supports flowering in Ixora coccinea; it tolerates a small amount of afternoon shade.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Keep the root zone moist but well drained. NC State describes Ixora coccinea as preferring moist soil; avoid waterlogging containers.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use organically rich, acidic, well-drained soil for Ixora coccinea. Alkaline soil can cause chlorosis.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "The precise preferred temperature range and heat/cold thresholds need a species-specific source before being published as verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State says Ixora coccinea is intolerant of temperatures below 50°F (10°C); protect container plants from cool conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "humidity",
@@ -2792,18 +2986,22 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State recommends pruning Ixora coccinea in late winter when shaping is needed.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists stem cuttings for Ixora coccinea.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "toxicity",
@@ -2816,10 +3014,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Ixora coccinea may be affected by aphids, thrips, scale, bagworms, nematodes and mealybugs; sooty mold and mushroom root rot are also reported. Alkaline soil can cause chlorosis.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2852,34 +3052,42 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
+          "content": "Species-level Ixora coccinea guidance is available, but the dwarf cultivar identity in this catalog is not named. Use the parent-species advice cautiously and keep cultivar-specific size and performance under review. Full sun supports flowering in Ixora coccinea; it tolerates a small amount of afternoon shade.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
+          "content": "Species-level Ixora coccinea guidance is available, but the dwarf cultivar identity in this catalog is not named. Use the parent-species advice cautiously and keep cultivar-specific size and performance under review. Keep the root zone moist but well drained. NC State describes Ixora coccinea as preferring moist soil; avoid waterlogging containers.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
+          "content": "Species-level Ixora coccinea guidance is available, but the dwarf cultivar identity in this catalog is not named. Use the parent-species advice cautiously and keep cultivar-specific size and performance under review. Use organically rich, acidic, well-drained soil for Ixora coccinea. Alkaline soil can cause chlorosis.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "The precise preferred temperature range and heat/cold thresholds need a species-specific source before being published as verified.",
+          "content": "Species-level Ixora coccinea guidance is available, but the dwarf cultivar identity in this catalog is not named. Use the parent-species advice cautiously and keep cultivar-specific size and performance under review. NC State says Ixora coccinea is intolerant of temperatures below 50°F (10°C); protect container plants from cool conditions.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "humidity",
@@ -2900,18 +3108,22 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
+          "content": "Species-level Ixora coccinea guidance is available, but the dwarf cultivar identity in this catalog is not named. Use the parent-species advice cautiously and keep cultivar-specific size and performance under review. NC State recommends pruning Ixora coccinea in late winter when shaping is needed.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
+          "content": "Species-level Ixora coccinea guidance is available, but the dwarf cultivar identity in this catalog is not named. Use the parent-species advice cautiously and keep cultivar-specific size and performance under review. NC State lists stem cuttings for Ixora coccinea.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "toxicity",
@@ -2944,46 +3156,52 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "An evergreen flowering shrub valued for glossy leaves and fragrant flowers; it prefers moist, acidic, well-drained soil.",
+          "content": "Gardenia jasminoides is an evergreen shrub native to southern China and Japan, known for fragrant white flowers and glossy dark-green foliage.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-gardenia"
+            "source-ncsu-gardenia-jasminoides"
           ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Glossy, leathery leaves and fragrant white to yellow flowers, solitary or clustered.",
+          "content": "Gardenia jasminoides has glossy, dark-green opposite or whorled leaves and fragrant white flowers that age cream or yellow. Its pinwheel-like buds are a useful cue.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-gardenia"
+            "source-ncsu-gardenia-jasminoides"
           ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Gardenia jasminoides prefers bright indirect light or partial shade; shelter it from strong wind and cold exposure.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Gardenia jasminoides is moderately drought tolerant once established. Keep container soil evenly moist but well drained; do not let the pot stand in water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use rich, acidic, well-drained soil for Gardenia jasminoides. Avoid root disturbance because its roots are shallow.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         },
         {
           "key": "temperature",
@@ -3012,34 +3230,42 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Prune Gardenia jasminoides in spring to shape; it flowers on new growth. Removing spent flowers can encourage further bloom.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists grafting, layering, seed and stem cuttings for Gardenia jasminoides.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists low-severity toxicity for Gardenia jasminoides and reports mild vomiting or diarrhea and hives. Keep ingestion risk in mind around children and pets.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State notes whiteflies can affect stressed Gardenia jasminoides; alkaline soil near concrete may also impair growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -3056,9 +3282,9 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "A flowering jasmine relative; jasmine species differ in growth habit and leaf form, so species-level identification matters.",
-          "confidence": "medium",
-          "status": "verified",
+          "content": "The catalog identifies Jasminum sambac, an Arabian jasmine in genus Jasminum. The linked NC State reference is genus-level; do not apply its general flowering, pruning or hardiness details as species-specific without further checking.",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ncsu-jasmine"
           ]
@@ -3076,10 +3302,12 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
+          "content": "NC State’s Jasminum genus guide says jasmines generally need full sun or bright light; species-specific tolerance for Jasminum sambac remains under review.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-jasmine"
+          ]
         },
         {
           "key": "watering",
@@ -3092,10 +3320,12 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
+          "content": "The linked Jasminum genus guide recommends moist, well-drained soil for most jasmines, while noting species differences. Apply cautiously to Jasminum sambac.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-jasmine"
+          ]
         },
         {
           "key": "temperature",
@@ -3168,46 +3398,52 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "A flowering jasmine relative; jasmine species differ in growth habit and leaf form, so species-level identification matters.",
+          "content": "Trachelospermum jasminoides (star jasmine) is an evergreen twining vine native to Japan and China. Despite its common name and fragrant flowers, it is not in the genus Jasminum.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-jasmine"
+            "source-ncsu-trachelospermum"
           ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Trachelospermum jasminoides as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
+          "content": "Star jasmine has opposite glossy leaves and fragrant, creamy-white pinwheel flowers. Milky latex appears from cut or bruised stems.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-jasmine"
+            "source-ncsu-trachelospermum"
           ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "For best flowering, grow Trachelospermum jasminoides in a sunny sheltered position; NC State also lists partial shade tolerance.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-trachelospermum"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Once established, Trachelospermum jasminoides is drought tolerant. Water container plants according to root-zone moisture and maintain drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-trachelospermum"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use fertile, well-drained soil for Trachelospermum jasminoides.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-trachelospermum"
+          ]
         },
         {
           "key": "temperature",
@@ -3236,18 +3472,22 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Prune Trachelospermum jasminoides after flowering to keep it within its support or container. Clean tools after contact with sticky milky sap.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-trachelospermum"
+          ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists stem cuttings and layering for Trachelospermum jasminoides.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-trachelospermum"
+          ]
         },
         {
           "key": "toxicity",
@@ -3260,10 +3500,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State reports few serious pest or disease problems for Trachelospermum jasminoides; Japanese beetles may occur.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-trachelospermum"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -3404,26 +3646,32 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Pentas lanceolata is a tropical flowering subshrub grown as a perennial in warm climates and as an annual or houseplant elsewhere. NC State describes clusters of star-shaped flowers from spring into fall.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pentas"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Pentas lanceolata bears clusters of five-part, star-shaped flowers and lance-shaped foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pentas"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Pentas lanceolata flowers best in full sun, though it tolerates some shade.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pentas"
+          ]
         },
         {
           "key": "watering",
@@ -3436,10 +3684,12 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use organically rich, well-drained soil for Pentas lanceolata.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pentas"
+          ]
         },
         {
           "key": "temperature",
@@ -3634,10 +3884,12 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "content": "The catalog entries are Tagetes erecta and T. patula. NC State’s genus account describes Tagetes marigolds as tender flowering annuals native to the Americas; this reference supports general genus context, not a claim that the two species are identical.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "identification",
@@ -3650,10 +3902,12 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
+          "content": "NC State’s genus account describes Tagetes as a flowering annual genus; species- and cultivar-specific light requirements remain under review.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "watering",
@@ -3706,26 +3960,32 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
+          "content": "NC State lists seed propagation for Tagetes at genus level. Cultivar-specific seed fidelity is not established here.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
+          "content": "NC State reports low-severity toxicity and phototoxic skin irritation for Tagetes genus members. Avoid sap contact and wash after handling; this is genus-level evidence, so keep the exact species claim under review.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
+          "content": "NC State’s genus account lists spider mites, Japanese beetles, slugs, wilt, stem rot, leaf spots, botrytis and aster yellows among Tagetes problems; susceptibility varies by species and growing conditions.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -3742,10 +4002,12 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "content": "The catalog entries are Tagetes erecta and T. patula. NC State’s genus account describes Tagetes marigolds as tender flowering annuals native to the Americas; this reference supports general genus context, not a claim that the two species are identical.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "identification",
@@ -3758,10 +4020,12 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
+          "content": "NC State’s genus account describes Tagetes as a flowering annual genus; species- and cultivar-specific light requirements remain under review.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "watering",
@@ -3814,26 +4078,32 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
+          "content": "NC State lists seed propagation for Tagetes at genus level. Cultivar-specific seed fidelity is not established here.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
+          "content": "NC State reports low-severity toxicity and phototoxic skin irritation for Tagetes genus members. Avoid sap contact and wash after handling; this is genus-level evidence, so keep the exact species claim under review.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
+          "content": "NC State’s genus account lists spider mites, Japanese beetles, slugs, wilt, stem rot, leaf spots, botrytis and aster yellows among Tagetes problems; susceptibility varies by species and growing conditions.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -3850,10 +4120,12 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Zinnia elegans is an annual bedding and cut flower; NC State describes multiple flower forms, from single to double, in a wide range of colours.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-zinnia"
+          ]
         },
         {
           "key": "identification",
@@ -3882,10 +4154,12 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Grow Zinnia elegans in loam or organic-rich soil with good drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-zinnia"
+          ]
         },
         {
           "key": "temperature",
@@ -3958,18 +4232,22 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Cosmos bipinnatus is a tall, daisy-flowered annual native to Mexico or tropical America. NC State notes that it readily reseeds.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cosmos"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Cosmos bipinnatus produces daisy-like maroon, pink, lavender or white flowers on stems that may reach about 4 ft.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cosmos"
+          ]
         },
         {
           "key": "light",
@@ -4066,10 +4344,12 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "content": "Helianthus annuus is the common annual sunflower. NC State’s genus account describes large daisy-like heads and notes that tall plants may need support; traits vary among Helianthus species and cultivars.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-sunflower"
+          ]
         },
         {
           "key": "identification",
@@ -4082,10 +4362,12 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
+          "content": "NC State’s Helianthus genus guide recommends full sun for the most blooms; use this as general context for H. annuus.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-sunflower"
+          ]
         },
         {
           "key": "watering",
@@ -4174,42 +4456,52 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Celosia argentea is a tropical annual with several distinct flower forms, including plumed, finger-like and cockscomb types. Cultivar group determines the inflorescence shape.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-celosia"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Celosia argentea cultivars may have plume-shaped, finger-like or brain-like cockscomb inflorescences; identify the cultivar group before describing its flower form.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-celosia"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Celosia argentea prefers full sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-celosia"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Celosia argentea tolerates dry, porous soil and heat. Allow excess water to drain; crowded, wet conditions can rot flowers or roots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-celosia"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use amended, well-drained soil for Celosia argentea; NC State notes tolerance of dry, porous soils.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-celosia"
+          ]
         },
         {
           "key": "temperature",
@@ -4262,10 +4554,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Celosia argentea can develop root rot; snails and slugs may feed on it. High humidity, rain and crowding can cause flower rot; indoor plants may attract aphids and spider mites.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-celosia"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -4848,42 +5142,54 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog identifies Jatropha integerrima. The previously attached Jatropha podagrica reference does not support claims for this species; retain species-specific description and care for review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Jatropha integerrima (peregrina/firecracker jatropha) is a tropical evergreen shrub or small tree native to Cuba and the West Indies. UF/IFAS reports multi-trunked growth, red or pink flowers through much of the year, and a landscape height and spread that can reach about 15 ft.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Jatropha integerrima must not be described using Jatropha podagrica traits. A species-specific diagnostic source is still needed.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Jatropha integerrima has alternate leaves that may be oblong, fiddle-shaped or shallowly lobed, upright clusters of red or pink flowers, and capsules containing smooth, speckled seeds. Do not use J. podagrica’s bottle-shaped stem description for this taxon.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-jatropha",
+            "source-nparks-jatropha"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Grow Jatropha integerrima in full sun to partial shade; UF/IFAS notes that full sun promotes the best flowering.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Jatropha integerrima tolerates drought once established. NParks describes it as a little-water plant; use a freely draining container mix and avoid keeping the root zone saturated.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-jatropha",
+            "source-nparks-jatropha"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use well-drained soil for Jatropha integerrima. UF/IFAS lists tolerance of clay, sand or loam, but does not recommend waterlogged conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         },
         {
           "key": "temperature",
@@ -4912,42 +5218,52 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "UF/IFAS says Jatropha integerrima tolerates pruning and recommends pruning to develop strong structure. Its milky sap can irritate skin; wear gloves and avoid eye contact.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation guidance for Jatropha integerrima needs a species-specific source; do not transfer J. podagrica methods or capsule behavior without evidence.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "UF/IFAS lists seed and cuttings as propagation methods for Jatropha integerrima. The seeds are toxic, so keep capsules and seed away from children and pets.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity and safe handling for Jatropha integerrima have not been established by an appropriate species-specific source in this batch. Treat as unknown and prevent access until reviewed.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NParks identifies curcin and warns that all parts of Jatropha integerrima are poisonous if ingested; its milky sap may irritate skin. Keep the plant, capsules and seeds away from children and pets, and wear gloves when pruning.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-jatropha"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Species-specific pest and disease susceptibility for Jatropha integerrima remains unverified. Diagnose before treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "UF/IFAS reports occasional mites, scale and superficial leaf miner on Jatropha integerrima. Inspect before treating.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Dhaka note: adjust watering to actual pot moisture and rainfall, protect from extreme afternoon heat where needed, and prioritize fast drainage during monsoon weather. Species-specific seasonal thresholds remain unverified.",
+          "content": "In Dhaka, protect Jatropha integerrima from cool-season chill and prolonged monsoon saturation. The source describes drought tolerance and tropical hardiness, but does not provide a Bangladesh seasonal schedule.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         }
       ]
     },
