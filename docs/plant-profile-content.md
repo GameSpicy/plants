@@ -104,7 +104,7 @@ A section is not `verified` merely because text exists. It needs an appropriate 
 Do not deploy profile content to the live Unraid database until the feature branch tests pass and the content batch has been reviewed. No migration in this document modifies `plants.db`.
 
 
-## Fifth reviewed batch: plant-051 to plant-100
+## Fifth batch: plant-051 to plant-100
 
 The fifth ordered batch adds 50 catalog entries, from Tradescantia zebrina through New Guinea impatiens. It covers foliage plants, ferns, palms and tropical flowering shrubs and bedding plants. The batch is stored in `app/data/profile_batches/profile-051-100.json`.
 
@@ -114,3 +114,5 @@ High-priority safety sections now state the supported hazards for desert rose, M
 
 Plant-094 remains *Jatropha integerrima* and now has matching UF/IFAS and Singapore NParks references for its identification, tropical care, propagation and ingestion/sap hazards. *Jatropha podagrica* evidence was not carried over to this entry. Genus-level sources are labeled as such, and unresolved cultivar, species and local-season details remain under review. Broad NC State annual-ornamental and container guides are not cited as evidence for individual taxa.
 
+
+For personal use, the 051–100 batch now distinguishes `verified` source-backed sections, `draft` practical guidance, and `needs_review` identity/toxicity gaps. Draft is useful working advice and is not a botanical verification claim. The batch contains 650 sections: 207 verified, 379 draft and 64 needs_review. The added source records include NC State pages for Crossandra, Canna indica, Zephyranthes candida, Hymenocallis and three Impatiens species; NParks records for Tabernaemontana divaricata; and UF/IFAS/extension references for the palms. Remaining needs_review sections retain uncertainty explicitly, especially toxicity and cultivar identification.
