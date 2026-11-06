@@ -548,7 +548,7 @@ function encSources(rows) { return rows && rows.length ? '<div class="ency-sourc
 function encField(label, value) { return value ? '<section class="ency-section"><h3>' + esc(label) + '</h3><p>' + esc(value) + '</p></section>' : ""; }
 function encGuides(rows) { return rows && rows.length ? '<div class="ency-guides">' + rows.map(t => '<article class="ency-guide"><div class="row"><b>' + esc(t.title) + '</b><span class="badge">' + esc(t.treatment_type || "guidance") + '</span></div>' + (t.purpose ? '<p>' + esc(t.purpose) + '</p>' : "") + '<details><summary>View treatment steps and safety</summary>' + encField("Instructions",t.instructions) + encField("Active ingredient or category",t.active_ingredient_or_category) + encField("Safety precautions",t.safety_precautions) + encField("Follow-up",t.follow_up) + '</details></article>').join("") + "</div>" : '<p class="muted">No treatment guide linked yet.</p>'; }
 async function renderEncyclopedia(hash) {
-  const parts = hash.replace(/^#\\/encyclopedia\\/?/, "").split("/").filter(Boolean);
+  const parts = hash.replace(/^#\/encyclopedia\/?/, "").split("/").filter(Boolean);
   const kind = encyclopediaKinds[parts[0]] ? parts[0] : "pests", id = parts[1] || "", cfg = encyclopediaKinds[kind], endpoint = cfg[1];
   if (id) {
     const item = await api("/api/encyclopedia/" + endpoint + "/" + encodeURIComponent(id));
