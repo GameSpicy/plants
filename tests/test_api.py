@@ -1,8 +1,9 @@
 import os
+import tempfile
 import urllib.error
 from datetime import date, timedelta
 
-os.environ["PLANTS_DATA_DIR"] = "/tmp/plants-pytest-data"
+os.environ["PLANTS_DATA_DIR"] = os.path.join(tempfile.gettempdir(), "plants-pytest-data")
 os.environ["PLANTS_NOTIFY_WORKER"] = "false"
 os.environ["PLANTS_WEATHER_OFFLINE"] = "true"
 from fastapi.testclient import TestClient  # noqa: E402

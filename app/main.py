@@ -102,6 +102,11 @@ def today() -> date:
     return datetime.now().astimezone().date()
 
 
+def short_date(value: date) -> str:
+    """Format a compact month/day label consistently on Windows and Unix."""
+    return f"{value.strftime('%b')} {value.day}"
+
+
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -657,11 +662,11 @@ def task_status(task, season: dict[str, Any], on: date | None = None) -> dict[st
     if season_note:
         parts.append(season_note)
     last = iso_date(task["last_done"])
-    parts.append(f"last done {last.strftime('%b %-d')}" if last else "never logged")
+    parts.append(f"last done {short_date(last)}" if last else "never logged")
     if start and last and start > last:
-        parts.append(f"skipped {start.strftime('%b %-d')}")
+        parts.append(f"skipped {short_date(start)}")
     if snoozed and snoozed >= on and snoozed == due:
-        parts.append(f"snoozed to {snoozed.strftime('%b %-d')}")
+        parts.append(f"snoozed to {short_date(snoozed)}")
     return {
         "next_due": due.isoformat(),
         "days": days,
