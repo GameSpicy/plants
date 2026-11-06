@@ -357,4 +357,36 @@ def seed_encyclopedia(conn: sqlite3.Connection) -> dict[str, int]:
                        'differential diagnosis: houseplant problems')""",
             (disease_id["id"],),
         )
+    pest_treatment_map = {
+        "pest-mealybug": ["treatment-isolate-inspect", "treatment-water-wash", "treatment-prune-dispose", "treatment-insecticidal-soap-oil", "treatment-biological-control"],
+        "pest-spider-mites": ["treatment-isolate-inspect", "treatment-water-wash", "treatment-prune-dispose", "treatment-insecticidal-soap-oil", "treatment-biological-control"],
+        "pest-scale-insects": ["treatment-isolate-inspect", "treatment-water-wash", "treatment-prune-dispose", "treatment-insecticidal-soap-oil", "treatment-biological-control"],
+        "pest-aphids": ["treatment-isolate-inspect", "treatment-water-wash", "treatment-prune-dispose", "treatment-insecticidal-soap-oil", "treatment-biological-control"],
+        "pest-thrips": ["treatment-isolate-inspect", "treatment-water-wash", "treatment-prune-dispose", "treatment-insecticidal-soap-oil", "treatment-biological-control"],
+        "pest-whiteflies": ["treatment-isolate-inspect", "treatment-water-wash", "treatment-prune-dispose", "treatment-insecticidal-soap-oil", "treatment-biological-control"],
+        "pest-fungus-gnats": ["treatment-isolate-inspect", "treatment-growing-media-correction", "treatment-biological-control"],
+    }
+    for pest_id, treatment_ids in pest_treatment_map.items():
+        for sequence, treatment_id in enumerate(treatment_ids):
+            conn.execute(
+                """INSERT OR IGNORE INTO pest_treatments(pest_id, treatment_id, sequence)
+                   VALUES (?, ?, ?)""",
+                (pest_id, treatment_id, sequence),
+            )
+
+    disease_treatment_map = {
+        "disease-root-rot-complex": ["treatment-isolate-inspect", "treatment-growing-media-correction", "treatment-prune-dispose"],
+        "disease-powdery-mildew": ["treatment-isolate-inspect", "treatment-prune-dispose"],
+        "disease-botrytis-grey-mould": ["treatment-isolate-inspect", "treatment-prune-dispose"],
+        "disease-bacterial-leaf-spot": ["treatment-isolate-inspect", "treatment-prune-dispose"],
+        "disease-viral-mosaic": ["treatment-isolate-inspect", "treatment-prune-dispose"],
+    }
+    for disease_id, treatment_ids in disease_treatment_map.items():
+        for sequence, treatment_id in enumerate(treatment_ids):
+            conn.execute(
+                """INSERT OR IGNORE INTO disease_treatments(disease_id, treatment_id, sequence)
+                   VALUES (?, ?, ?)""",
+                (disease_id, treatment_id, sequence),
+            )
+
     return counts
