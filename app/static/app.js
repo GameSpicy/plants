@@ -187,11 +187,13 @@ async function route() {
   const hash = location.hash || "#/";
   const m = hash.match(/^#\/plant\/(\d+)/);
   const encyclopediaRoute = hash.startsWith("#/encyclopedia");
+  const catalogProfile = hash.match(/^#\/catalog\/([^/]+)$/);
   const tab = m || hash.startsWith("#/plants") ? "plants" : hash.startsWith("#/catalog") ? "catalog" : encyclopediaRoute ? "encyclopedia" : hash.startsWith("#/settings") ? "settings" : "today";
   $$(".tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === tab));
   try {
     if (m) await renderPlant(Number(m[1]));
     else if (encyclopediaRoute) await renderEncyclopedia(hash);
+    else if (catalogProfile) await renderCatalogProfile(decodeURIComponent(catalogProfile[1]));
     else if (tab === "plants") await renderPlants();
     else if (tab === "catalog") await renderCatalog();
     else if (tab === "settings") await renderSettings();
@@ -493,6 +495,21 @@ async function renderPlants() {
 
 const catalogState = { query: "", category: "" };
 
+async function catalogProfileBySpecies(species) {
+  if (!species) return null;
+  const result = await api("/api/catalog?" + new URLSearchParams({q:species,limit:"500"}));
+  return result.plants.find(p => p.species.trim().toLocaleLowerCase() === species.trim().toLocaleLowerCase()) || null;
+}
+
+async function renderCatalogProfile(id) {
+  const result = await api("/api/catalog?limit=500");
+  const p = result.plants.find(p => p.id === id);
+  if (!p) { $("#view").innerHTML = '<section class="card"><h1>Profile not found</h1><a href="#/catalog">Return to catalog</a></section>'; return; }
+  const facts = [["Light",p.light],["Water and drainage",p.drainage],["Soil",p.soil],["Humidity",p.humidity],["Temperature",p.temperature],["Toxicity",p.toxicity],["Care",p.care],["Bangladesh conditions",p.bangladesh]];
+  $("#view").innerHTML = `<p><a href="#/catalog">← Plant catalog</a></p><div class="pagehead"><div><h1>${esc(p.name)}</h1><p class="muted"><i>${esc(p.species)}</i> · ${esc(p.category)}</p></div></div><p class="hint">Starter catalog guidance; botanical identity and recommendations are not yet independently verified.</p><section class="card settings-section"><h2>Care profile</h2>${facts.map(([k,v]) => encField(k,v)).join("")}<p class="hint">Check soil approximately every ${esc(p.water_days)} days, rather than watering on a fixed schedule.</p></section><section class="card settings-section"><h2>Fertilizing</h2><p class="muted">A species-specific fertilizer guide has not been reviewed yet. Avoid assuming one schedule suits every plant.</p></section><section class="card settings-section"><h2>Reference photo gallery</h2><p class="muted">Reference images will appear after licensing and attribution are verified. Your personal plant photos remain separate.</p></section><section class="card settings-section"><h2>Pests and diseases</h2><p class="muted">Host-specific pest and disease links have not been verified yet. Browse the general reference libraries without assuming every problem affects this plant.</p><div class="row"><a href="#/encyclopedia/pests">Browse pests</a><a href="#/encyclopedia/diseases">Browse diseases</a></div></section>`;
+}
+
+
 async function renderCatalog() {
   const revision = ++viewRevision;
   const params = new URLSearchParams({ q: catalogState.query, category: catalogState.category });
@@ -509,7 +526,7 @@ async function renderCatalog() {
       <article class="card catalog-card"><div class="catalog-card-head"><div><h2>${esc(p.name)}</h2><div class="muted"><i>${esc(p.species)}</i></div>${p.aliases?.length ? `<div class="muted">Also known as ${esc(p.aliases.join(", "))}</div>` : ""}</div><span class="badge">${esc(p.category)}</span></div>
         <p class="catalog-summary">${esc(p.light)}</p><div class="muted">💧 Check soil about every ${esc(p.water_days)} days</div>
         <details><summary>Care profile</summary><dl class="catalog-facts">${[["Water", p.drainage], ["Soil", p.soil], ["Humidity", p.humidity], ["Temperature", p.temperature], ["Toxicity", p.toxicity], ["Care", p.care], ["Bangladesh", p.bangladesh]].map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></details>
-        <button class="primary catalog-add" data-catalog-id="${esc(p.id)}">Add to My Plants</button>
+        <div class="row"><a href="#/catalog/${encodeURIComponent(p.id)}">Full profile</a><button class="primary catalog-add" data-catalog-id="${esc(p.id)}">Add to My Plants</button></div>
       </article>`).join("") : '<div class="card empty">No catalog plants match. Try another search or category.</div>'}</div>`;
   const search = $("#catalog-search");
   search.oninput = (e) => {
@@ -558,7 +575,7 @@ async function renderEncyclopedia(hash) {
     const pest = kind === "pests", title = item.common_name;
     $("#view").innerHTML = '<p><a href="#/encyclopedia/' + kind + '">← ' + esc(cfg[0]) + '</a></p><div class="ency-detail-head"><div><span class="badge">' + esc(encStatus(item.review_status)) + '</span><h1>' + esc(title) + '</h1><p class="muted">' + esc(pest ? item.scientific_name : item.causal_agent || "") + '</p></div><span class="ency-symbol">' + (pest ? "🐛" : "🌿") + '</span></div>' + encField("Overview",item.description) + encField("Appearance",item.appearance) + encField("Common symptoms",item.symptoms) + encField("Diagnostic clues",item.distinguishing_signs) + encField(pest ? "Life cycle" : "Conditions that favour it",pest ? item.life_cycle : item.conditions_favouring) + encField("Prevention",item.prevention) + '<section class="card settings-section"><h2>General treatment guidance</h2><p class="muted">Confirm the cause first; these are general options, not a diagnosis.</p>' + encGuides(item.treatments) + '</section><section class="card settings-section"><h2>References</h2>' + encSources(item.sources) + '</section><p class="hint">Reference information only. It is not a confirmed diagnosis of an individual plant.</p>'; return;
   }
-  const params = new URLSearchParams({q:encyclopediaState.query,limit:"100"}), items = await api("/api/encyclopedia/" + endpoint + "?" + params);
+  const params = new URLSearchParams({q:encyclopediaState.query,limit:"100"}), response = await api("/api/encyclopedia/" + endpoint + "?" + params), items = response[endpoint] || [];
   $("#view").innerHTML = '<div class="pagehead"><div><h1>Plant encyclopedia</h1><p class="muted">A shared reference library, separate from your personal plant collection.</p></div></div><div class="ency-nav">' + Object.keys(encyclopediaKinds).map(k => '<a class="chip ' + (kind === k ? "active" : "") + '" href="#/encyclopedia/' + k + '">' + esc(encyclopediaKinds[k][0]) + '</a>').join("") + '</div><p class="muted">' + (kind === "pests" ? "Identify common pests from their appearance and feeding signs." : kind === "diseases" ? "Compare symptoms and diagnostic clues; similar symptoms can have different causes." : "General integrated pest-management guidance. Confirm the cause before treatment.") + '</p><div class="toolbar"><input type="search" id="ency-search" placeholder="Search ' + esc(cfg[0].toLowerCase()) + '" value="' + esc(encyclopediaState.query) + '" aria-label="Search encyclopedia"></div><div class="ency-grid">' + (items.length ? items.map(item => { const name = kind === "treatments" ? item.title : item.common_name, sub = kind === "pests" ? item.scientific_name : kind === "diseases" ? item.causal_agent : item.treatment_type, summary = kind === "treatments" ? item.purpose : item.description || item.symptoms; return '<a class="ency-card" href="#/encyclopedia/' + kind + '/' + encodeURIComponent(item.id) + '"><div><span class="badge">' + esc(encStatus(item.review_status)) + '</span> <span class="muted">' + esc(sub || "") + '</span></div><h2>' + esc(name) + '</h2><p>' + esc(summary || "Open this entry for details.") + '</p><span class="ency-open">View details →</span></a>'; }).join("") : '<div class="card empty">No entries found. Try another search.</div>') + '</div>';
   $("#ency-search").oninput = e => { encyclopediaState.query = e.target.value; clearTimeout(renderEncyclopedia.timer); renderEncyclopedia.timer = setTimeout(() => renderEncyclopedia(location.hash).catch(fail),220); };
 }
@@ -593,6 +610,7 @@ async function renderPlant(id) {
         </div>
       </div>
     </div>
+    <section class="card settings-section" id="plant-reference"><p class="muted">Loading species reference…</p></section>
     ${feature("plant_info") ? `<section class="card settings-section"><h2 style="margin-top:0">Info</h2>
       ${p.info ? `<div class="notes">${esc(p.info)}</div>` : `<p class="muted">No info yet. Edit this plant to add some.</p>`}
     </section>` : ""}
@@ -643,6 +661,10 @@ async function renderPlant(id) {
         : '<p class="muted">Care you log and photos you add show up here.</p>'}
     </section>
     ${limited ? "" : '<p><button class="danger" id="delete-plant">Delete plant</button></p>'}`;
+  catalogProfileBySpecies(p.species).then(match => {
+    const holder = $("#plant-reference");
+    if (holder) holder.innerHTML = match ? `<h2>Species reference</h2><p class="muted">Shared catalog guidance, separate from your personal notes and care history.</p><a href="#/catalog/${encodeURIComponent(match.id)}">Open ${esc(match.name)} encyclopedia profile →</a>` : `<h2>Species reference</h2><p class="muted">No exact botanical-name match in the starter catalog yet. You can still browse the encyclopedia.</p><a href="#/encyclopedia/pests">Browse pest library</a>`;
+  }).catch(() => { const holder = $("#plant-reference"); if(holder) holder.innerHTML = '<p class="muted">Reference profile temporarily unavailable.</p>'; });
   const again = () => renderPlant(id);
   bindCareButtons($("#view"), again);
   $("#edit-plant").onclick = () => plantForm(p);
