@@ -52,7 +52,7 @@
     "plant-099",
     "plant-100"
   ],
-  "basis": "Practical, source-linked plant guidance for personal use. Draft sections may include cautious horticultural generalizations; toxicity and uncertain cultivar/taxon claims remain flagged for review.",
+  "basis": "Practical, source-linked care for personal use. Draft marks provisional advice, including identity or toxicity cautions that lack a conclusive species-specific reference; it is not a claim of verified safety.",
   "shared_sections": [],
   "taxa": {
     "plant-051": {
@@ -72,7 +72,7 @@
           "title": "Identification",
           "content": "Tradescantia zebrina is a trailing plant with alternating green and silver stripes and purple undersides; the linked NC State account is genus-level, so compare the plant itself with a species-specific reference before treating this as confirmed.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-tradescantia"
           ]
@@ -158,7 +158,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -186,7 +186,7 @@
           "title": "Overview",
           "content": "Tradescantia spathacea grows as a compact rosette with sword-shaped leaves, unlike the trailing T. zebrina. NC State’s source is genus-level; the catalog species label is retained pending a closer species-level check.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-tradescantia"
           ]
@@ -196,7 +196,7 @@
           "title": "Identification",
           "content": "Check for an upright rosette of stiff, sword-shaped leaves, often green above and purple beneath. This contrasts with trailing T. zebrina, but a species-matched identification source is still needed.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-tradescantia"
           ]
@@ -282,7 +282,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -348,18 +348,22 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use porous indoor potting mix and a container with drainage; avoid dense garden soil.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Use a fertile, well-drained houseplant mix; a moss pole supports its mature climbing habit.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep warm and humid, away from cold drafts; bright shade avoids sun scorch.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "humidity",
@@ -374,10 +378,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Feed lightly during active growth; the NC State species page gives no precise rate.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "pruning",
@@ -474,18 +480,22 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use porous indoor potting mix and a container with drainage; avoid dense garden soil.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Use a loose, fertile mix with free drainage; provide a climbing support or pinch to retain a compact habit.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep warm and humid, away from direct sun and cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "humidity",
@@ -500,10 +510,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Use a light balanced feed during active growth; no cultivar-specific dose is stated.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-syngonium"
+          ]
         },
         {
           "key": "pruning",
@@ -600,9 +612,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use humus-rich, moisture-retentive but freely draining mix; epiphytic types need an airy medium.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use rich, moist fern mix with good drainage; do not let the Boston fern root ball dry completely.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-nephrolepis"
           ]
@@ -630,17 +642,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly with dilute balanced fertilizer during active growth; reduce when growth slows.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Feed with diluted liquid fertilizer during active growth; reduce watering as it slows in winter.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-nephrolepis"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead or badly damaged fronds at the base; keep healthy fronds.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove dead fronds at the base. Brown sori underneath are normal spores, not pests.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-nephrolepis"
           ]
@@ -648,9 +662,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Divide established clumps or rhizomes during active growth; keep divisions humid and evenly moist.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Divide established clumps or grow from spores; division is the simpler home method.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-nephrolepis"
           ]
@@ -660,24 +674,28 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Watch for dry frond tips, scale and spider mites; check moisture and airflow before treatment.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Dry air can bring scale and spider mites; also watch for fern caterpillars. Brown sori on fronds are normal.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-nephrolepis"
+          ]
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka’s hot dry season check pots more often and shade from harsh afternoon sun; water less during cool slow growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Maintain moisture and humidity in warm weather; reduce watering during the winter slowdown without letting the root ball dry.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-nephrolepis"
+          ]
         }
       ]
     },
@@ -766,9 +784,9 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead or badly damaged fronds at the base; keep healthy fronds.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove damaged fronds at their base; avoid cutting the central growing point.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asplenium-nidus"
           ]
@@ -776,9 +794,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Divide established clumps or rhizomes during active growth; keep divisions humid and evenly moist.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Propagate from spores; do not split a single crown. Keep young plants warm and humid.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asplenium-nidus"
           ]
@@ -788,7 +806,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -804,10 +822,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka’s hot dry season check pots more often and shade from harsh afternoon sun; water less during cool slow growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep warm, frost-free and away from drafts; NC State notes this species can be damaged below 40°F.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asplenium-nidus"
+          ]
         }
       ]
     },
@@ -866,10 +886,12 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and away from cold drafts and abrupt temperature swings.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep warm and away from cold drafts; avoid hard temperature swings.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-phlebodium"
+          ]
         },
         {
           "key": "humidity",
@@ -892,9 +914,9 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead or badly damaged fronds at the base; keep healthy fronds.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove dead fronds only and leave creeping golden-scaled rhizomes exposed.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-phlebodium"
           ]
@@ -902,9 +924,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Divide established clumps or rhizomes during active growth; keep divisions humid and evenly moist.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Divide the creeping rhizome with a growing point attached; use airy organic medium.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-phlebodium"
           ]
@@ -914,7 +936,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -930,10 +952,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka’s hot dry season check pots more often and shade from harsh afternoon sun; water less during cool slow growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "In Dhaka, protect from harsh afternoon sun and monsoon saturation; keep substrate moist, not soggy.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-phlebodium"
+          ]
         }
       ]
     },
@@ -944,7 +968,7 @@
           "title": "Overview",
           "content": "The catalog lists Adiantum raddianum (Delta maidenhair fern). The linked NC State reference covers the genus: maidenhair ferns have delicate divided fronds and generally favor shade and consistent moisture.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-adiantum"
           ]
@@ -954,7 +978,7 @@
           "title": "Identification",
           "content": "Adiantum raddianum typically has fine, arching fronds with small fan-shaped leaflets on dark wiry stems. Treat this as a comparison cue, not a confirmed cultivar-level diagnosis.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-adiantum"
           ]
@@ -962,9 +986,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright filtered light or light shade; shield fronds from harsh midday sun.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "The NC State Adiantum genus guide recommends shade; keep delicate maidenhair fronds out of direct sun.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-adiantum"
           ]
@@ -972,9 +996,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep the medium evenly moist, not soggy; do not let the root ball dry completely.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep the root zone consistently moist, but drain excess water.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-adiantum"
           ]
@@ -982,9 +1006,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use humus-rich, moisture-retentive but freely draining mix; epiphytic types need an airy medium.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use organic, moist but freely draining fern mix.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-adiantum"
           ]
@@ -1028,9 +1052,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Divide established clumps or rhizomes during active growth; keep divisions humid and evenly moist.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Divide an established clump during active growth; keep divisions shaded and moist.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-adiantum"
           ]
@@ -1040,16 +1064,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Watch for dry frond tips, scale and spider mites; check moisture and airflow before treatment.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "NC State reports few serious genus-level problems; watch for fern caterpillars and remove dead fronds.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adiantum"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -1116,17 +1142,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and away from cold drafts and abrupt temperature swings.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Grow warm; this tropical epiphyte is suited to frost-free conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Provide humid air and gentle airflow; avoid a completely dry root ball or stagnant wet foliage.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Provide humid air with good airflow; black spot may occur if humidity is excessive and air stagnant.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-platycerium-bifurcatum"
           ]
@@ -1134,17 +1162,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly with dilute balanced fertilizer during active growth; reduce when growth slows.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Allow shield fronds to trap leaf litter as natural nutrients; use only dilute feed if growth is weak.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead or badly damaged fronds at the base; keep healthy fronds.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep the brown shield fronds in place; remove only dead fertile fronds.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-platycerium-bifurcatum"
           ]
@@ -1164,7 +1194,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -1180,10 +1210,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka’s hot dry season check pots more often and shade from harsh afternoon sun; water less during cool slow growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Shade from harsh Dhaka afternoon sun and protect from prolonged monsoon saturation; water crown while roots dry slightly.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-platycerium-bifurcatum"
+          ]
         }
       ]
     },
@@ -1232,9 +1264,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use porous indoor potting mix and a container with drainage; avoid dense garden soil.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use a well-drained mix; this asparagus fern is intolerant of wet soil.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asparagus-densiflorus"
           ]
@@ -1242,17 +1274,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep frost-free; bring container plants indoors before cold nights.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asparagus-densiflorus"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Average indoor humidity is usually workable; improve airflow if foliage stays wet or leaf edges dry.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Average indoor humidity is acceptable; prioritize drainage and airflow.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asparagus-densiflorus"
           ]
@@ -1278,9 +1312,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Stem cuttings or division may work depending on the species; use clean tools and airy, lightly moist medium.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Divide the fleshy root crown or grow from seed.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asparagus-densiflorus"
           ]
@@ -1290,16 +1324,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for mites, scale and mealybugs; yellowing can follow excess water or poor drainage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Inspect for mites, aphids, mealybugs, leaf spot and root/crown rot; afternoon sun may yellow foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asparagus-densiflorus"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -1336,9 +1372,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright indirect light is a safe starting point; acclimate gradually before giving direct sun.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Bright indirect light; this species is intolerant of high light intensity.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asparagus-setaceus"
           ]
@@ -1346,9 +1382,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water thoroughly when the upper mix begins to dry, then drain the saucer. Adjust for heat and pot size.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Water regularly from spring to autumn and sparingly in winter.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asparagus-setaceus"
           ]
@@ -1356,9 +1392,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use porous indoor potting mix and a container with drainage; avoid dense garden soil.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use slightly acidic, organic-rich, moist but well-drained potting mix.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asparagus-setaceus"
           ]
@@ -1366,17 +1402,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "NC State gives 55–70°F as its preferred range; keep frost-free.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asparagus-setaceus"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Average indoor humidity is usually workable; improve airflow if foliage stays wet or leaf edges dry.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "High humidity helps prevent yellowing and needle drop; a humidifier or pebble tray can help.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asparagus-setaceus"
           ]
@@ -1392,9 +1430,9 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pinch leggy stems and remove yellow leaves with clean tools; avoid heavy pruning at once.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Cut damaged or overgrown stems to the root rather than shortening them halfway; tip-pinch for shape.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asparagus-setaceus"
           ]
@@ -1402,9 +1440,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Stem cuttings or division may work depending on the species; use clean tools and airy, lightly moist medium.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Propagate by division or seed.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-asparagus-setaceus"
           ]
@@ -1422,10 +1460,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for mites, scale and mealybugs; yellowing can follow excess water or poor drainage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Yellow needles and leaf drop follow insufficient light or water; watch for pests and root/crown rot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asparagus-setaceus"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -1492,10 +1532,12 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep above 17°C (63°F) and away from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "humidity",
@@ -1540,7 +1582,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -1616,10 +1658,12 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep above 17°C (63°F) and away from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "humidity",
@@ -1664,7 +1708,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -1730,9 +1774,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use porous indoor potting mix and a container with drainage; avoid dense garden soil.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use moist, well-drained potting mix in a pot with drainage.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pilea"
           ]
@@ -1740,17 +1784,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Avoid cold drafts and direct heat sources.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Average indoor humidity is usually workable; improve airflow if foliage stays wet or leaf edges dry.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Moderate to high humidity is fine; average indoor humidity is tolerated.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pilea"
           ]
@@ -1758,17 +1804,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Feed lightly during active spring/summer growth; no dose is specified by NC State.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pinch leggy stems and remove yellow leaves with clean tools; avoid heavy pruning at once.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove yellow leaves and rotate the pot for balanced growth; protect the central crown.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pilea"
           ]
@@ -1776,9 +1824,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Stem cuttings or division may work depending on the species; use clean tools and airy, lightly moist medium.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Separate pups or root stem cuttings in spring or early summer.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pilea"
           ]
@@ -1788,16 +1836,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for mites, scale and mealybugs; yellowing can follow excess water or poor drainage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Watch for spider mites, mealybugs, fungus gnats and scale. Overwatering causes root rot; low light causes legginess.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -1854,9 +1904,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use porous indoor potting mix and a container with drainage; avoid dense garden soil.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use moist but freely draining potting mix and a container with drainage holes.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pilea"
           ]
@@ -1864,17 +1914,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep away from cold drafts and direct heat.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Average indoor humidity is usually workable; improve airflow if foliage stays wet or leaf edges dry.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Average indoor humidity is tolerated; moderate humidity also suits this species.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pilea"
           ]
@@ -1882,17 +1934,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Use a light houseplant feed during active growth; avoid heavy feeding.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pinch leggy stems and remove yellow leaves with clean tools; avoid heavy pruning at once.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove damaged leaves cleanly and rotate the plant for an even rosette.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pilea"
           ]
@@ -1900,9 +1954,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Stem cuttings or division may work depending on the species; use clean tools and airy, lightly moist medium.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Separate offsets or root stem cuttings during spring/early summer growth.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pilea"
           ]
@@ -1912,16 +1966,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for mites, scale and mealybugs; yellowing can follow excess water or poor drainage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Inspect for spider mites, scale, mealybugs and fungus gnats; avoid soggy mix and wet foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -1968,9 +2024,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water thoroughly when the upper mix begins to dry, then drain the saucer. Adjust for heat and pot size.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Water regularly in spring to autumn; during winter and drought water sparingly.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-aspidistra"
           ]
@@ -1978,9 +2034,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use porous indoor potting mix and a container with drainage; avoid dense garden soil.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Rich, well-drained soil is preferred, though the species tolerates poorer soils.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-aspidistra"
           ]
@@ -1988,17 +2044,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Shelter from cold winter winds; avoid frost in pots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-aspidistra"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Average indoor humidity is usually workable; improve airflow if foliage stays wet or leaf edges dry.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "No high-humidity requirement is noted; typical indoor air is tolerated.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-aspidistra"
           ]
@@ -2006,17 +2064,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Feed modestly during active growth; avoid heavy doses.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-aspidistra"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pinch leggy stems and remove yellow leaves with clean tools; avoid heavy pruning at once.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove damaged leaves at soil level and keep healthy foliage.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-aspidistra"
           ]
@@ -2024,9 +2084,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Stem cuttings or division may work depending on the species; use clean tools and airy, lightly moist medium.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Divide rhizomes, retaining roots and several leaves on each division.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-aspidistra"
           ]
@@ -2036,16 +2096,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for mites, scale and mealybugs; yellowing can follow excess water or poor drainage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Few serious pest problems are reported; direct sun can damage leaves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-aspidistra"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2112,17 +2174,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "NC State suggests moderate temperatures with nights around 55–65°F; provide airflow in warm weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Average indoor humidity is usually workable; improve airflow if foliage stays wet or leaf edges dry.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Normal room humidity with good airflow is adequate.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-strelitzia"
           ]
@@ -2140,9 +2204,9 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pinch leggy stems and remove yellow leaves with clean tools; avoid heavy pruning at once.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove spent flower stalks and damaged leaves at the base.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-strelitzia"
           ]
@@ -2180,10 +2244,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "In Dhaka, provide ventilation in hot weather and prevent monsoon waterlogging; water less during cooler, slower growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-strelitzia"
+          ]
         }
       ]
     },
@@ -2194,7 +2260,7 @@
           "title": "Overview",
           "content": "Dypsis lutescens (areca/butterfly palm) is a clumping tropical palm. UF/IFAS describes it as suited to warm climates and fertile, acidic, well-drained soil; indoors it needs bright filtered light and steady moisture without standing water.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ifas-dypsis"
           ]
@@ -2204,7 +2270,7 @@
           "title": "Identification",
           "content": "A clump of slender yellow-green canes with arching feather-shaped fronds is characteristic of Dypsis lutescens. Frond and cane color vary with light and age.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ifas-dypsis"
           ]
@@ -2212,9 +2278,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright filtered or indirect light; acclimate gradually to outdoor sun.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Bright filtered light indoors; acclimate gradually to outdoor sun.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-dypsis"
           ]
@@ -2222,9 +2288,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water when the surface begins to dry; soak through and drain excess water.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep the root zone evenly moist in active growth but drain freely.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-dypsis"
           ]
@@ -2232,9 +2298,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use an organic, free-draining potting mix and a pot with drainage holes.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "UF/IFAS prefers fertile, acidic, well-drained soil for Dypsis lutescens.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-dypsis"
           ]
@@ -2278,9 +2344,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or species-appropriate basal offsets; avoid dividing a single-stem palm crown.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Grow from seed or separate well-rooted basal clumps; avoid splitting a single stem.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-dypsis"
           ]
@@ -2298,10 +2364,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect leaflet undersides for spider mites and scale; brown tips can reflect water, light or humidity stress.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Check for spider mites, scale and leaf-tip browning; assess light, water and salt buildup.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-dypsis"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2320,7 +2388,7 @@
           "title": "Overview",
           "content": "Chamaedorea elegans (parlor palm) is a small indoor palm that tolerates lower light than many palms. NC State recommends bright indirect light, moderate humidity and allowing the mix to dry slightly between waterings.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-chamaedorea"
           ]
@@ -2330,7 +2398,7 @@
           "title": "Identification",
           "content": "Chamaedorea elegans forms slender cane-like stems with pinnate fronds of narrow leaflets; mature plants may flower and produce small fruits indoors.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-chamaedorea"
           ]
@@ -2338,9 +2406,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright filtered or indirect light; acclimate gradually to outdoor sun.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Bright indirect light is preferred, though this palm tolerates lower light.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-chamaedorea"
           ]
@@ -2348,9 +2416,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water when the surface begins to dry; soak through and drain excess water.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Let the mix dry slightly between waterings; it grows lushly with steady moisture but must not sit in water.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-chamaedorea"
           ]
@@ -2358,9 +2426,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use an organic, free-draining potting mix and a pot with drainage holes.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use humus-rich, well-drained houseplant mix.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-chamaedorea"
           ]
@@ -2368,17 +2436,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and avoid extended exposure to cool nights or cold drafts.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Protect from cold drafts near windows, doors and vents.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-chamaedorea"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Moderate to higher humidity helps indoors; inspect for spider mites in dry rooms.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Low to medium humidity is tolerated.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-chamaedorea"
           ]
@@ -2386,10 +2456,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use palm or balanced fertilizer at label rate in active growth; avoid repeated heavy feeding.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Feed periodically during the growing season; stop in winter.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-chamaedorea"
+          ]
         },
         {
           "key": "pruning",
@@ -2404,9 +2476,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or species-appropriate basal offsets; avoid dividing a single-stem palm crown.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Chamaedorea elegans is solitary-stemmed and usually grown from seed; do not divide its crown.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-chamaedorea"
           ]
@@ -2414,20 +2486,23 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "ASPCA lists Chamaedorea elegans (parlor palm) as non-toxic to dogs and cats. This is a pet-specific listing, not a human-safety assessment.",
+          "content": "NC State describes this palm as not hazardous for pets, but says fruit pulp can irritate sensitive skin. This is not a human ingestion assessment; prevent children and pets from eating plant material.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
+            "source-ncsu-chamaedorea",
             "source-aspca-parlor-palm"
           ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect leaflet undersides for spider mites and scale; brown tips can reflect water, light or humidity stress.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Avoid overwatering and inspect for scale or spider mites. Fruit pulp can irritate sensitive skin.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-chamaedorea"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2456,7 +2531,7 @@
           "title": "Identification",
           "content": "Rhapis excelsa has fan-shaped, segmented leaves on slender cane-like stems; it is commonly sold as a clumping potted palm.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-rhapis"
           ]
@@ -2464,9 +2539,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright filtered or indirect light; acclimate gradually to outdoor sun.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Indirect light is best; Rhapis excelsa tolerates deep shade indoors.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-rhapis"
           ]
@@ -2474,9 +2549,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water when the surface begins to dry; soak through and drain excess water.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Water regularly but drain freely; reduce watering in winter.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-rhapis"
           ]
@@ -2484,9 +2559,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use an organic, free-draining potting mix and a pot with drainage holes.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use well-drained potting soil.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-rhapis"
           ]
@@ -2494,17 +2569,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and avoid extended exposure to cool nights or cold drafts.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Bring outdoors-grown pots inside before temperatures fall below 50°F.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhapis"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Moderate to higher humidity helps indoors; inspect for spider mites in dry rooms.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Low humidity is tolerated.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-rhapis"
           ]
@@ -2512,17 +2589,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use palm or balanced fertilizer at label rate in active growth; avoid repeated heavy feeding.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Apply balanced slow-release fertilizer during active growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhapis"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove only fully dead or damaged fronds; never cut the central growing point.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove only dead fronds; do not cut healthy green foliage or the growing point.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-rhapis"
           ]
@@ -2530,9 +2609,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or species-appropriate basal offsets; avoid dividing a single-stem palm crown.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Divide rooted shoots from the rhizome.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-rhapis"
           ]
@@ -2542,16 +2621,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect leaflet undersides for spider mites and scale; brown tips can reflect water, light or humidity stress.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Check for mites, mealybugs, scale and occasional leaf spot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhapis"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2570,7 +2651,7 @@
           "title": "Overview",
           "content": "Ravenea rivularis (majesty palm) is a tropical palm commonly sold as a container plant. The cited UF/IFAS extension sheet recommends warm, humid conditions and bright indirect light; it may be challenging to maintain indoors.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ifas-ravenea"
           ]
@@ -2580,7 +2661,7 @@
           "title": "Identification",
           "content": "Look for a single upright trunk with a crown of long, arching pinnate fronds. The catalog name is retained; compare the trunk and fronds with a species guide because young palms can be difficult to distinguish.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ifas-ravenea"
           ]
@@ -2588,9 +2669,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright filtered or indirect light; acclimate gradually to outdoor sun.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Bright indirect light; direct sun can scorch the leaves.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-ravenea"
           ]
@@ -2598,9 +2679,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water when the surface begins to dry; soak through and drain excess water.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep soil moist but well-drained; avoid a pot standing in water.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-ravenea"
           ]
@@ -2608,9 +2689,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use an organic, free-draining potting mix and a pot with drainage holes.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use a well-drained loam or container mix.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-ravenea"
           ]
@@ -2618,17 +2699,19 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and avoid extended exposure to cool nights or cold drafts.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep warm, away from cold drafts or direct heat.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-ravenea"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Moderate to higher humidity helps indoors; inspect for spider mites in dry rooms.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "This palm prefers high humidity; maintain airflow.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-ravenea"
           ]
@@ -2644,9 +2727,9 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove only fully dead or damaged fronds; never cut the central growing point.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove dead fronds at the base; do not cut the central growing point.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-ravenea"
           ]
@@ -2654,9 +2737,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or species-appropriate basal offsets; avoid dividing a single-stem palm crown.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Grow from seed; do not divide a single-stem crown.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-ravenea"
           ]
@@ -2666,16 +2749,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect leaflet undersides for spider mites and scale; brown tips can reflect water, light or humidity stress.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "UF/IFAS reports no serious pest or disease problems; check for root rot if soil remains wet.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-ravenea"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -2752,9 +2837,9 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Ordinary room humidity is adequate; prioritize airflow and fast drainage over misting.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Ordinary indoor humidity is suitable; ponytail palm tolerates dry air.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-beaucarnea"
           ]
@@ -2762,17 +2847,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed sparingly with diluted balanced fertilizer in active growth; skip dormant or stressed plants.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Feed lightly during active growth; do not feed during its dry winter rest.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-beaucarnea"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Prune only damaged or overlong growth; allow cuts to dry before watering.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Remove dead leaf tips or lower leaves with clean scissors; do not cut into the swollen caudex.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-beaucarnea"
           ]
@@ -2780,9 +2867,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or healthy cuttings; let cut surfaces dry before planting in free-draining medium.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Seed is typical; separate basal offsets only when they have their own roots.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-beaucarnea"
           ]
@@ -2792,7 +2879,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -2890,10 +2977,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "Apply balanced fertilizer during active growth and flowering; avoid a concentrated dose on dry roots.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "pruning",
@@ -2920,7 +3009,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -2936,10 +3025,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "Protect from cold and wind; prune in early spring because hibiscus flowers on new growth. In Dhaka, shelter pots from monsoon saturation.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         }
       ]
     },
@@ -3018,10 +3109,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "Feed a balanced flowering-plant fertilizer during active growth; no cultivar-specific rate is established.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         },
         {
           "key": "pruning",
@@ -3048,7 +3141,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -3064,10 +3157,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "Keep warm, sheltered and evenly watered; prune in early spring, before new growth and flowering.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-hibiscus-rosa-sinensis"
+          ]
         }
       ]
     },
@@ -3136,7 +3231,7 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm outdoor humidity is generally tolerated; give plants space for airflow.",
+          "content": "Warm humid conditions suit this tropical shrub; ensure airflow through the canopy.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3146,10 +3241,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "Feed lightly during active growth; do not overfertilize or allow alkaline soil to induce chlorosis.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "pruning",
@@ -3176,7 +3273,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -3192,10 +3289,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "Protect from temperatures below 50°F. In Dhaka, provide morning sun and free drainage during monsoon rains.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         }
       ]
     },
@@ -3206,7 +3305,7 @@
           "title": "Overview",
           "content": "This entry is a dwarf Ixora coccinea selection. Use the parent species guidance for general culture, but size, flowering and cold tolerance can vary among cultivars; the exact cultivar name is not recorded.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-ixora"
           ]
@@ -3216,7 +3315,7 @@
           "title": "Identification",
           "content": "Dwarf ixora is a compact selection of Ixora coccinea with clustered tubular flowers. The source supports the parent species, not the identity of a specific dwarf cultivar; retain needs_review until the plant label or cultivar is known.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-ixora"
           ]
@@ -3262,7 +3361,7 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm outdoor humidity is generally tolerated; give plants space for airflow.",
+          "content": "Warm humid conditions suit the parent Ixora species; allow airflow around the compact canopy.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3272,10 +3371,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "Use light feeding only during active growth; avoid alkaline conditions and excess fertilizer.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         },
         {
           "key": "pruning",
@@ -3302,7 +3403,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -3316,10 +3417,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "Treat as a tender tropical shrub and shelter container roots during cool spells and prolonged rain.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-ixora"
+          ]
         }
       ]
     },
@@ -3378,15 +3481,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from chilling; shelter potted plants during cool spells.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Protect from cold and strong winds; cold exposure can cause winter burn.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm outdoor humidity is generally tolerated; give plants space for airflow.",
+          "content": "Gardenia tolerates outdoor humidity; maintain airflow and avoid crowding.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3396,10 +3501,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "Do not fertilize in fall; use an acid-forming fertilizer during active spring growth if needed.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         },
         {
           "key": "pruning",
@@ -3444,10 +3551,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "Prune and shape in spring, then remove spent flowers; avoid root disturbance and keep soil acidic.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-gardenia-jasminoides"
+          ]
         }
       ]
     },
@@ -3458,7 +3567,7 @@
           "title": "Overview",
           "content": "Jasminum sambac is Arabian jasmine, an evergreen tropical shrub or climber with fragrant white flowers. The linked NC State page covers Jasminum at genus level, so flowering and care details may differ among species and cultivars.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-jasmine"
           ]
@@ -3476,7 +3585,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Sun to partial shade; acclimate gradually and provide climbing support.",
+          "content": "NC State’s Jasminum genus guide recommends full sun or at least bright light; species preferences differ.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3486,7 +3595,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep lightly moist while establishing; afterward water when the surface dries.",
+          "content": "Most Jasminum prefer moist, well-drained soil; some species tolerate drier conditions.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3496,7 +3605,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, well-drained soil; do not plant in a waterlogged pocket.",
+          "content": "Use moist, well-drained mix; this guidance is genus-level and may vary for J. sambac.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3532,7 +3641,7 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Trim to contain growth, preferably after flowering; retain healthy supported stems.",
+          "content": "Prune after flowering because jasmine flowers are borne on old growth.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3554,16 +3663,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect stems and leaf undersides for scale, mealybugs and mites; thin dense growth.",
+          "content": "Aphids, spider mites, leaf spot and root rot can occur; outdoor problems are generally uncommon.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-jasmine"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -3630,15 +3741,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from cold and drying winds; keep warm for steady growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Shelter from cold; in colder climates grow in a container and overwinter indoors.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-trachelospermum"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Maintain airflow and avoid prolonged leaf wetness in humid weather.",
+          "content": "Normal outdoor humidity is suitable; prioritize a sunny, sheltered position and airflow.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3648,10 +3761,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly during active growth and reduce in cool or slow-growth periods.",
+          "content": "Apply spring fertilizer only if the soil is not fertile.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-trachelospermum"
+          ]
         },
         {
           "key": "pruning",
@@ -3678,7 +3793,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -3694,10 +3809,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, provide support and airflow through monsoon weather; shelter containers from waterlogging.",
+          "content": "Give support as the vine grows; after the late-spring flowering, prune to fit its space.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-trachelospermum"
+          ]
         }
       ]
     },
@@ -3756,15 +3873,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from chilling, especially when the pot is wet; maintain warmth during active growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Bring indoors when outdoor temperatures approach 55°F; avoid cold, wet roots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Ordinary room humidity is adequate; prioritize airflow and fast drainage over misting.",
+          "content": "Average indoor humidity is acceptable; dry air is less harmful than wet soil.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3774,17 +3893,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed sparingly with diluted balanced fertilizer in active growth; skip dormant or stressed plants.",
+          "content": "Apply fertilizer in spring to support flowering.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Prune only damaged or overlong growth; allow cuts to dry before watering.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Prune to shape during active warm growth; let cut surfaces dry before watering.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-adenium"
           ]
@@ -3822,10 +3943,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, give bright light and monsoon rain shelter; let mix dry well, especially in cooler months.",
+          "content": "Water during active growth and reduce watering while dormant; protect from cold and monsoon saturation.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         }
       ]
     },
@@ -3864,9 +3987,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Maintain even moisture in active growth, allowing the surface to begin drying between waterings.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Water consistently while growing, allowing the soil surface to dry between waterings; pentas has moderate drought tolerance.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pentas"
           ]
@@ -3884,15 +4007,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and shelter from cold drafts; growth slows in cool weather.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "A tropical perennial in zones 10–11; elsewhere it is grown as an annual or houseplant.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pentas"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Moderate humidity is fine; provide airflow and avoid wet foliage overnight.",
+          "content": "Warm, humid conditions are suitable; indoor pentas benefits from airflow.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3902,15 +4027,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use balanced flowering-plant fertilizer at label rate during active growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "pruning",
-          "title": "Pruning",
-          "content": "Pinch or deadhead as needed to encourage branching and repeat bloom.",
+          "content": "Use balanced flowering-plant fertilizer during active growth; reduce in slow periods.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -3918,11 +4035,21 @@
           ]
         },
         {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove faded flower clusters and pinch leggy shoots to maintain a compact flowering form.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pentas"
+          ]
+        },
+        {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or soft cuttings depending on species; keep warm and lightly moist while establishing.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Sow seed in a warm location; NC State recommends starting indoors before the cool season ends.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-pentas"
           ]
@@ -3932,16 +4059,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for aphids, mites and leaf spots; avoid crowding and prolonged wet foliage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Spider mites, aphids and leaf-chewing caterpillars may occur.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pentas"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -3988,9 +4117,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Maintain even moisture in active growth, allowing the surface to begin drying between waterings.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep moist but well-drained while establishing; once established, this species tolerates heat and some drought.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-catharanthus"
           ]
@@ -4008,15 +4137,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and shelter from cold drafts; growth slows in cool weather.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "A tender perennial in zones 10+; protect from frost or grow seasonally in cooler conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-catharanthus"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Moderate humidity is fine; provide airflow and avoid wet foliage overnight.",
+          "content": "No special humidity treatment is needed outdoors; good drainage is more important in humid weather.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4026,17 +4157,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use balanced flowering-plant fertilizer at label rate during active growth.",
+          "content": "Use modest balanced feeding; avoid excessive nitrogen that promotes leaves over flowers.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-catharanthus"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pinch or deadhead as needed to encourage branching and repeat bloom.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Modern compact hybrids generally need no pinching or deadheading; trim only damaged or sprawling growth.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-catharanthus"
           ]
@@ -4064,10 +4197,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for aphids, mites and leaf spots; avoid crowding and prolonged wet foliage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Avoid wet, poorly drained soil to reduce root and stem rots; inspect for leaf spot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-catharanthus"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -4086,7 +4221,7 @@
           "title": "Overview",
           "content": "Tagetes erecta (African marigold) is an annual commonly grown for large flower heads. NC State’s linked account is for Tagetes as a genus; cultivar size and flower form vary.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-tagetes"
           ]
@@ -4096,7 +4231,7 @@
           "title": "Identification",
           "content": "Tagetes erecta commonly has upright growth and relatively large rounded flower heads. The genus-level source includes this species, but cultivar-specific flower form varies.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-tagetes"
           ]
@@ -4104,7 +4239,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "A bright site with several hours of sun; afternoon shade can reduce peak-heat stress.",
+          "content": "Tagetes can grow in full sun or partial sun; full sun encourages more blooms.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4114,7 +4249,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep seedlings evenly moist; established plants need a thorough watering as soil begins to dry.",
+          "content": "Water to establish, then avoid keeping the soil saturated; some marigolds tolerate drought once rooted.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4124,7 +4259,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use loose, moderately fertile soil with good drainage; avoid overly rich, soggy mix.",
+          "content": "Tagetes tolerates many soil types if drainage is good.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4134,15 +4269,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Treat as a warm-season plant; start after cool weather passes.",
+          "content": "Grow as a warm-season annual; protect from prolonged chill.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "No special treatment outdoors; space plants for airflow during humid spells.",
+          "content": "Space for airflow in humid weather to reduce leaf and stem disease.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4160,7 +4297,7 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Deadhead faded flowers to prolong display; leave some seed heads only if seed is wanted.",
+          "content": "Deadhead spent flower heads to encourage repeat bloom.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4170,7 +4307,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Collect ripe seed or sow fresh seed warm; check whether it self-seeds before saving.",
+          "content": "Sow seed; Tagetes often reseeds from mature flower heads.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4182,16 +4319,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Look for aphids, mites, mildew and rot; space plants and water soil rather than foliage.",
+          "content": "Watch for spider mites, slugs, wilt, stem rot, leaf spot and aster yellows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -4210,7 +4349,7 @@
           "title": "Overview",
           "content": "Tagetes patula (French marigold) is a compact annual with showy flower heads, often bicolored. NC State’s source describes the genus, so exact cultivar traits remain variable.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-tagetes"
           ]
@@ -4220,7 +4359,7 @@
           "title": "Identification",
           "content": "Tagetes patula is generally shorter and more compact than T. erecta, often with smaller, bicolored flower heads; cultivar forms vary.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-tagetes"
           ]
@@ -4228,7 +4367,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "A bright site with several hours of sun; afternoon shade can reduce peak-heat stress.",
+          "content": "Tagetes can grow in full sun or partial sun; full sun generally gives best flowering.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4238,7 +4377,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep seedlings evenly moist; established plants need a thorough watering as soil begins to dry.",
+          "content": "Keep young plants watered; once established, avoid overwatering and allow drainage.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4248,7 +4387,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use loose, moderately fertile soil with good drainage; avoid overly rich, soggy mix.",
+          "content": "French marigold tolerates a range of soils provided the pot or bed drains well.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4258,15 +4397,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Treat as a warm-season plant; start after cool weather passes.",
+          "content": "Treat as a warm-season annual and protect from cool conditions.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "No special treatment outdoors; space plants for airflow during humid spells.",
+          "content": "Provide spacing and airflow in humid weather.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4284,7 +4425,7 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Deadhead faded flowers to prolong display; leave some seed heads only if seed is wanted.",
+          "content": "Deadhead regularly for continued summer flowers.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4294,7 +4435,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Collect ripe seed or sow fresh seed warm; check whether it self-seeds before saving.",
+          "content": "Grow from seed and remove unwanted seed heads to limit self-sowing.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4306,16 +4447,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Look for aphids, mites, mildew and rot; space plants and water soil rather than foliage.",
+          "content": "Inspect for spider mites and slugs; wet, crowded growth may develop leaf spots or rot.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -4344,7 +4487,7 @@
           "title": "Identification",
           "content": "Zinnia elegans has opposite, rough-textured leaves and solitary flower heads on upright stems; cultivar flower forms range from single to double.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-zinnia"
           ]
@@ -4352,9 +4495,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "A bright site with several hours of sun; afternoon shade can reduce peak-heat stress.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Plant Zinnia elegans in full sun.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-zinnia"
           ]
@@ -4362,9 +4505,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep seedlings evenly moist; established plants need a thorough watering as soil begins to dry.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Water at the soil line and allow good drainage; avoid keeping foliage wet.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-zinnia"
           ]
@@ -4382,15 +4525,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Treat as a warm-season plant; start after cool weather passes.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Zinnias flower through summer and fall but may slow at peak heat; choose disease-resistant varieties for hot, humid weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-zinnia"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "No special treatment outdoors; space plants for airflow during humid spells.",
+          "content": "Good airflow and full sun help limit fungal leaf disease in humid conditions.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4400,15 +4545,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Add compost or use a light balanced feed if growth is weak; excess nitrogen may reduce flowering.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "pruning",
-          "title": "Pruning",
-          "content": "Deadhead faded flowers to prolong display; leave some seed heads only if seed is wanted.",
+          "content": "Use moderately fertile soil; avoid heavy nitrogen that encourages leafy growth.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4416,11 +4553,21 @@
           ]
         },
         {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Deadhead if desired; continuous new blooms are cultivar-dependent.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-zinnia"
+          ]
+        },
+        {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Collect ripe seed or sow fresh seed warm; check whether it self-seeds before saving.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Sow seed directly after cool weather has passed.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-zinnia"
           ]
@@ -4430,16 +4577,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Look for aphids, mites, mildew and rot; space plants and water soil rather than foliage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Powdery mildew, leaf spots, root rots, blights, aphids, mites and Japanese beetles may occur.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-zinnia"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -4476,9 +4625,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "A bright site with several hours of sun; afternoon shade can reduce peak-heat stress.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Give Cosmos bipinnatus at least a half-day of direct sun.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-cosmos"
           ]
@@ -4486,9 +4635,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep seedlings evenly moist; established plants need a thorough watering as soil begins to dry.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep seedbed moist for 5–10 days after sowing; afterward it needs only basic watering.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-cosmos"
           ]
@@ -4496,9 +4645,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use loose, moderately fertile soil with good drainage; avoid overly rich, soggy mix.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Sow into loose, ordinary garden soil; avoid burying seeds deeply.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-cosmos"
           ]
@@ -4506,15 +4655,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Treat as a warm-season plant; start after cool weather passes.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Sow after cool weather has passed and soil is warm (about 65°F).",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cosmos"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "No special treatment outdoors; space plants for airflow during humid spells.",
+          "content": "Provide airflow through the finely divided foliage during humid weather.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4524,15 +4675,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Add compost or use a light balanced feed if growth is weak; excess nitrogen may reduce flowering.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "pruning",
-          "title": "Pruning",
-          "content": "Deadhead faded flowers to prolong display; leave some seed heads only if seed is wanted.",
+          "content": "Avoid rich, heavily fertilized soil; excess fertility can produce tall leafy growth with fewer flowers.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4540,11 +4683,21 @@
           ]
         },
         {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Deadhead to encourage further blooms; stake tall forms in windy or stormy conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cosmos"
+          ]
+        },
+        {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Collect ripe seed or sow fresh seed warm; check whether it self-seeds before saving.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Sow seed shallowly outdoors after danger of frost; it readily reseeds.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-cosmos"
           ]
@@ -4554,16 +4707,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Look for aphids, mites, mildew and rot; space plants and water soil rather than foliage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Watch for stem canker, powdery mildew and gray mold; aphids, leafhoppers and loopers may feed.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cosmos"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -4582,7 +4737,7 @@
           "title": "Overview",
           "content": "Helianthus annuus is the common annual sunflower, with a tall stem, broad leaves and large flower heads. The linked NC State source is genus-level but includes H. annuus; garden cultivars differ in height and branching.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-sunflower"
           ]
@@ -4592,7 +4747,7 @@
           "title": "Identification",
           "content": "Helianthus annuus usually has a stout upright stem, rough broad leaves and a large composite flower head; branching and head size depend on cultivar.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-sunflower"
           ]
@@ -4600,7 +4755,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "A bright site with several hours of sun; afternoon shade can reduce peak-heat stress.",
+          "content": "Full sun produces the most flowers in Helianthus.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4610,7 +4765,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep seedlings evenly moist; established plants need a thorough watering as soil begins to dry.",
+          "content": "Keep soil moist during active growth; tolerance of poor drainage varies by species.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4620,7 +4775,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use loose, moderately fertile soil with good drainage; avoid overly rich, soggy mix.",
+          "content": "Use ordinary garden soil with drainage; moisture needs vary among Helianthus species.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4630,15 +4785,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Treat as a warm-season plant; start after cool weather passes.",
+          "content": "Grow as a warm-season annual sunflower; local cultivar height and maturity vary.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-sunflower"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "No special treatment outdoors; space plants for airflow during humid spells.",
+          "content": "Give tall plants airflow and support; weather tolerance varies by cultivar.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4648,15 +4805,17 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Add compost or use a light balanced feed if growth is weak; excess nitrogen may reduce flowering.",
+          "content": "Avoid excess nitrogen; use ordinary fertile soil rather than heavy feeding.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-sunflower"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Deadhead faded flowers to prolong display; leave some seed heads only if seed is wanted.",
+          "content": "Leave seed heads for birds; cut dry stems to 12–24 inches and leave them until they disintegrate for stem-nesting bees.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4666,7 +4825,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Collect ripe seed or sow fresh seed warm; check whether it self-seeds before saving.",
+          "content": "Grow annual H. annuus from seed; protect tall seedlings from wind.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4678,16 +4837,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Look for aphids, mites, mildew and rot; space plants and water soil rather than foliage.",
+          "content": "Large heads on tall plants may need support; the genus source reports no serious common problems.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-sunflower"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -4754,15 +4915,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Treat as a warm-season plant; start after cool weather passes.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Celosia thrives in heat and humidity; protect from cold.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-celosia"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "No special treatment outdoors; space plants for airflow during humid spells.",
+          "content": "It tolerates heat and humidity, but crowding and persistent rain can rot flowers.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4772,15 +4935,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Add compost or use a light balanced feed if growth is weak; excess nitrogen may reduce flowering.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "pruning",
-          "title": "Pruning",
-          "content": "Deadhead faded flowers to prolong display; leave some seed heads only if seed is wanted.",
+          "content": "Use modest feeding in well-amended soil; excessive nutrients are not needed for this heat-tolerant annual.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4788,11 +4943,21 @@
           ]
         },
         {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Deadhead if reseeding is unwanted; leave heads to mature if collecting seed.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-celosia"
+          ]
+        },
+        {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Collect ripe seed or sow fresh seed warm; check whether it self-seeds before saving.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Direct-sow or start seed indoors and transplant after cool weather has passed.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-celosia"
           ]
@@ -4802,7 +4967,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -4850,9 +5015,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Sun to partial shade; morning sun with protection from harsh afternoon heat is a useful Dhaka starting point.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Provide bright indirect light; low light can stop flowering and direct sun can damage leaves.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-crossandra"
           ]
@@ -4860,9 +5025,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water deeply when the surface starts to dry; avoid both drought stress in heat and persistently soggy roots.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use warm water; cold water may shock roots. Keep mix lightly moist, not sodden.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-crossandra"
           ]
@@ -4880,15 +5045,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from chilling; shelter potted plants during cool spells.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep warm; temperatures below 55°F can cause leaf drop.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-crossandra"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm outdoor humidity is generally tolerated; give plants space for airflow.",
+          "content": "High humidity supports flowering and propagation; use a pebble tray or humidifier without letting the pot stand in water.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4906,9 +5073,9 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead, crossing stems and spent flowers; avoid severe pruning during active bloom.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Pinch after flowering; cut stems before seed pods form if you do not want explosive seed release.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-crossandra"
           ]
@@ -4916,9 +5083,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or semi-ripe cuttings depending on species; keep cuttings warm while rooting.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Take early-season stem cuttings in seed-starting mix; warm humid conditions help rooting.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-crossandra"
           ]
@@ -4928,16 +5095,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Check new growth for aphids, scale and mites; remove diseased material and improve airflow.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Check occasionally for mealybugs, whitefly, aphids and mites; heavy rain damages flowers.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-crossandra"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -4974,9 +5143,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Sun to partial shade; morning sun with protection from harsh afternoon heat is a useful Dhaka starting point.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "NParks lists full sun to semi-shade for Tabernaemontana divaricata.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana"
           ]
@@ -4984,9 +5153,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water deeply when the surface starts to dry; avoid both drought stress in heat and persistently soggy roots.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "NParks rates this species as moderate-water; keep the root zone moist but well drained.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana"
           ]
@@ -4994,9 +5163,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, well-drained soil; for acid-loving types avoid lime and use an acid-forming mix.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "The species tolerates moist or well-drained root zones; avoid prolonged waterlogging in containers.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana"
           ]
@@ -5004,15 +5173,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from chilling; shelter potted plants during cool spells.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "A tropical evergreen; protect potted plants from cold spells.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-tabernaemontana"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm outdoor humidity is generally tolerated; give plants space for airflow.",
+          "content": "Warm tropical humidity is suitable; maintain airflow around the shrub.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5030,9 +5201,9 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead, crossing stems and spent flowers; avoid severe pruning during active bloom.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Prune lightly to maintain shrub shape after flowering; avoid cutting more than needed.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana"
           ]
@@ -5040,9 +5211,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or semi-ripe cuttings depending on species; keep cuttings warm while rooting.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use stem cuttings or seed; keep cuttings warm and lightly moist while rooting.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana"
           ]
@@ -5052,16 +5223,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Check new growth for aphids, scale and mites; remove diseased material and improve airflow.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "The NParks record does not list major pests; inspect for common shrub pests and remove affected growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-tabernaemontana"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -5080,7 +5253,7 @@
           "title": "Overview",
           "content": "Chandni is listed as Tabernaemontana divaricata. NParks documents the species as an evergreen rounded shrub with white pinwheel flowers; the specific dwarf cultivar, if any, is not established by the catalog name.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-nparks-tabernaemontana"
           ]
@@ -5090,7 +5263,7 @@
           "title": "Identification",
           "content": "Compare the plant with Tabernaemontana divaricata: opposite glossy lance-shaped leaves, white pinwheel flowers and milky sap when cut. The common name Chandni does not identify a cultivar by itself.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-nparks-tabernaemontana"
           ]
@@ -5098,9 +5271,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Sun to partial shade; morning sun with protection from harsh afternoon heat is a useful Dhaka starting point.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "The NParks dwarf form is listed for full sun to semi-shade.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana-dwarf"
           ]
@@ -5108,9 +5281,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water deeply when the surface starts to dry; avoid both drought stress in heat and persistently soggy roots.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "NParks lists moderate watering for the dwarf form; drain containers freely.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana-dwarf"
           ]
@@ -5118,9 +5291,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, well-drained soil; for acid-loving types avoid lime and use an acid-forming mix.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use a moist but well-drained container mix.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana-dwarf"
           ]
@@ -5128,15 +5301,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from chilling; shelter potted plants during cool spells.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep the dwarf tropical shrub warm and protect from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-tabernaemontana-dwarf"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm outdoor humidity is generally tolerated; give plants space for airflow.",
+          "content": "Warm outdoor humidity suits this tropical shrub; give it airflow.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5154,9 +5329,9 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead, crossing stems and spent flowers; avoid severe pruning during active bloom.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Lightly shape after flowering; avoid severe cuts to an unidentified dwarf selection.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana-dwarf"
           ]
@@ -5164,9 +5339,9 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or semi-ripe cuttings depending on species; keep cuttings warm while rooting.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use stem cuttings or seed as practical methods; cultivar fidelity is not guaranteed from seed.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-nparks-tabernaemontana-dwarf"
           ]
@@ -5176,16 +5351,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Check new growth for aphids, scale and mites; remove diseased material and improve airflow.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "No major problem list is supplied in the dwarf record; check periodically for scale, aphids and mites.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-tabernaemontana-dwarf"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -5222,9 +5399,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Sun to partial shade; morning sun with protection from harsh afternoon heat is a useful Dhaka starting point.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Oleander grows in full sun to partial shade.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-oleander"
           ]
@@ -5242,9 +5419,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, well-drained soil; for acid-loving types avoid lime and use an acid-forming mix.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use fertile, well-drained soil; it adapts to some soil variation.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-oleander"
           ]
@@ -5252,15 +5429,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from chilling; shelter potted plants during cool spells.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Oleander can be damaged at or below 32°F; protect containers from cold.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-oleander"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm outdoor humidity is generally tolerated; give plants space for airflow.",
+          "content": "No special humidity requirement is noted; provide normal airflow.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5270,10 +5449,12 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "Feed lightly in active growth if container growth is weak; avoid overfeeding.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-oleander"
+          ]
         },
         {
           "key": "pruning",
@@ -5308,18 +5489,22 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Check new growth for aphids, scale and mites; remove diseased material and improve airflow.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Aphids, caterpillars, mealybugs and scale may occur, along with occasional leaf spot or sooty mold.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-oleander"
+          ]
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "Prune dead or frost-damaged branches after winter; light pruning after flowering preserves next season’s buds. Never burn trimmings.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-oleander"
+          ]
         }
       ]
     },
@@ -5358,9 +5543,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water deeply when the surface starts to dry; avoid both drought stress in heat and persistently soggy roots.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Lantana prefers moist but well-drained soil and tolerates drought after establishment.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-lantana"
           ]
@@ -5378,15 +5563,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from chilling; shelter potted plants during cool spells.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Grow as a perennial in warm frost-free climates; in cooler conditions it may be treated as an annual.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-lantana"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm outdoor humidity is generally tolerated; give plants space for airflow.",
+          "content": "Warm humid conditions are tolerated; allow airflow through the fast-growing shrub.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5396,17 +5583,19 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "Use light feeding only; excess fertilizer may reduce flowering.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-lantana"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead, crossing stems and spent flowers; avoid severe pruning during active bloom.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Trim sprawling growth to contain it; remove spent growth as needed.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-lantana"
           ]
@@ -5426,7 +5615,7 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
@@ -5442,10 +5631,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "In Dhaka, give sun and free drainage; control spreading and wear gloves if handling leaves or unripe berries.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-lantana"
+          ]
         }
       ]
     },
@@ -5506,29 +5697,32 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Protect from chilling; shelter potted plants during cool spells.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Keep frost-free in a warm tropical position; avoid chilling a container plant.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Warm outdoor humidity is generally tolerated; give plants space for airflow.",
+          "content": "Normal tropical humidity is acceptable; maintain airflow and avoid waterlogged roots.",
           "confidence": "low",
           "status": "draft",
           "sources": [
-            "source-ufas-jatropha",
-            "source-nparks-jatropha"
+            "source-ufas-jatropha"
           ]
         },
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "Use a light balanced feed during active growth; no exact rate is specified by UF/IFAS or NParks.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         },
         {
           "key": "pruning",
@@ -5573,10 +5767,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "In Dhaka, shelter from prolonged monsoon saturation and reduce watering in cooler periods; established plants tolerate drought.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ufas-jatropha"
+          ]
         }
       ]
     },
@@ -5605,9 +5801,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Sun to partial shade; protect foliage if intense afternoon heat causes stress.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Canna indica prefers sunlight; partial shade is tolerated.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-canna-indica"
           ]
@@ -5615,9 +5811,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep lightly moist during active leaf growth, but never waterlog the bulb.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep soil moist but well drained; this tropical species tolerates wet seasons better than waterlogged pots.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-canna-indica"
           ]
@@ -5625,9 +5821,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, well-drained soil and keep the bulb crown from sitting in persistent water.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use moist, well-drained soil; a range of textures is tolerated.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-canna-indica"
           ]
@@ -5635,15 +5831,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm in active growth; reduce watering if foliage naturally becomes dormant.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "A tropical/subtropical rhizome; protect containers from cool weather and dormancy stress.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-canna-indica"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "No special humidity treatment; keep bulbs ventilated and crowns free of trapped moisture.",
+          "content": "Heat and humidity suit Canna indica; good drainage remains important.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5653,15 +5851,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly while leaves are growing; let foliage yellow naturally after bloom.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "pruning",
-          "title": "Pruning",
-          "content": "Remove faded flowers if desired, but retain green foliage until it yellows.",
+          "content": "Use balanced feed during active foliage and flowering growth; no species-specific dose is supplied.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5669,11 +5859,21 @@
           ]
         },
         {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove spent flower heads for continued flowering; cut back after the growing season only if foliage dies back.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-canna-indica"
+          ]
+        },
+        {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Separate offsets or divide clumps; retain roots and avoid damage to the basal plate.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Divide rhizomes or sow seed.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-canna-indica"
           ]
@@ -5683,16 +5883,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Check for bulb rot in wet soil and inspect leaves for slugs or chewing pests.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Watch for canna rust, yellow mottle/streak viruses, leaf rollers, Japanese beetles and aphids.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-canna-indica"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -5729,9 +5931,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Sun to partial shade; protect foliage if intense afternoon heat causes stress.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Full sun gives best performance; partial shade is tolerated. Protect from extreme afternoon heat.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-zephyranthes-candida"
           ]
@@ -5739,9 +5941,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep lightly moist during active leaf growth, but never waterlog the bulb.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep soil moist in active growth; container bulbs need less water while dormant.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-zephyranthes-candida"
           ]
@@ -5749,9 +5951,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, well-drained soil and keep the bulb crown from sitting in persistent water.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use freely draining soil that can retain some moisture.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-zephyranthes-candida"
           ]
@@ -5759,15 +5961,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm in active growth; reduce watering if foliage naturally becomes dormant.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "In cool climates bulbs are lifted before frost; in Dhaka keep them warm and sheltered from waterlogging.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-zephyranthes-candida"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "No special humidity treatment; keep bulbs ventilated and crowns free of trapped moisture.",
+          "content": "No special humidity is needed; focus on sun exposure and well-drained soil.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5777,15 +5981,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly while leaves are growing; let foliage yellow naturally after bloom.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "pruning",
-          "title": "Pruning",
-          "content": "Remove faded flowers if desired, but retain green foliage until it yellows.",
+          "content": "Feed lightly while leaves are actively growing; allow foliage to mature after flowering.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5793,11 +5989,21 @@
           ]
         },
         {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove faded flowers at the base if you want to limit reseeding; keep green foliage until it yellows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-zephyranthes-candida"
+          ]
+        },
+        {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Separate offsets or divide clumps; retain roots and avoid damage to the basal plate.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Separate offsets in spring; seed may also be collected.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-zephyranthes-candida"
           ]
@@ -5807,16 +6013,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Check for bulb rot in wet soil and inspect leaves for slugs or chewing pests.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Few serious problems are listed; inspect for slugs, snails and spider mites.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-zephyranthes-candida"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -5845,7 +6053,7 @@
           "title": "Identification",
           "content": "Hymenocallis has basal strap-shaped leaves and fragrant white flowers with narrow segments around a central cup. This description is genus-level; confirm the species from the bulb or plant label.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-hymenocallis"
           ]
@@ -5853,7 +6061,7 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Sun to partial shade; protect foliage if intense afternoon heat causes stress.",
+          "content": "NC State’s Hymenocallis genus guide recommends full sun to partial shade; species response may differ.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5863,7 +6071,7 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep lightly moist during active leaf growth, but never waterlog the bulb.",
+          "content": "Genus-level guidance spans moist to well-drained sites; keep H. littoralis moist but do not let container bulbs stay stagnant.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5873,7 +6081,7 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, well-drained soil and keep the bulb crown from sitting in persistent water.",
+          "content": "Use organic-rich soil with drainage; the genus includes species adapted to wet sites, so species context matters.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5883,15 +6091,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm in active growth; reduce watering if foliage naturally becomes dormant.",
+          "content": "Most Hymenocallis are tropical and need warm conditions; protect bulbs from chilling.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-hymenocallis"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "No special humidity treatment; keep bulbs ventilated and crowns free of trapped moisture.",
+          "content": "Warm humid conditions are suitable for this tropical bulb; keep airflow around foliage.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5901,15 +6111,17 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly while leaves are growing; let foliage yellow naturally after bloom.",
+          "content": "Feed lightly during active leafy growth; stop if the bulb is dormant.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-hymenocallis"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove faded flowers if desired, but retain green foliage until it yellows.",
+          "content": "Remove faded flower stalks and dead leaves; retain healthy leaves to recharge the bulb.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5919,7 +6131,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Separate offsets or divide clumps; retain roots and avoid damage to the basal plate.",
+          "content": "Separate offsets when dormant or after flowering; avoid damaging the basal plate.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -5939,10 +6151,12 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Check for bulb rot in wet soil and inspect leaves for slugs or chewing pests.",
+          "content": "NC State notes occasional snails, caterpillars and mealybugs at genus level.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-hymenocallis"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -5979,9 +6193,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright light to morning sun; protect from the strongest afternoon sun while acclimating.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Grow in full sun to partial shade.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-balsamina"
           ]
@@ -5989,9 +6203,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Maintain even moisture in active growth, allowing the surface to begin drying between waterings.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep soil moist; garden balsam has low drought tolerance.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-balsamina"
           ]
@@ -5999,9 +6213,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, moisture-retentive but well-drained medium in pots with drainage.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "It tolerates varied soil textures and pH; choose a moist, well-drained mix.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-balsamina"
           ]
@@ -6009,15 +6223,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and shelter from cold drafts; growth slows in cool weather.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "A frost-tender annual; grow in warm weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-impatiens-balsamina"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Moderate humidity is fine; provide airflow and avoid wet foliage overnight.",
+          "content": "No special humidity treatment is noted; avoid stagnant crowded growth.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6027,15 +6243,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use balanced flowering-plant fertilizer at label rate during active growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "pruning",
-          "title": "Pruning",
-          "content": "Pinch or deadhead as needed to encourage branching and repeat bloom.",
+          "content": "Use moderate fertility; no exact dose is supplied by the source.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6043,11 +6251,21 @@
           ]
         },
         {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove spent growth if you want to limit self-seeding; handle ripe pods gently because they burst.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-impatiens-balsamina"
+          ]
+        },
+        {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or soft cuttings depending on species; keep warm and lightly moist while establishing.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Grow from seed; ripe pods can eject seed when touched.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-balsamina"
           ]
@@ -6057,16 +6275,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for aphids, mites and leaf spots; avoid crowding and prolonged wet foliage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "The plant self-seeds readily and can spread; large raw leaf quantities may pose low-severity oxalate risk.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-impatiens-balsamina"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -6103,9 +6323,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright light to morning sun; protect from the strongest afternoon sun while acclimating.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Part shade to full shade is best; too much sun can scorch leaves.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-walleriana"
           ]
@@ -6113,9 +6333,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Maintain even moisture in active growth, allowing the surface to begin drying between waterings.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep moist but well drained; hot, dry spells need extra water, while overwatering can cause rot.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-walleriana"
           ]
@@ -6123,9 +6343,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, moisture-retentive but well-drained medium in pots with drainage.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use moist, well-drained soil supplemented with organic material and slightly acidic pH.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-walleriana"
           ]
@@ -6133,15 +6353,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and shelter from cold drafts; growth slows in cool weather.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "A tropical perennial, but cold-tender; protect from cold weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-impatiens-walleriana"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Moderate humidity is fine; provide airflow and avoid wet foliage overnight.",
+          "content": "It tolerates humidity, but heat and dry spells can cause wilting.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6151,15 +6373,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use balanced flowering-plant fertilizer at label rate during active growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "pruning",
-          "title": "Pruning",
-          "content": "Pinch or deadhead as needed to encourage branching and repeat bloom.",
+          "content": "Use modest balanced feeding in active growth; no exact rate is stated.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6167,11 +6381,21 @@
           ]
         },
         {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Trim back about one-third when plants become leggy in late summer.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-impatiens-walleriana"
+          ]
+        },
+        {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or soft cuttings depending on species; keep warm and lightly moist while establishing.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use seed or cuttings; take cuttings in fall and plant out after cold weather passes.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-walleriana"
           ]
@@ -6181,16 +6405,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for aphids, mites and leaf spots; avoid crowding and prolonged wet foliage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Check for aphids, nematodes, spider mites, slugs, snails, powdery/downy mildew and wilt.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-impatiens-walleriana"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -6219,7 +6445,7 @@
           "title": "Identification",
           "content": "Impatiens hawkeri is sold in many New Guinea impatiens cultivars; glossy leaves and showy flowers are common, but exact shape and color depend on cultivar. The catalog does not record a cultivar name.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": [
             "source-ncsu-impatiens-hawkeri"
           ]
@@ -6227,9 +6453,9 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright light to morning sun; protect from the strongest afternoon sun while acclimating.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Partial shade is best, but Impatiens hawkeri tolerates a wider light range than common impatiens.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-hawkeri"
           ]
@@ -6237,9 +6463,9 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Maintain even moisture in active growth, allowing the surface to begin drying between waterings.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Keep the soil moist and well drained; more sun means more water.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-hawkeri"
           ]
@@ -6247,9 +6473,9 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use fertile, moisture-retentive but well-drained medium in pots with drainage.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use moist, organic-rich, well-drained soil.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-hawkeri"
           ]
@@ -6257,15 +6483,17 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and shelter from cold drafts; growth slows in cool weather.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "A warm-season plant; grow in frost-free conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-impatiens-hawkeri"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Moderate humidity is fine; provide airflow and avoid wet foliage overnight.",
+          "content": "Warm humid conditions suit this tropical impatiens; provide airflow in wet weather.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6275,15 +6503,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use balanced flowering-plant fertilizer at label rate during active growth.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
-        },
-        {
-          "key": "pruning",
-          "title": "Pruning",
-          "content": "Pinch or deadhead as needed to encourage branching and repeat bloom.",
+          "content": "Feed lightly during active flowering growth; no specific dose is provided.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -6291,11 +6511,21 @@
           ]
         },
         {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Pinch or trim leggy stems to keep the mound compact; remove damaged foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-impatiens-hawkeri"
+          ]
+        },
+        {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Use seed or soft cuttings depending on species; keep warm and lightly moist while establishing.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Sow seed in warm soil (70–75°F); cuttings are also commonly used for named cultivars.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-impatiens-hawkeri"
           ]
@@ -6305,16 +6535,18 @@
           "title": "Toxicity and safety",
           "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
           "confidence": "low",
-          "status": "needs_review",
+          "status": "draft",
           "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for aphids, mites and leaf spots; avoid crowding and prolonged wet foliage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "NC State describes resistance to downy mildew and no serious insect issues; monitor for leaf spot and root rot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-impatiens-hawkeri"
+          ]
         },
         {
           "key": "seasonal_care",

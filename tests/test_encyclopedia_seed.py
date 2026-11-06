@@ -227,13 +227,13 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert all(profile is not None and len(profile["profile_sections"]) >= 13 for profile in batch_051_100)
     def section(profile, key):
         return next(item for item in profile["profile_sections"] if item["section_key"] == key)
-    assert section(batch_051_100[0], "identification")["review_status"] == "needs_review"
+    assert section(batch_051_100[0], "identification")["review_status"] == "draft"
     assert "genus-level" in section(batch_051_100[0], "identification")["content"]
-    assert section(batch_051_100[1], "identification")["review_status"] == "needs_review"
+    assert section(batch_051_100[1], "identification")["review_status"] == "draft"
     assert section(batch_051_100[11], "overview")["review_status"] == "verified"  # Fittonia
     assert section(batch_051_100[22], "overview")["review_status"] == "verified"  # Hibiscus
     assert section(batch_051_100[26], "overview")["review_status"] == "verified"  # Gardenia
-    assert section(batch_051_100[27], "overview")["review_status"] == "needs_review"  # Jasminum sambac; genus evidence only
+    assert section(batch_051_100[27], "overview")["review_status"] == "draft"  # Jasminum sambac; genus evidence only
     assert section(batch_051_100[41], "overview")["review_status"] == "verified"  # Oleander
     assert section(batch_051_100[41], "toxicity")["review_status"] == "verified"
     assert section(batch_051_100[9], "watering")["review_status"] == "verified"  # Asparagus densiflorus
