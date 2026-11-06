@@ -292,4 +292,3 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     ).fetchone()[0] == "Locally edited care notes"
     assert all(value == 0 for value in second.values())
     conn.close()
-
