@@ -256,6 +256,15 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
         for item in profile["profile_sections"]:
             assert all(source["id"] in registered_source_ids for source in item["sources"])
     assert any(src["id"] == "source-ncsu-tradescantia-zebrina" for src in section(batch_051_100[0], "overview")["sources"])
+    assert any(src["id"] == "source-aspca-staghorn-fern" for src in section(batch_051_100[8], "toxicity")["sources"])
+    assert any(src["id"] == "source-aspca-cast-iron-plant" for src in section(batch_051_100[15], "toxicity")["sources"])
+    assert any(src["id"] == "source-aspca-star-jasmine" for src in section(batch_051_100[28], "toxicity")["sources"])
+    assert "No matching toxicology assessment" in section(batch_051_100[48], "toxicity")["content"]
+    for profile in batch_051_100:
+        for key in ("fertilizing", "toxicity", "seasonal_care", "temperature", "common_problems"):
+            item = section(profile, key)
+            assert item["content"].strip()
+            assert item["review_status"] in ("verified", "draft", "needs_review")
 
     assert len(pothos["media"]) == 3
     assert pothos["media"][0]["license"] == "CC BY-SA 4.0"

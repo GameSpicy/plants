@@ -130,7 +130,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use a dilute balanced houseplant feed during active growth; reduce or pause in winter. The species page does not give a fertilizer dose.",
+          "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -262,7 +262,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced feed during active growth; pause when growth slows. No species-specific fertilizer rate is established.",
+          "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -293,7 +293,9 @@
           "content": "NC State assigns low-severity poison characteristics to the Tradescantia genus. Treat ingestion and sap exposure as potential irritants; keep away from children and pets until species-specific safety is known.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tradescantia"
+          ]
         },
         {
           "key": "common_problems",
@@ -308,7 +310,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, shelter the rosette from harsh afternoon sun and ensure monsoon rain drains freely; this local seasonal advice is practical, not source-specific.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -440,7 +442,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -572,7 +574,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -684,10 +686,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "ASPCA lists Nephrolepis exaltata as non-toxic to dogs and cats. Plant material may still cause mild stomach upset; this does not establish human or other-animal safety.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-aspca-ornamental-plants-2026"
+          ]
         },
         {
           "key": "common_problems",
@@ -816,7 +820,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -918,7 +922,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly with dilute balanced fertilizer during active growth; reduce when growth slows.",
+          "content": "Feed sparingly while new fronds form using diluted houseplant fertilizer. Avoid concentrated fertilizer on the rhizome and reduce feeding during slow growth.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -946,7 +950,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1078,7 +1082,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1210,10 +1214,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "ASPCA lists Platycerium bifurcatum as non-toxic to dogs, cats and horses. This listing does not establish human safety.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-aspca-staghorn-fern"
+          ]
         },
         {
           "key": "common_problems",
@@ -1312,7 +1318,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
+          "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1340,10 +1346,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "NC State reports low-severity poison characteristics and irritation risk associated with berries or sap. Keep berries from children and pets; avoid sap contact and wash after pruning.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-asparagus-densiflorus"
+          ]
         },
         {
           "key": "common_problems",
@@ -1358,7 +1366,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "This fern-like plant prefers more even moisture than a succulent. Keep its pot elevated and draining in monsoon weather; water when the upper mix begins drying and check more often in hot spells.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1440,7 +1448,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
+          "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1488,7 +1496,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "The fine foliage of this asparagus is best kept out of harsh afternoon sun. In Dhaka monsoon weather keep the container draining; in hot dry spells check the mix more often and reduce watering when growth slows.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1570,7 +1578,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
+          "content": "Feed Fittonia lightly with diluted balanced houseplant fertilizer during active growth. Pause if wilted, recently repotted or not growing; no exact species-specific dose is established here.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1598,7 +1606,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1606,15 +1614,17 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for mites, scale and mealybugs; yellowing can follow excess water or poor drainage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Wilting can follow a mix that has dried too far; waterlogging and poor drainage can also cause decline. Strong direct sun may scorch leaves, so use bright filtered light and steady, not stagnant, moisture.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "Maintain evenly moist mix and bright filtered light. Check more often in dry heat, while emptying saucers and protecting roots from prolonged monsoon saturation.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1696,7 +1706,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
+          "content": "Feed Fittonia lightly with diluted balanced houseplant fertilizer during active growth. Pause if wilted, recently repotted or not growing; no exact species-specific dose is established here.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1724,7 +1734,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1732,15 +1742,17 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for mites, scale and mealybugs; yellowing can follow excess water or poor drainage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Wilting can follow a mix that has dried too far; waterlogging and poor drainage can also cause decline. Strong direct sun may scorch leaves, so use bright filtered light and steady, not stagnant, moisture.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "Maintain evenly moist mix and bright filtered light. Check more often in dry heat, while emptying saucers and protecting roots from prolonged monsoon saturation.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1852,10 +1864,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "NC State describes Pilea peperomioides as safe for pets and children; this is not a guarantee against stomach upset after substantial chewing.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "common_problems",
@@ -1870,7 +1884,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -1982,10 +1996,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "NC State describes the parent species as safe for pets and children; this cultivar is not separately assessed. Heavy chewing could still cause stomach upset.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-pilea"
+          ]
         },
         {
           "key": "common_problems",
@@ -2000,7 +2016,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2112,10 +2128,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "ASPCA lists Aspidistra elatior as non-toxic to dogs, cats and horses; this does not establish human safety.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-aspca-cast-iron-plant"
+          ]
         },
         {
           "key": "common_problems",
@@ -2130,7 +2148,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2326,7 +2344,7 @@
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and avoid extended exposure to cool nights or cold drafts.",
+          "content": "Keep warm and protect this tropical palm from cold drafts or unusually cool nights. In Dhaka containers, move it under cover during cool spells; this profile does not establish an exact minimum temperature.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2344,7 +2362,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use palm or balanced fertilizer at label rate in active growth; avoid repeated heavy feeding.",
+          "content": "Feed modestly with palm or balanced foliage fertilizer at label rate while actively growing. Avoid concentrated applications, check light and watering before diagnosing yellow leaves, and reduce feeding when growth slows.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2392,7 +2410,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, ensure monsoon rain drains freely and acclimate to sun; water less in cooler, slower growth.",
+          "content": "Acclimate gradually to brighter light and avoid harsh afternoon sun. Keep drainage clear in monsoon and empty saucers; allow a little more dry-down when growth slows.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2525,7 +2543,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, ensure monsoon rain drains freely and acclimate to sun; water less in cooler, slower growth.",
+          "content": "Acclimate gradually to brighter light and avoid harsh afternoon sun. Keep drainage clear in monsoon and empty saucers; allow a little more dry-down when growth slows.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2637,7 +2655,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2655,7 +2673,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, ensure monsoon rain drains freely and acclimate to sun; water less in cooler, slower growth.",
+          "content": "Acclimate gradually to brighter light and avoid harsh afternoon sun. Keep drainage clear in monsoon and empty saucers; allow a little more dry-down when growth slows.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2737,7 +2755,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use palm or balanced fertilizer at label rate in active growth; avoid repeated heavy feeding.",
+          "content": "Feed modestly with palm or balanced foliage fertilizer at label rate while actively growing. Avoid concentrated applications, check light and watering before diagnosing yellow leaves, and reduce feeding when growth slows.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2765,7 +2783,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2783,7 +2801,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, ensure monsoon rain drains freely and acclimate to sun; water less in cooler, slower growth.",
+          "content": "Acclimate gradually to brighter light and avoid harsh afternoon sun. Keep drainage clear in monsoon and empty saucers; allow a little more dry-down when growth slows.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2895,7 +2913,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -2913,7 +2931,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, give bright light and monsoon rain shelter; let mix dry well, especially in cooler months.",
+          "content": "Give bright light and let the mix dry substantially between waterings. Shelter from prolonged monsoon rain and water sparingly when growth slows.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3025,7 +3043,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3157,7 +3175,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3289,7 +3307,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3391,7 +3409,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly with an acid-forming fertilizer during active growth; avoid high pH and overfeeding.",
+          "content": "This dwarf selection lacks a separate feeding recommendation. Use a conservative label-rate feed intended for acid-loving shrubs during active growth; do not feed a dry or stressed plant.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3419,7 +3437,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "No species-specific toxicity assessment for this dwarf selection is provided here. As a precaution, do not ingest it and keep it away from children and pets.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3437,7 +3455,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Protect this tropical shrub from cool spells and keep container drainage open through Dhaka monsoon rain.",
+          "content": "Keep warm, bright and ventilated. Check container moisture during hot dry weather but maintain free drainage during monsoon; avoid standing water.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3653,7 +3671,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed modestly during active growth; no species-specific fertilizer rate is stated in the genus source.",
+          "content": "Feed modestly during active growth with balanced flowering-plant fertilizer at label rate. Avoid excess nitrogen and reduce feeding when growth or flowering slows.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3681,7 +3699,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "No species-specific toxicity evaluation is included here. Do not ingest it or use it medicinally; keep away from children and pets until checked.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3699,7 +3717,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Grow warm, provide bright light and prune after the main flowering period; Dhaka rain and heat adjustments are practical rather than directly sourced.",
+          "content": "Keep warm, bright and ventilated. Check container moisture during hot dry weather but maintain free drainage during monsoon; avoid standing water.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -3811,10 +3829,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "ASPCA lists Trachelospermum jasminoides as non-toxic to dogs, cats and horses. This does not apply to true Jasminum or establish human safety.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-aspca-star-jasmine"
+          ]
         },
         {
           "key": "common_problems",
@@ -4077,7 +4097,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4095,7 +4115,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, give morning sun and afternoon shade in peak heat; protect pots from monsoon waterlogging.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4227,7 +4247,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, give morning sun and afternoon shade in peak heat; protect pots from monsoon waterlogging.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4309,7 +4329,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use moderate fertility; no species-specific fertilizer rate is given by the genus guide.",
+          "content": "Use a modest amount of general flower fertilizer during active growth and follow its label. Avoid heavy nitrogen feeding, which can favor foliage over flowers; fertile potting mix may need little extra feed.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4337,10 +4357,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "NC State warns that large amounts may be harmful and that sap or contact can irritate skin. This is genus-level guidance; avoid ingestion and wear gloves if sensitive.",
+          "content": "NC State’s Tagetes genus guide warns that large amounts may be harmful and sap/contact can irritate skin. Avoid ingestion and use gloves if sensitive.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "common_problems",
@@ -4355,7 +4377,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Grow in the cooler dry season in Dhaka where possible; protect containers from monsoon waterlogging and remove storm-damaged stems.",
+          "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4437,7 +4459,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use moderate fertility; no species-specific fertilizer rate is given by the genus guide.",
+          "content": "Use a modest amount of general flower fertilizer during active growth and follow its label. Avoid heavy nitrogen feeding, which can favor foliage over flowers; fertile potting mix may need little extra feed.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4465,10 +4487,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "NC State warns that large amounts may be harmful and that sap or contact can irritate skin. This is genus-level guidance; avoid ingestion and wear gloves if sensitive.",
+          "content": "NC State’s Tagetes genus guide warns that large amounts may be harmful and sap/contact may irritate skin. This is genus-level guidance; avoid ingestion and wash after contact.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tagetes"
+          ]
         },
         {
           "key": "common_problems",
@@ -4483,7 +4507,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Grow in the cooler dry season in Dhaka where possible; protect containers from monsoon waterlogging and remove storm-damaged stems.",
+          "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4595,10 +4619,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "ASPCA includes Zinnia elegans among flowers considered non-toxic to dogs and cats. Chewing may still cause mild stomach upset; this does not establish human safety.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-aspca-ornamental-plants-2026"
+          ]
         },
         {
           "key": "common_problems",
@@ -4613,7 +4639,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Grow in the cooler dry season where possible; during monsoon use fast-draining pots and remove storm-damaged growth.",
+          "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4725,7 +4751,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4743,7 +4769,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Grow in the cooler dry season where possible; during monsoon use fast-draining pots and remove storm-damaged growth.",
+          "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4825,7 +4851,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use ordinary fertile soil and avoid excessive nitrogen; no specific dose is given in the source.",
+          "content": "Use a modest amount of general flower fertilizer during active growth and follow its label. Avoid heavy nitrogen feeding, which can favor foliage over flowers; fertile potting mix may need little extra feed.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4853,10 +4879,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "The cited genus source does not assess toxicity. Do not assume ornamental plant parts are safe to eat; keep away from children and pets pending a species-specific check.",
+          "content": "ASPCA lists Helianthus among flowers considered non-toxic to dogs and cats. This is genus-level pet guidance, not human-food guidance.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-aspca-ornamental-plants-2026"
+          ]
         },
         {
           "key": "common_problems",
@@ -4871,7 +4899,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, use the cooler dry season for a better chance of flowering and stake tall cultivars before storms; this is local practical advice.",
+          "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -4983,7 +5011,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5001,7 +5029,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Grow in the cooler dry season where possible; during monsoon use fast-draining pots and remove storm-damaged growth.",
+          "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5083,7 +5111,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5111,7 +5139,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5129,7 +5157,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "Keep Crossandra warm with bright filtered light. Check container moisture during Dhaka hot dry spells, but maintain airflow and drainage through monsoon weather; remove damaged flowers and leaves.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5211,7 +5239,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5239,7 +5267,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental Tabernaemontana entry. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5257,7 +5285,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "Give this tropical evergreen shrub bright light and airflow. In Dhaka, prevent monsoon waterlogging and check containers more often in hot dry weather; shelter from unusual cool spells.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5339,7 +5367,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Apply balanced fertilizer at label rate during active growth; avoid overfeeding.",
+          "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5367,7 +5395,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental Tabernaemontana entry. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5385,7 +5413,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, offer morning sun or filtered afternoon shade in peak heat and prevent prolonged monsoon saturation.",
+          "content": "Use the same practical routine as the listed Tabernaemontana species: bright light, airflow and free drainage. In Dhaka monsoon season empty saucers; check moisture more often during dry heat.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5631,10 +5659,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "NC State describes Lantana camara toxicity to livestock and irritation associated with foliage or unripe berries. Prevent livestock access, avoid ingestion, and wash skin after handling.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-lantana"
+          ]
         },
         {
           "key": "common_problems",
@@ -5899,7 +5929,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -5917,7 +5947,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Let leaves finish naturally after bloom; maintain free drainage during Dhaka’s rainy season.",
+          "content": "Keep warm and bright with free-draining mix. Do not leave bulbs or rhizomes in stagnant monsoon water; reduce watering only if foliage naturally slows or dies back.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6029,7 +6059,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6047,7 +6077,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Let leaves finish naturally after bloom; maintain free drainage during Dhaka’s rainy season.",
+          "content": "Keep warm and bright with free-draining mix. Do not leave bulbs or rhizomes in stagnant monsoon water; reduce watering only if foliage naturally slows or dies back.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6129,7 +6159,7 @@
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly while leaves grow; stop feeding if the bulb becomes dormant.",
+          "content": "Feed lightly while leaves or flowers grow with a balanced bulb or flowering-plant fertilizer at label rate. Stop if the bulb becomes dormant and do not fertilize dry mix.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6157,10 +6187,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "NC State reports low-severity poison characteristics for Hymenocallis; bulbs may cause nausea, vomiting and diarrhea due to lycorine and related alkaloids. This is genus-level evidence; keep bulbs away from children and pets.",
+          "content": "NC State reports low-severity poison characteristics for Hymenocallis; bulbs contain lycorine-related alkaloids and may cause nausea, vomiting or diarrhea if eaten. This is genus-level evidence.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-hymenocallis"
+          ]
         },
         {
           "key": "common_problems",
@@ -6175,7 +6207,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, keep bulbs warm, provide drainage during monsoon rain and reduce watering only if foliage naturally goes dormant.",
+          "content": "Keep warm and bright with free-draining mix. Do not leave bulbs or rhizomes in stagnant monsoon water; reduce watering only if foliage naturally slows or dies back.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6287,10 +6319,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "NC State reports low-severity poison characteristics associated with calcium oxalate; large raw ingestions may irritate mouth or stomach. Prevent chewing and seek advice after significant ingestion.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-impatiens-balsamina"
+          ]
         },
         {
           "key": "common_problems",
@@ -6305,7 +6339,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, give morning sun and afternoon shade in peak heat; protect pots from monsoon waterlogging.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6417,7 +6451,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6435,7 +6469,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, give morning sun and afternoon shade in peak heat; protect pots from monsoon waterlogging.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6547,7 +6581,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
+          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -6565,7 +6599,7 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, give morning sun and afternoon shade in peak heat; protect pots from monsoon waterlogging.",
+          "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
           "sources": []

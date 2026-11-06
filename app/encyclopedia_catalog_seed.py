@@ -153,6 +153,10 @@ TAXONOMY_OVERRIDES = {
 
 
 SOURCES = [
+ ('source-aspca-star-jasmine', 'Star Jasmine — Toxic and Non-Toxic Plants', 'ASPCA Animal Poison Control', 'https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/star-jasmine', 'toxicology', 'Lists Trachelospermum jasminoides as non-toxic to dogs, cats and horses; does not establish human safety.'),
+ ('source-aspca-cast-iron-plant', 'Cast Iron Plant — Toxic and Non-Toxic Plants', 'ASPCA Animal Poison Control', 'https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cast-iron-plant', 'toxicology', 'Lists Aspidistra elatior as non-toxic to dogs, cats and horses; does not establish human safety.'),
+ ('source-aspca-staghorn-fern', 'Common Staghorn Fern — Toxic and Non-Toxic Plants', 'ASPCA Animal Poison Control', 'https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/common-staghorn-fern', 'toxicology', 'Lists Platycerium bifurcatum as non-toxic to dogs, cats and horses; does not establish human safety.'),
+ ('source-aspca-ornamental-plants-2026', 'Flowers and plants and pet safety', 'ASPCA Poison Control', 'https://www.aspca.org/news/do-you-know-which-flowers-and-plants-are-toxic-pets-our-experts-explain', 'toxicology', 'Lists Nephrolepis exaltata, Zinnia elegans and Helianthus as non-toxic to dogs and cats; plant ingestion may still cause mild GI upset.'),
  ("source-ncsu-tradescantia","Tradescantia — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/tradescantia/","extension","Genus-level identification and cultural context; use only for the named Tradescantia entries and supported traits."),
  ("source-rhs-fittonia","Fittonia — RHS Plant Guide","Royal Horticultural Society","https://www.rhs.org.uk/plants/fittonia","horticultural_society","Identification, high humidity, filtered light and moisture-retentive but well-drained medium."),
  ("source-smithsonian-hibiscus","Care of Hibiscus rosa-sinensis","Smithsonian Gardens","https://gardens.si.edu/learn/educational-resources/plant-care-sheets/care-of-hibiscus-rosa-sinensis/","botanical_garden","Species-level tropical hibiscus growth, light and pruning; cultivars vary."),
@@ -415,8 +419,12 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
    taxon_id for taxon_id in batch.get("catalog_range", [])
    if taxon_id not in batch_taxa
   )
+  processed_batch_taxa = set()
   for batch_taxon in batch_taxa:
    taxon = legacy_taxon_ids.get(batch_taxon, batch_taxon)
+   if taxon in processed_batch_taxa:
+    continue
+   processed_batch_taxa.add(taxon)
    specific = batch.get("taxa", {}).get(batch_taxon, {})
    taxon_sections = list(specific.get("sections", shared))
    if specific.get("identification"):
@@ -438,7 +446,14 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
         review_status=excluded.review_status,source_note=excluded.source_note,
         updated_at=excluded.updated_at
       WHERE taxon_profile_sections.review_status IN ('draft','needs_review')
-        AND excluded.review_status='verified'""",
+        AND excluded.review_status IN ('verified','draft')
+        AND (
+          taxon_profile_sections.title IS NOT excluded.title
+          OR taxon_profile_sections.content IS NOT excluded.content
+          OR taxon_profile_sections.review_status IS NOT excluded.review_status
+          OR taxon_profile_sections.confidence IS NOT excluded.confidence
+          OR taxon_profile_sections.source_note IS NOT excluded.source_note
+        )""",
       (taxon,key,section["title"],section["content"],section.get("confidence","medium"),
        status,"Reviewed profile batch "+batch.get("batch_id","unknown"),now))
     counts["profile_sections"]+=cur.rowcount
