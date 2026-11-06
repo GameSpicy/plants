@@ -232,7 +232,7 @@ CREATE TABLE IF NOT EXISTS disease_media (
     PRIMARY KEY (disease_id, media_id)
 );
 
-CREATE TABLE IF NOT EXISTS references (
+CREATE TABLE IF NOT EXISTS sources (
     id TEXT PRIMARY KEY,
     title TEXT NOT NULL,
     publisher TEXT NOT NULL DEFAULT '',
@@ -247,7 +247,7 @@ CREATE TABLE IF NOT EXISTS references (
 CREATE TABLE IF NOT EXISTS content_references (
     content_type TEXT NOT NULL,
     content_id TEXT NOT NULL,
-    reference_id TEXT NOT NULL REFERENCES references(id) ON DELETE CASCADE,
+    reference_id TEXT NOT NULL REFERENCES sources(id) ON DELETE CASCADE,
     claim TEXT NOT NULL DEFAULT '',
     PRIMARY KEY (content_type, content_id, reference_id, claim)
 );
