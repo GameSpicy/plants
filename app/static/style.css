@@ -128,6 +128,18 @@ h2 { font-size: 18px; margin: 22px 0 10px; }
 .plant-card .thumb { width: 64px; height: 64px; flex: none; }
 .plant-card .pc-body { min-width: 0; }
 .plant-card .pc-name { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.catalog-grid { margin-top: 14px; }
+.catalog-card { display: flex; flex-direction: column; gap: 10px; }
+.catalog-card h2 { margin: 0 0 3px; font-size: 18px; }
+.catalog-card-head { display: flex; gap: 8px; justify-content: space-between; align-items: flex-start; }
+.catalog-card-head .badge { flex: none; margin: 0; }
+.catalog-summary { margin: 0; }
+.catalog-facts { margin: 10px 0 0; }
+.catalog-facts div { border-top: 1px solid var(--line); padding: 7px 0; }
+.catalog-facts dt { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+.catalog-facts dd { margin: 2px 0 0; }
+.catalog-card details summary { cursor: pointer; color: var(--accent); }
+.catalog-add { margin-top: auto; }
 
 /* plant detail */
 .hero { display: grid; grid-template-columns: 220px 1fr; gap: 18px; margin-top: 18px; }

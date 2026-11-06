@@ -186,11 +186,12 @@ async function route() {
   closeModal();
   const hash = location.hash || "#/";
   const m = hash.match(/^#\/plant\/(\d+)/);
-  const tab = m || hash.startsWith("#/plants") ? "plants" : hash.startsWith("#/settings") ? "settings" : "today";
+  const tab = m || hash.startsWith("#/plants") ? "plants" : hash.startsWith("#/catalog") ? "catalog" : hash.startsWith("#/settings") ? "settings" : "today";
   $$(".tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === tab));
   try {
     if (m) await renderPlant(Number(m[1]));
     else if (tab === "plants") await renderPlants();
+    else if (tab === "catalog") await renderCatalog();
     else if (tab === "settings") await renderSettings();
     else await renderToday();
   } catch (err) {
@@ -484,6 +485,57 @@ async function renderPlants() {
   $("#plant-search").oninput = (e) => { state.search = e.target.value; draw(); };
   $$("[data-proom]").forEach((b) => (b.onclick = () => { state.plantRoom = b.dataset.proom; renderPlants(); }));
   $("#add-plant").onclick = () => plantForm(null);
+}
+
+// ---------------------------------------------------------------- catalog
+
+const catalogState = { query: "", category: "" };
+
+async function renderCatalog() {
+  const revision = ++viewRevision;
+  const params = new URLSearchParams({ q: catalogState.query, category: catalogState.category });
+  const result = await api(`/api/catalog?${params}`);
+  if (revision !== viewRevision) return;
+  $("#view").innerHTML = `
+    <div class="pagehead"><div><h1>Plant catalog</h1><div class="muted">${result.total} profiles · Templates stay separate from your plants.</div></div></div>
+    <div class="toolbar"><input type="search" id="catalog-search" placeholder="Search common or botanical name" value="${esc(catalogState.query)}" aria-label="Search catalog"></div>
+    <div class="chips" role="group" aria-label="Filter catalog by category">
+      <button class="chip ${catalogState.category ? "" : "active"}" data-category="">All categories</button>
+      ${result.categories.map((c) => `<button class="chip ${catalogState.category === c ? "active" : ""}" data-category="${esc(c)}">${esc(c)}</button>`).join("")}
+    </div>
+    <div class="grid catalog-grid" id="catalog-grid">${result.plants.length ? result.plants.map((p) => `
+      <article class="card catalog-card"><div class="catalog-card-head"><div><h2>${esc(p.name)}</h2><div class="muted"><i>${esc(p.species)}</i></div>${p.aliases?.length ? `<div class="muted">Also known as ${esc(p.aliases.join(", "))}</div>` : ""}</div><span class="badge">${esc(p.category)}</span></div>
+        <p class="catalog-summary">${esc(p.light)}</p><div class="muted">💧 Check soil about every ${esc(p.water_days)} days</div>
+        <details><summary>Care profile</summary><dl class="catalog-facts">${[["Water", p.drainage], ["Soil", p.soil], ["Humidity", p.humidity], ["Temperature", p.temperature], ["Toxicity", p.toxicity], ["Care", p.care], ["Bangladesh", p.bangladesh]].map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></details>
+        <button class="primary catalog-add" data-catalog-id="${esc(p.id)}">Add to My Plants</button>
+      </article>`).join("") : '<div class="card empty">No catalog plants match. Try another search or category.</div>'}</div>`;
+  const search = $("#catalog-search");
+  search.oninput = (e) => {
+    catalogState.query = e.target.value;
+    clearTimeout(renderCatalog.timer);
+    renderCatalog.timer = setTimeout(async () => {
+      const cursor = search.selectionStart;
+      try {
+        await renderCatalog();
+        const next = $("#catalog-search");
+        if (next) { next.focus(); next.setSelectionRange(cursor, cursor); }
+      } catch (err) { fail(err); }
+    }, 180);
+  };
+  $$('[data-category]').forEach((b) => b.onclick = () => { catalogState.category = b.dataset.category; renderCatalog().catch(fail); });
+  $$('[data-catalog-id]').forEach((b) => b.onclick = async () => {
+    const plant = result.plants.find((p) => p.id === b.dataset.catalogId);
+    b.disabled = true;
+    try {
+      const created = await api("/api/plants", { method: "POST", body: {
+        name: plant.name, species: plant.species, light: plant.light,
+        notes: `${plant.care}\n\nSoil: ${plant.soil}\nDrainage: ${plant.drainage}\nHumidity: ${plant.humidity}\nTemperature: ${plant.temperature}\nToxicity: ${plant.toxicity}\nBangladesh: ${plant.bangladesh}`,
+        tasks: [{ kind: "water", interval_days: plant.water_days }]
+      } });
+      toast(`${created.name} added to My Plants`);
+      location.hash = `#/plant/${created.id}`;
+    } catch (err) { fail(err); b.disabled = false; }
+  });
 }
 
 // ---------------------------------------------------------------- plant detail

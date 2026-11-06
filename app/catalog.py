@@ -16,6 +16,19 @@ CATEGORIES = [
     "Climber & vine"
 ]
 
+
+def _merge_species_aliases(entries: list[dict]) -> list[dict]:
+    """Keep one profile per exact botanical name while retaining common-name aliases."""
+    merged: dict[str, dict] = {}
+    for entry in entries:
+        key = " ".join(entry["species"].casefold().split())
+        if key not in merged:
+            merged[key] = {**entry, "aliases": []}
+        elif entry["name"] != merged[key]["name"] and entry["name"] not in merged[key]["aliases"]:
+            merged[key]["aliases"].append(entry["name"])
+    return list(merged.values())
+
+
 PLANT_CATALOG = [
     {
         "id": "plant-001",
@@ -2915,6 +2928,9 @@ PLANT_CATALOG = [
 ]
 
 
+PLANT_CATALOG = _merge_species_aliases(PLANT_CATALOG)
+
+
 def search_catalog(query: str = "", category: str = "", limit: int = 500) -> list[dict]:
     """Search common and botanical names without modifying personal plant records."""
     q = " ".join((query or "").casefold().split())
@@ -2923,7 +2939,7 @@ def search_catalog(query: str = "", category: str = "", limit: int = 500) -> lis
     for plant in PLANT_CATALOG:
         if selected_category and plant["category"].casefold() != selected_category:
             continue
-        searchable = f'{plant["name"]} {plant["species"]}'.casefold()
+        searchable = f'{plant["name"]} {plant["species"]} {" ".join(plant["aliases"])}'.casefold()
         if q and q not in searchable:
             continue
         results.append(plant)

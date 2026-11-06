@@ -859,3 +859,46 @@ def test_docs_and_schema_require_auth(tmp_path):
                 response = visitor.get(route)
                 assert response.status_code == 401
                 assert response.json() == {"detail": "Session expired"}
+
+
+def test_catalog_search_category_auth_and_add_to_personal_plants(tmp_path):
+    fresh(tmp_path)
+    from app.catalog import PLANT_CATALOG
+
+    template = next(p for p in PLANT_CATALOG if p["id"] == "plant-001")
+    original = dict(template)
+    with TestClient(main.app) as visitor:
+        assert visitor.get("/api/catalog").status_code == 401
+        assert visitor.get("/api/catalog?q=pothos").status_code == 401
+
+    with TestClient(main.app) as c:
+        setup_admin(c)
+        before = c.get("/api/plants").json()
+        found = c.get("/api/catalog", params={"q": "  EPIPREMNUM aureum  "})
+        assert found.status_code == 200
+        assert found.json()["plants"]
+        assert all("epipremnum aureum" in f'{p["name"]} {p["species"]}'.casefold() for p in found.json()["plants"])
+        filtered = c.get("/api/catalog", params={"category": "Herb", "limit": 3}).json()
+        assert len(filtered["plants"]) <= 3
+        assert all(p["category"] == "Herb" for p in filtered["plants"])
+        assert c.get("/api/catalog", params={"category": "not-a-category"}).json()["plants"] == []
+        assert c.get("/api/catalog", params={"q": "Raat ki rani"}).json()["plants"][0]["name"] == "Night-blooming jasmine"
+        from app.catalog import PLANT_CATALOG as catalog
+        species = [p["species"].casefold() for p in catalog]
+        assert len(species) == len(set(species))
+
+        response = c.post("/api/plants", json={
+            "name": template["name"], "species": template["species"], "light": template["light"],
+            "notes": template["care"],
+            "tasks": [{"kind": "water", "interval_days": template["water_days"]}],
+        })
+        assert response.status_code == 201
+        created = response.json()
+        assert created["name"] == template["name"] and created["species"] == template["species"]
+        assert created["tasks"][0]["kind"] == "water"
+        after = c.get("/api/plants").json()
+        assert len(after) == len(before) + 1
+        assert {p["id"] for p in before}.issubset({p["id"] for p in after})
+        assert template == original
+        final_catalog = c.get("/api/catalog").json()["plants"]
+        assert next(p for p in final_catalog if p["id"] == template["id"]) == original
