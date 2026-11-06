@@ -270,6 +270,10 @@ SOURCES = [
  ("source-ncsu-impatiens-balsamina","Impatiens balsamina — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/impatiens-balsamina/","extension","Species-level garden balsam identification, culture, self-seeding and low-severity toxicity."),
  ("source-ifas-ravenea","Ravenea rivularis — Extension care sheet","UF/IFAS Santa Rosa County Extension","https://sfyl.ifas.ufl.edu/media/sfylifasufledu/santa-rosa/docs/pdfs/demo-garden-4/Majestic-Palm.pdf","extension","Species-level majesty palm indoor light, warmth and humidity summary."),
 
+ ("source-ncsu-tradescantia-zebrina","Tradescantia zebrina — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/common-name/zebra-plant/","extension","Species-level zebra plant identification, care, propagation, common problems and irritation/toxicity notes."),
+ ("source-ncsu-adiantum-raddianum","Adiantum raddianum — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/adiantum-raddianum/common-name/maidenhair-fern/","extension","Species-level Delta maidenhair identification, shade, moisture, humidity and common problems."),
+ ("source-kstate-maidenhair","Maidenhair Fern — Indoor Plant Care","Kansas State University Research and Extension","https://hnr.k-state.edu/extension/horticulture-resource-center/publications/publications/houseplants/Fern%20Maidenhair.pdf","extension","Genus-level maidenhair humidity, watering, light, fertilizer, pruning and propagation guidance."),
+
 ]
 IMAGES = [
  ("image-pothos-mithun","https://commons.wikimedia.org/wiki/Special:FilePath/Money_plant(Epipremnum_Aureum).jpg","Money plant / golden pothos","Mithun Mijar","CC BY-SA 4.0","https://commons.wikimedia.org/wiki/File:Money_plant(Epipremnum_Aureum).jpg"),

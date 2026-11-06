@@ -227,8 +227,9 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert all(profile is not None and len(profile["profile_sections"]) >= 13 for profile in batch_051_100)
     def section(profile, key):
         return next(item for item in profile["profile_sections"] if item["section_key"] == key)
-    assert section(batch_051_100[0], "identification")["review_status"] == "draft"
-    assert "genus-level" in section(batch_051_100[0], "identification")["content"]
+    assert section(batch_051_100[0], "identification")["review_status"] == "verified"
+    assert "silver" in section(batch_051_100[0], "identification")["content"]
+    assert any(src["id"] == "source-ncsu-tradescantia-zebrina" for src in section(batch_051_100[0], "identification")["sources"])
     assert section(batch_051_100[1], "identification")["review_status"] == "draft"
     assert section(batch_051_100[11], "overview")["review_status"] == "verified"  # Fittonia
     assert section(batch_051_100[22], "overview")["review_status"] == "verified"  # Hibiscus
@@ -254,7 +255,7 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
         assert len({item["section_key"] for item in profile["profile_sections"]}) == 13
         for item in profile["profile_sections"]:
             assert all(source["id"] in registered_source_ids for source in item["sources"])
-    assert any(src["id"] == "source-ncsu-tradescantia" for src in section(batch_051_100[0], "overview")["sources"])
+    assert any(src["id"] == "source-ncsu-tradescantia-zebrina" for src in section(batch_051_100[0], "overview")["sources"])
 
     assert len(pothos["media"]) == 3
     assert pothos["media"][0]["license"] == "CC BY-SA 4.0"
@@ -291,3 +292,4 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     ).fetchone()[0] == "Locally edited care notes"
     assert all(value == 0 for value in second.values())
     conn.close()
+

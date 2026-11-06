@@ -52,7 +52,7 @@
     "plant-099",
     "plant-100"
   ],
-  "basis": "Practical, source-linked care for personal use. Draft marks provisional advice, including identity or toxicity cautions that lack a conclusive species-specific reference; it is not a claim of verified safety.",
+  "basis": "Species- and genus-linked care for personal use. Draft remains for local seasonal advice, cultivar uncertainty, generic safety precautions, or details not stated by the cited plant source.",
   "shared_sections": [],
   "taxa": {
     "plant-051": {
@@ -60,75 +60,77 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "NC State describes Tradescantia as a trailing, fast-growing genus readily propagated by stem cuttings. This genus-level description is not a substitute for a species account of T. zebrina.",
+          "content": "Tradescantia zebrina is a fast-growing trailing tropical perennial native from Mexico to Colombia, grown for green, silver and white stripes with purple leaf undersides. It roots readily at stem nodes.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-tradescantia"
+            "source-ncsu-tradescantia-zebrina"
           ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Tradescantia zebrina is a trailing plant with alternating green and silver stripes and purple undersides; the linked NC State account is genus-level, so compare the plant itself with a species-specific reference before treating this as confirmed.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Trailing, creeping stems carry two-ranked leaves with silver/white stripes and purple undersides; nodes are about an inch apart.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
-            "source-ncsu-tradescantia"
+            "source-ncsu-tradescantia-zebrina"
           ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Bright indirect light is a safe starting point; acclimate gradually before giving direct sun.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Filtered sun is ideal; gradual full-sun exposure may deepen colour, but strong southern sun can wash colour or scorch leaves.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
-            "source-ncsu-tradescantia"
+            "source-ncsu-tradescantia-zebrina"
           ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Water thoroughly when the upper mix begins to dry, then drain the saucer. Adjust for heat and pot size.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Water regularly, let the mix dry between waterings, and reduce watering in winter.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
-            "source-ncsu-tradescantia"
+            "source-ncsu-tradescantia-zebrina"
           ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use porous indoor potting mix and a container with drainage; avoid dense garden soil.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use moist but well-drained soil or potting mix.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
-            "source-ncsu-tradescantia"
+            "source-ncsu-tradescantia-zebrina"
           ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep in a warm, stable spot away from cold drafts and air-conditioning vents.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "NC State gives 65–75°F as the preferred range; protect from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-zebrina"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Average indoor humidity is usually workable; improve airflow if foliage stays wet or leaf edges dry.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Average home humidity is tolerated; higher humidity is also acceptable.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
-            "source-ncsu-tradescantia"
+            "source-ncsu-tradescantia-zebrina"
           ]
         },
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Use dilute balanced houseplant fertilizer during active growth; reduce or pause in slow periods.",
+          "content": "Use a dilute balanced houseplant feed during active growth; reduce or pause in winter. The species page does not give a fertilizer dose.",
           "confidence": "low",
           "status": "draft",
           "sources": []
@@ -136,46 +138,52 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pinch leggy stems and remove yellow leaves with clean tools; avoid heavy pruning at once.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Hard prune in spring if needed to control trailing growth and encourage denser foliage.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
-            "source-ncsu-tradescantia"
+            "source-ncsu-tradescantia-zebrina"
           ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Stem cuttings or division may work depending on the species; use clean tools and airy, lightly moist medium.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Use stem cuttings from pruned growth; stems root at the nodes.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
-            "source-ncsu-tradescantia"
+            "source-ncsu-tradescantia-zebrina"
           ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "A species-specific toxicity assessment is not included here. As a precaution, do not eat any part or use it medicinally; keep it away from children and pets until its safety is checked. If ingestion occurs, contact a local poison service or clinician.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "NC State lists low-severity poison characteristics: ingestion may irritate the mouth or stomach, and sap or foliage contact can irritate skin. Keep from pets and children; wear gloves if sap-sensitive.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-zebrina"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Inspect for mites, scale and mealybugs; yellowing can follow excess water or poor drainage.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "Watch for aphids, mealybugs, scale, whiteflies and spider mites. Soggy mix can cause root or stem rot; wet crowded foliage can develop leaf spot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-zebrina"
+          ]
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka, protect from midday sun and monsoon saturation; adjust watering to pot dryness and slower cool-season growth.",
+          "content": "In Dhaka, provide filtered light, check pots more often in hot dry weather, and keep containers draining freely during monsoon rains. This is a local practical adjustment to the source’s moisture guidance.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-tradescantia-zebrina"
+          ]
         }
       ]
     },
@@ -966,97 +974,101 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "The catalog lists Adiantum raddianum (Delta maidenhair fern). The linked NC State reference covers the genus: maidenhair ferns have delicate divided fronds and generally favor shade and consistent moisture.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Adiantum raddianum (Delta maidenhair) is a delicate clumping fern with arching, finely divided fronds and creeping rhizomes. NC State gives it partial shade, moist soil and humid indoor conditions.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
-            "source-ncsu-adiantum"
+            "source-ncsu-adiantum-raddianum"
           ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Adiantum raddianum typically has fine, arching fronds with small fan-shaped leaflets on dark wiry stems. Treat this as a comparison cue, not a confirmed cultivar-level diagnosis.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Flat, finely divided fronds have triangular lobed pinnules on shiny wiry black stems. This is the Delta maidenhair, not a generic Adiantum identification.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
-            "source-ncsu-adiantum"
+            "source-ncsu-adiantum-raddianum"
           ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "The NC State Adiantum genus guide recommends shade; keep delicate maidenhair fronds out of direct sun.",
+          "content": "Provide partial shade to shade; too much shade weakens growth and full sun damages this fern.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-adiantum"
+            "source-ncsu-adiantum-raddianum"
           ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Keep the root zone consistently moist, but drain excess water.",
+          "content": "Keep soil moist to wet and do not let the roots dry out; drain excess standing water.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-adiantum"
+            "source-ncsu-adiantum-raddianum"
           ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use organic, moist but freely draining fern mix.",
+          "content": "Use a moist, organic, well-drained fern mix; keep the creeping rhizomes near the surface.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-adiantum"
+            "source-ncsu-adiantum-raddianum"
           ]
         },
         {
           "key": "temperature",
           "title": "Temperature",
-          "content": "Keep warm and away from cold drafts and abrupt temperature swings.",
+          "content": "Typical warm indoor temperatures are suitable; avoid cold drafts. A genus-level K-State guide gives 60–70°F as a useful indoor range.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-kstate-maidenhair"
+          ]
         },
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Provide humid air and gentle airflow; avoid a completely dry root ball or stagnant wet foliage.",
+          "content": "High humidity helps indoors; K-State suggests a humid room or terrarium and warns that extra watering cannot compensate for dry air.",
           "confidence": "low",
           "status": "draft",
           "sources": [
-            "source-ncsu-adiantum"
+            "source-kstate-maidenhair"
           ]
         },
         {
           "key": "fertilizing",
           "title": "Fertilizing",
-          "content": "Feed lightly with dilute balanced fertilizer during active growth; reduce when growth slows.",
+          "content": "Feed cautiously at about one-quarter label strength every 4–6 weeks during active growth; do not feed when growth slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-kstate-maidenhair"
+          ]
         },
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Remove dead or badly damaged fronds at the base; keep healthy fronds.",
+          "content": "Remove discolored or dead fronds; K-State notes older fronds naturally die after several months.",
           "confidence": "low",
           "status": "draft",
           "sources": [
-            "source-ncsu-adiantum"
+            "source-kstate-maidenhair"
           ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Divide an established clump during active growth; keep divisions shaded and moist.",
-          "confidence": "medium",
-          "status": "verified",
+          "content": "Divide a healthy clump in spring, keeping rhizome and roots intact.",
+          "confidence": "low",
+          "status": "draft",
           "sources": [
-            "source-ncsu-adiantum"
+            "source-kstate-maidenhair"
           ]
         },
         {
@@ -1070,20 +1082,22 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "NC State reports few serious genus-level problems; watch for fern caterpillars and remove dead fronds.",
-          "confidence": "medium",
-          "status": "verified",
+          "content": "NC State reports few significant pests or diseases, but fern caterpillar can occur. Sudden wet/dry swings and low humidity commonly stress indoor maidenhair ferns.",
+          "confidence": "low",
+          "status": "draft",
           "sources": [
-            "source-ncsu-adiantum"
+            "source-ncsu-adiantum-raddianum"
           ]
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "In Dhaka’s hot dry season check pots more often and shade from harsh afternoon sun; water less during cool slow growth.",
+          "content": "In Dhaka, protect from direct afternoon sun and keep evenly moist in hot weather; reduce watering only if growth slows, never allowing the root ball to dry.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-ncsu-adiantum-raddianum"
+          ]
         }
       ]
     },
@@ -2258,9 +2272,9 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Dypsis lutescens (areca/butterfly palm) is a clumping tropical palm. UF/IFAS describes it as suited to warm climates and fertile, acidic, well-drained soil; indoors it needs bright filtered light and steady moisture without standing water.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Dypsis lutescens (areca/butterfly palm) forms clumps of yellow-green canes with arching pinnate fronds. UF/IFAS recommends fertile, acidic, well-drained soil.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-dypsis"
           ]
@@ -2268,9 +2282,9 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "A clump of slender yellow-green canes with arching feather-shaped fronds is characteristic of Dypsis lutescens. Frond and cane color vary with light and age.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Identify by multiple golden-yellow cane-like stems and arching feather-shaped fronds; stem color may be less vivid in lower light.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-dypsis"
           ]
@@ -2386,9 +2400,9 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Chamaedorea elegans (parlor palm) is a small indoor palm that tolerates lower light than many palms. NC State recommends bright indirect light, moderate humidity and allowing the mix to dry slightly between waterings.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Chamaedorea elegans is a solitary-stemmed understory palm from southern Mexico and Central America, commonly sold as several seedlings together in one pot.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-chamaedorea"
           ]
@@ -2396,9 +2410,9 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Chamaedorea elegans forms slender cane-like stems with pinnate fronds of narrow leaflets; mature plants may flower and produce small fruits indoors.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Slender cane-like stems carry pinnate fronds of narrow leaflets. Several stems in one pot are usually separate seedlings rather than a clumping plant.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-chamaedorea"
           ]
@@ -2529,9 +2543,9 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Rhapis excelsa has fan-shaped, segmented leaves on slender cane-like stems; it is commonly sold as a clumping potted palm.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Rhapis excelsa forms clumps on underground rhizomes; its fan-shaped leaves are usually divided into five to seven segments with blunt, shredded-looking tips.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-rhapis"
           ]
@@ -2649,9 +2663,9 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Ravenea rivularis (majesty palm) is a tropical palm commonly sold as a container plant. The cited UF/IFAS extension sheet recommends warm, humid conditions and bright indirect light; it may be challenging to maintain indoors.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Ravenea rivularis (majesty palm) is a large tropical evergreen palm often sold as a container houseplant. UF/IFAS recommends bright indirect light, warmth, humidity and moist, well-drained soil.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ifas-ravenea"
           ]
@@ -2659,7 +2673,7 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Look for a single upright trunk with a crown of long, arching pinnate fronds. The catalog name is retained; compare the trunk and fronds with a species guide because young palms can be difficult to distinguish.",
+          "content": "The catalog label is Ravenea rivularis (majesty palm). Compare the plant’s trunk and arching pinnate crown with a mature species reference; young palms can be hard to identify from foliage alone.",
           "confidence": "low",
           "status": "draft",
           "sources": [
@@ -4485,9 +4499,9 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Zinnia elegans has opposite, rough-textured leaves and solitary flower heads on upright stems; cultivar flower forms range from single to double.",
-          "confidence": "low",
-          "status": "draft",
+          "content": "Zinnia elegans is an erect annual with opposite, clasping leaves and large flower heads; cultivar colour and flower form vary.",
+          "confidence": "medium",
+          "status": "verified",
           "sources": [
             "source-ncsu-zinnia"
           ]
