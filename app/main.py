@@ -33,7 +33,8 @@ from app.library import LIBRARY, SOURCE as LIBRARY_SOURCE, care_suggestion
 from app.catalog import CATEGORIES as CATALOG_CATEGORIES, search_catalog
 from app.encyclopedia_db import ENCYCLOPEDIA_DB_PATH, init_encyclopedia_db
 from app.encyclopedia_seed import seed_encyclopedia
-from app.encyclopedia_service import get_problem, get_treatment, list_problems, list_treatments
+from app.encyclopedia_catalog_seed import seed_botanical_catalog
+from app.encyclopedia_service import get_problem, get_treatment, get_taxon, search_taxa, list_problems, list_treatments
 
 BASE = Path(__file__).resolve().parent
 DATA_DIR = Path(os.getenv("PLANTS_DATA_DIR", "/app/data"))
@@ -366,6 +367,7 @@ def startup() -> None:
     try:
         encyclopedia_conn.execute("PRAGMA foreign_keys=ON")
         seed_encyclopedia(encyclopedia_conn)
+        seed_botanical_catalog(encyclopedia_conn)
         encyclopedia_conn.commit()
     finally:
         encyclopedia_conn.close()
@@ -437,7 +439,7 @@ TOKEN_SESSION_ALLOWED = (
     ("GET", re.compile(r"/api/rooms")),
     ("GET", re.compile(r"/api/library")),
     ("GET", re.compile(r"/api/care-suggestion")),
-    ("GET", re.compile(r"/api/encyclopedia/(pests|diseases|treatments)(/[^/]+)?")),
+    ("GET", re.compile(r"/api/encyclopedia/(plants|pests|diseases|treatments)(/[^/]+)?")),
 )
 
 
@@ -1586,6 +1588,23 @@ def catalog(request: Request, q: str = "", category: str = "", limit: int = 500)
     current_user(request)
     plants = search_catalog(q, category, limit)
     return {"categories": CATALOG_CATEGORIES, "total": len(plants), "plants": plants}
+
+
+
+@app.get("/api/encyclopedia/plants")
+def encyclopedia_plants(request: Request, q: str = "", limit: int = 100):
+    current_user(request)
+    items = search_taxa(q=q, limit=limit)
+    return {"total": len(items), "plants": items}
+
+
+@app.get("/api/encyclopedia/plants/{taxon_id}")
+def encyclopedia_plant_detail(taxon_id: str, request: Request):
+    current_user(request)
+    item = get_taxon(taxon_id)
+    if item is None:
+        raise HTTPException(404, "Plant reference profile not found")
+    return item
 
 
 @app.get("/api/encyclopedia/pests")
