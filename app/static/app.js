@@ -186,10 +186,12 @@ async function route() {
   closeModal();
   const hash = location.hash || "#/";
   const m = hash.match(/^#\/plant\/(\d+)/);
-  const tab = m || hash.startsWith("#/plants") ? "plants" : hash.startsWith("#/catalog") ? "catalog" : hash.startsWith("#/settings") ? "settings" : "today";
+  const encyclopediaRoute = hash.startsWith("#/encyclopedia");
+  const tab = m || hash.startsWith("#/plants") ? "plants" : hash.startsWith("#/catalog") ? "catalog" : encyclopediaRoute ? "encyclopedia" : hash.startsWith("#/settings") ? "settings" : "today";
   $$(".tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === tab));
   try {
     if (m) await renderPlant(Number(m[1]));
+    else if (encyclopediaRoute) await renderEncyclopedia(hash);
     else if (tab === "plants") await renderPlants();
     else if (tab === "catalog") await renderCatalog();
     else if (tab === "settings") await renderSettings();
@@ -538,6 +540,28 @@ async function renderCatalog() {
   });
 }
 
+// ---------------------------------------------------------------- encyclopedia
+const encyclopediaKinds = { pests: ["Pests", "pests"], diseases: ["Diseases & disorders", "diseases"], treatments: ["Treatment guides", "treatments"] };
+const encyclopediaState = { query: "" };
+function encStatus(s) { return ({needs_review:"Needs review",reviewed:"Reviewed",verified:"Verified",draft:"Draft"})[s] || s || "Reference"; }
+function encSources(rows) { return rows && rows.length ? '<div class="ency-sources">' + rows.map(s => '<div><a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.title) + '</a><div class="muted">' + esc(s.publisher || s.author || "") + '</div>' + (s.claim ? '<small class="muted">' + esc(s.claim) + '</small>' : "") + '</div>').join("") + "</div>" : '<p class="muted">No references attached yet.</p>'; }
+function encField(label, value) { return value ? '<section class="ency-section"><h3>' + esc(label) + '</h3><p>' + esc(value) + '</p></section>' : ""; }
+function encGuides(rows) { return rows && rows.length ? '<div class="ency-guides">' + rows.map(t => '<article class="ency-guide"><div class="row"><b>' + esc(t.title) + '</b><span class="badge">' + esc(t.treatment_type || "guidance") + '</span></div>' + (t.purpose ? '<p>' + esc(t.purpose) + '</p>' : "") + '<details><summary>View treatment steps and safety</summary>' + encField("Instructions",t.instructions) + encField("Active ingredient or category",t.active_ingredient_or_category) + encField("Safety precautions",t.safety_precautions) + encField("Follow-up",t.follow_up) + '</details></article>').join("") + "</div>" : '<p class="muted">No treatment guide linked yet.</p>'; }
+async function renderEncyclopedia(hash) {
+  const parts = hash.replace(/^#\\/encyclopedia\\/?/, "").split("/").filter(Boolean);
+  const kind = encyclopediaKinds[parts[0]] ? parts[0] : "pests", id = parts[1] || "", cfg = encyclopediaKinds[kind], endpoint = cfg[1];
+  if (id) {
+    const item = await api("/api/encyclopedia/" + endpoint + "/" + encodeURIComponent(id));
+    if (kind === "treatments") {
+      $("#view").innerHTML = '<p><a href="#/encyclopedia/treatments">← Treatment guides</a></p><h1>' + esc(item.title) + '</h1><span class="badge">' + esc(encStatus(item.review_status)) + '</span>' + encField("Purpose",item.purpose) + encField("Instructions",item.instructions) + encField("Active ingredient or category",item.active_ingredient_or_category) + encField("Safety precautions",item.safety_precautions) + encField("Follow-up",item.follow_up) + '<section class="card settings-section"><h2>References</h2>' + encSources(item.sources) + '</section><p class="hint">Use only products labelled for the intended plant, target and setting. Follow the complete label and local regulations.</p>'; return;
+    }
+    const pest = kind === "pests", title = item.common_name;
+    $("#view").innerHTML = '<p><a href="#/encyclopedia/' + kind + '">← ' + esc(cfg[0]) + '</a></p><div class="ency-detail-head"><div><span class="badge">' + esc(encStatus(item.review_status)) + '</span><h1>' + esc(title) + '</h1><p class="muted">' + esc(pest ? item.scientific_name : item.causal_agent || "") + '</p></div><span class="ency-symbol">' + (pest ? "🐛" : "🌿") + '</span></div>' + encField("Overview",item.description) + encField("Appearance",item.appearance) + encField("Common symptoms",item.symptoms) + encField("Diagnostic clues",item.distinguishing_signs) + encField(pest ? "Life cycle" : "Conditions that favour it",pest ? item.life_cycle : item.conditions_favouring) + encField("Prevention",item.prevention) + '<section class="card settings-section"><h2>General treatment guidance</h2><p class="muted">Confirm the cause first; these are general options, not a diagnosis.</p>' + encGuides(item.treatments) + '</section><section class="card settings-section"><h2>References</h2>' + encSources(item.sources) + '</section><p class="hint">Reference information only. It is not a confirmed diagnosis of an individual plant.</p>'; return;
+  }
+  const params = new URLSearchParams({q:encyclopediaState.query,limit:"100"}), items = await api("/api/encyclopedia/" + endpoint + "?" + params);
+  $("#view").innerHTML = '<div class="pagehead"><div><h1>Plant encyclopedia</h1><p class="muted">A shared reference library, separate from your personal plant collection.</p></div></div><div class="ency-nav">' + Object.keys(encyclopediaKinds).map(k => '<a class="chip ' + (kind === k ? "active" : "") + '" href="#/encyclopedia/' + k + '">' + esc(encyclopediaKinds[k][0]) + '</a>').join("") + '</div><p class="muted">' + (kind === "pests" ? "Identify common pests from their appearance and feeding signs." : kind === "diseases" ? "Compare symptoms and diagnostic clues; similar symptoms can have different causes." : "General integrated pest-management guidance. Confirm the cause before treatment.") + '</p><div class="toolbar"><input type="search" id="ency-search" placeholder="Search ' + esc(cfg[0].toLowerCase()) + '" value="' + esc(encyclopediaState.query) + '" aria-label="Search encyclopedia"></div><div class="ency-grid">' + (items.length ? items.map(item => { const name = kind === "treatments" ? item.title : item.common_name, sub = kind === "pests" ? item.scientific_name : kind === "diseases" ? item.causal_agent : item.treatment_type, summary = kind === "treatments" ? item.purpose : item.description || item.symptoms; return '<a class="ency-card" href="#/encyclopedia/' + kind + '/' + encodeURIComponent(item.id) + '"><div><span class="badge">' + esc(encStatus(item.review_status)) + '</span> <span class="muted">' + esc(sub || "") + '</span></div><h2>' + esc(name) + '</h2><p>' + esc(summary || "Open this entry for details.") + '</p><span class="ency-open">View details →</span></a>'; }).join("") : '<div class="card empty">No entries found. Try another search.</div>') + '</div>';
+  $("#ency-search").oninput = e => { encyclopediaState.query = e.target.value; clearTimeout(renderEncyclopedia.timer); renderEncyclopedia.timer = setTimeout(() => renderEncyclopedia(location.hash).catch(fail),220); };
+}
 // ---------------------------------------------------------------- plant detail
 
 async function renderPlant(id) {
