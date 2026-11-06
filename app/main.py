@@ -31,6 +31,9 @@ from pydantic import BaseModel, Field, field_validator
 
 from app.library import LIBRARY, SOURCE as LIBRARY_SOURCE, care_suggestion
 from app.catalog import CATEGORIES as CATALOG_CATEGORIES, search_catalog
+from app.encyclopedia_db import ENCYCLOPEDIA_DB_PATH, init_encyclopedia_db
+from app.encyclopedia_seed import seed_encyclopedia
+from app.encyclopedia_service import get_problem, get_treatment, list_problems, list_treatments
 
 BASE = Path(__file__).resolve().parent
 DATA_DIR = Path(os.getenv("PLANTS_DATA_DIR", "/app/data"))
@@ -356,6 +359,16 @@ def seed_example(c) -> None:
 @app.on_event("startup")
 def startup() -> None:
     init_db()
+    # Shared reference content lives in a separate database; never migrate or
+    # rewrite the user's personal plants.db while initializing the encyclopedia.
+    init_encyclopedia_db()
+    encyclopedia_conn = sqlite3.connect(ENCYCLOPEDIA_DB_PATH)
+    try:
+        encyclopedia_conn.execute("PRAGMA foreign_keys=ON")
+        seed_encyclopedia(encyclopedia_conn)
+        encyclopedia_conn.commit()
+    finally:
+        encyclopedia_conn.close()
     problem = vapid_problem()
     if problem and problem != "not set":
         print(f"browser push disabled: {problem}")
@@ -1572,6 +1585,56 @@ def catalog(request: Request, q: str = "", category: str = "", limit: int = 500)
     current_user(request)
     plants = search_catalog(q, category, limit)
     return {"categories": CATALOG_CATEGORIES, "total": len(plants), "plants": plants}
+
+
+@app.get("/api/encyclopedia/pests")
+def encyclopedia_pests(request: Request, q: str = "", limit: int = 50):
+    """Search shared pest profiles. Reference data is read-only through this API."""
+    current_user(request)
+    items = list_problems("pests", q=q, limit=limit)
+    return {"total": len(items), "pests": items}
+
+
+@app.get("/api/encyclopedia/pests/{pest_id}")
+def encyclopedia_pest_detail(pest_id: str, request: Request):
+    current_user(request)
+    item = get_problem("pests", pest_id)
+    if item is None:
+        raise HTTPException(404, "Pest profile not found")
+    return item
+
+
+@app.get("/api/encyclopedia/diseases")
+def encyclopedia_diseases(request: Request, q: str = "", limit: int = 50):
+    """Search shared disease profiles; symptom groups are not a confirmed diagnosis."""
+    current_user(request)
+    items = list_problems("diseases", q=q, limit=limit)
+    return {"total": len(items), "diseases": items}
+
+
+@app.get("/api/encyclopedia/diseases/{disease_id}")
+def encyclopedia_disease_detail(disease_id: str, request: Request):
+    current_user(request)
+    item = get_problem("diseases", disease_id)
+    if item is None:
+        raise HTTPException(404, "Disease profile not found")
+    return item
+
+
+@app.get("/api/encyclopedia/treatments")
+def encyclopedia_treatments(request: Request, q: str = "", limit: int = 50):
+    current_user(request)
+    items = list_treatments(q=q, limit=limit)
+    return {"total": len(items), "treatments": items}
+
+
+@app.get("/api/encyclopedia/treatments/{treatment_id}")
+def encyclopedia_treatment_detail(treatment_id: str, request: Request):
+    current_user(request)
+    item = get_treatment(treatment_id)
+    if item is None:
+        raise HTTPException(404, "Treatment guide not found")
+    return item
 
 
 # ---------------------------------------------------------------- photo identification (Pl@ntNet)
