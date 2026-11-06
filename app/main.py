@@ -437,6 +437,7 @@ TOKEN_SESSION_ALLOWED = (
     ("GET", re.compile(r"/api/rooms")),
     ("GET", re.compile(r"/api/library")),
     ("GET", re.compile(r"/api/care-suggestion")),
+    ("GET", re.compile(r"/api/encyclopedia/(pests|diseases|treatments)(/[^/]+)?")),
 )
 
 
