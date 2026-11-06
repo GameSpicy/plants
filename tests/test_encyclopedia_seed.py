@@ -139,10 +139,10 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert pothos is not None
     sections = {item["section_key"]: item for item in pothos["profile_sections"]}
     assert {"light", "watering", "soil", "temperature", "humidity", "toxicity"} <= set(sections)
-    assert all(item["review_status"] == "needs_review" for item in sections.values())
-    assert all(item["confidence"] == "low" for item in sections.values())
+    assert all(sections[key]["review_status"] == "verified" for key in ("light", "watering", "soil", "temperature", "humidity", "toxicity"))
+    assert sections["toxicity"]["confidence"] == "high"
     assert any(source["id"] == "source-rhs-houseplants" for source in sections["light"]["sources"])
-    assert sections["toxicity"]["sources"] == []
+    assert any(source["id"] == "source-nparks-epipremnum" for source in sections["toxicity"]["sources"])
     overview_sources = {source["id"] for source in sections["overview"]["sources"]}
     assert "source-kew-epipremnum" in overview_sources
     assert sections["overview"]["review_status"] == "verified"
@@ -174,7 +174,7 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert section(satin, "identification")["review_status"] == "needs_review"
     assert "node" in section(monstera, "propagation")["content"]
     assert "marginal splits" in section(adansonii, "identification")["content"]
-    assert "different genus" in section(rhaphidophora, "identification")["content"]
+    assert "does not make it a Monstera" in section(rhaphidophora, "identification")["content"]
     assert section(brasil, "identification")["review_status"] == "verified"
     assert section(birkin, "overview")["review_status"] == "needs_review"
     assert section(gloriosum, "light")["review_status"] == "needs_review"
@@ -227,15 +227,33 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert all(profile is not None and len(profile["profile_sections"]) >= 13 for profile in batch_051_100)
     def section(profile, key):
         return next(item for item in profile["profile_sections"] if item["section_key"] == key)
-    assert "silver" in section(batch_051_100[0], "identification")["content"].lower()
-    assert "purple" in section(batch_051_100[1], "identification")["content"].lower()
+    assert section(batch_051_100[0], "identification")["review_status"] == "needs_review"
+    assert "genus-level" in section(batch_051_100[0], "identification")["content"]
+    assert section(batch_051_100[1], "identification")["review_status"] == "needs_review"
     assert section(batch_051_100[11], "overview")["review_status"] == "verified"  # Fittonia
     assert section(batch_051_100[22], "overview")["review_status"] == "verified"  # Hibiscus
     assert section(batch_051_100[26], "overview")["review_status"] == "verified"  # Gardenia
     assert section(batch_051_100[27], "overview")["review_status"] == "verified"  # Jasmine genus evidence
     assert section(batch_051_100[41], "overview")["review_status"] == "verified"  # Oleander
     assert section(batch_051_100[41], "toxicity")["review_status"] == "verified"
-    assert all(section(profile, "watering")["review_status"] == "needs_review" for profile in batch_051_100)
+    assert section(batch_051_100[9], "watering")["review_status"] == "verified"  # Asparagus densiflorus
+    assert section(batch_051_100[11], "watering")["review_status"] == "verified"  # Fittonia
+    assert section(batch_051_100[29], "watering")["review_status"] == "verified"  # Adenium obesum
+    assert section(batch_051_100[41], "toxicity")["review_status"] == "verified"  # Oleander
+    assert "smoke" in section(batch_051_100[41], "toxicity")["content"]
+    assert "vinca alkaloids" in section(batch_051_100[31], "toxicity")["content"]
+    assert section(batch_051_100[43], "toxicity")["review_status"] == "needs_review"  # Jatropha integerrima, not J. podagrica
+    assert section(batch_051_100[43], "toxicity")["sources"] == []
+    assert any(src["id"] == "source-aspca-areca-palm" for src in section(batch_051_100[17], "toxicity")["sources"])
+    assert any(src["id"] == "source-aspca-parlor-palm" for src in section(batch_051_100[18], "toxicity")["sources"])
+    assert any(src["id"] == "source-ncsu-asparagus-setaceus" for src in section(batch_051_100[10], "toxicity")["sources"])
+    # Every batch citation resolves to a registered source; unsupported generic guides
+    # are not attached as evidence for individual species.
+    registered_source_ids = {row[0] for row in conn.execute("SELECT id FROM sources")}
+    for profile in batch_051_100:
+        assert len({item["section_key"] for item in profile["profile_sections"]}) == 13
+        for item in profile["profile_sections"]:
+            assert all(source["id"] in registered_source_ids for source in item["sources"])
     assert any(src["id"] == "source-ncsu-tradescantia" for src in section(batch_051_100[0], "overview")["sources"])
 
     assert len(pothos["media"]) == 3

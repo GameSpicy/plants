@@ -99,7 +99,7 @@ def list_treatments(q: str = "", limit: int = 50, path=None) -> list[dict[str, A
         args: list[Any] = []
         if q.strip():
             where += " AND (title LIKE ? OR purpose LIKE ? OR instructions LIKE ?)"
-            args.extend([f"%{q.strip()}%"] * 5)
+            args.extend([f"%{q.strip()}%"] * 3)
         rows = conn.execute(
             f"SELECT * FROM treatments WHERE {where} ORDER BY title COLLATE NOCASE LIMIT ?",
             (*args, max(1, min(int(limit), 100))),

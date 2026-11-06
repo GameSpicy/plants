@@ -60,7 +60,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "A trailing Tradescantia with banded foliage; NC State describes the species as fast-growing and readily propagated from stem cuttings.",
+          "content": "NC State describes Tradescantia as a trailing, fast-growing genus readily propagated by stem cuttings. This genus-level description is not a substitute for a species account of T. zebrina.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
@@ -70,9 +70,9 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Trailing stems and opposite leaves with green/silver striping and purple undersides; small pink-purple flowers may appear.",
-          "confidence": "medium",
-          "status": "verified",
+          "content": "The catalog names Tradescantia zebrina. The linked NC State source is genus-level; its species-specific leaf pattern and flower details still need confirmation.",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ncsu-tradescantia"
           ]
@@ -172,9 +172,9 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "A clumping rosette-forming Tradescantia with dark green leaves and purple undersides; avoid confusing it with trailing Tradescantia species.",
-          "confidence": "medium",
-          "status": "verified",
+          "content": "Tradescantia spathacea forms a compact rosette rather than the trailing habit of T. zebrina. The current linked NC State reference is genus-level and does not independently establish this species description.",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ncsu-tradescantia"
           ]
@@ -182,9 +182,9 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Forms a compact rosette of stiff, lance-shaped leaves, green above and purple beneath; small white flowers sit within boat-like purple bracts.",
-          "confidence": "medium",
-          "status": "verified",
+          "content": "Species-level diagnostic traits for Tradescantia spathacea are not established by the linked genus-level source; retain identification review until a species account is attached.",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ncsu-tradescantia"
           ]
@@ -284,22 +284,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Syngonium (Syngonium podophyllum) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Syngonium podophyllum as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -396,22 +392,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Arrowhead vine (Syngonium podophyllum) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Syngonium podophyllum as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -508,22 +500,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Boston fern (Nephrolepis exaltata) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Nephrolepis exaltata as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -592,10 +580,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
+          "content": "ASPCA lists the Boston fern entry (Nephrolepis exaltata bostoniensis) as non-toxic to cats and dogs. This supports only the listed pet species and Boston fern form; it is not evidence of human safety or of safety for other ferns.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-aspca-boston-fern"
+          ]
         },
         {
           "key": "common_problems",
@@ -620,22 +610,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Bird nest fern (Asplenium nidus) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Asplenium nidus as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -732,22 +718,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Blue star fern (Phlebodium aureum) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Phlebodium aureum as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -844,22 +826,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Maidenhair fern (Adiantum raddianum) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Adiantum raddianum as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -956,22 +934,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Staghorn fern (Platycerium bifurcatum) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Platycerium bifurcatum as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -1068,38 +1042,42 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Foxtail fern (Asparagus densiflorus) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
+          "content": "Asparagus densiflorus is not a true fern: it is an arching, fern-like member of Asparagaceae. NC State describes its red berries and indoor growth habit.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-houseplant-container"
+            "source-ncsu-asparagus-densiflorus"
           ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Asparagus densiflorus as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
+          "content": "Asparagus densiflorus has scale-like true leaves and flattened, needle-like cladodes in clusters; red berries may form.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-houseplant-container"
+            "source-ncsu-asparagus-densiflorus"
           ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State notes that Asparagus densiflorus tolerates shade and that afternoon sun in warmer climates may yellow foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asparagus-densiflorus"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State describes regular watering from spring through autumn and sparing watering in winter for Asparagus densiflorus; it does not tolerate wet soils.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asparagus-densiflorus"
+          ]
         },
         {
           "key": "soil",
@@ -1136,10 +1114,12 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Pinch stem tips to maintain height and encourage a denser Asparagus densiflorus form; NC State notes it can be cut to soil level to regenerate.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asparagus-densiflorus"
+          ]
         },
         {
           "key": "propagation",
@@ -1152,10 +1132,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
+          "content": "NC State reports irritation from sap and gastrointestinal upset if berries are eaten for Asparagus densiflorus. Prevent ingestion and wear gloves when handling; cultivar/group identity can affect applicability.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-asparagus-densiflorus"
+          ]
         },
         {
           "key": "common_problems",
@@ -1180,21 +1162,21 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Asparagus fern (Asparagus setaceus) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
+          "content": "Asparagus setaceus is not a true fern; its fine, feathery foliage belongs to the asparagus family (Asparagaceae). NC State reports a native range from Ethiopia to South Africa.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-houseplant-container"
+            "source-ncsu-asparagus-setaceus"
           ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Asparagus setaceus as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
+          "content": "Asparagus setaceus has delicate, feathery branchlets and small scale-like leaves; it may produce berries. The common name fern describes appearance, not taxonomy.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-houseplant-container"
+            "source-ncsu-asparagus-setaceus"
           ]
         },
         {
@@ -1264,10 +1246,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State reports that Asparagus setaceus berries can cause abdominal pain, vomiting and diarrhea if eaten, and sap may irritate skin. Keep berries away from children and pets; wear gloves when pruning.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-asparagus-setaceus"
+          ]
         },
         {
           "key": "common_problems",
@@ -1312,26 +1296,32 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "RHS recommends filtered light for Fittonia; protect leaves from harsh direct sun. This is species-level guidance shared by the two catalog names.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Keep the Fittonia growing medium moist but well drained; avoid letting the root ball dry completely or remain waterlogged.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a moisture-retentive but well-drained growing medium for Fittonia.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "temperature",
@@ -1344,10 +1334,12 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Humidity requirements and tolerance of stagnant air need species-level confirmation. Prioritize airflow and avoid keeping foliage wet for long periods.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "RHS identifies high humidity as beneficial for Fittonia. Maintain airflow and avoid prolonged leaf wetness.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "fertilizing",
@@ -1424,26 +1416,32 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "RHS recommends filtered light for Fittonia; protect leaves from harsh direct sun. This is species-level guidance shared by the two catalog names.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Keep the Fittonia growing medium moist but well drained; avoid letting the root ball dry completely or remain waterlogged.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a moisture-retentive but well-drained growing medium for Fittonia.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "temperature",
@@ -1456,10 +1454,12 @@
         {
           "key": "humidity",
           "title": "Humidity",
-          "content": "Humidity requirements and tolerance of stagnant air need species-level confirmation. Prioritize airflow and avoid keeping foliage wet for long periods.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "RHS identifies high humidity as beneficial for Fittonia. Maintain airflow and avoid prolonged leaf wetness.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-fittonia"
+          ]
         },
         {
           "key": "fertilizing",
@@ -1516,22 +1516,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Pilea peperomioides (Pilea peperomioides) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Pilea peperomioides as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -1628,22 +1624,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Chinese money plant (Pilea peperomioides) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Pilea peperomioides as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -1740,22 +1732,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Cast iron plant (Aspidistra elatior) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Aspidistra elatior as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -1852,22 +1840,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Bird of paradise (Strelitzia reginae) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Strelitzia reginae as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -1964,22 +1948,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Areca palm (Dypsis lutescens) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Dypsis lutescens as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -2048,10 +2028,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "ASPCA lists Dypsis lutescens (areca palm) as non-toxic to dogs, cats and horses. This is a pet-specific listing, not a human-safety assessment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-aspca-areca-palm"
+          ]
         },
         {
           "key": "common_problems",
@@ -2076,22 +2058,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Parlor palm (Chamaedorea elegans) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Chamaedorea elegans as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -2160,10 +2138,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "ASPCA lists Chamaedorea elegans (parlor palm) as non-toxic to dogs and cats. This is a pet-specific listing, not a human-safety assessment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-aspca-parlor-palm"
+          ]
         },
         {
           "key": "common_problems",
@@ -2188,22 +2168,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Lady palm (Rhapis excelsa) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Rhapis excelsa as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -2300,22 +2276,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Majesty palm (Ravenea rivularis) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Ravenea rivularis as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -2412,22 +2384,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Ponytail palm (Beaucarnea recurvata) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Beaucarnea recurvata as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-houseplant-container"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -2544,10 +2512,12 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Smithsonian Gardens recommends a bright position for tropical Hibiscus rosa-sinensis; provide strong light and acclimate container plants to direct sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-smithsonian-hibiscus"
+          ]
         },
         {
           "key": "watering",
@@ -2592,10 +2562,12 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "For Hibiscus rosa-sinensis, prune to shape during active growth; it flowers on new growth. Avoid severe pruning when a near-term display is wanted.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-smithsonian-hibiscus"
+          ]
         },
         {
           "key": "propagation",
@@ -2624,10 +2596,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Dhaka note: adjust watering to actual pot moisture and rainfall, protect from extreme afternoon heat where needed, and prioritize fast drainage during monsoon weather. Species-specific seasonal thresholds remain unverified.",
+          "content": "The cited tropical hibiscus guidance is not a Dhaka seasonal calendar. Adjust watering to observed pot moisture and rainfall; local heat and monsoon thresholds remain unverified.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-smithsonian-hibiscus"
+          ]
         }
       ]
     },
@@ -2656,10 +2630,12 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Smithsonian Gardens recommends a bright position for tropical Hibiscus rosa-sinensis; provide strong light and acclimate container plants to direct sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-smithsonian-hibiscus"
+          ]
         },
         {
           "key": "watering",
@@ -2704,10 +2680,12 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "For Hibiscus rosa-sinensis, prune to shape during active growth; it flowers on new growth. Avoid severe pruning when a near-term display is wanted.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-smithsonian-hibiscus"
+          ]
         },
         {
           "key": "propagation",
@@ -2736,10 +2714,12 @@
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
-          "content": "Dhaka note: adjust watering to actual pot moisture and rainfall, protect from extreme afternoon heat where needed, and prioritize fast drainage during monsoon weather. Species-specific seasonal thresholds remain unverified.",
+          "content": "The cited tropical hibiscus guidance is not a Dhaka seasonal calendar. Adjust watering to observed pot moisture and rainfall; local heat and monsoon thresholds remain unverified.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-smithsonian-hibiscus"
+          ]
         }
       ]
     },
@@ -2748,22 +2728,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Ixora (Ixora coccinea) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Ixora coccinea as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -3304,42 +3280,52 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Desert rose (Adenium obesum) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Adenium obesum is a drought-tolerant succulent shrub with a swollen caudex, native to Africa and the Arabian Peninsula. NC State reports a slow growth rate and summer flowering.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Adenium obesum as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Adenium obesum has a thick gray-green caudex, glossy leaves near branch tips, showy five-lobed flowers and paired pod-like follicles. Flower colours and forms vary among cultivars.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Grow Adenium obesum in full sun; acclimate a sheltered container plant gradually when moving it outdoors.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Let the succulent growing medium dry between waterings. Water during active growth; reduce watering during dormancy. Excessively wet soil can cause rot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a cactus/succulent medium and a pot with multiple drainage holes. NC State specifies good drainage for Adenium obesum.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "temperature",
@@ -3376,26 +3362,32 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists seed, stem cuttings and grafting for Adenium obesum; success and retention of cultivar traits vary by method.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State reports cardiac glycosides and poisonous plant parts throughout Adenium obesum; ingestion can cause gastrointestinal and cardiac effects, and milky sap may cause contact dermatitis. Wear gloves when pruning and keep the plant away from children and pets.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State notes that persistently wet soil can cause rot; aphids, scale, mealybugs and occasional fungal leaf spot are reported. Confirm the cause before treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-adenium"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -3412,22 +3404,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Pentas (Pentas lanceolata) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Pentas lanceolata as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -3524,30 +3512,32 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Periwinkle (Catharanthus roseus) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
+          "content": "Catharanthus roseus (Madagascar periwinkle) is a tender, spreading evergreen perennial native to Madagascar, commonly grown as a bedding annual outside warm climates. NC State reports flowering through summer until frost.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-annual-ornamentals"
+            "source-ncsu-catharanthus"
           ]
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Catharanthus roseus as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
+          "content": "Catharanthus roseus has glossy opposite leaves with a pale midrib and five-lobed salverform flowers, often with a contrasting eye; paired slender follicles form after flowering.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-annual-ornamentals"
+            "source-ncsu-catharanthus"
           ]
         },
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists full sun through partial or dappled shade for Catharanthus roseus. In hot container settings, acclimate gradually and monitor wilting.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-catharanthus"
+          ]
         },
         {
           "key": "watering",
@@ -3560,10 +3550,12 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Use a well-drained medium; NC State notes the species prefers acidic soil but tolerates a range of soils when drainage is good.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-catharanthus"
+          ]
         },
         {
           "key": "temperature",
@@ -3600,26 +3592,32 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists seed propagation for Catharanthus roseus. Cultivar-specific seed fidelity is not established by this source.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-catharanthus"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State identifies vinca alkaloids and reports that ingestion of large quantities of Catharanthus roseus can cause serious systemic effects. The source lists flowers, fruit, leaves, roots, seeds and stems as poisonous parts. Keep away from children and pets; do not use medicinally.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-catharanthus"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
+          "content": "NC State notes disease resistance varies among Catharanthus cultivars; do not transfer cultivar-specific resistance claims to this unspecified catalog entry. Verify symptoms before treatment.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-catharanthus"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -3636,22 +3634,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Marigold (Tagetes erecta) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Tagetes erecta as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -3748,22 +3742,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "French marigold (Tagetes patula) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Tagetes patula as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -3860,22 +3850,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Zinnia (Zinnia elegans) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Zinnia elegans as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -3972,22 +3958,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Cosmos (Cosmos bipinnatus) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Cosmos bipinnatus as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -4084,22 +4066,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Sunflower (Helianthus annuus) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Helianthus annuus as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -4196,22 +4174,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Celosia (Celosia argentea) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Celosia argentea as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -4308,22 +4282,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Crossandra (Crossandra infundibuliformis) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Crossandra infundibuliformis as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -4420,22 +4390,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Crape jasmine (Tabernaemontana divaricata) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Tabernaemontana divaricata as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -4532,22 +4498,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Chandni (Tabernaemontana divaricata) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Tabernaemontana divaricata as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -4672,10 +4634,12 @@
         {
           "key": "watering",
           "title": "Watering",
-          "content": "Do not use a fixed calendar interval. Check the root zone and water according to this species' moisture preference; prevent prolonged saturation.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State describes Nerium oleander as drought tolerant once established and adaptable to moist or occasionally dry, well-drained soils. For a container, water according to root-zone drying and prevent prolonged saturation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-oleander"
+          ]
         },
         {
           "key": "soil",
@@ -4712,24 +4676,28 @@
         {
           "key": "pruning",
           "title": "Pruning",
-          "content": "Pruning timing and response vary by growth habit and flowering cycle. Remove dead or damaged material with clean tools; verify timing before shaping.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State recommends light shaping after flowering and removing winter-damaged wood after cold weather. Wear gloves; collect and dispose of all clippings safely because every part is poisonous.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-oleander"
+          ]
         },
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists seed and stem cuttings for Nerium oleander. Handle cuttings with gloves and contain all toxic sap and debris.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-oleander"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "NC State Extension classifies oleander as highly poisonous. All plant parts, including leaves, flowers, stems, sap, roots and seeds, can be dangerous if eaten; do not ingest or burn the plant. Wear gloves when pruning and keep cut material away from children and animals.",
-          "confidence": "medium",
+          "content": "Nerium oleander is highly poisonous in every listed plant part, fresh or dry. NC State identifies cardiac glycosides and warns that ingestion can be fatal; smoke from burning prunings is injurious. Wear gloves, bag prunings, never burn them, and keep all parts away from children and animals.",
+          "confidence": "high",
           "status": "verified",
           "sources": [
             "source-ncsu-oleander"
@@ -4758,7 +4726,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "A fast-growing flowering shrub with clustered blooms; lantana can be toxic and may become invasive in suitable climates.",
+          "content": "NC State describes Lantana camara as a fast-growing, sprawling woody shrub with multicoloured flower clusters; in warm climates it may persist as a perennial.",
           "confidence": "medium",
           "status": "verified",
           "sources": [
@@ -4778,10 +4746,12 @@
         {
           "key": "light",
           "title": "Light",
-          "content": "Species-specific light intensity and direct-sun tolerance require confirmation. Acclimate gradually and watch for scorch or loss of colour.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "Lantana camara prefers full sun, according to NC State Extension.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-lantana"
+          ]
         },
         {
           "key": "watering",
@@ -4794,10 +4764,12 @@
         {
           "key": "soil",
           "title": "Soil and drainage",
-          "content": "Use a structurally stable medium suited to this species and a container with open drainage. Do not allow the pot to stand in collected water.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State recommends moist, well-drained soil for Lantana camara and notes tolerance of poorer soils and drought. Do not keep a container waterlogged.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-lantana"
+          ]
         },
         {
           "key": "temperature",
@@ -4834,26 +4806,32 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State lists seed, division and stem cuttings for Lantana camara. The source does not establish cultivar fidelity; retain cultivar-specific propagation details for review.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-lantana"
+          ]
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
+          "content": "NC State reports livestock toxicity and minor skin irritation from leaves and unripe green berries in Lantana camara. Human and household-pet exposure details are not fully characterized by this source; retain review status and prevent ingestion.",
           "confidence": "low",
           "status": "needs_review",
-          "sources": []
+          "sources": [
+            "source-ncsu-lantana"
+          ]
         },
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State reports whiteflies and spider mites on lantana kept indoors over winter; it also notes invasive behavior in some tropical regions. Inspect plants and contain berries where spread is a concern.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-lantana"
+          ]
         },
         {
           "key": "seasonal_care",
@@ -4870,7 +4848,7 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Jatropha (Jatropha integerrima) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
+          "content": "The catalog identifies Jatropha integerrima. The previously attached Jatropha podagrica reference does not support claims for this species; retain species-specific description and care for review.",
           "confidence": "low",
           "status": "needs_review",
           "sources": []
@@ -4878,7 +4856,7 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Jatropha integerrima as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
+          "content": "Jatropha integerrima must not be described using Jatropha podagrica traits. A species-specific diagnostic source is still needed.",
           "confidence": "low",
           "status": "needs_review",
           "sources": []
@@ -4942,7 +4920,7 @@
         {
           "key": "propagation",
           "title": "Propagation",
-          "content": "Propagation method and success conditions need species-specific confirmation. Do not assume that stem cuttings, division or seed are interchangeable.",
+          "content": "Propagation guidance for Jatropha integerrima needs a species-specific source; do not transfer J. podagrica methods or capsule behavior without evidence.",
           "confidence": "low",
           "status": "needs_review",
           "sources": []
@@ -4950,7 +4928,7 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
+          "content": "Toxicity and safe handling for Jatropha integerrima have not been established by an appropriate species-specific source in this batch. Treat as unknown and prevent access until reviewed.",
           "confidence": "low",
           "status": "needs_review",
           "sources": []
@@ -4958,7 +4936,7 @@
         {
           "key": "common_problems",
           "title": "Common problems",
-          "content": "Pest, disease and abiotic-stress susceptibility has not been confirmed for this taxon. Diagnose before recommending a treatment.",
+          "content": "Species-specific pest and disease susceptibility for Jatropha integerrima remains unverified. Diagnose before treatment.",
           "confidence": "low",
           "status": "needs_review",
           "sources": []
@@ -4978,22 +4956,18 @@
         {
           "key": "overview",
           "title": "Overview",
-          "content": "Canna lily (Canna indica) is included in the catalog. A species-specific horticultural profile is being developed; the remaining care recommendations are intentionally left for source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Use the botanical name Canna indica as the catalog identification. Detailed diagnostic traits and cultivar distinctions require a species-specific source review.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-annual-ornamentals"
-          ]
+          "content": "The catalog identifies this entry as the listed taxon; species-specific descriptive evidence has not yet been linked. Keep detailed habit and diagnostic traits under review.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",

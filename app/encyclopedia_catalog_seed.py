@@ -160,9 +160,15 @@ SOURCES = [
  ("source-ncsu-jasmine","Jasminum — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/jasminum/","extension","Jasmine genus-level habit, light, soil, pruning and common problems; species differ."),
  ("source-ncsu-lantana","Lantana camara — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/lantana-camara/","extension","Species-level identification, cultivation, pest issues and toxicity."),
  ("source-ncsu-oleander","Nerium oleander — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/nerium-oleander/","extension","Species-level identification, cultivation and high-severity toxicity."),
+ ("source-ncsu-adenium","Adenium obesum — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/adenium-obesum/","extension","Species-level succulent care, propagation, pests and cardiac-glycoside toxicity."),
+ ("source-ncsu-catharanthus","Catharanthus roseus — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/catharanthus-roseus/","extension","Species-level culture, identification, pests and vinca-alkaloid toxicity."),
+ ("source-ncsu-asparagus-densiflorus","Asparagus densiflorus — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/asparagus-densiflorus-sprengeri-group/common-name/asparagus/","extension","Species/group-level habit, indoor culture, pest issues and toxicity; cultivar differences may apply."),
+ ("source-ncsu-asparagus-setaceus","Asparagus setaceus — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/asparagus-setaceus/common-name/feathered-asparagus-fern/","extension","Species-level identification and berry/sap toxicity."),
+ ("source-aspca-areca-palm","Areca palm — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/areca-palm","toxicology","Lists Dypsis lutescens as non-toxic to dogs, cats and horses; does not establish human safety."),
+ ("source-aspca-parlor-palm","Parlor palm — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/parlor-palm","toxicology","Lists Chamaedorea elegans as non-toxic to dogs and cats; does not establish human safety."),
+ ("source-aspca-boston-fern","Boston fern — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/boston-fern","toxicology","Lists Nephrolepis exaltata bostoniensis as non-toxic to cats and dogs; does not establish safety for humans or other fern taxa."),
  ("source-ncsu-annual-ornamentals","Herbaceous Ornamentals — Extension Gardener Handbook","North Carolina State Extension","https://content.ces.ncsu.edu/extension-gardener-handbook/10-herbaceous-ornamentals","extension","General annual-flower pruning and cultivation context; not a substitute for species-specific care."),
- ("source-ncsu-houseplant-container","Plants Grown in Containers — Extension Gardener Handbook","North Carolina State Extension","https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers","extension","Container selection and broad plant-group context only; not species-specific care.")
-
+ ("source-ncsu-houseplant-container","Plants Grown in Containers — Extension Gardener Handbook","North Carolina State Extension","https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers","extension","Container selection and broad plant-group context only; not species-specific care."),
  ("source-rhs-houseplants","How to grow houseplants","Royal Horticultural Society","https://www.rhs.org.uk/plants/types/houseplants/growing-guide","horticultural_society",""),
  ("source-powo","Plants of the World Online","Royal Botanic Gardens, Kew","https://powo.science.kew.org/","taxonomic_backbone","Accepted names and synonymy checked for the individually cited records only."),
  ("source-rhs-feeding","How to feed plants","Royal Horticultural Society","https://www.rhs.org.uk/garden-jobs/nutrition-feeding-plants","horticultural_society",""),
@@ -179,8 +185,7 @@ SOURCES = [
  ("source-clemson-pothos","How to Grow Pothos Indoors","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/","extension","Indoor growing guidance; review the source's geographic context."),
  ("source-nybg-pothos","Pothos (Epipremnum aureum)","New York Botanical Garden","https://libguides.nybg.org/pothos","botanical_garden","Light, watering and humidity context."),
  ("source-nparks-epipremnum","Epipremnum aureum","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/3/1390","government_botanical_database","Plant features, propagation and ingestion/sap hazard."),
- ("source-ufifas-cultivars","New Florida Foliage Plant Cultivar: Pothos ‘Pearls and Jade’","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/EP441/pdf","extension","Cultivar descriptions for common pothos selections.")
-
+ ("source-ufifas-cultivars","New Florida Foliage Plant Cultivar: Pothos ‘Pearls and Jade’","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/EP441/pdf","extension","Cultivar descriptions for common pothos selections."),
  ("source-nparks-scindapsus","Scindapsus pictus","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/6/0/6027","government_botanical_database","Plant features, habitat and cultivation."),
  ("source-rhs-scindapsus","Scindapsus pictus","Royal Horticultural Society","https://www.rhs.org.uk/plants/93929/scindapsus-pictus-v/details","horticultural_society","Native range, cultivation and propagation."),
  ("source-ncsu-scindapsus","Silver Pothos — Scindapsus pictus","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/scindapsus-pictus/common-name/silver-pothos/","extension","Identification and cultivar names."),
@@ -193,8 +198,7 @@ SOURCES = [
  ("source-uconn-philodendron","Philodendron","University of Connecticut Extension","https://homegarden.cahnr.uconn.edu/FactSheets/philodendron/","extension","Genus-level care and cultivar Brasil identification."),
  ("source-ncsu-birkin","Philodendron 'Birkin'","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-birkin/","extension","Cultivar appearance and growing problems."),
  ("source-nparks-pink-princess","Philodendron 'Pink Princess'","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/8/5/8541","government_botanical_database","Cultivar identification, care, propagation and hazard."),
- ("source-nparks-erubescens","Philodendron erubescens","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/4/1475","government_botanical_database","Parent species growth form and native distribution.")
-
+ ("source-nparks-erubescens","Philodendron erubescens","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/4/1475","government_botanical_database","Parent species growth form and native distribution."),
  ("source-ncsu-heptapleurum","Heptapleurum arboricola","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/heptapleurum-arboricola/","extension","Dwarf umbrella tree identification, cultivation and toxicity."),
  ("source-ifas-xanadu","Philodendron x 'Xanadu'","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/FP474/about","extension","Cultivar identity and landscape characteristics."),
  ("source-clemson-aglaonema","Chinese Evergreen (Aglaonema)","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/","extension","Care and cultivar background."),
@@ -206,8 +210,7 @@ SOURCES = [
  ("source-ncsu-snake","Dracaena trifasciata","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/","extension","Identification, cultivation and cultivar descriptions."),
  ("source-ncsu-spider","Chlorophytum comosum","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/","extension","Identification, culture and propagation."),
  ("source-wi-spider","Spider plant","University of Wisconsin–Madison Extension","https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/","extension","Cultivar characteristics and propagation."),
- ("source-ifas-rubber","Ficus elastica: Rubber Tree","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/ST252","extension","Culture, propagation, cultivars and pests.")
-
+ ("source-ifas-rubber","Ficus elastica: Rubber Tree","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/ST252","extension","Culture, propagation, cultivars and pests."),
  ("source-ncsu-ficus-lyrata","Ficus lyrata","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/ficus-lyrata/","extension","Identification, culture and toxicity."),
  ("source-ncsu-ficus-microcarpa","Ficus microcarpa 'Ginseng'","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng/","extension","Bonsai form, aerial roots and cultivation."),
  ("source-clemson-ficus-benjamina","Weeping Ficus","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/weeping-ficus/","extension","Habit, light and indoor care."),
@@ -229,7 +232,8 @@ SOURCES = [
  ("source-ncsu-peperomia-argyreia","Peperomia argyreia","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/peperomia-argyreia/","extension","Watermelon peperomia leaf pattern and care."),
  ("source-umn-hypoestes","Polka dot plant","University of Minnesota Extension","https://extension.umn.edu/houseplants/polka-dot-plant","extension","General care and propagation; check availability."),
  ("source-ncsu-coleus","Coleus scutellarioides","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/coleus-scutellarioides/","extension","Coleus habit, light and propagation."),
- ("source-ncsu-tradescantia-pallida","Tradescantia pallida","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/tradescantia-pallida/","extension","Purple heart growth, propagation and irritation.")
+ ("source-ncsu-tradescantia-pallida","Tradescantia pallida","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/tradescantia-pallida/","extension","Purple heart growth, propagation and irritation."),
+ ("source-ncsu-xanadu","Philodendron xanadu","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-xanadu/","extension","Species identity, habit and cultivation."),
 ]
 IMAGES = [
  ("image-pothos-mithun","https://commons.wikimedia.org/wiki/Special:FilePath/Money_plant(Epipremnum_Aureum).jpg","Money plant / golden pothos","Mithun Mijar","CC BY-SA 4.0","https://commons.wikimedia.org/wiki/File:Money_plant(Epipremnum_Aureum).jpg"),
@@ -357,12 +361,23 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
  # Apply reviewed content batches after starter content. A reviewed section may
  # replace an imported needs-review placeholder once; repeat seeding is safe.
  batch_dir = Path(__file__).resolve().parent / "data" / "profile_batches"
+ legacy_taxon_ids = {
+  legacy_id: plant["id"]
+  for plant in PLANT_CATALOG
+  for legacy_id in plant.get("legacy_ids", [])
+ }
  for batch_path in sorted(batch_dir.glob("profile-*.json")) if batch_dir.exists() else []:
   with batch_path.open(encoding="utf-8") as handle:
    batch = json.load(handle)
   shared = batch.get("shared_sections", [])
-  for taxon in batch.get("catalog_range", []):
-   specific = batch.get("taxa", {}).get(taxon, {})
+  batch_taxa = list(batch.get("taxa", {}))
+  batch_taxa.extend(
+   taxon_id for taxon_id in batch.get("catalog_range", [])
+   if taxon_id not in batch_taxa
+  )
+  for batch_taxon in batch_taxa:
+   taxon = legacy_taxon_ids.get(batch_taxon, batch_taxon)
+   specific = batch.get("taxa", {}).get(batch_taxon, {})
    taxon_sections = list(specific.get("sections", shared))
    if specific.get("identification"):
     taxon_sections = [s for s in taxon_sections if s["key"] != "identification"] + [{
