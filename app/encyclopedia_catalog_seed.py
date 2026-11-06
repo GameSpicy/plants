@@ -58,11 +58,11 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
   conn.execute("INSERT OR IGNORE INTO content_references(content_type,content_id,reference_id,claim) VALUES('fertilizer',?,?,?)",(fid,"source-rhs-feeding","General feeding principles; species-specific timing and dosage not verified."))
  # Source-grounded host/problem relationships only. Taxon IDs checked against catalog.
  links=[
-  ("plant-001","pest-mealybug","common_indoor_host","RHS lists mealybugs among common indoor-plant sap feeders; not a species-exclusive host record."),
-  ("plant-001","pest-scale-insects","common_indoor_host","RHS lists scale insects among common indoor-plant sap feeders; confirm on the plant."),
-  ("plant-001","pest-spider-mites","common_indoor_host","RHS lists glasshouse red spider mite among indoor-plant sap feeders; confirm on the plant."),
-  ("plant-001","pest-thrips","common_indoor_host","RHS lists thrips among indoor-plant sap feeders; confirm on the plant."),
-  ("plant-001","pest-aphids","common_indoor_host","RHS lists aphids among indoor-plant sap feeders; confirm on the plant."),
+  ("plant-001","pest-mealybug","broad_houseplant_context","RHS lists mealybugs among common indoor-plant sap feeders; not a species-exclusive host record."),
+  ("plant-001","pest-scale-insects","broad_houseplant_context","RHS lists scale insects among common indoor-plant sap feeders; confirm on the plant."),
+  ("plant-001","pest-spider-mites","broad_houseplant_context","RHS lists glasshouse red spider mite among indoor-plant sap feeders; confirm on the plant."),
+  ("plant-001","pest-thrips","broad_houseplant_context","RHS lists thrips among indoor-plant sap feeders; confirm on the plant."),
+  ("plant-001","pest-aphids","broad_houseplant_context","RHS lists aphids among indoor-plant sap feeders; confirm on the plant."),
   ("plant-001","pest-fungus-gnats","container_association","RHS lists sciarid flies as a common houseplant pest; moist media is a key context."),
   ("plant-073","pest-aphids","documented_host","UMN Extension identifies aphids as a common hibiscus pest."),
   ("plant-073","pest-spider-mites","documented_host","UMN Extension identifies spider mites as a common hibiscus pest."),
