@@ -187,6 +187,19 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
   cultivar_epithet=override.get("cultivar_epithet") or (cultivar_match.group(2) if cultivar_match else "")
   cur=conn.execute("""INSERT OR IGNORE INTO taxa(id,scientific_name,genus,rank,accepted_name,parent_name,cultivar_epithet,taxonomy_status,taxonomy_source_url,category,description,toxicity,verification_status,created_at,updated_at)
   VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",(taxon,scientific,genus,rank,accepted,parent_name,cultivar_epithet,override.get("status","needs_review"),override.get("source_url",""),p.get("category",""),p.get("care",""),p.get("toxicity",""),"needs_review",now,now)); counts["taxa"]+=cur.rowcount
+  # INSERT OR IGNORE keeps catalog/profile content stable, but it also means
+  # newly reviewed taxonomy would never reach an already-seeded database.
+  # Refresh only the taxonomy-owned columns when an explicit override exists.
+  # Do not reset records without overrides: they may have been reviewed or
+  # enriched independently since the previous catalog import.
+  if override:
+   conn.execute("""UPDATE taxa
+   SET accepted_name=?, rank=?, parent_name=?, cultivar_epithet=?,
+       taxonomy_status=?, taxonomy_source_url=?
+   WHERE id=?""",(
+    accepted, rank, parent_name, cultivar_epithet,
+    override.get("status","needs_review"), override.get("source_url",""), taxon
+   ))
   for legacy_id in p.get("legacy_ids", []):
    counts["legacy_ids"]+=conn.execute("INSERT OR IGNORE INTO taxon_id_aliases(legacy_id,taxon_id,reason) VALUES(?,?,?)",(legacy_id,taxon,"same_submitted_scientific_name")).rowcount
   if submitted_synonym:
