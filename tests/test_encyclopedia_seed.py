@@ -143,6 +143,32 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert pothos["fertilizer_guides"][0]["sources"]
 
     assert any(item["id"] == "plant-160" for item in search_taxa("Capsicum", path=path))
+
+    # Regression: an existing installation may already contain a catalog row
+    # with stale taxonomy. Re-seeding must refresh taxonomy fields, while
+    # leaving independently enriched profile/content fields untouched.
+    conn.execute(
+        "UPDATE taxa SET accepted_name=?, taxonomy_status=?, taxonomy_source_url=?, "
+        "description=? WHERE id='plant-016'",
+        ("Thaumatophyllum xanadu", "needs_review", "", "Locally enriched description"),
+    )
+    conn.execute(
+        "UPDATE care_profiles SET notes=? WHERE taxon_id='plant-016'",
+        ("Locally edited care notes",),
+    )
     second = seed_botanical_catalog(conn)
+    refreshed = conn.execute(
+        "SELECT accepted_name, taxonomy_status, taxonomy_source_url, description "
+        "FROM taxa WHERE id='plant-016'"
+    ).fetchone()
+    assert tuple(refreshed) == (
+        "Philodendron xanadu",
+        "verified",
+        "https://powo.science.kew.org/taxon/20011461-1",
+        "Locally enriched description",
+    )
+    assert conn.execute(
+        "SELECT notes FROM care_profiles WHERE taxon_id='plant-016'"
+    ).fetchone()[0] == "Locally edited care notes"
     assert all(value == 0 for value in second.values())
     conn.close()
