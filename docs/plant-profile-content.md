@@ -30,6 +30,16 @@ The importer uses `INSERT OR IGNORE` for profile sections. This is deliberate: r
 
 The generic RHS houseplant source is attached to light, watering, and soil only as broad horticultural context. Toxicity notes from the starter catalog are not given a fabricated citation and remain unverified.
 
+## First reviewed batch: plant-001 to plant-005
+
+The first content batch covers the base pothos entry and four catalog cultivar entries: Golden, Marble Queen, Neon, and Manjula. Shared species-level care guidance is applied to these cultivar records, while cultivar identification is handled separately.
+
+The batch contains sourced sections for overview, identification, light, watering, soil, temperature, humidity, fertilizing, pruning, propagation, toxicity, common problems, and seasonal care. Sources include Kew POWO, North Carolina State Extension, University of Wisconsin–Madison Extension, RHS, Clemson Extension, New York Botanical Garden, Singapore NParks, and UF/IFAS.
+
+The Manjula-specific identification description remains `needs_review` because the sources reviewed for this batch did not establish a reliable cultivar-specific diagnostic description. This is intentional: the profile must show the gap rather than invent cultivar traits. The shared species-level guidance does not itself prove that every cultivar has identical growth characteristics.
+
+The batch data is stored in `app/data/profile_batches/profile-001-005.json` and loaded repeat-safely by the catalog importer. Existing starter sections are upgraded only when the incoming batch is verified and the stored section is still draft or awaiting review. Existing verified sections are not silently overwritten.
+
 ## Review sequence
 
 Process canonical catalog IDs in ascending order, in batches of approximately 10–15 taxa. For each taxon:
