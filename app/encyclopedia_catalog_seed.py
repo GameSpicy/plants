@@ -63,7 +63,7 @@ def _slug(v):
 
 def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
  now=datetime.now(timezone.utc).isoformat()
- counts={k:0 for k in ("taxa","names","care_profiles","fertilizer_guides","sources","images","pest_links","disease_links","legacy_ids","synonyms")}
+ counts={k:0 for k in ("taxa","names","care_profiles","fertilizer_guides","sources","images","pest_links","disease_links","legacy_ids","synonyms","parent_links")}
  for sid,title,publisher,url,stype,notes in SOURCES:
   cur=conn.execute("INSERT OR IGNORE INTO sources(id,title,publisher,url,source_type,notes) VALUES(?,?,?,?,?,?)",(sid,title,publisher,url,stype,notes)); counts["sources"]+=cur.rowcount
  for p in PLANT_CATALOG:
@@ -105,6 +105,12 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
   VALUES(?,?,?,?,?,?,?,?,?,?,?)""",(fid,taxon,"Conservative feeding guidance",ftype,active,"Reduce or pause feeding when growth slows; in warm climates use observed growth rather than assuming a cold-winter dormancy.","Yellowing or weak growth has many possible causes; check watering, roots, light, pests and pH before assuming deficiency.","Overfeeding can cause salt accumulation, root injury, leaf-edge burn and soft growth more vulnerable to pests.","Follow the product label, start conservatively, never apply to dry rootballs, and do not feed a stressed or waterlogged plant. General guidance awaiting species-level review.","low",now)); counts["fertilizer_guides"]+=cur.rowcount
   conn.execute("INSERT OR IGNORE INTO content_references(content_type,content_id,reference_id,claim) VALUES('taxon',?,?,?)",(taxon,"source-rhs-houseplants","General houseplant growing context; not species-level verification."))
   conn.execute("INSERT OR IGNORE INTO content_references(content_type,content_id,reference_id,claim) VALUES('fertilizer',?,?,?)",(fid,"source-rhs-feeding","General feeding principles; species-specific timing and dosage not verified."))
+ # Resolve cultivar parents only when the exact parent species is present in this catalog.
+ # A missing parent is left NULL rather than guessed (e.g. genus-only trade cultivar names).
+ for cultivar in conn.execute("SELECT id,parent_name FROM taxa WHERE rank='cultivar' AND parent_name!=''").fetchall():
+  parent=conn.execute("SELECT id FROM taxa WHERE scientific_name=? OR accepted_name=? ORDER BY id LIMIT 1",(cultivar[1],cultivar[1])).fetchone()
+  if parent:
+   counts["parent_links"]+=conn.execute("UPDATE taxa SET parent_taxon_id=? WHERE id=? AND (parent_taxon_id IS NULL OR parent_taxon_id!=?)",(parent[0],cultivar[0],parent[0])).rowcount
  # Source-grounded host/problem relationships only. Taxon IDs checked against catalog.
  links=[
   ("plant-001","pest-mealybug","broad_houseplant_context","RHS lists mealybugs among common indoor-plant sap feeders; not a species-exclusive host record."),
