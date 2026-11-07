@@ -50,6 +50,14 @@ Cultivar uncertainty is retained. The catalog's Scindapsus pictus 'Argyraeus' re
 
 Batch data is stored in app/data/profile_batches/profile-006-015.json. Each section links only to the source used for that section, rather than attaching every source to every claim.
 
+## Third reviewed batch: plant-016 to plant-025
+
+The third ordered batch covers Philodendron xanadu, Aglaonema commutatum (two catalog display entries), Dieffenbachia seguine, Zamioculcas zamiifolia (including 'Raven'), Dracaena trifasciata (including 'Hahnii'), Chlorophytum comosum, and Ficus elastica.
+
+The profiles use species-specific extension guidance. Examples of important differences include the dry-down preference of ZZ plants and snake plants, the more moisture-retentive but not saturated medium used for Aglaonema, Dieffenbachia's cane and vein-count identification features, and spider plant propagation by plantlets. Cultivar descriptions for Raven and Hahnii are separated from the parent species care notes.
+
+Batch data is stored in app/data/profile_batches/profile-016-025.json. The Aglaonema and Chinese evergreen catalog entries share species-level care but retain separate display identities. No cultivar-specific care differences are claimed unless the cited source supports them.
+
 ## Review sequence
 
 Process canonical catalog IDs in ascending order, in batches of approximately 10–15 taxa. For each taxon:
