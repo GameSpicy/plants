@@ -102,3 +102,15 @@ Suggested section coverage:
 A section is not `verified` merely because text exists. It needs an appropriate source, a clear claim-to-source relationship, and editorial review. Keep uncertainty visible. The full profile should be considered complete only when its applicable sections are populated and independently reviewed; not every section is relevant to every taxon.
 
 Do not deploy profile content to the live Unraid database until the feature branch tests pass and the content batch has been reviewed. No migration in this document modifies `plants.db`.
+
+
+## Fifth reviewed batch: plant-051 to plant-100
+
+The fifth ordered batch adds 50 catalog entries, from Tradescantia zebrina through New Guinea impatiens. It covers foliage plants, ferns, palms and tropical flowering shrubs and bedding plants. The batch is stored in `app/data/profile_batches/profile-051-100.json`.
+
+This is a deliberately conservative content pass rather than a claim that all 50 profiles are complete. The overview and identification sections use source-linked claims for the subset with directly relevant references: Tradescantia (genus-level), Fittonia, tropical hibiscus, Gardenia (genus-level), Jasminum (genus-level), Lantana camara and Nerium oleander. For the remaining taxa, the overview/identification text explicitly records that species-level research is still required.
+
+The other 11 sections are present for every taxon but remain `needs_review` with low confidence. They do not inherit generic care instructions as verified recommendations. In particular, watering, soil, light, temperature, humidity, feeding, pruning, propagation, toxicity and pest susceptibility require species-specific evidence before publication. Dhaka seasonal notes are framed only as local context (heat, rainfall and drainage), not as a substitute for verified plant requirements.
+
+The source set includes NC State Extension, RHS and Smithsonian Gardens. Broad references such as the NC State annual-ornamental and container-plant guides are retained as research aids and are not cited as proof of species-specific requirements. Oleander toxicity is flagged as a critical research priority; its toxicity section remains unverified in this batch and should not be interpreted as reassurance.
+
