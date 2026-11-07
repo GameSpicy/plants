@@ -1,6 +1,21 @@
 name: Test, build and publish Docker image
 on:
   push:
+    branches: [main, feature/expanded-plant-catalog]
+    paths-ignore:
+      - 'README.md'
+      - 'docs/**'
+      - '*.md'
+      - '*.png'
+      - '*.jpg'
+      - '*.jpeg'
+      - '*.gif'
+      - '*.svg'
+      - '*.webp'
+      - '*.ico'
+      - 'LICENSE'
+      - 'LICENSE.*'
+  pull_request:
     branches: [main]
     paths-ignore:
       - 'README.md'
@@ -33,6 +48,7 @@ jobs:
       - run: PYTHONPATH=. pytest -q
   build-and-push:
     needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

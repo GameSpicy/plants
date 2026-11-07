@@ -91,6 +91,8 @@ Fresh installs start with one example plant that you can edit or delete.
 
 Any tool that accepts a compose file works: paste the block above into a new stack in Portainer, Dockhand, CasaOS, Synology Container Manager, or similar. Set the same variables in its Environment tab instead of a `.env` file. Make sure the `./data` volume points somewhere that is backed up.
 
+For an Unraid-specific install and update checklist, see [Unraid deployment](docs/unraid-deployment.md).
+
 ## Features
 
 - **Today view**: Overdue, Today, and Next 7 days, with the reason for each due date ("every 7 days, last done Sep 20"). Filter by room.
