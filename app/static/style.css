@@ -290,3 +290,10 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent2); b
 .ency-sources{display:grid;gap:10px}.ency-source{display:grid;gap:2px}.ency-source a{font-weight:600}
 @media(max-width:650px){.ency-grid{grid-template-columns:1fr}.ency-card{min-height:150px}.ency-symbol{width:56px;height:56px;font-size:30px}}
 .ency-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}.ency-gallery figure{margin:0;min-width:0}.ency-gallery img{display:block;width:100%;height:190px;object-fit:cover;border-radius:12px}.ency-gallery figcaption{font-size:12px;margin-top:6px;overflow-wrap:anywhere}.ency-related{display:grid;gap:10px}.ency-related-card{display:grid;gap:5px;padding:12px;border:1px solid var(--line);border-radius:12px;color:var(--text);text-decoration:none}.ency-related-card:hover{border-color:var(--accent)}
+
+/* Sourced, independently reviewed plant-profile sections */
+.ency-profile-sections { display: grid; gap: 1rem; }
+.ency-profile-section { border-top: 1px solid var(--border, #ddd); padding-top: .85rem; }
+.ency-profile-section h3 { margin: 0; font-size: 1rem; }
+.ency-profile-section p { line-height: 1.55; }
+.ency-profile-section .row { align-items: center; justify-content: space-between; gap: .75rem; }
