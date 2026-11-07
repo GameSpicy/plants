@@ -9,8 +9,42 @@ import sqlite3
 from datetime import datetime, timezone
 from app.catalog import PLANT_CATALOG
 
+# Only records with an individually checked Kew POWO result are marked verified.
+# The remainder intentionally stay needs_review until reviewed one by one.
+TAXONOMY_OVERRIDES = {
+    'plant-016': {
+        'accepted_name': 'Philodendron xanadu',
+        'submitted_name_synonym': 'Thaumatophyllum xanadu',
+        'rank': 'species',
+        'parent_name': '',
+        'cultivar_epithet': '',
+        'status': 'verified',
+        'source_url': 'https://powo.science.kew.org/taxon/20011461-1',
+    },
+    'plant-031': {
+        'accepted_name': 'Heptapleurum arboricola',
+        'submitted_name_synonym': 'Schefflera arboricola',
+        'rank': 'species',
+        'parent_name': '',
+        'cultivar_epithet': '',
+        'status': 'verified',
+        'source_url': 'https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:90845-1',
+    },
+    'plant-022': {
+        'accepted_name': 'Dracaena trifasciata',
+        'submitted_name_synonym': 'Sansevieria trifasciata',
+        'rank': 'species',
+        'parent_name': '',
+        'cultivar_epithet': '',
+        'status': 'verified',
+        'source_url': 'https://powo.science.kew.org/taxon/77164235-1',
+    },
+}
+
+
 SOURCES = [
  ("source-rhs-houseplants","How to grow houseplants","Royal Horticultural Society","https://www.rhs.org.uk/plants/types/houseplants/growing-guide","horticultural_society",""),
+ ("source-powo","Plants of the World Online","Royal Botanic Gardens, Kew","https://powo.science.kew.org/","taxonomic_backbone","Accepted names and synonymy checked for the individually cited records only."),
  ("source-rhs-feeding","How to feed plants","Royal Horticultural Society","https://www.rhs.org.uk/garden-jobs/nutrition-feeding-plants","horticultural_society",""),
  ("source-rhs-sap-feeders","Indoor plants: sap feeders","Royal Horticultural Society","https://www.rhs.org.uk/biodiversity/indoor-plants-sap-feeding-insects","horticultural_society",""),
  ("source-umn-hibiscus","Hibiscus","University of Minnesota Extension","https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/hibiscus","extension",""),
@@ -29,14 +63,29 @@ def _slug(v):
 
 def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
  now=datetime.now(timezone.utc).isoformat()
- counts={k:0 for k in ("taxa","names","care_profiles","fertilizer_guides","sources","images","pest_links","disease_links")}
+ counts={k:0 for k in ("taxa","names","care_profiles","fertilizer_guides","sources","images","pest_links","disease_links","legacy_ids","synonyms")}
  for sid,title,publisher,url,stype,notes in SOURCES:
   cur=conn.execute("INSERT OR IGNORE INTO sources(id,title,publisher,url,source_type,notes) VALUES(?,?,?,?,?,?)",(sid,title,publisher,url,stype,notes)); counts["sources"]+=cur.rowcount
  for p in PLANT_CATALOG:
   taxon=p["id"]; scientific=" ".join(p["species"].split())
   genus=scientific.split()[0]
-  cur=conn.execute("""INSERT OR IGNORE INTO taxa(id,scientific_name,genus,rank,category,description,toxicity,verification_status,created_at,updated_at)
-  VALUES(?,?,?,?,?,?,?,?,?,?)""",(taxon,scientific,genus,"cultivar" if "'" in scientific else "species",p.get("category",""),p.get("care",""),p.get("toxicity",""),"needs_review",now,now)); counts["taxa"]+=cur.rowcount
+  override=TAXONOMY_OVERRIDES.get(taxon, {})
+  accepted=override.get("accepted_name", scientific)
+  submitted_synonym=override.get("submitted_name_synonym", "")
+  # Cultivar epithets are parsed as horticultural names, not treated as species names.
+  cultivar_match=re.match(r"^(.+?)\\s+'([^']+)'$", scientific)
+  rank=override.get("rank") or ("cultivar" if cultivar_match else "species")
+  parent_name=override.get("parent_name") or (cultivar_match.group(1) if cultivar_match else "")
+  cultivar_epithet=override.get("cultivar_epithet") or (cultivar_match.group(2) if cultivar_match else "")
+  cur=conn.execute("""INSERT OR IGNORE INTO taxa(id,scientific_name,genus,rank,accepted_name,parent_name,cultivar_epithet,taxonomy_status,taxonomy_source_url,category,description,toxicity,verification_status,created_at,updated_at)
+  VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",(taxon,scientific,genus,rank,accepted,parent_name,cultivar_epithet,override.get("status","needs_review"),override.get("source_url",""),p.get("category",""),p.get("care",""),p.get("toxicity",""),"needs_review",now,now)); counts["taxa"]+=cur.rowcount
+  for legacy_id in p.get("legacy_ids", []):
+   counts["legacy_ids"]+=conn.execute("INSERT OR IGNORE INTO taxon_id_aliases(legacy_id,taxon_id,reason) VALUES(?,?,?)",(legacy_id,taxon,"same_submitted_scientific_name")).rowcount
+  if submitted_synonym:
+   counts["synonyms"]+=conn.execute("INSERT OR IGNORE INTO taxon_names(taxon_id,name,language,name_type,preferred) VALUES(?,?,'en','synonym',0)",(taxon,submitted_synonym)).rowcount
+  if override.get("source_url"):
+   conn.execute("INSERT OR IGNORE INTO content_references(content_type,content_id,reference_id,claim) VALUES('taxon',?,'source-powo',?)",(taxon,"Accepted name and synonymy checked against Kew POWO: "+accepted+"."))
+
   for name,typ,pref in [(p["name"],"common",1)]+[(a,"synonym",0) for a in p.get("aliases",[])]:
    cur=conn.execute("INSERT OR IGNORE INTO taxon_names(taxon_id,name,language,name_type,preferred) VALUES(?,?,'en',?,?)",(taxon,name,typ,pref)); counts["names"]+=cur.rowcount
   cur=conn.execute("""INSERT OR IGNORE INTO care_profiles(taxon_id,light,soil,drainage,watering,notes,confidence,updated_at)
