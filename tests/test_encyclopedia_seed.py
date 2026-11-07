@@ -143,7 +143,8 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert all(item["review_status"] == "verified" for item in sections.values())
     assert all(item["confidence"] in {"medium", "high"} for item in sections.values())
     assert any(source["id"] == "source-rhs-houseplants" for source in sections["light"]["sources"])
-    assert sections["toxicity"]["sources"] == []
+    toxicity_source_ids = {source["id"] for source in sections["toxicity"]["sources"]}
+    assert {"source-nparks-epipremnum", "source-ncsu-epipremnum", "source-wi-pothos"} <= toxicity_source_ids
     overview_sources = {source["id"] for source in sections["overview"]["sources"]}
     assert "source-kew-epipremnum" in overview_sources
     assert sections["overview"]["review_status"] == "verified"
