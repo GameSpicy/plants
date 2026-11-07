@@ -131,7 +131,7 @@ def get_taxon(item_id: str, path=None) -> dict[str, Any] | None:
     try:
         canonical_id = item_id
         alias = conn.execute(
-            "SELECT taxon_id FROM taxon_id_aliases WHERE legacy_id=?", (item_id,)
+            "SELECT taxon_id FROM taxon_id_aliases WHERE legacy_id=?", (canonical_id,)
         ).fetchone()
         if alias is not None:
             canonical_id = alias["taxon_id"]
@@ -150,35 +150,35 @@ def get_taxon(item_id: str, path=None) -> dict[str, Any] | None:
         )]
         result["names"] = [dict(r) for r in conn.execute(
             "SELECT name,language,name_type,preferred FROM taxon_names WHERE taxon_id=? ORDER BY preferred DESC,name",
-            (item_id,)
+            (canonical_id,)
         )]
         result["care"] = _dict(conn.execute(
             "SELECT * FROM care_profiles WHERE taxon_id=?", (canonical_id,)
         ).fetchone())
         result["fertilizer_guides"] = [dict(r) for r in conn.execute(
-            "SELECT * FROM fertilizer_guides WHERE taxon_id=? ORDER BY title", (item_id,)
+            "SELECT * FROM fertilizer_guides WHERE taxon_id=? ORDER BY title", (canonical_id,)
         )]
         result["pests"] = [dict(r) for r in conn.execute(
             """SELECT p.id,p.common_name,p.scientific_name,p.description,
                       tp.relationship,tp.notes,p.review_status
                FROM taxon_pests tp JOIN pests p ON p.id=tp.pest_id
                WHERE tp.taxon_id=? AND p.review_status!='retired'
-               ORDER BY p.common_name""", (item_id,)
+               ORDER BY p.common_name""", (canonical_id,)
         )]
         result["diseases"] = [dict(r) for r in conn.execute(
             """SELECT d.id,d.common_name,d.causal_agent,d.description,
                       td.relationship,td.notes,d.review_status
                FROM taxon_diseases td JOIN diseases d ON d.id=td.disease_id
                WHERE td.taxon_id=? AND d.review_status!='retired'
-               ORDER BY d.common_name""", (item_id,)
+               ORDER BY d.common_name""", (canonical_id,)
         )]
         result["media"] = [dict(r) for r in conn.execute(
             """SELECT m.id,m.url,m.caption,m.attribution,m.creator,m.license,m.source_url
                FROM taxon_media tm JOIN media m ON m.id=tm.media_id
                WHERE tm.taxon_id=? AND m.rights_status='approved'
-               ORDER BY tm.is_primary DESC,tm.sort_order,m.id""", (item_id,)
+               ORDER BY tm.is_primary DESC,tm.sort_order,m.id""", (canonical_id,)
         )]
-        result["sources"] = _sources(conn, "taxon", item_id)
+        result["sources"] = _sources(conn, "taxon", canonical_id)
         for guide in result["fertilizer_guides"]:
             guide["sources"] = _sources(conn, "fertilizer", guide["id"])
         return result
