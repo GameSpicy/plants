@@ -1,0 +1,3384 @@
+{
+  "batch_id": "profile-026-050",
+  "catalog_range": [
+    "plant-026",
+    "plant-027",
+    "plant-028",
+    "plant-029",
+    "plant-030",
+    "plant-031",
+    "plant-032",
+    "plant-033",
+    "plant-034",
+    "plant-035",
+    "plant-036",
+    "plant-037",
+    "plant-038",
+    "plant-039",
+    "plant-040",
+    "plant-041",
+    "plant-042",
+    "plant-043",
+    "plant-044",
+    "plant-045",
+    "plant-046",
+    "plant-047",
+    "plant-048",
+    "plant-049",
+    "plant-050"
+  ],
+  "basis": "Ordered species-specific profiles based on university extension sources. Genus-level information is labelled as such; cultivar-level claims remain limited to documented traits.",
+  "shared_sections": [],
+  "taxa": {
+    "plant-026": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A rubber-tree cultivar selected for very dark burgundy foliage. Species-level care is supported by UF/IFAS; cultivar-specific differences beyond leaf color remain unverified.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Thick, leathery, broad oval leaves; 'Burgundy' is selected for deep maroon to nearly black coloration. Exact color varies with light and leaf age.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright filtered light; acclimate gradually to stronger light and protect from hot afternoon sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water thoroughly, then allow the upper layer of medium to dry. Do not leave roots standing in water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a loose, moisture-retentive but well-drained potting medium and a pot with drainage holes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm tropical conditions; protect from cold drafts and chilling.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average indoor humidity is usually tolerated; good airflow is more important than misting.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed a balanced houseplant fertilizer during active growth according to label directions; reduce feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Prune to control height or branching. Latex flows from cuts; use gloves and clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "UF/IFAS lists cuttings and layering as propagation approaches; use healthy stem sections and maintain warmth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Ficus latex can irritate skin and eyes. Keep away from children and pets; avoid ingestion.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "UF/IFAS lists scale insects as an occasional problem. Yellow leaves may reflect excess water, poor light or root stress.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, filtered light and strong drainage are important. Check moisture more often in hot weather, but avoid saturated pots during monsoon periods.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        }
+      ]
+    },
+    "plant-027": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical African evergreen tree commonly grown as a large indoor foliage specimen.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Large, thick, leathery, fiddle- or lyre-shaped leaves with prominent veins; milky sap is present in stems.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light or partial shade; protect from harsh afternoon sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Allow the surface layer to dry slightly between thorough waterings. It is sensitive to overwatering.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Moist but well-drained loamy medium; avoid compacted soil and standing water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions; NC State recommends temperatures above 55°F (about 13°C).",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Medium humidity is suitable; maintain airflow and avoid persistent leaf wetness.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Balanced fertilizer during active growth, according to label; reduce feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Prune as needed to control size or remove damaged branches. Wear gloves because sap may irritate.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings are listed as a propagation strategy; use a viable node and warm rooting conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Contains insoluble calcium oxalates; ingestion may cause oral irritation, drooling and vomiting. Keep away from pets and children.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering and poor drainage are key risks; sap may irritate skin. Watch for common scale and mite infestations.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Maintain stable light and avoid moving the plant abruptly. In Dhaka, avoid hot direct balcony sun and water by soil condition.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-lyrata"
+          ]
+        }
+      ]
+    },
+    "plant-028": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "An evergreen tropical tree often trained as an indoor specimen or braided ornamental.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Slender arching branches, smooth grey trunk and glossy oval leaves; cultivars may have green or variegated foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright light is needed for dense growth; avoid sudden changes in light and protect from intense afternoon sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water thoroughly when the upper medium begins to dry; avoid both prolonged drought and waterlogging.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Well-drained, fertile potting mix in a container with drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions; protect from cold drafts and abrupt temperature changes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average to moderately high humidity; dry air can contribute to leaf drop.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed during active growth with a balanced fertilizer according to label directions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Prune to shape; young flexible stems can be trained or braided. Use clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Iowa State Extension lists Ficus benjamina among houseplants propagated by cuttings.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Ficus sap may irritate sensitive skin; ingestion may cause gastrointestinal upset. Keep away from pets and children.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Leaf drop can follow abrupt changes in light, watering or location. Check for scale and mites.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Avoid frequent relocation. In Dhaka, ventilate well and check drainage during humid rainy periods.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-ficus-benjamina"
+          ]
+        }
+      ]
+    },
+    "plant-029": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical and subtropical Asian fig tree commonly trained as bonsai; the ginseng form is sold for its swollen exposed roots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Small glossy dark-green leaves, grey bark and aerial roots. 'Ginseng' describes a horticultural form with swollen, exposed roots, not a separate species.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright light to sunny exposure; acclimate outdoor bonsai gradually to direct sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep evenly moist during active growth but allow excess water to drain. Avoid prolonged drying in a small bonsai pot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Free-draining bonsai medium; use a shallow pot with open drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions; NC State notes it is best kept above 68°F (20°C).",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity can encourage aerial-root development; maintain airflow.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed lightly during active growth using a bonsai-appropriate balanced fertilizer according to label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Prune shoots to maintain bonsai form; latex is released from cuts, so use gloves and clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings are a documented propagation method; grafting is also used in horticulture.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Ficus latex may irritate skin; keep away from pets and children and do not ingest.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Scale and other bonsai pests may occur; inspect branches, leaf undersides and roots. Avoid waterlogged soil.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, protect bonsai from scorching midday sun and heavy rain; do not let shallow pots dry completely.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ficus-microcarpa"
+          ]
+        }
+      ]
+    },
+    "plant-030": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical wetland-edge tree from Central and South America, widely grown as a braided-stem indoor money tree.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Palmately compound leaves with several leaflets radiating from one point; often sold with braided trunks.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light; it tolerates some shade but grows better with good light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water when the upper medium begins to dry; keep evenly moist but never waterlogged.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Rich, moisture-retentive but well-drained medium; container must drain freely.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions; protect from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Moderate to high humidity is suitable; maintain airflow.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed modestly during active growth with a balanced houseplant fertilizer according to label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Prune to maintain canopy shape; braided stems are a nursery training technique, not a natural growth form.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings and seed are possible for the species; household propagation success can vary.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NC State notes possible toxicity from seeds if ingested; houseplants rarely produce seeds. Keep seeds away from people and pets.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering and poor drainage can cause root problems; monitor for scale and mites.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, avoid waterlogged pots during monsoon weather and provide bright filtered light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-pachira"
+          ]
+        }
+      ]
+    },
+    "plant-031": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A compact evergreen shrub from Taiwan, commonly sold under the former name Schefflera arboricola.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Palmately compound leaves with several glossy leaflets radiating from a central point; dwarf form branches readily.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light; tolerates some shade but variegated forms need brighter filtered light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water when the upper portion of the medium begins to dry; do not leave the roots saturated.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Well-drained general-purpose potting mix with organic matter.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm indoor conditions; protect from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average indoor humidity is tolerated; good airflow is beneficial.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed during active growth with a balanced fertilizer following the label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Pinch or prune stems to maintain a compact shape; use gloves if sap irritates skin.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings are a common propagation method for dwarf umbrella tree.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Schefflera/Heptapleurum is listed as toxic in UConn's houseplant safety reference. Keep away from pets and children.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Watch for scale, mealybugs and spider mites; overwatering can cause root decline.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, give bright filtered light and adjust watering to actual drying rather than a fixed weekly schedule.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        }
+      ]
+    },
+    "plant-032": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical evergreen shrub grown for brightly colored foliage; it needs more light and warmth than many low-light houseplants.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves vary widely in shape and show combinations of green, yellow, orange, red and purple; cultivar variation is substantial.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Give very bright filtered light or gentle morning sun to maintain color; acclimate gradually and protect from intense midday heat.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep medium evenly moist during active growth but allow excess water to drain. Avoid prolonged drying and waterlogging.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Rich, well-drained medium with organic matter.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm tropical conditions; protect from cold and drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity supports foliage quality; provide airflow to reduce fungal risk.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed during active growth with balanced fertilizer according to label; avoid excessive salts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Prune to shape or remove damaged stems. Wear gloves because milky sap can irritate.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings are a documented houseplant propagation approach.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Croton sap is irritating and the plant is harmful if ingested. Keep away from children and pets; wear gloves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Leaf drop can follow cold, low light or abrupt changes. Watch for scale, mealybugs and spider mites.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, bright morning light may be useful, but protect from extreme afternoon heat and heavy rain exposure.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-croton"
+          ]
+        }
+      ]
+    },
+    "plant-033": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical evergreen shrub or small tree from the western Pacific and Southeast Asian region, grown for colorful foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Upright woody cane with rosettes of long strap-like leaves; colors vary by cultivar from green to pink, red and purple.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright filtered light; stronger light can intensify color, but protect from harsh midday sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep the medium evenly moist but well drained; reduce watering if growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Rich, moisture-retentive, well-drained potting mix.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm tropical conditions; protect from cold.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Moderate to high humidity; maintain good airflow.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed lightly during active growth with balanced fertilizer according to label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove old leaves and prune canes to control height; new shoots may emerge below cuts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem or cane cuttings are commonly used; ensure each section has viable nodes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Some Cordyline species are toxic to pets; confirm the specific species and keep away from animals until safety is established.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Potential issues include leaf spotting, scale and spider mites; avoid stagnant, wet foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, protect from scorching sun and ensure drainage during monsoon rains.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-cordyline"
+          ]
+        }
+      ]
+    },
+    "plant-034": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A slow-growing tropical shrub or small tree; the Song of India trade form is valued for narrow variegated foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Woody stems carry dense spirals of narrow lance-shaped leaves. Song of India typically has green leaves with cream margins; catalog identity should be checked against the actual plant.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light; variegated forms need sufficient filtered light to maintain contrast.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep medium lightly moist but allow the top layer to dry between waterings. Avoid overwatering.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Loose, well-drained potting mix; adding perlite or coarse material improves drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "NC State gives 65–75°F (18–24°C) as preferred conditions for D. reflexa var. reflexa; protect from cold.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity is preferred; provide airflow and avoid wet foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed modestly during active growth using balanced fertilizer; reduce feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged leaves and prune stems to control shape; use clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings can be used for propagation; keep cuttings warm and lightly moist.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Dracaena contains saponins and can cause illness if ingested, particularly in cats and dogs. Keep away from pets and children.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Sensitive to fluoride and chlorine in tap water; brown tips may also reflect low humidity or salt build-up. Watch for scale and mealybugs.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, use filtered or rain water if tap-water tip burn is recurrent; keep plants ventilated in humid months.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-reflexa"
+          ]
+        }
+      ]
+    },
+    "plant-035": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A slow-growing tropical African shrub grown indoors for its cane-like trunk and broad strap-shaped foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Tall woody cane with a crown of broad linear-lanceolate leaves; cultivars may have central yellow or white stripes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright to moderate filtered light; direct sun can burn foliage, while very low light produces narrower leaves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep medium lightly moist during active growth; allow the surface to dry somewhat and reduce watering when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Commercial potting mix with good drainage; use a container with drainage holes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "NC State says 70–80°F (21–27°C) is favorable and advises keeping above 50°F (10°C).",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Moderate humidity; brown tips may occur in dry air or from salts in water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed modestly during active growth with balanced fertilizer according to label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove old leaves and prune canes to manage height; cuttings can be used to restart or branch plants.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings are a documented propagation method.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Contains saponins; ingestion may cause mouth and stomach irritation, vomiting and drooling in people and pets. Keep away from cats and dogs.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Susceptible to thrips and mealybugs; sensitive to fluoride and salt build-up causing brown tips.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, use filtered water if leaf tips brown, keep in bright filtered light and ventilate during monsoon.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-fragrans"
+          ]
+        }
+      ]
+    },
+    "plant-036": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical West African shrub commonly sold as lucky bamboo, although it is not a true bamboo.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Green cane-like stems with narrow leaves; stems are often trained into spirals or braids.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light or partial shade; avoid direct hot sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Can grow in moist potting mix or chlorine-free water. If grown in water, change it weekly and keep roots submerged, not the whole stem.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a moist but well-drained potting mix, or a clean water vessel with pebbles supporting the roots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm indoor conditions; protect from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average to moderate humidity; low humidity may brown leaf tips.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "If grown in water, use only weak liquid fertilizer sparingly; overfeeding can damage roots. Follow label directions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove yellow leaves and trim canes with clean tools; avoid cutting below healthy nodes without purpose.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings can root in water or moist medium; ensure nodes are present.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Dracaena contains saponins and may be harmful if ingested by pets. Keep away from cats and dogs.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering can yellow leaves and rot stems; watch for mealybugs, mites and scale. Stagnant water may breed mosquitoes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, change water weekly, keep containers clean and out of direct sun; check for mosquito larvae.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dracaena-sanderiana"
+          ]
+        }
+      ]
+    },
+    "plant-037": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tender tuberous tropical perennial grown for colorful foliage; it naturally has a seasonal growth and rest cycle.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Arrowhead-shaped, peltate leaves on long upright petioles, with highly variable white, pink, red and green patterns.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Partial shade to filtered light; many cultivars lose color intensity in strong direct sun. Some tolerate gentle morning sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep soil consistently moist while actively growing; this is a moisture-demanding plant, but the medium must still drain.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Fertile, acidic, high-organic-matter medium with good drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions are essential for active growth; cold can trigger dormancy and leaf dieback.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity supports foliage, but airflow is important to reduce rot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "NC State recommends regular feeding during active growth; use balanced fertilizer according to label rather than copying landscape rates into a pot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove yellowing leaves at the base; do not damage the tuber.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by dividing tubers or offsets, ensuring each division has a viable bud.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Caladium is poisonous if eaten, with medium severity listed by NC State. Keep away from children and pets.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Slugs and snails can damage leaves; tuber or root rot can occur in cold or waterlogged conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, maintain moisture in active hot-season growth but protect tubers from prolonged waterlogging during monsoon periods.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-caladium"
+          ]
+        }
+      ]
+    },
+    "plant-038": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "The trade plant commonly called Alocasia Polly is a cultivated hybrid, not a naturally occurring species. The exact parentage and cultivar naming are inconsistently presented in horticultural trade.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Compact upright plant with dark arrow-shaped leaves, prominent pale veins and wavy margins. The catalog identity should be treated as a horticultural hybrid rather than a confirmed botanical species.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light; avoid harsh direct sun that can scorch leaves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep medium evenly moist during active growth but never saturated. Allow the upper surface to begin drying before watering again.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Airy, moisture-retentive aroid medium with excellent drainage; avoid compacted soil.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm tropical conditions; protect from cold and sudden temperature changes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity is helpful, but combine it with airflow to reduce leaf disease.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed lightly during active growth with balanced fertilizer according to label; reduce or pause when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove dead leaves at the base with clean tools; avoid damaging the corm.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Division of offsets or corms is used for Alocasia propagation; do not divide a plant without viable growth points.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Alocasia contains calcium oxalate crystals and is harmful if eaten; sap can irritate. Keep away from children and pets.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Root and corm rot can follow overwatering; inspect for spider mites and mealybugs. Leaf yellowing may also accompany dormancy or stress.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, maintain warmth and airflow; during monsoon, drainage is more important than increasing watering frequency.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        }
+      ]
+    },
+    "plant-039": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical Alocasia grown for its upright, patterned stems and large arrow-shaped foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Distinctive zebra-striped petioles support green arrow-shaped leaves; stems are a key feature distinguishing it from other Alocasia.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light or filtered shade; avoid scorching direct sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep medium evenly moist in active growth but not soggy. Allow slight surface drying between waterings.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Rich, airy, well-drained medium; maintain moisture without waterlogging.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm tropical conditions; protect from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity is beneficial with good ventilation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed modestly during active growth with balanced fertilizer according to label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove old leaves at the base; handle petioles carefully as they can be brittle.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by division of offsets or corms when present.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Alocasia contains calcium oxalate crystals; ingestion causes oral irritation. Keep away from children and pets.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Root rot in wet media and spider mites in dry/stressed conditions are possible; inspect before treating.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, avoid prolonged exposure to heavy rain and ensure the pot drains freely.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-alocasia"
+          ]
+        }
+      ]
+    },
+    "plant-040": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A very large tropical elephant-ear perennial grown for its huge foliage and cormous growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Massive sagittate leaves on stout petioles; mature plants can become several metres tall in suitable outdoor conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Full sun to partial shade depending on acclimation and water supply; container plants benefit from protection from extreme afternoon heat.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep consistently moist during active growth; it tolerates wetter conditions than many houseplants but roots still need oxygen.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Rich, moisture-retentive soil with organic matter; ensure excess water can drain in containers.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm tropical conditions; growth slows in cool weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity is naturally suitable; maintain airflow around large leaves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed during active growth with balanced fertilizer according to label; large fast-growing plants may use nutrients quickly.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged or senescent leaves with clean tools; sap can irritate.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Corm offsets or division are used for propagation; ensure each piece has a viable bud.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Alocasia contains calcium oxalate crystals and is harmful if raw plant parts are eaten. Keep away from children and pets.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Wind can tear leaves; corm rot can occur in stagnant water. Monitor for mites and sap-feeding pests.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, protect large leaves from strong wind and support drainage during monsoon rainfall.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ufas-alocasia"
+          ]
+        }
+      ]
+    },
+    "plant-041": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical corm-forming perennial known as taro or elephant ear, grown for very large leaves and sometimes as a food crop.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Large heart- or shield-shaped leaves with the petiole attached near the centre of the blade; clumping plants arise from corms.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Part shade to full sun depending on water availability; protect container foliage from harsh wind and scorching conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Requires abundant moisture and should not be allowed to dry out during active growth. Maintain moist soil, not stagnant anaerobic conditions in a pot.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Rich, moisture-retentive soil; unlike many aroids, Colocasia tolerates wetter conditions, but container roots still need oxygen.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm tropical conditions; cold slows growth and can cause dieback.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity suits the plant; allow air movement around leaves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed during active growth with balanced fertilizer according to label; fast growth requires nutrients.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove old leaves at the base; use gloves if sap causes irritation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by dividing corms or offsets with viable growing points.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Raw taro tissues contain irritating calcium oxalate crystals; food use requires proper preparation and cooking. Do not eat ornamental plants unless correctly identified and safely prepared.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Leaf damage from wind and root/corm rot in stagnant containers are possible. Inspect for chewing pests.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, it can grow vigorously in warm weather; keep moist but avoid sealed, stagnant pots and overflowing saucers.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-colocasia"
+          ]
+        }
+      ]
+    },
+    "plant-042": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical rainforest understory perennial formerly known as Calathea orbifolia, grown for its broad patterned leaves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Large, rounded green leaves with broad silver-green bands; leaves emerge from a clumping rhizomatous base.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light or partial shade; direct sun can scorch leaves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep consistently moist but never soggy. Use rainwater or distilled water where tap-water fluoride causes brown tips.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Moist, well-drained, slightly acidic mix; avoid drying completely and avoid waterlogging.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "NC State gives 65–75°F (18–24°C) as a preferred range; avoid cold drafts and temperature swings.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity of at least 60% is recommended by NC State; airflow remains essential.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed monthly during active growth with a diluted balanced liquid fertilizer; reduce when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged leaves at the base with clean scissors.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Division of rhizomes is the practical propagation method.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "No significant toxicity warning was found in the cited NC State profile; do not infer safety for every pet or individual.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Brown tips can result from fluoride, low humidity or inconsistent moisture. Watch for spider mites and fungal problems in stagnant air.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, high ambient humidity may help, but maintain airflow and use rain/filtered water if leaf tips brown.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-orbifolia"
+          ]
+        }
+      ]
+    },
+    "plant-043": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical Brazilian rainforest perennial formerly called Calathea insignis, grown as a foliage houseplant.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Narrow wavy leaves with alternating dark and light green oval markings and purple undersides; clumping fountain-like habit.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light or partial shade; avoid direct sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep medium consistently moist but not soggy; water when the surface begins to dry slightly.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Peat-based or African-violet style mix with organic matter and good drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm stable temperatures; avoid cold drafts and abrupt changes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity is preferred; ensure airflow to prevent fungal leaf issues.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Use diluted balanced liquid fertilizer during active growth according to label; reduce during slow growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged leaves at the base; avoid tearing healthy stems.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Division of established clumps is the usual propagation method for Goeppertia.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "No specific toxicity claim is made from the reviewed source; keep plants away from pets until species-specific safety is confirmed.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Leaf edge browning may reflect low humidity, water quality or inconsistent moisture; mites may occur.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Dhaka humidity may be adequate, but ventilation and filtered light are important, especially in rainy months.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-insignis"
+          ]
+        }
+      ]
+    },
+    "plant-044": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical rainforest understory perennial formerly called Calathea ornata, grown for its decorative pinstriped foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Dark green leaves with thin pinkish-white stripes on the upper surface and purple undersides; erect clumping habit.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light or partial shade; direct sun can fade or scorch foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep medium evenly moist but not soggy; do not allow complete drying.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Moist, well-drained peat-based or African-violet potting mix.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm stable conditions; protect from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity is preferred; provide good air movement.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Monthly balanced liquid fertilizer during active growth, diluted and applied according to label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove old leaves at the base with clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Division of clumps is the common propagation method; seed propagation not confirmed here.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Toxicity was not established by the source reviewed for this profile; do not assume pet safety without confirmation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Brown edges may follow low humidity, hard water or dry medium; avoid stagnant wet foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, monitor drainage and airflow; don't compensate for brown tips by keeping roots constantly wet.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-ornata"
+          ]
+        }
+      ]
+    },
+    "plant-045": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical creeping perennial in the prayer-plant family, grown for patterned foliage and its daily leaf movement.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Oval leaves with contrasting veins and markings; leaves fold upward at night and reopen in daylight, a nyctinastic movement.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light or partial shade; avoid direct sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep evenly moist but not waterlogged. Allow only slight surface drying before watering again.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Moisture-retentive, airy, slightly acidic medium with good drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm stable conditions; avoid cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Moderate to high humidity is beneficial; maintain airflow.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed lightly with balanced fertilizer during active growth according to label; reduce in slow periods.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Pinch growing tips to encourage a fuller plant; remove damaged leaves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings with nodes or division of rooted clumps are common methods; verify cultivar-specific details separately.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "No specific toxicity conclusion is asserted here; verify the exact species before treating as pet-safe.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Dry edges can reflect low humidity, mineral-rich water or inconsistent moisture; watch for spider mites.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, avoid hot direct sun and stagnant wet soil; maintain steady moisture and ventilation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-maranta"
+          ]
+        }
+      ]
+    },
+    "plant-046": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A compact tropical evergreen herb from South America, often called baby rubber plant but unrelated to Ficus elastica.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Glossy, thick, spoon-shaped or obovate leaves; branched stems and pink-tinged petioles are useful identification features.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light; tolerates lower light for a time but avoid strong direct sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Allow the medium to dry between waterings; it dislikes both wet soil and severe prolonged drought.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Very well-drained, airy mix; a succulent-style blend can help avoid water retention.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm indoor conditions; avoid cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Medium to low humidity is tolerated; high humidity is not required.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed lightly during active growth with balanced fertilizer according to label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Pinch or trim stems to maintain a compact shape.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Leaf or stem cuttings are used for propagation; use healthy material and allow wounds to dry briefly if rooting in mix.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "No specific toxicity warning is reported in the reviewed NC State profile; do not generalize this to all Peperomia species without checking.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering causes yellowing and root rot; monitor for mealybugs, spider mites and whiteflies.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, prioritize airy soil and let the pot dry between waterings, especially in monsoon humidity.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-obtusifolia"
+          ]
+        }
+      ]
+    },
+    "plant-047": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A compact tropical Peperomia grown for its watermelon-like leaf pattern.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Nearly round, peltate leaves with alternating silver and dark-green bands radiating from the petiole attachment; reddish petioles are common.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light; protect from direct hot sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water when the upper medium has dried; avoid waterlogged roots. Its fleshy leaves store some moisture.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Airy, well-drained mix with organic matter and added aeration.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions; protect from cold.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average indoor humidity is usually sufficient; good airflow is more important than misting.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed lightly during active growth using balanced fertilizer at label strength or weaker.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged leaves and pinch leggy growth with clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Leaf or petiole cuttings and division may be used; ensure a viable growing point is present.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "No specific toxicity statement is made here because the source reviewed did not provide one.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering and root rot are key risks for Peperomia; inspect for mealybugs and mites.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, allow the mix to dry appropriately and protect from direct afternoon sun and heavy rain.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-peperomia-argyreia"
+          ]
+        }
+      ]
+    },
+    "plant-048": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical foliage plant grown for colorful speckled leaves, commonly called polka dot plant.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Opposite oval leaves marked with pink, red, white or other contrasting spots over green; color depends on cultivar.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light; adequate light helps maintain compact growth and color, but avoid harsh direct sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep evenly moist but well drained; do not allow repeated severe wilting or waterlogging.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Moisture-retentive but airy potting mix with good drainage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions; protect from cold and temperature swings.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Higher humidity supports foliage; maintain airflow.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed lightly during active growth with balanced fertilizer according to label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Pinch tips regularly to maintain a bushy habit and delay flowering/legginess.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings root readily in moist medium or water; seed may also be used.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Toxicity is not established by the cited source for this entry; do not assume pet safety without a reliable toxicology reference.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Plants can become leggy if light is inadequate or pruning is neglected; watch for aphids and whiteflies.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, keep evenly moist in active growth but avoid waterlogging; pinch often in warm weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-hypoestes"
+          ]
+        }
+      ]
+    },
+    "plant-049": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A tropical perennial widely grown as an ornamental foliage plant, with many cultivars selected for leaf color and pattern.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Opposite leaves with scalloped or toothed margins; foliage color ranges widely. Cultivar variation is substantial.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright filtered light or gentle morning sun; light needs vary among cultivars, and harsh sun can scorch some selections.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep evenly moist but well drained during active growth; avoid prolonged drought in small pots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Fertile, moisture-retentive but well-drained potting mix.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions; growth declines in cool weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Moderate humidity is suitable; airflow helps reduce foliar disease.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed lightly during active growth; avoid excessive nitrogen that can encourage soft growth and reduce color quality.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Pinch growing tips and remove flower spikes if maintaining foliage form; prune with clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings root readily in water or moist medium; seed may not reproduce named cultivars true to type.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Toxicity varies by species/cultivar and reliable pet-safety evidence was not established for this profile; keep away from pets until verified.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Watch for mealybugs, aphids, whiteflies and downy mildew in humid stagnant conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, provide morning light and afternoon protection; prune regularly and maintain airflow in monsoon weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-coleus"
+          ]
+        }
+      ]
+    },
+    "plant-050": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "A trailing or spreading tropical perennial grown for purple foliage and fast growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Succulent-like purple stems with pointed, lance-shaped leaves; color is strongest in good light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright light to some direct sun after gradual acclimation; more light usually deepens purple coloration, but extreme afternoon heat can scorch.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Allow the upper medium to dry somewhat between waterings; avoid prolonged saturation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Well-drained potting mix; it tolerates relatively lean, airy media.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions; protect from cold.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average humidity is tolerated; avoid stagnant air and wet foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed sparingly during active growth with balanced fertilizer according to label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Pinch or prune stems to keep compact; cuttings can be used to fill bare areas.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings root easily in water or moist medium; nodes are essential.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Sap may irritate skin in sensitive people; avoid eye contact and wash after handling. Confirm pet-specific safety before assuming harmlessness.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering can cause stem or root rot; watch for mites and leaf spotting in stagnant conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, it can grow quickly in warm light; protect from extreme afternoon heat and trim often.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-tradescantia-pallida"
+          ]
+        }
+      ]
+    }
+  }
+}
