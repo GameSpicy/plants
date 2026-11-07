@@ -4728,10 +4728,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "Toxicity has not been established from an appropriate plant-specific source in this batch. Treat as unknown; keep away from children and pets until verified.",
-          "confidence": "low",
-          "status": "needs_review",
-          "sources": []
+          "content": "NC State Extension classifies oleander as highly poisonous. All plant parts, including leaves, flowers, stems, sap, roots and seeds, can be dangerous if eaten; do not ingest or burn the plant. Wear gloves when pruning and keep cut material away from children and animals.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-oleander"
+          ]
         },
         {
           "key": "common_problems",
