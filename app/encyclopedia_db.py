@@ -18,7 +18,7 @@ ENCYCLOPEDIA_DB_PATH = Path(
     os.getenv("PLANTS_ENCYCLOPEDIA_DB", str(DATA_DIR / "encyclopedia.db"))
 )
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 SCHEMA = """
 PRAGMA foreign_keys = ON;
@@ -34,6 +34,12 @@ CREATE TABLE IF NOT EXISTS taxa (
     family TEXT,
     genus TEXT,
     rank TEXT NOT NULL DEFAULT 'species',
+    accepted_name TEXT NOT NULL DEFAULT '',
+    parent_name TEXT NOT NULL DEFAULT '',
+    cultivar_epithet TEXT NOT NULL DEFAULT '',
+    taxonomy_status TEXT NOT NULL DEFAULT 'needs_review'
+        CHECK (taxonomy_status IN ('needs_review','verified','conflicting','unresolved')),
+    taxonomy_source_url TEXT NOT NULL DEFAULT '',
     category TEXT,
     description TEXT NOT NULL DEFAULT '',
     growth_habit TEXT NOT NULL DEFAULT '',
@@ -61,6 +67,13 @@ CREATE TABLE IF NOT EXISTS taxon_names (
     UNIQUE(taxon_id, name, language, name_type)
 );
 CREATE INDEX IF NOT EXISTS idx_taxon_names_name ON taxon_names(name);
+
+-- Old catalog IDs remain resolvable after duplicate-name consolidation.
+CREATE TABLE IF NOT EXISTS taxon_id_aliases (
+    legacy_id TEXT PRIMARY KEY,
+    taxon_id TEXT NOT NULL REFERENCES taxa(id) ON DELETE CASCADE,
+    reason TEXT NOT NULL DEFAULT 'duplicate_catalog_entry'
+);
 
 CREATE TABLE IF NOT EXISTS care_profiles (
     id INTEGER PRIMARY KEY,
@@ -280,6 +293,19 @@ def init_encyclopedia_db(path: Path | str | None = None) -> None:
         conn.execute("PRAGMA foreign_keys=ON")
         conn.execute("PRAGMA journal_mode=WAL")
         conn.executescript(SCHEMA)
+        # CREATE TABLE IF NOT EXISTS does not add columns to an existing database.
+        # Apply additive, non-destructive migrations for installations on schema v1.
+        columns = {row[1] for row in conn.execute("PRAGMA table_info(taxa)")}
+        additions = {
+            "accepted_name": "TEXT NOT NULL DEFAULT ''",
+            "parent_name": "TEXT NOT NULL DEFAULT ''",
+            "cultivar_epithet": "TEXT NOT NULL DEFAULT ''",
+            "taxonomy_status": "TEXT NOT NULL DEFAULT 'needs_review'",
+            "taxonomy_source_url": "TEXT NOT NULL DEFAULT ''",
+        }
+        for name, definition in additions.items():
+            if name not in columns:
+                conn.execute(f"ALTER TABLE taxa ADD COLUMN {name} {definition}")
         conn.execute(
             "INSERT INTO encyclopedia_meta(key, value) VALUES('schema_version', ?) "
             "ON CONFLICT(key) DO UPDATE SET value=excluded.value",
