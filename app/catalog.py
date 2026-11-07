@@ -267,7 +267,7 @@ PLANT_CATALOG = [
     {
         "id": "plant-016",
         "name": "Philodendron xanadu",
-        "species": "Thaumatophyllum xanadu",
+        "species": "Philodendron xanadu",
         "category": "Foliage",
         "light": "Bright, indirect light; protect from harsh afternoon sun.",
         "water_days": 7,
