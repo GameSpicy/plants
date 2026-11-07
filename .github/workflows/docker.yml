@@ -61,7 +61,7 @@ jobs:
         run: python tests/docker_preservation_smoke.py plants-preservation-ci
   build-and-push:
     needs: test
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/feature/expanded-plant-catalog')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -76,8 +76,10 @@ jobs:
         with:
           images: ghcr.io/${{ github.repository }}
           tags: |
-            type=raw,value=latest
-            type=raw,value=v0.3.5
+            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
+            type=raw,value=v0.3.5,enable=${{ github.ref == 'refs/heads/main' }}
+            type=raw,value=feature-expanded-plant-catalog,enable=${{ github.ref == 'refs/heads/feature/expanded-plant-catalog' }}
+            type=sha,format=short,prefix=feature-,enable=${{ github.ref == 'refs/heads/feature/expanded-plant-catalog' }}
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=A simple self-hosted household plant care log with reminders. Multi-user, one Docker container, SQLite storage - no subscriptions, no cloud account.
