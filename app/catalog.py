@@ -18,14 +18,23 @@ CATEGORIES = [
 
 
 def _merge_species_aliases(entries: list[dict]) -> list[dict]:
-    """Keep one profile per exact botanical name while retaining common-name aliases."""
+    """Group identical submitted names while preserving every source ID and display name.
+
+    The first ID remains the canonical catalog ID for backwards compatibility.
+    Duplicate IDs are retained as legacy_ids and must be imported as redirects.
+    This grouping is provisional: it does not assert that names are taxonomically accepted.
+    """
     merged: dict[str, dict] = {}
     for entry in entries:
         key = " ".join(entry["species"].casefold().split())
         if key not in merged:
-            merged[key] = {**entry, "aliases": []}
-        elif entry["name"] != merged[key]["name"] and entry["name"] not in merged[key]["aliases"]:
-            merged[key]["aliases"].append(entry["name"])
+            merged[key] = {**entry, "aliases": [], "legacy_ids": []}
+            continue
+        target = merged[key]
+        if entry["id"] != target["id"] and entry["id"] not in target["legacy_ids"]:
+            target["legacy_ids"].append(entry["id"])
+        if entry["name"] != target["name"] and entry["name"] not in target["aliases"]:
+            target["aliases"].append(entry["name"])
     return list(merged.values())
 
 
