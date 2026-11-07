@@ -4,8 +4,10 @@ Imported records remain needs_review; this is not a claim of species-level
 verification. Pest links are added only where the cited sources support them.
 """
 from __future__ import annotations
+import json
 import re
 import sqlite3
+from pathlib import Path
 from datetime import datetime, timezone
 from app.catalog import PLANT_CATALOG
 
@@ -160,6 +162,14 @@ SOURCES = [
  ("source-commons-pothos-1","Money plant (Epipremnum aureum)","Wikimedia Commons","https://commons.wikimedia.org/wiki/File:Money_plant(Epipremnum_Aureum).jpg","image_license","Author: Mithun Mijar; CC BY-SA 4.0"),
  ("source-commons-pothos-2","Money plant (Epipremnum aureum)","Wikimedia Commons","https://commons.wikimedia.org/wiki/File:Money_plant_(Epipremnum_aureum).jpg","image_license","Author: Mokkie; CC BY-SA 3.0"),
  ("source-commons-pothos-3","Epipremnum aureum","Wikimedia Commons","https://commons.wikimedia.org/wiki/File:Epipremnum_aureum_(405626861).jpg","image_license","Author: Dinesh Valke; CC BY-SA 2.0"),
+ ("source-kew-epipremnum","Epipremnum aureum — general information","Royal Botanic Gardens, Kew","https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87014-1/general-information","botanical_database","Native range and growth habit."),
+ ("source-ncsu-epipremnum","Epipremnum aureum","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/epipremnum-aureum/","extension","Identification, cultivation, pests and toxicity."),
+ ("source-wi-pothos","Pothos, Epipremnum aureum","University of Wisconsin–Madison Extension","https://hort.extension.wisc.edu/articles/pothos-epipremmum-aureum/","extension","Propagation and cultivar characteristics."),
+ ("source-rhs-epipremnum","Epipremnum","Royal Horticultural Society","https://www.rhs.org.uk/plants/epipremnum","horticultural_society","Indoor light and watering guidance."),
+ ("source-clemson-pothos","How to Grow Pothos Indoors","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/","extension","Indoor growing guidance; review the source's geographic context."),
+ ("source-nybg-pothos","Pothos (Epipremnum aureum)","New York Botanical Garden","https://libguides.nybg.org/pothos","botanical_garden","Light, watering and humidity context."),
+ ("source-nparks-epipremnum","Epipremnum aureum","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/3/1390","government_botanical_database","Plant features, propagation and ingestion/sap hazard."),
+ ("source-ufifas-cultivars","New Florida Foliage Plant Cultivar: Pothos ‘Pearls and Jade’","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/EP441/pdf","extension","Cultivar descriptions for common pothos selections.")
 ]
 IMAGES = [
  ("image-pothos-mithun","https://commons.wikimedia.org/wiki/Special:FilePath/Money_plant(Epipremnum_Aureum).jpg","Money plant / golden pothos","Mithun Mijar","CC BY-SA 4.0","https://commons.wikimedia.org/wiki/File:Money_plant(Epipremnum_Aureum).jpg"),
@@ -171,7 +181,7 @@ def _slug(v):
 
 def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
  now=datetime.now(timezone.utc).isoformat()
- counts={k:0 for k in ("taxa","names","care_profiles","fertilizer_guides","sources","images","pest_links","disease_links","legacy_ids","synonyms","parent_links")}
+ counts={k:0 for k in ("taxa","names","care_profiles","fertilizer_guides","profile_sections","sources","images","pest_links","disease_links","legacy_ids","synonyms","parent_links")}
  for sid,title,publisher,url,stype,notes in SOURCES:
   cur=conn.execute("INSERT OR IGNORE INTO sources(id,title,publisher,url,source_type,notes) VALUES(?,?,?,?,?,?)",(sid,title,publisher,url,stype,notes)); counts["sources"]+=cur.rowcount
  for p in PLANT_CATALOG:
@@ -283,4 +293,43 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
   cur=conn.execute("""INSERT OR IGNORE INTO media(id,url,caption,attribution,creator,license,source_url,rights_status,created_at)
   VALUES(?,?,?,?,?,?,?,?,?)""",(iid,url,caption,creator,creator,license_name,source_url,"approved",now)); counts["images"]+=cur.rowcount
   conn.execute("INSERT OR IGNORE INTO taxon_media(taxon_id,media_id,sort_order,is_primary) VALUES('plant-001',?,?,?)",(iid,idx,1 if idx==0 else 0))
+
+ # Apply reviewed content batches after starter content. A reviewed section may
+ # replace an imported needs-review placeholder once; repeat seeding is safe.
+ batch_dir = Path(__file__).resolve().parent / "data" / "profile_batches"
+ for batch_path in sorted(batch_dir.glob("profile-*.json")) if batch_dir.exists() else []:
+  with batch_path.open(encoding="utf-8") as handle:
+   batch = json.load(handle)
+  shared = batch.get("shared_sections", [])
+  for taxon in batch.get("catalog_range", []):
+   taxon_sections = list(shared)
+   specific = batch.get("taxa", {}).get(taxon, {})
+   if specific.get("identification"):
+    taxon_sections = [s for s in taxon_sections if s["key"] != "identification"] + [{
+     "key": "identification", "title": "Identification",
+     "content": specific["identification"],
+     "confidence": specific.get("confidence", "high"),
+     "status": specific.get("status", "verified"),
+     "sources": specific.get("sources", [])
+    }]
+   for section in taxon_sections:
+    key=section["key"]
+    status=section.get("status","needs_review")
+    cur=conn.execute("""INSERT INTO taxon_profile_sections
+      (taxon_id,section_key,title,content,confidence,review_status,source_note,updated_at)
+      VALUES(?,?,?,?,?,?,?,?)
+      ON CONFLICT(taxon_id,section_key) DO UPDATE SET
+        title=excluded.title,content=excluded.content,confidence=excluded.confidence,
+        review_status=excluded.review_status,source_note=excluded.source_note,
+        updated_at=excluded.updated_at
+      WHERE taxon_profile_sections.review_status IN ('draft','needs_review')
+        AND excluded.review_status='verified'""",
+      (taxon,key,section["title"],section["content"],section.get("confidence","medium"),
+       status,"Reviewed profile batch "+batch.get("batch_id","unknown"),now))
+    counts["profile_sections"]+=cur.rowcount
+    for source_id in section.get("sources", []):
+     conn.execute("""INSERT OR IGNORE INTO content_references
+       (content_type,content_id,reference_id,claim)
+       VALUES('taxon_section',?,?,?)""",
+       (f"{taxon}:{key}",source_id,"Source cited for this profile section."))
  return counts
