@@ -231,10 +231,10 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert "purple" in section(batch_051_100[1], "identification")["content"].lower()
     assert section(batch_051_100[11], "overview")["review_status"] == "verified"  # Fittonia
     assert section(batch_051_100[22], "overview")["review_status"] == "verified"  # Hibiscus
-    assert section(batch_051_100[25], "overview")["review_status"] == "verified"  # Gardenia
-    assert section(batch_051_100[26], "overview")["review_status"] == "verified"  # Jasmine genus evidence
+    assert section(batch_051_100[26], "overview")["review_status"] == "verified"  # Gardenia
+    assert section(batch_051_100[27], "overview")["review_status"] == "verified"  # Jasmine genus evidence
     assert section(batch_051_100[41], "overview")["review_status"] == "verified"  # Oleander
-    assert section(batch_051_100[41], "toxicity")["review_status"] == "needs_review"
+    assert section(batch_051_100[41], "toxicity")["review_status"] == "verified"
     assert all(section(profile, "watering")["review_status"] == "needs_review" for profile in batch_051_100)
     assert any(src["id"] == "source-ncsu-tradescantia" for src in section(batch_051_100[0], "overview")["sources"])
 
