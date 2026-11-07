@@ -161,7 +161,7 @@ SOURCES = [
  ("source-ncsu-lantana","Lantana camara — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/lantana-camara/","extension","Species-level identification, cultivation, pest issues and toxicity."),
  ("source-ncsu-oleander","Nerium oleander — Plant Toolbox","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/nerium-oleander/","extension","Species-level identification, cultivation and high-severity toxicity."),
  ("source-ncsu-annual-ornamentals","Herbaceous Ornamentals — Extension Gardener Handbook","North Carolina State Extension","https://content.ces.ncsu.edu/extension-gardener-handbook/10-herbaceous-ornamentals","extension","General annual-flower pruning and cultivation context; not a substitute for species-specific care."),
- ("source-ncsu-houseplant-container","Plants Grown in Containers — Extension Gardener Handbook","North Carolina State Extension","https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers","extension","Container selection and broad plant-group context only; not species-specific care.")
+ ("source-ncsu-houseplant-container","Plants Grown in Containers — Extension Gardener Handbook","North Carolina State Extension","https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers","extension","Container selection and broad plant-group context only; not species-specific care."),
 
  ("source-rhs-houseplants","How to grow houseplants","Royal Horticultural Society","https://www.rhs.org.uk/plants/types/houseplants/growing-guide","horticultural_society",""),
  ("source-powo","Plants of the World Online","Royal Botanic Gardens, Kew","https://powo.science.kew.org/","taxonomic_backbone","Accepted names and synonymy checked for the individually cited records only."),
@@ -179,7 +179,7 @@ SOURCES = [
  ("source-clemson-pothos","How to Grow Pothos Indoors","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/","extension","Indoor growing guidance; review the source's geographic context."),
  ("source-nybg-pothos","Pothos (Epipremnum aureum)","New York Botanical Garden","https://libguides.nybg.org/pothos","botanical_garden","Light, watering and humidity context."),
  ("source-nparks-epipremnum","Epipremnum aureum","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/3/1390","government_botanical_database","Plant features, propagation and ingestion/sap hazard."),
- ("source-ufifas-cultivars","New Florida Foliage Plant Cultivar: Pothos ‘Pearls and Jade’","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/EP441/pdf","extension","Cultivar descriptions for common pothos selections.")
+ ("source-ufifas-cultivars","New Florida Foliage Plant Cultivar: Pothos ‘Pearls and Jade’","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/EP441/pdf","extension","Cultivar descriptions for common pothos selections."),
 
  ("source-nparks-scindapsus","Scindapsus pictus","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/6/0/6027","government_botanical_database","Plant features, habitat and cultivation."),
  ("source-rhs-scindapsus","Scindapsus pictus","Royal Horticultural Society","https://www.rhs.org.uk/plants/93929/scindapsus-pictus-v/details","horticultural_society","Native range, cultivation and propagation."),
@@ -193,7 +193,7 @@ SOURCES = [
  ("source-uconn-philodendron","Philodendron","University of Connecticut Extension","https://homegarden.cahnr.uconn.edu/FactSheets/philodendron/","extension","Genus-level care and cultivar Brasil identification."),
  ("source-ncsu-birkin","Philodendron 'Birkin'","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-birkin/","extension","Cultivar appearance and growing problems."),
  ("source-nparks-pink-princess","Philodendron 'Pink Princess'","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/8/5/8541","government_botanical_database","Cultivar identification, care, propagation and hazard."),
- ("source-nparks-erubescens","Philodendron erubescens","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/4/1475","government_botanical_database","Parent species growth form and native distribution.")
+ ("source-nparks-erubescens","Philodendron erubescens","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/4/1475","government_botanical_database","Parent species growth form and native distribution."),
 
  ("source-ncsu-heptapleurum","Heptapleurum arboricola","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/heptapleurum-arboricola/","extension","Dwarf umbrella tree identification, cultivation and toxicity."),
  ("source-ifas-xanadu","Philodendron x 'Xanadu'","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/FP474/about","extension","Cultivar identity and landscape characteristics."),
@@ -206,7 +206,7 @@ SOURCES = [
  ("source-ncsu-snake","Dracaena trifasciata","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/","extension","Identification, cultivation and cultivar descriptions."),
  ("source-ncsu-spider","Chlorophytum comosum","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/","extension","Identification, culture and propagation."),
  ("source-wi-spider","Spider plant","University of Wisconsin–Madison Extension","https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/","extension","Cultivar characteristics and propagation."),
- ("source-ifas-rubber","Ficus elastica: Rubber Tree","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/ST252","extension","Culture, propagation, cultivars and pests.")
+ ("source-ifas-rubber","Ficus elastica: Rubber Tree","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/ST252","extension","Culture, propagation, cultivars and pests."),
 
  ("source-ncsu-ficus-lyrata","Ficus lyrata","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/ficus-lyrata/","extension","Identification, culture and toxicity."),
  ("source-ncsu-ficus-microcarpa","Ficus microcarpa 'Ginseng'","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng/","extension","Bonsai form, aerial roots and cultivation."),
