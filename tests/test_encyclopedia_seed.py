@@ -143,6 +143,18 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert all(item["confidence"] == "low" for item in sections.values())
     assert any(source["id"] == "source-rhs-houseplants" for source in sections["light"]["sources"])
     assert sections["toxicity"]["sources"] == []
+    overview_sources = {source["id"] for source in sections["overview"]["sources"]}
+    assert "source-kew-epipremnum" in overview_sources
+    assert sections["overview"]["review_status"] == "verified"
+    manjula = get_taxon("plant-005", path=path)
+    manjula_identification = next(
+        item for item in manjula["profile_sections"] if item["section_key"] == "identification"
+    )
+    assert manjula_identification["review_status"] == "needs_review"
+    assert manjula_identification["sources"] == []
+    for taxon_id in ("plant-001", "plant-002", "plant-003", "plant-004", "plant-005"):
+        profile = get_taxon(taxon_id, path=path)
+        assert len(profile["profile_sections"]) >= 13
     assert len(pothos["media"]) == 3
     assert pothos["media"][0]["license"] == "CC BY-SA 4.0"
     assert pothos["fertilizer_guides"]
