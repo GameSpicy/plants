@@ -363,6 +363,18 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
    batch = json.load(handle)
   shared = batch.get("shared_sections", [])
   for taxon in batch.get("catalog_range", []):
+   # Profile batches may refer to legacy catalog IDs consolidated into a
+   # canonical taxon. Resolve them before writing rows with a taxa FK.
+   alias = conn.execute(
+    "SELECT taxon_id FROM taxon_id_aliases WHERE legacy_id=?", (taxon,)
+   ).fetchone()
+   canonical_taxon = alias[0] if alias else taxon
+   exists = conn.execute("SELECT 1 FROM taxa WHERE id=?", (canonical_taxon,)).fetchone()
+   if not exists:
+    raise ValueError(
+     f"Profile batch {batch.get('batch_id', 'unknown')} references "
+     f"unknown catalog taxon {taxon!r}"
+    )
    specific = batch.get("taxa", {}).get(taxon, {})
    taxon_sections = list(specific.get("sections", shared))
    if specific.get("identification"):
@@ -385,12 +397,12 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
         updated_at=excluded.updated_at
       WHERE taxon_profile_sections.review_status IN ('draft','needs_review')
         AND excluded.review_status='verified'""",
-      (taxon,key,section["title"],section["content"],section.get("confidence","medium"),
+      (canonical_taxon,key,section["title"],section["content"],section.get("confidence","medium"),
        status,"Reviewed profile batch "+batch.get("batch_id","unknown"),now))
     counts["profile_sections"]+=cur.rowcount
     for source_id in section.get("sources", []):
      conn.execute("""INSERT OR IGNORE INTO content_references
        (content_type,content_id,reference_id,claim)
        VALUES('taxon_section',?,?,?)""",
-       (f"{taxon}:{key}",source_id,"Source cited for this profile section."))
+       (f"{canonical_taxon}:{key}",source_id,"Source cited for this profile section."))
  return counts
