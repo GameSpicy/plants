@@ -197,6 +197,7 @@ SOURCES = [
 
  ("source-ncsu-heptapleurum","Heptapleurum arboricola","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/heptapleurum-arboricola/","extension","Dwarf umbrella tree identification, cultivation and toxicity."),
  ("source-ifas-xanadu","Philodendron x 'Xanadu'","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/FP474/about","extension","Cultivar identity and landscape characteristics."),
+ ("source-ncsu-xanadu","Xanadu Philodendron — Philodendron xanadu","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-xanadu/common-name/xanadu-philodendron/","extension","Species-level identification, growth habit, light, watering, temperature, pests and toxicity."),
  ("source-clemson-aglaonema","Chinese Evergreen (Aglaonema)","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/","extension","Care and cultivar background."),
  ("source-ifas-aglaonema","Aglaonema spp.","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/FP025","extension","Morphology, culture and toxicity."),
  ("source-ncsu-dieffenbachia","Dieffenbachia seguine","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/","extension","Identification, culture, propagation, pests and safety."),
