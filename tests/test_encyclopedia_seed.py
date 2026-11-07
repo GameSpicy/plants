@@ -137,6 +137,12 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
 
     pothos = get_taxon("plant-001", path=path)
     assert pothos is not None
+    sections = {item["section_key"]: item for item in pothos["profile_sections"]}
+    assert {"light", "watering", "soil", "temperature", "humidity", "toxicity"} <= set(sections)
+    assert all(item["review_status"] == "needs_review" for item in sections.values())
+    assert all(item["confidence"] == "low" for item in sections.values())
+    assert any(source["id"] == "source-rhs-houseplants" for source in sections["light"]["sources"])
+    assert sections["toxicity"]["sources"] == []
     assert len(pothos["media"]) == 3
     assert pothos["media"][0]["license"] == "CC BY-SA 4.0"
     assert pothos["fertilizer_guides"]
