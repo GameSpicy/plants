@@ -139,8 +139,9 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert pothos is not None
     sections = {item["section_key"]: item for item in pothos["profile_sections"]}
     assert {"light", "watering", "soil", "temperature", "humidity", "toxicity"} <= set(sections)
-    assert all(item["review_status"] == "needs_review" for item in sections.values())
-    assert all(item["confidence"] == "low" for item in sections.values())
+    # This first batch contains sourced, reviewed Epipremnum guidance.
+    assert all(item["review_status"] == "verified" for item in sections.values())
+    assert all(item["confidence"] in {"medium", "high"} for item in sections.values())
     assert any(source["id"] == "source-rhs-houseplants" for source in sections["light"]["sources"])
     assert sections["toxicity"]["sources"] == []
     overview_sources = {source["id"] for source in sections["overview"]["sources"]}
