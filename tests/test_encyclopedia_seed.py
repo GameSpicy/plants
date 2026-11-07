@@ -205,6 +205,23 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert "plantlets" in section(spider, "overview")["content"]
     assert "latex" in section(rubber, "toxicity")["content"]
 
+    # Fourth ordered batch: plant-026 through plant-050.
+    batch_026_050 = [get_taxon(f"plant-{i:03d}", path=path) for i in range(26, 51)]
+    assert all(profile is not None and len(profile["profile_sections"]) >= 13 for profile in batch_026_050)
+    def section(profile, key):
+        return next(item for item in profile["profile_sections"] if item["section_key"] == key)
+    assert section(batch_026_050[0], "identification")["review_status"] == "needs_review"  # Burgundy cultivar
+    assert "fiddle" in section(batch_026_050[1], "identification")["content"].lower()
+    assert "braided" in section(batch_026_050[4], "identification")["content"].lower()
+    assert "filtered light" in section(batch_026_050[5], "light")["content"]
+    assert "not a true bamboo" in section(batch_026_050[10], "overview")["content"]
+    assert section(batch_026_050[12], "identification")["review_status"] == "needs_review"  # Alocasia Polly hybrid
+    assert "tuber" in section(batch_026_050[11], "overview")["content"]
+    assert "fluoride" in section(batch_026_050[16], "watering")["content"]
+    assert section(batch_026_050[19], "identification")["sources"] == []
+    assert section(batch_026_050[22], "identification")["review_status"] == "needs_review"
+    assert any(src["id"] == "source-ncsu-heptapleurum" for src in section(batch_026_050[5], "overview")["sources"])
+
     assert len(pothos["media"]) == 3
     assert pothos["media"][0]["license"] == "CC BY-SA 4.0"
     assert pothos["fertilizer_guides"]
