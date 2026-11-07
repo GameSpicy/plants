@@ -18,7 +18,7 @@ ENCYCLOPEDIA_DB_PATH = Path(
     os.getenv("PLANTS_ENCYCLOPEDIA_DB", str(DATA_DIR / "encyclopedia.db"))
 )
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 SCHEMA = """
 PRAGMA foreign_keys = ON;
@@ -96,6 +96,26 @@ CREATE TABLE IF NOT EXISTS care_profiles (
         CHECK (confidence IN ('unreviewed','low','medium','high')),
     updated_at TEXT NOT NULL
 );
+
+-- Flexible, sourced plant-profile sections. A section can be reviewed
+-- independently; empty or unsupported sections are not fabricated.
+CREATE TABLE IF NOT EXISTS taxon_profile_sections (
+    id INTEGER PRIMARY KEY,
+    taxon_id TEXT NOT NULL REFERENCES taxa(id) ON DELETE CASCADE,
+    section_key TEXT NOT NULL,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL DEFAULT '',
+    confidence TEXT NOT NULL DEFAULT 'unreviewed'
+        CHECK (confidence IN ('unreviewed','low','medium','high')),
+    review_status TEXT NOT NULL DEFAULT 'needs_review'
+        CHECK (review_status IN ('draft','needs_review','verified','retired')),
+    source_note TEXT NOT NULL DEFAULT '',
+    reviewed_at TEXT,
+    updated_at TEXT NOT NULL,
+    UNIQUE(taxon_id, section_key)
+);
+CREATE INDEX IF NOT EXISTS idx_taxon_profile_sections_taxon
+    ON taxon_profile_sections(taxon_id, section_key);
 
 CREATE TABLE IF NOT EXISTS fertilizer_guides (
     id TEXT PRIMARY KEY,
