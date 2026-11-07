@@ -19,7 +19,7 @@ The schema update is additive and non-destructive. Existing encyclopedia databas
 
 ## Individually checked POWO records
 
-The first review batch expanded the individually checked set to eleven records:
+The first two review batches have individually checked 21 catalog records against Kew Plants of the World Online (POWO). The accepted-name source is recorded per taxon in `TAXONOMY_OVERRIDES`.
 
 | Catalog ID | Accepted name | Synonym retained | Source |
 |---|---|---|---|
@@ -29,13 +29,23 @@ The first review batch expanded the individually checked set to eleven records:
 | plant-009 | Monstera adansonii | — | https://powo.science.kew.org/taxon/87464-1 |
 | plant-010 | Rhaphidophora tetrasperma | — | https://powo.science.kew.org/taxon/88594-1 |
 | plant-011 | Philodendron hederaceum | — | https://powo.science.kew.org/taxon/87797-1 |
-| plant-020 | Zamioculcas zamiifolia | — | https://powo.science.kew.org/taxon/89402-1 |
-| plant-024 | Chlorophytum comosum | — | https://powo.science.kew.org/taxon/532810-1 |
 | plant-016 | Philodendron xanadu | Thaumatophyllum xanadu | https://powo.science.kew.org/taxon/20011461-1 |
-| plant-031 | Heptapleurum arboricola | Schefflera arboricola | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:90845-1 |
+| plant-020 | Zamioculcas zamiifolia | — | https://powo.science.kew.org/taxon/89402-1 |
 | plant-022 | Dracaena trifasciata | Sansevieria trifasciata | https://powo.science.kew.org/taxon/77164235-1 |
+| plant-024 | Chlorophytum comosum | — | https://powo.science.kew.org/taxon/532810-1 |
+| plant-025 | Ficus elastica | — | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60458499-2 |
+| plant-027 | Ficus lyrata | — | https://powo.science.kew.org/taxon/853158-1 |
+| plant-028 | Ficus benjamina | — | https://powo.science.kew.org/taxon/852486-1 |
+| plant-029 | Ficus microcarpa | — | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:853217-1 |
+| plant-030 | Pachira aquatica | — | https://powo.science.kew.org/taxon/179762-2 |
+| plant-031 | Heptapleurum arboricola | Schefflera arboricola | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:90845-1 |
+| plant-032 | Codiaeum variegatum | — | https://powo.science.kew.org/taxon/85073-3 |
+| plant-033 | Cordyline fruticosa | — | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:533580-1 |
+| plant-034 | Dracaena reflexa | — | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:534338-1 |
+| plant-035 | Dracaena fragrans | — | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:534207-1 |
+| plant-036 | Dracaena sanderiana | — | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60471006-2 |
 
-The remaining 173 normalized taxa stay `needs_review` at this point; cultivar/trade-name entries were not upgraded merely because their parent species was checked. The broader plant profile remains `needs_review`; verifying a name does not verify care, toxicity, pests, disease or other horticultural content.
+The remaining 163 normalized taxa stay `needs_review`; cultivar/trade-name entries are not upgraded merely because their parent species was checked. The broader plant profile remains `needs_review`: verifying a name does not verify care, toxicity, pests, disease or other horticultural content.
 
 ## Duplicate ID preservation
 
@@ -51,4 +61,4 @@ This is a foundation and a small verified pilot, not a completed taxonomic audit
 
 ## Validation
 
-Automated tests were expanded to cover schema fields, eleven cited POWO records, cultivar parsing, parent linking, duplicate-ID redirects, source references and idempotent seeding. These tests have not yet been executed in a runtime in this work session.
+Automated tests were expanded to cover schema fields, 21 cited POWO records, cultivar parsing, parent linking, duplicate-ID redirects, source references and idempotent seeding. These tests have not yet been executed in a runtime in this work session.
