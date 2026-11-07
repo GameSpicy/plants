@@ -40,6 +40,16 @@ The Manjula-specific identification description remains `needs_review` because t
 
 The batch data is stored in `app/data/profile_batches/profile-001-005.json` and loaded repeat-safely by the catalog importer. Existing starter sections are upgraded only when the incoming batch is verified and the stored section is still draft or awaiting review. Existing verified sections are not silently overwritten.
 
+## Second reviewed batch: plant-006 to plant-015
+
+The second ordered batch covers Scindapsus pictus (including the catalog's 'Argyraeus' entry), Monstera deliciosa, Monstera adansonii, Rhaphidophora tetrasperma, Philodendron hederaceum (including 'Brasil'), Philodendron 'Birkin', Philodendron erubescens 'Pink Princess', and Philodendron gloriosum.
+
+Care content is separated by species rather than reusing the pothos profile. In particular, Rhaphidophora tetrasperma is explicitly distinguished from Monstera; Monstera deliciosa propagation requires a node; and Scindapsus pictus is identified as a distinct Southeast Asian vine whose documented native range includes southeastern Bangladesh. The 'Brasil' identification uses the yellow central leaf band described by UConn Extension.
+
+Cultivar uncertainty is retained. The catalog's Scindapsus pictus 'Argyraeus' record has a cultivar name listed by NC State but no independently verified unique diagnostic description in the sources reviewed, so its cultivar identification remains needs_review. Philodendron 'Birkin' remains needs_review at the taxonomy/content level because the RHS entry reports unresolved name status; the cultivar's pinstriped foliage description is recorded from NC State. Philodendron gloriosum care sections remain needs_review where only genus-level Philodendron guidance is available. Philodendron 'Pink Princess' has a distinct NParks profile and cultivar-level identification and care sources.
+
+Batch data is stored in app/data/profile_batches/profile-006-015.json. Each section links only to the source used for that section, rather than attaching every source to every claim.
+
 ## Review sequence
 
 Process canonical catalog IDs in ascending order, in batches of approximately 10–15 taxa. For each taxon:
