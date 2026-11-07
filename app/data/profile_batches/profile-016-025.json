@@ -1,0 +1,1377 @@
+{
+  "batch_id": "profile-016-025",
+  "catalog_range": [
+    "plant-016",
+    "plant-017",
+    "plant-018",
+    "plant-019",
+    "plant-020",
+    "plant-021",
+    "plant-022",
+    "plant-023",
+    "plant-024",
+    "plant-025"
+  ],
+  "basis": "Species-specific content sourced from university extension references. Common-name and cultivar records retain separate identification notes.",
+  "shared_sections": [],
+  "taxa": {
+    "plant-016": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Philodendron xanadu is a clumping, mounding tropical aroid grown for its deeply divided foliage. NC State describes it as a warm-climate landscape and houseplant, with a dense spreading habit.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are dark grey-green and deeply divided into many lobes. The plant forms a compact clump rather than a long trailing vine; mature plants can become broad.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Indoors, provide bright indirect light. Outdoors it tolerates sun to partial shade in suitable warm climates, but container foliage should be acclimated gradually to brighter exposure.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water thoroughly, then allow the upper layer of medium to dry before watering again. NC State warns that overwatering can cause yellow leaves.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use rich, moisture-retentive but well-drained soil. Ensure container drainage; avoid prolonged saturation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "NC State gives 65–75°F (about 18–24°C) as a preferred indoor range. Protect from cold and drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Some humidity is beneficial, but a precise humidity target was not established in the reviewed source. Maintain airflow.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Use a balanced houseplant fertilizer during active growth according to label directions. Reduce feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove dead or damaged leaves at the base with clean tools. Divide only when a plant has formed separable clumps.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Division is appropriate for established clumps; species-specific propagation detail beyond division was not established in the reviewed source.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NC State classifies the plant as having low-severity poison characteristics. Keep away from children and pets; do not ingest plant parts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering can cause yellowing. No major pest or disease issue was highlighted in the reviewed NC State summary; inspect routinely for common indoor pests.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm Dhaka conditions, growth may continue much of the year. Adjust watering to actual drying and drainage, and reduce feeding only when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-xanadu"
+          ]
+        }
+      ]
+    },
+    "plant-017": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Aglaonema commutatum is a tropical evergreen foliage plant from Southeast Asia. It is commonly grown indoors for its durable leaves and tolerance of lower light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Plants form upright clumps with simple, oval to lance-shaped leaves. The catalog's plain Aglaonema entry should not be confused with every hybrid cultivar sold as Chinese evergreen.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Low to moderate indirect light is suitable. Avoid strong direct sun, which can scorch leaves; variegated selections may need brighter indirect light to maintain pattern.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep the medium moderately moist but allow the top 1–2 inches to dry before watering again. Clemson notes tolerance of some drought but avoid prolonged waterlogging.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a commercial soilless potting mix with added organic matter and reliable drainage. Do not let the pot stand in water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Clemson recommends about 68–80°F (20–27°C) and avoiding temperatures below 55°F (13°C). Protect from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Aglaonema tolerates lower humidity but prefers moderate humidity. Good airflow is useful in humid climates.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed modestly during active growth with a balanced houseplant fertilizer according to its label. Avoid overfertilizing.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove yellow or damaged leaves at the base using clean tools. Repot when crowded rather than routinely disturbing roots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Division of established clumps is a practical method; confirm that each division has roots and growing points. Species-specific seed guidance was not established in this source.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "UF/IFAS reports calcium oxalate crystals and low toxicity; all parts may cause dermatitis or internal irritation if ingested. Keep away from pets and children.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering and cold exposure can cause decline. Watch for common indoor pests; diagnose before treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Maintain moisture checks during hot periods but do not keep the mix constantly saturated. Reduce watering and feeding if growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        }
+      ]
+    },
+    "plant-019": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Dieffenbachia seguine is an upright tropical aroid grown as a foliage houseplant. Older plants develop a conspicuous cane-like stem.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are elliptic to oblong and often blotched with cream. NC State notes more than eight prominent lateral veins, often around 20–30, which helps distinguish Dieffenbachia from Aglaonema.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Provide indirect light or partial shade. Protect from strong direct sunlight.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water thoroughly, then allow the top inch of soil to dry before watering again. Avoid persistent wetness to reduce root-rot risk.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use loose, fertile, high-organic-matter soil with good drainage. The medium should retain some moisture without remaining saturated.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep in moderate, warm indoor temperatures and protect from cold drafts. The reviewed NC State source does not set a precise optimum range.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "High humidity is tolerated and preferred. Ensure air movement and avoid prolonged leaf wetness.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Use a balanced houseplant fertilizer during active growth according to label directions; reduce feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged lower leaves with clean tools. Wear gloves and avoid contact with sap; wash hands after handling.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "NC State lists division and stem or root cuttings as propagation methods. Use clean tools and handle cut stems carefully.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Dieffenbachia is toxic and can cause significant irritation if chewed. Keep well away from children and pets; wear gloves and keep sap away from eyes and mouth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Potential pests include spider mites, scale, whiteflies, fungus gnats and aphids. Diseases include fungal leaf spot, root rot and blight; diagnose before treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka's humid season, prioritize airflow and drainage. Check moisture before watering and remove decaying foliage promptly.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-dieffenbachia"
+          ]
+        }
+      ]
+    },
+    "plant-020": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Zamioculcas zamiifolia is a slow-growing, rhizomatous tropical perennial used as a durable indoor foliage plant. Thick rhizomes and fleshy leaf stalks store water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Upright, arching stems carry glossy, dark green leaflets arranged in pairs along a central rachis. New growth emerges from underground rhizomes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light is best, but the plant tolerates very low light. Avoid harsh direct afternoon sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep on the dry side. Water thoroughly, discard runoff, and allow the potting medium to dry well before watering again. Frequent watering in constantly wet soil can cause problems.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a very well-drained potting mix and a container with drainage holes. Avoid oversized pots that remain wet for too long.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Typical warm indoor temperatures are suitable. Protect from cold; the reviewed Iowa State source does not specify a precise range.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average indoor humidity is tolerated; no special humidity treatment is required by the reviewed source.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Iowa State suggests dilute fertilizer once or twice monthly in spring and summer. Feed only when actively growing and follow product directions; avoid excess salts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove yellow or damaged stems at the base with clean tools. Avoid unnecessary cutting of healthy foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by division or leaf cuttings. UConn notes leaf cuttings may take up to nine months to form a rhizome under ordinary household conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "ZZ plant is poisonous if ingested. Calcium oxalate crystals can irritate the mouth and throat; keep away from children and pets.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Few pest or disease problems are reported. Excess water and constantly wet medium are common preventable causes of decline.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm Dhaka conditions, allow the medium to dry thoroughly between waterings. Rainy weather and humid air do not mean the rhizome needs more water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        }
+      ]
+    },
+    "plant-022": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Dracaena trifasciata is an evergreen, clumping succulent-like perennial native to central Africa. It is widely grown as a low-maintenance foliage plant.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are stiff, upright and sword-shaped, usually with mottled green bands. The species epithet refers to transverse striping. The former name Sansevieria trifasciata is widely encountered.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light is suitable; the plant tolerates low light and some direct sun after acclimation. Avoid abrupt exposure to intense sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Allow the soil to dry between waterings. Overwatering can cause root rot; NC State advises very infrequent watering in winter in its temperate context.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a coarse, freely draining succulent mix and a pot with drainage. Avoid dense, moisture-retentive soil.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions are preferred, but NC State notes tolerance of cooler temperatures around 50°F (10°C). Protect from frost and prolonged cold.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Low humidity is tolerated. Avoid trapping moisture around the base or keeping foliage wet.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed sparingly during active growth with a diluted balanced fertilizer. Do not routinely fertilize during slow growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged leaves at soil level with clean tools. Divide crowded clumps when repotting.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by division or leaf cuttings. Leaf-cutting variegation may not always reproduce the parent pattern in all cultivars.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NC State identifies low-severity poison characteristics. Keep away from pets and children; ingestion may cause gastrointestinal irritation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering may cause root rot. NC State recommends monitoring for mealybugs and spider mites; significant disease problems are otherwise uncommon.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, shelter from prolonged monsoon rain and ensure pots drain rapidly. Allow the mix to dry before watering again, even in hot weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        }
+      ]
+    },
+    "plant-024": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Chlorophytum comosum is a herbaceous perennial from tropical and southern Africa, commonly grown in hanging baskets for its arching foliage and cascading plantlets.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are narrow and linear, green or striped with white. Long stolons produce small plantlets and flowers, a useful identification feature.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Provide medium, indirect light. It tolerates shade but is intolerant of direct sunlight, which can scorch foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep the medium evenly moist during active growth but allow excess water to drain. It tolerates some drying; reduce watering when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a standard well-drained potting mix and a container with drainage holes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep above about 45°F (7°C) and protect from cold. Warm indoor conditions are suitable.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Medium humidity is preferred, although the plant tolerates drier air. Avoid stagnant air.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Avoid overfertilizing, as excess feeding can reduce plantlet formation. Use a balanced fertilizer lightly during active growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Trim brown leaf tips or damaged leaves with clean scissors. Remove spent stolons only if plantlets are not wanted.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate easily by rooting attached or detached plantlets, or by division. Wisconsin Extension notes seed-grown plants may not retain the parent's leaf coloration.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NC State does not flag this plant as a significant toxicity concern in its profile. Avoid assuming every trade cultivar has been separately toxicologically tested.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "NC State reports no significant pest or disease problems. Brown leaf tips may be associated with water quality or environmental stress; the source notes chlorine and fluoride in tap water can contribute.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Reduce watering in cooler or slower-growth periods. In Dhaka, monitor pots more often in hot weather but avoid direct balcony sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-spider"
+          ]
+        }
+      ]
+    },
+    "plant-025": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Ficus elastica is an evergreen tropical tree widely grown as an indoor foliage plant. It can become a substantial tree outdoors in suitable frost-free climates.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are large, thick, leathery and glossy, usually elliptic with a prominent midrib. New leaves emerge from a protective sheath; latex sap is present in cut tissue.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Grow in bright indirect light or partial shade. It can tolerate brighter exposure after gradual acclimation; avoid sudden intense sun indoors.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Allow the growing medium to become fairly dry between waterings, especially in containers. Water thoroughly and discard runoff.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a well-drained potting medium and a container with open drainage. Avoid keeping roots constantly wet.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep warm and protect from cold drafts and frost. The reviewed UF/IFAS profile does not specify an indoor optimum temperature.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average indoor humidity is generally tolerated; avoid stagnant conditions and maintain airflow.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed a balanced houseplant fertilizer during active growth according to label directions. Reduce feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Prune to control height or remove damaged branches. Wear gloves because cut stems release latex; use clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "UF/IFAS lists propagation by layering or cuttings. Use healthy stem sections and maintain suitable warmth and moisture while rooting.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Ficus elastica produces latex sap that may irritate skin and eyes. Keep away from children and pets; do not ingest any part.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "UF/IFAS notes scale insects may occasionally be a problem; no major pest or disease concerns are listed. Inspect leaf undersides and stems.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm Dhaka conditions, growth may continue for much of the year. Check moisture frequently during hot periods but avoid waterlogged pots during monsoon weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ifas-rubber"
+          ]
+        }
+      ]
+    },
+    "plant-018": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Aglaonema commutatum is a tropical evergreen foliage plant from Southeast Asia. It is commonly grown indoors for its durable leaves and tolerance of lower light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Plants form upright clumps with simple, oval to lance-shaped leaves. The catalog's plain Aglaonema entry should not be confused with every hybrid cultivar sold as Chinese evergreen.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Low to moderate indirect light is suitable. Avoid strong direct sun, which can scorch leaves; variegated selections may need brighter indirect light to maintain pattern.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep the medium moderately moist but allow the top 1–2 inches to dry before watering again. Clemson notes tolerance of some drought but avoid prolonged waterlogging.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a commercial soilless potting mix with added organic matter and reliable drainage. Do not let the pot stand in water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Clemson recommends about 68–80°F (20–27°C) and avoiding temperatures below 55°F (13°C). Protect from cold drafts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Aglaonema tolerates lower humidity but prefers moderate humidity. Good airflow is useful in humid climates.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed modestly during active growth with a balanced houseplant fertilizer according to its label. Avoid overfertilizing.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove yellow or damaged leaves at the base using clean tools. Repot when crowded rather than routinely disturbing roots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Division of established clumps is a practical method; confirm that each division has roots and growing points. Species-specific seed guidance was not established in this source.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "UF/IFAS reports calcium oxalate crystals and low toxicity; all parts may cause dermatitis or internal irritation if ingested. Keep away from pets and children.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering and cold exposure can cause decline. Watch for common indoor pests; diagnose before treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Maintain moisture checks during hot periods but do not keep the mix constantly saturated. Reduce watering and feeding if growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-clemson-aglaonema"
+          ]
+        }
+      ],
+      "identification": "This catalog entry uses the common name Chinese evergreen for Aglaonema commutatum. The profile describes the species-level form; many plants sold under the Chinese evergreen name are hybrids with different leaf colors and patterns.",
+      "confidence": "medium",
+      "status": "verified",
+      "sources": [
+        "source-clemson-aglaonema"
+      ]
+    },
+    "plant-021": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Zamioculcas zamiifolia is a slow-growing, rhizomatous tropical perennial used as a durable indoor foliage plant. Thick rhizomes and fleshy leaf stalks store water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Upright, arching stems carry glossy, dark green leaflets arranged in pairs along a central rachis. New growth emerges from underground rhizomes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light is best, but the plant tolerates very low light. Avoid harsh direct afternoon sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep on the dry side. Water thoroughly, discard runoff, and allow the potting medium to dry well before watering again. Frequent watering in constantly wet soil can cause problems.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a very well-drained potting mix and a container with drainage holes. Avoid oversized pots that remain wet for too long.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Typical warm indoor temperatures are suitable. Protect from cold; the reviewed Iowa State source does not specify a precise range.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average indoor humidity is tolerated; no special humidity treatment is required by the reviewed source.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Iowa State suggests dilute fertilizer once or twice monthly in spring and summer. Feed only when actively growing and follow product directions; avoid excess salts.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove yellow or damaged stems at the base with clean tools. Avoid unnecessary cutting of healthy foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by division or leaf cuttings. UConn notes leaf cuttings may take up to nine months to form a rhizome under ordinary household conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "ZZ plant is poisonous if ingested. Calcium oxalate crystals can irritate the mouth and throat; keep away from children and pets.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Few pest or disease problems are reported. Excess water and constantly wet medium are common preventable causes of decline.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm Dhaka conditions, allow the medium to dry thoroughly between waterings. Rainy weather and humid air do not mean the rhizome needs more water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-iastate-zz"
+          ]
+        }
+      ],
+      "identification": "‘Raven’ is a ZZ plant selection distinguished by very dark green, nearly black foliage compared with the common green form. UConn Extension identifies this cultivar distinction; no separate cultivar-specific care requirements were established.",
+      "confidence": "high",
+      "status": "verified",
+      "sources": [
+        "source-uconn-zz"
+      ]
+    },
+    "plant-023": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Dracaena trifasciata is an evergreen, clumping succulent-like perennial native to central Africa. It is widely grown as a low-maintenance foliage plant.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are stiff, upright and sword-shaped, usually with mottled green bands. The species epithet refers to transverse striping. The former name Sansevieria trifasciata is widely encountered.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Bright indirect light is suitable; the plant tolerates low light and some direct sun after acclimation. Avoid abrupt exposure to intense sun.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Allow the soil to dry between waterings. Overwatering can cause root rot; NC State advises very infrequent watering in winter in its temperate context.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a coarse, freely draining succulent mix and a pot with drainage. Avoid dense, moisture-retentive soil.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Warm conditions are preferred, but NC State notes tolerance of cooler temperatures around 50°F (10°C). Protect from frost and prolonged cold.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Low humidity is tolerated. Avoid trapping moisture around the base or keeping foliage wet.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed sparingly during active growth with a diluted balanced fertilizer. Do not routinely fertilize during slow growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged leaves at soil level with clean tools. Divide crowded clumps when repotting.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by division or leaf cuttings. Leaf-cutting variegation may not always reproduce the parent pattern in all cultivars.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NC State identifies low-severity poison characteristics. Keep away from pets and children; ingestion may cause gastrointestinal irritation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering may cause root rot. NC State recommends monitoring for mealybugs and spider mites; significant disease problems are otherwise uncommon.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, shelter from prolonged monsoon rain and ensure pots drain rapidly. Allow the mix to dry before watering again, even in hot weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-snake"
+          ]
+        }
+      ],
+      "identification": "‘Hahnii’ is a dwarf snake-plant cultivar with approximately 6–12 leaves forming a short, funnel-shaped rosette. NC State describes dark green foliage with creamy-white horizontal stripes.",
+      "confidence": "high",
+      "status": "verified",
+      "sources": [
+        "source-ncsu-snake"
+      ]
+    }
+  }
+}
