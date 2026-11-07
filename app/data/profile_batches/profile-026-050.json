@@ -1642,8 +1642,8 @@
           "key": "overview",
           "title": "Overview",
           "content": "The trade plant commonly called Alocasia Polly is a cultivated hybrid, not a naturally occurring species. The exact parentage and cultivar naming are inconsistently presented in horticultural trade.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1660,8 +1660,8 @@
           "key": "light",
           "title": "Light",
           "content": "Bright indirect light; avoid harsh direct sun that can scorch leaves.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1670,8 +1670,8 @@
           "key": "watering",
           "title": "Watering",
           "content": "Keep medium evenly moist during active growth but never saturated. Allow the upper surface to begin drying before watering again.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1680,8 +1680,8 @@
           "key": "soil",
           "title": "Soil and drainage",
           "content": "Airy, moisture-retentive aroid medium with excellent drainage; avoid compacted soil.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1690,8 +1690,8 @@
           "key": "temperature",
           "title": "Temperature",
           "content": "Warm tropical conditions; protect from cold and sudden temperature changes.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1700,8 +1700,8 @@
           "key": "humidity",
           "title": "Humidity",
           "content": "High humidity is helpful, but combine it with airflow to reduce leaf disease.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1710,8 +1710,8 @@
           "key": "fertilizing",
           "title": "Fertilizing",
           "content": "Feed lightly during active growth with balanced fertilizer according to label; reduce or pause when growth slows.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1720,8 +1720,8 @@
           "key": "pruning",
           "title": "Pruning",
           "content": "Remove dead leaves at the base with clean tools; avoid damaging the corm.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1730,8 +1730,8 @@
           "key": "propagation",
           "title": "Propagation",
           "content": "Division of offsets or corms is used for Alocasia propagation; do not divide a plant without viable growth points.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1740,8 +1740,8 @@
           "key": "toxicity",
           "title": "Toxicity and safety",
           "content": "Alocasia contains calcium oxalate crystals and is harmful if eaten; sap can irritate. Keep away from children and pets.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1750,8 +1750,8 @@
           "key": "common_problems",
           "title": "Common problems",
           "content": "Root and corm rot can follow overwatering; inspect for spider mites and mealybugs. Leaf yellowing may also accompany dormancy or stress.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
@@ -1760,8 +1760,8 @@
           "key": "seasonal_care",
           "title": "Seasonal care",
           "content": "In Dhaka, maintain warmth and airflow; during monsoon, drainage is more important than increasing watering frequency.",
-          "confidence": "medium",
-          "status": "verified",
+          "confidence": "low",
+          "status": "needs_review",
           "sources": [
             "source-ufas-alocasia"
           ]
