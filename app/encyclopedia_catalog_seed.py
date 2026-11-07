@@ -211,6 +211,32 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
    cur=conn.execute("INSERT OR IGNORE INTO taxon_names(taxon_id,name,language,name_type,preferred) VALUES(?,?,'en',?,?)",(taxon,name,typ,pref)); counts["names"]+=cur.rowcount
   cur=conn.execute("""INSERT OR IGNORE INTO care_profiles(taxon_id,light,soil,drainage,watering,notes,confidence,updated_at)
   VALUES(?,?,?,?,?,?,?,?)""",(taxon,p.get("light",""),p.get("soil",""),p.get("drainage",""),"Use the catalog interval only as a prompt to check the growing medium; water according to actual moisture, plant needs and drainage.","Imported from starter catalog. Verify identity and species-specific care before relying on this profile. "+p.get("bangladesh",""),"low",now)); counts["care_profiles"]+=cur.rowcount
+  # Import only facts actually present in the source catalog. These are
+  # starter values, not species-verified advice; later reviewed batches can
+  # replace them with sourced content section by section.
+  section_payloads = [
+   ("light", "Light", p.get("light", ""), "General starter-catalog light guidance; species-level verification pending."),
+   ("watering", "Watering", p.get("drainage", ""), "Starter-catalog watering/drainage prompt; check actual medium moisture."),
+   ("soil", "Soil and drainage", p.get("soil", ""), "Starter-catalog growing-medium guidance; species-level verification pending."),
+   ("temperature", "Temperature", p.get("temperature", ""), "Starter-catalog temperature range; species-level verification pending."),
+   ("humidity", "Humidity", p.get("humidity", ""), "Starter-catalog humidity guidance; species-level verification pending."),
+   ("toxicity", "Toxicity and safety", p.get("toxicity", ""), "Starter-catalog toxicity note; verify against authoritative toxicology/veterinary sources."),
+  ]
+  for section_key, title, content, source_note in section_payloads:
+   if content and content.strip():
+    conn.execute("""INSERT OR IGNORE INTO taxon_profile_sections
+      (taxon_id,section_key,title,content,confidence,review_status,source_note,updated_at)
+      VALUES(?,?,?,?,?,?,?,?)""",
+      (taxon,section_key,title,content,"low","needs_review",source_note,now))
+    # General RHS guidance is attached only as context, never as proof of
+    # species-specific claims. Toxicity remains explicitly unsourced here.
+    if section_key in {"light","watering","soil"}:
+     conn.execute("""INSERT OR IGNORE INTO content_references
+       (content_type,content_id,reference_id,claim)
+       VALUES('taxon_section',?,?,?)""",
+       (f"{taxon}:{section_key}","source-rhs-houseplants",
+        "General houseplant context only; not species-specific verification."))
+
   cat=p.get("category","").casefold()
   if "succulent" in cat or "cactus" in cat:
    ftype="Low-input cactus/succulent fertilizer or a balanced houseplant feed used conservatively."
