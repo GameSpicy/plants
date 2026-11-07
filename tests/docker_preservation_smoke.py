@@ -36,7 +36,10 @@ def check_fixture(image: str, schema: str) -> None:
     with tempfile.TemporaryDirectory(prefix=f"plants-preservation-{schema}-") as folder:
         data_dir = Path(folder).resolve()
         mount = f"{data_dir}:/app/data"
-        run(["docker", "run", "--rm", "-v", mount, "-v", f"{FIXTURE_CREATOR}:/tmp/fixture.py:ro",
+        # Keep bind-mounted fixture files owned by the invoking user. This makes
+        # TemporaryDirectory cleanup work on Linux runners when Docker is rootful.
+        user_args = ["--user", f"{os.getuid()}:{os.getgid()}"] if hasattr(os, "getuid") else []
+        run(["docker", "run", "--rm", *user_args, "-v", mount, "-v", f"{FIXTURE_CREATOR}:/tmp/fixture.py:ro",
              "-e", "PLANTS_DATA_DIR=/app/data", "-e", "PLANTS_NOTIFY_WORKER=false", "-e", "PYTHONPATH=/app", image,
              "python", "/tmp/fixture.py", schema])
         expected_path = data_dir / ".preservation-expected.json"
@@ -44,7 +47,7 @@ def check_fixture(image: str, schema: str) -> None:
 
         name = f"plants-preservation-{schema}-{uuid.uuid4().hex[:8]}"
         port = free_port()
-        started = run(["docker", "run", "-d", "--name", name, "-p", f"127.0.0.1:{port}:8000",
+        started = run(["docker", "run", "-d", *user_args, "--name", name, "-p", f"127.0.0.1:{port}:8000",
                        "-v", mount, "-e", "PLANTS_DATA_DIR=/app/data", "-e", "PLANTS_NOTIFY_WORKER=false",
                        "-e", "PLANTS_WEATHER_OFFLINE=true", image]).stdout.strip()
         if not started:
@@ -68,7 +71,8 @@ def check_fixture(image: str, schema: str) -> None:
             failure = str(exc)
         finally:
             run(["docker", "stop", name], check=False)
-            logs = run(["docker", "logs", name], check=False).stdout
+            log_result = run(["docker", "logs", name], check=False)
+            logs = log_result.stdout + log_result.stderr
             run(["docker", "rm", name], check=False)
         if failure:
             raise AssertionError(f"{schema} fixture startup failed: {failure}\nContainer logs:\n{logs}")
