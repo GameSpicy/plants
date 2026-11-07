@@ -58,6 +58,16 @@ The profiles use species-specific extension guidance. Examples of important diff
 
 Batch data is stored in app/data/profile_batches/profile-016-025.json. The Aglaonema and Chinese evergreen catalog entries share species-level care but retain separate display identities. No cultivar-specific care differences are claimed unless the cited source supports them.
 
+## Fourth reviewed batch: plant-026 to plant-050
+
+The fourth ordered batch adds 25 entries: Ficus elastica 'Burgundy', Ficus lyrata, Ficus benjamina, Ficus microcarpa, Pachira aquatica, Heptapleurum arboricola, Codiaeum variegatum, Cordyline fruticosa, Dracaena reflexa, Dracaena fragrans, Dracaena sanderiana, Caladium bicolor, Alocasia × amazonica (trade hybrid commonly sold as Polly), Alocasia zebrina, Alocasia macrorrhizos, Colocasia esculenta, Goeppertia orbifolia, Goeppertia insignis, Goeppertia ornata, Maranta leuconeura, Peperomia obtusifolia, Peperomia argyreia, Hypoestes phyllostachya, Coleus scutellarioides, and Tradescantia pallida.
+
+The batch deliberately distinguishes plants with materially different moisture needs. ZZ-like dry-down advice is not reused for moisture-demanding Caladium or Colocasia; Alocasia is treated as an aroid with a warm, moist but aerated root zone; Goeppertia profiles distinguish consistently moist, high-humidity rainforest understory care; Peperomia obtusifolia and watermelon peperomia are kept on the drier, highly aerated side. Lucky bamboo is explicitly identified as Dracaena, not true bamboo.
+
+Cultivar and hybrid uncertainty is retained. Ficus elastica 'Burgundy' and Alocasia × amazonica/Polly have species-level care notes but their cultivar/hybrid identification remains needs_review. Hypoestes and Maranta sections remain needs_review where the source mapping was not sufficiently confirmed in this review. These are not presented as complete verified profiles.
+
+Sources are section-linked in app/data/profile_batches/profile-026-050.json. Primary references include NC State Extension, Clemson Extension, UF/IFAS, and Iowa State/University Extension material where relevant. Batch-specific source IDs were added to the importer. A section with no verified source is deliberately left without a citation and marked needs_review.
+
 ## Review sequence
 
 Process canonical catalog IDs in ascending order, in batches of approximately 10–15 taxa. For each taxon:
