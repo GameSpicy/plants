@@ -36,6 +36,7 @@ CREATE TABLE IF NOT EXISTS taxa (
     rank TEXT NOT NULL DEFAULT 'species',
     accepted_name TEXT NOT NULL DEFAULT '',
     parent_name TEXT NOT NULL DEFAULT '',
+    parent_taxon_id TEXT REFERENCES taxa(id) ON DELETE SET NULL,
     cultivar_epithet TEXT NOT NULL DEFAULT '',
     taxonomy_status TEXT NOT NULL DEFAULT 'needs_review'
         CHECK (taxonomy_status IN ('needs_review','verified','conflicting','unresolved')),
@@ -299,6 +300,7 @@ def init_encyclopedia_db(path: Path | str | None = None) -> None:
         additions = {
             "accepted_name": "TEXT NOT NULL DEFAULT ''",
             "parent_name": "TEXT NOT NULL DEFAULT ''",
+            "parent_taxon_id": "TEXT REFERENCES taxa(id) ON DELETE SET NULL",
             "cultivar_epithet": "TEXT NOT NULL DEFAULT ''",
             "taxonomy_status": "TEXT NOT NULL DEFAULT 'needs_review'",
             "taxonomy_source_url": "TEXT NOT NULL DEFAULT ''",
