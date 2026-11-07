@@ -1,27 +1,195 @@
 {
   "batch_id": "profile-001-005",
-  "catalog_range": ["plant-001", "plant-005"],
+  "catalog_range": [
+    "plant-001",
+    "plant-002",
+    "plant-003",
+    "plant-004",
+    "plant-005"
+  ],
   "basis": "Species-level Epipremnum aureum guidance; cultivar-specific claims are separated below.",
   "shared_sections": [
-    {"key":"overview","title":"Overview","content":"Epipremnum aureum is an evergreen tropical climbing vine in the Araceae. Kew records its native range as the Society Islands (Mo’orea) and describes it as a climber of wet tropical biomes. Indoors it is commonly grown as a trailing or climbing foliage plant.","confidence":"high","status":"verified","sources":["source-kew-epipremnum","source-ncsu-epipremnum"]},
-    {"key":"identification","title":"Identification","content":"Look for glossy, heart-shaped leaves on trailing or climbing stems. Green leaves may carry yellow, cream or white variegation. NC State notes grooved petioles and the absence of conspicuous free stipules on new growth as useful distinctions from heartleaf philodendron.","confidence":"high","status":"verified","sources":["source-ncsu-epipremnum","source-wi-pothos"]},
-    {"key":"light","title":"Light","content":"Bright, indirect or filtered light is the best general indoor position. The plant tolerates lower light, but growth may slow and variegation can become less pronounced. Protect foliage from strong direct summer sun, which can scorch leaves.","confidence":"high","status":"verified","sources":["source-rhs-epipremnum","source-ncsu-epipremnum","source-nybg-pothos"]},
-    {"key":"watering","title":"Watering","content":"Allow the upper layer of potting medium to dry before watering again; RHS gives approximately the top 2 cm as a practical indoor check. Water thoroughly, let excess drain, and do not leave the pot standing in runoff. Reduce watering when growth and light levels fall. Persistent saturation increases root-rot risk.","confidence":"high","status":"verified","sources":["source-rhs-epipremnum","source-ncsu-epipremnum","source-nybg-pothos"]},
-    {"key":"soil","title":"Soil and drainage","content":"Use a free-draining indoor potting medium and a container with open drainage holes. Avoid a dense mix that remains saturated for long periods; root problems are associated with overwatering and poor drainage.","confidence":"medium","status":"verified","sources":["source-ncsu-epipremnum","source-wi-pothos"]},
-    {"key":"temperature","title":"Temperature","content":"Keep in a warm, frost-free indoor position and protect from cold draughts. Clemson Extension's indoor guide gives a general guide of about 16–21°C at night and 21–29°C by day; treat these as horticultural guidance rather than a strict survival threshold.","confidence":"medium","status":"verified","sources":["source-clemson-pothos","source-rhs-epipremnum"]},
-    {"key":"humidity","title":"Humidity","content":"Ordinary indoor humidity is generally tolerated. Clemson Extension describes 50–70% relative humidity as a preferred range; good air movement remains important, especially in humid rooms, to limit prolonged leaf wetness and fungal problems.","confidence":"medium","status":"verified","sources":["source-clemson-pothos","source-nybg-pothos"]},
-    {"key":"fertilizing","title":"Fertilizing","content":"Feed modestly during active growth using a balanced houseplant fertilizer according to its label. NC State Extension suggests approximately every other month during growth and withholding routine feeding during winter dormancy. Do not apply a fixed dose without checking the product label and plant response.","confidence":"medium","status":"verified","sources":["source-ncsu-epipremnum","source-rhs-feeding"]},
-    {"key":"pruning","title":"Pruning","content":"Trim long or sparse stems to control length and encourage a fuller-looking plant. Use clean cutting tools and remove damaged foliage. Pruned healthy stem sections can be used for propagation.","confidence":"medium","status":"verified","sources":["source-ncsu-epipremnum","source-wi-pothos"]},
-    {"key":"propagation","title":"Propagation","content":"Propagate from stem cuttings that include a node. Wisconsin Extension reports that cuttings can root in water or vermiculite, commonly within about 3–4 weeks under suitable warm conditions. Transfer water-rooted cuttings carefully into a free-draining medium.","confidence":"high","status":"verified","sources":["source-wi-pothos","source-nparks-epipremnum"]},
-    {"key":"toxicity","title":"Toxicity and safety","content":"Epipremnum aureum is toxic if chewed or ingested. Calcium-oxalate-containing tissues can cause oral irritation; sap may irritate skin. Keep out of reach of children and pets, and wash hands after pruning or handling sap. This is general hazard information, not a substitute for veterinary or medical advice after exposure.","confidence":"high","status":"verified","sources":["source-ncsu-epipremnum","source-nparks-epipremnum","source-wi-pothos"]},
-    {"key":"common_problems","title":"Common problems","content":"Overwatering can cause root rot and dark or blackened leaf margins. Low light can reduce variegation. Inspect periodically for mealybugs and scale insects; confirm the pest before choosing a treatment.","confidence":"high","status":"verified","sources":["source-ncsu-epipremnum","source-rhs-epipremnum"]},
-    {"key":"seasonal_care","title":"Seasonal care","content":"During periods of slower growth or reduced winter light, allow the medium to dry more between waterings and reduce or pause fertilizer. In warm, bright active-growth periods, monitor moisture more frequently without following a fixed calendar schedule.","confidence":"medium","status":"verified","sources":["source-ncsu-epipremnum","source-nybg-pothos"]}
+    {
+      "key": "overview",
+      "title": "Overview",
+      "content": "Epipremnum aureum is an evergreen tropical climbing vine in the Araceae. Kew records its native range as the Society Islands (Mo’orea) and describes it as a climber of wet tropical biomes. Indoors it is commonly grown as a trailing or climbing foliage plant.",
+      "confidence": "high",
+      "status": "verified",
+      "sources": [
+        "source-kew-epipremnum",
+        "source-ncsu-epipremnum"
+      ]
+    },
+    {
+      "key": "identification",
+      "title": "Identification",
+      "content": "Look for glossy, heart-shaped leaves on trailing or climbing stems. Green leaves may carry yellow, cream or white variegation. NC State notes grooved petioles and the absence of conspicuous free stipules on new growth as useful distinctions from heartleaf philodendron.",
+      "confidence": "high",
+      "status": "verified",
+      "sources": [
+        "source-ncsu-epipremnum",
+        "source-wi-pothos"
+      ]
+    },
+    {
+      "key": "light",
+      "title": "Light",
+      "content": "Bright, indirect or filtered light is the best general indoor position. The plant tolerates lower light, but growth may slow and variegation can become less pronounced. Protect foliage from strong direct summer sun, which can scorch leaves.",
+      "confidence": "high",
+      "status": "verified",
+      "sources": [
+        "source-rhs-epipremnum",
+        "source-ncsu-epipremnum",
+        "source-nybg-pothos"
+      ]
+    },
+    {
+      "key": "watering",
+      "title": "Watering",
+      "content": "Allow the upper layer of potting medium to dry before watering again; RHS gives approximately the top 2 cm as a practical indoor check. Water thoroughly, let excess drain, and do not leave the pot standing in runoff. Reduce watering when growth and light levels fall. Persistent saturation increases root-rot risk.",
+      "confidence": "high",
+      "status": "verified",
+      "sources": [
+        "source-rhs-epipremnum",
+        "source-ncsu-epipremnum",
+        "source-nybg-pothos"
+      ]
+    },
+    {
+      "key": "soil",
+      "title": "Soil and drainage",
+      "content": "Use a free-draining indoor potting medium and a container with open drainage holes. Avoid a dense mix that remains saturated for long periods; root problems are associated with overwatering and poor drainage.",
+      "confidence": "medium",
+      "status": "verified",
+      "sources": [
+        "source-ncsu-epipremnum",
+        "source-wi-pothos"
+      ]
+    },
+    {
+      "key": "temperature",
+      "title": "Temperature",
+      "content": "Keep in a warm, frost-free indoor position and protect from cold draughts. Clemson Extension's indoor guide gives a general guide of about 16–21°C at night and 21–29°C by day; treat these as horticultural guidance rather than a strict survival threshold.",
+      "confidence": "medium",
+      "status": "verified",
+      "sources": [
+        "source-clemson-pothos",
+        "source-rhs-epipremnum"
+      ]
+    },
+    {
+      "key": "humidity",
+      "title": "Humidity",
+      "content": "Ordinary indoor humidity is generally tolerated. Clemson Extension describes 50–70% relative humidity as a preferred range; good air movement remains important, especially in humid rooms, to limit prolonged leaf wetness and fungal problems.",
+      "confidence": "medium",
+      "status": "verified",
+      "sources": [
+        "source-clemson-pothos",
+        "source-nybg-pothos"
+      ]
+    },
+    {
+      "key": "fertilizing",
+      "title": "Fertilizing",
+      "content": "Feed modestly during active growth using a balanced houseplant fertilizer according to its label. NC State Extension suggests approximately every other month during growth and withholding routine feeding during winter dormancy. Do not apply a fixed dose without checking the product label and plant response.",
+      "confidence": "medium",
+      "status": "verified",
+      "sources": [
+        "source-ncsu-epipremnum",
+        "source-rhs-feeding"
+      ]
+    },
+    {
+      "key": "pruning",
+      "title": "Pruning",
+      "content": "Trim long or sparse stems to control length and encourage a fuller-looking plant. Use clean cutting tools and remove damaged foliage. Pruned healthy stem sections can be used for propagation.",
+      "confidence": "medium",
+      "status": "verified",
+      "sources": [
+        "source-ncsu-epipremnum",
+        "source-wi-pothos"
+      ]
+    },
+    {
+      "key": "propagation",
+      "title": "Propagation",
+      "content": "Propagate from stem cuttings that include a node. Wisconsin Extension reports that cuttings can root in water or vermiculite, commonly within about 3–4 weeks under suitable warm conditions. Transfer water-rooted cuttings carefully into a free-draining medium.",
+      "confidence": "high",
+      "status": "verified",
+      "sources": [
+        "source-wi-pothos",
+        "source-nparks-epipremnum"
+      ]
+    },
+    {
+      "key": "toxicity",
+      "title": "Toxicity and safety",
+      "content": "Epipremnum aureum is toxic if chewed or ingested. Calcium-oxalate-containing tissues can cause oral irritation; sap may irritate skin. Keep out of reach of children and pets, and wash hands after pruning or handling sap. This is general hazard information, not a substitute for veterinary or medical advice after exposure.",
+      "confidence": "high",
+      "status": "verified",
+      "sources": [
+        "source-ncsu-epipremnum",
+        "source-nparks-epipremnum",
+        "source-wi-pothos"
+      ]
+    },
+    {
+      "key": "common_problems",
+      "title": "Common problems",
+      "content": "Overwatering can cause root rot and dark or blackened leaf margins. Low light can reduce variegation. Inspect periodically for mealybugs and scale insects; confirm the pest before choosing a treatment.",
+      "confidence": "high",
+      "status": "verified",
+      "sources": [
+        "source-ncsu-epipremnum",
+        "source-rhs-epipremnum"
+      ]
+    },
+    {
+      "key": "seasonal_care",
+      "title": "Seasonal care",
+      "content": "During periods of slower growth or reduced winter light, allow the medium to dry more between waterings and reduce or pause fertilizer. In warm, bright active-growth periods, monitor moisture more frequently without following a fixed calendar schedule.",
+      "confidence": "medium",
+      "status": "verified",
+      "sources": [
+        "source-ncsu-epipremnum",
+        "source-nybg-pothos"
+      ]
+    }
   ],
   "taxa": {
-    "plant-001": {"identification":"The standard pothos form typically has green, glossy, heart-shaped leaves with irregular yellow or golden variegation; individual leaves vary in pattern.","sources":["source-wi-pothos","source-ufifas-cultivars"]},
-    "plant-002": {"identification":"‘Golden’ is characterized by green leaves with bright yellow to golden variegation. The amount and pattern of yellow can vary between leaves.","sources":["source-wi-pothos","source-ufifas-cultivars"]},
-    "plant-003": {"identification":"‘Marble Queen’ has green foliage with extensive white or cream marbling/streaking. Its pale variegated areas should not be mistaken for disease by themselves.","sources":["source-wi-pothos","source-ufifas-cultivars"]},
-    "plant-004": {"identification":"‘Neon’ is recognized by its bright chartreuse to yellow-green foliage, usually without the contrasting green-and-white marbling of other cultivars.","sources":["source-wi-pothos","source-ufifas-cultivars"]},
-    "plant-005": {"identification":"The catalog identifies this plant as ‘Manjula’. A cultivar-specific diagnostic description has not been independently established from the sources reviewed in this batch; retain the cultivar identification as needing further review.","confidence":"low","status":"needs_review","sources":[]}
+    "plant-001": {
+      "identification": "The standard pothos form typically has green, glossy, heart-shaped leaves with irregular yellow or golden variegation; individual leaves vary in pattern.",
+      "sources": [
+        "source-wi-pothos",
+        "source-ufifas-cultivars"
+      ]
+    },
+    "plant-002": {
+      "identification": "‘Golden’ is characterized by green leaves with bright yellow to golden variegation. The amount and pattern of yellow can vary between leaves.",
+      "sources": [
+        "source-wi-pothos",
+        "source-ufifas-cultivars"
+      ]
+    },
+    "plant-003": {
+      "identification": "‘Marble Queen’ has green foliage with extensive white or cream marbling/streaking. Its pale variegated areas should not be mistaken for disease by themselves.",
+      "sources": [
+        "source-wi-pothos",
+        "source-ufifas-cultivars"
+      ]
+    },
+    "plant-004": {
+      "identification": "‘Neon’ is recognized by its bright chartreuse to yellow-green foliage, usually without the contrasting green-and-white marbling of other cultivars.",
+      "sources": [
+        "source-wi-pothos",
+        "source-ufifas-cultivars"
+      ]
+    },
+    "plant-005": {
+      "identification": "The catalog identifies this plant as ‘Manjula’. A cultivar-specific diagnostic description has not been independently established from the sources reviewed in this batch; retain the cultivar identification as needing further review.",
+      "confidence": "low",
+      "status": "needs_review",
+      "sources": []
+    }
   }
 }
