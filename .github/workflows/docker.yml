@@ -46,6 +46,19 @@ jobs:
       - run: pip install -r requirements.txt -r requirements-dev.txt
       - run: playwright install --with-deps chromium
       - run: PYTHONPATH=. pytest -q
+  docker-preservation:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Build application image
+        run: docker build -t plants-preservation-ci .
+      - name: Verify current and legacy appdata survives container startup
+        run: python tests/docker_preservation_smoke.py plants-preservation-ci
   build-and-push:
     needs: test
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
