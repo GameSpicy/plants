@@ -19,15 +19,25 @@ The schema update is additive and non-destructive. Existing encyclopedia databas
 
 ## Individually checked POWO records
 
-Only these three records are marked taxonomy-verified in this batch:
+The first review batch expanded the individually checked set to eleven records:
 
+| Catalog ID | Accepted name | Synonym retained | Source |
+|---|---|---|---|
+| plant-001 | Epipremnum aureum | — | https://powo.science.kew.org/taxon/87014-1 |
+| plant-006 | Scindapsus pictus | — | https://powo.science.kew.org/taxon/88905-1 |
+| plant-008 | Monstera deliciosa | — | https://powo.science.kew.org/taxon/87478-1 |
+| plant-009 | Monstera adansonii | — | https://powo.science.kew.org/taxon/87464-1 |
+| plant-010 | Rhaphidophora tetrasperma | — | https://powo.science.kew.org/taxon/88594-1 |
+| plant-011 | Philodendron hederaceum | — | https://powo.science.kew.org/taxon/87797-1 |
+| plant-020 | Zamioculcas zamiifolia | — | https://powo.science.kew.org/taxon/89402-1 |
+| plant-024 | Chlorophytum comosum | — | https://powo.science.kew.org/taxon/532810-1 |
 | Catalog ID | Accepted name | Synonym retained | Source |
 |---|---|---|---|
 | plant-016 | Philodendron xanadu | Thaumatophyllum xanadu | https://powo.science.kew.org/taxon/20011461-1 |
 | plant-031 | Heptapleurum arboricola | Schefflera arboricola | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:90845-1 |
 | plant-022 | Dracaena trifasciata | Sansevieria trifasciata | https://powo.science.kew.org/taxon/77164235-1 |
 
-The broader plant profile remains `needs_review`; verifying a name does not verify care, toxicity, pests, disease or other horticultural content.
+The remaining 173 normalized taxa stay `needs_review` at this point; cultivar/trade-name entries were not upgraded merely because their parent species was checked. The broader plant profile remains `needs_review`; verifying a name does not verify care, toxicity, pests, disease or other horticultural content.
 
 ## Duplicate ID preservation
 
