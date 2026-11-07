@@ -129,21 +129,31 @@ def get_taxon(item_id: str, path=None) -> dict[str, Any] | None:
     """Return a normalized plant profile with linked care, pests, diseases and media."""
     conn = connect(path)
     try:
+        canonical_id = item_id
+        alias = conn.execute(
+            "SELECT taxon_id FROM taxon_id_aliases WHERE legacy_id=?", (item_id,)
+        ).fetchone()
+        if alias is not None:
+            canonical_id = alias["taxon_id"]
         row = conn.execute(
             """SELECT t.*, GROUP_CONCAT(DISTINCT n.name) AS common_names
                FROM taxa t LEFT JOIN taxon_names n ON n.taxon_id=t.id
                WHERE t.id=? AND t.verification_status != 'deprecated'
-               GROUP BY t.id""", (item_id,)
+               GROUP BY t.id""", (canonical_id,)
         ).fetchone()
         if row is None:
             return None
         result = dict(row)
+        result["legacy_ids"] = [r["legacy_id"] for r in conn.execute(
+            "SELECT legacy_id FROM taxon_id_aliases WHERE taxon_id=? ORDER BY legacy_id",
+            (canonical_id,)
+        )]
         result["names"] = [dict(r) for r in conn.execute(
             "SELECT name,language,name_type,preferred FROM taxon_names WHERE taxon_id=? ORDER BY preferred DESC,name",
             (item_id,)
         )]
         result["care"] = _dict(conn.execute(
-            "SELECT * FROM care_profiles WHERE taxon_id=?", (item_id,)
+            "SELECT * FROM care_profiles WHERE taxon_id=?", (canonical_id,)
         ).fetchone())
         result["fertilizer_guides"] = [dict(r) for r in conn.execute(
             "SELECT * FROM fertilizer_guides WHERE taxon_id=? ORDER BY title", (item_id,)
