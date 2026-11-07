@@ -1,0 +1,1528 @@
+{
+  "batch_id": "profile-006-015",
+  "catalog_range": [
+    "plant-006",
+    "plant-007",
+    "plant-008",
+    "plant-009",
+    "plant-010",
+    "plant-011",
+    "plant-012",
+    "plant-013",
+    "plant-014",
+    "plant-015"
+  ],
+  "basis": "Species-specific horticultural profiles where authoritative sources support them. Cultivar claims and genus-level extrapolations are explicitly separated and remain needs_review where appropriate.",
+  "shared_sections": [],
+  "taxa": {
+    "plant-006": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Scindapsus pictus is an evergreen tropical aroid vine native to parts of Southeast Asia. It climbs by attaching roots or can trail from a hanging container. It is commonly called silver pothos or satin pothos, but it is not Epipremnum aureum.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Juvenile leaves are simple, entire and usually oval to heart-shaped, with dark green surfaces marked by silver or grey patches. Mature plants can develop a different leaf form. The RHS records a native range extending from southeastern Bangladesh through western and central Malesia.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Provide semi-shade to bright filtered light. Shade from hot direct sun; very low light can reduce growth and visual contrast. NParks lists semi-shade to full shade, while RHS recommends bright filtered light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep the medium moderately moist but well drained. Check the mix before watering rather than following a fixed interval; allow excess water to escape and do not leave the pot in runoff.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a fertile, airy, moisture-retentive but freely draining medium. NParks lists fertile loamy, moist and well-drained root zones; avoid persistently waterlogged media.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep warm and frost-free. The sources reviewed describe it as a tropical glasshouse/houseplant but do not establish a precise optimum temperature range; avoid cold exposure.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Normal indoor humidity is generally workable; avoid stagnant, persistently wet foliage. The reviewed sources do not establish a numeric humidity target.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "RHS recommends a balanced liquid fertilizer monthly while the plant is actively growing. Reduce feeding when growth slows and follow the product label; do not apply a fixed dose.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged or unwanted trailing stems with clean tools. RHS says routine pruning is not required; prune only to control shape or remove damaged growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings are a documented propagation method. NParks also lists seed propagation; for home propagation, use healthy stem sections with nodes and maintain warm, evenly moist rooting conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "RHS identifies the plant as harmful if eaten and notes skin/eye irritation risk. Keep it away from children and pets and wear gloves when handling sap. The sources reviewed here do not specify the toxic principle.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "RHS and NParks describe it as generally easy to grow; no species-specific pest or disease list was established in the reviewed sources. Inspect routinely and diagnose symptoms before treating.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm Dhaka conditions, growth may continue for much of the year. Adjust watering to actual drying, airflow and seasonal rain-driven humidity; reduce feeding only when growth visibly slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        }
+      ]
+    },
+    "plant-008": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Monstera deliciosa is a large tropical climbing aroid native from Mexico to Panama. It begins terrestrially and can climb trees, producing aerial roots and increasingly large foliage.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Juvenile leaves are typically entire; mature leaves become large, heart-shaped and deeply split or perforated. The characteristic internal holes and marginal splits develop with maturity, not necessarily on young plants.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Grow in moderate to bright indirect light. Protect from strong direct sun; variegated forms generally need more light than solid-green forms, but avoid scorching.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water thoroughly, then allow roughly the upper quarter to third of the medium to dry before watering again. UMN gives the top 1–2 inches as a practical check for mature plants; do not use a weekly schedule blindly.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a moisture-retentive but well-drained potting medium and a container with drainage holes. Avoid dense, saturated mix; support the climbing stems with a sturdy pole or trellis.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep warm. NC State gives 60–85°F (about 16–29°C) as an average preferred range; protect from cold drafts and temperatures approaching chilling conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Moderate to high humidity supports tropical foliage, but no single numeric target is established by the reviewed extension sources. Maintain airflow and avoid prolonged leaf wetness.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Use a balanced houseplant fertilizer during active growth according to its label. Reduce feeding when growth slows; avoid applying fertilizer to dry or waterlogged roots.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged leaves and control size in spring if needed. Use clean tools; retain healthy stem nodes if you intend to propagate.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by stem cutting, air layering or division only when a node with an axillary bud is included. A leaf or petiole without a node will not produce a new shoot. UMN notes new leaves may take 2–3 months after propagation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NC State identifies calcium oxalate crystals and reports oral burning, swelling and gastrointestinal symptoms if plant parts are eaten; sap may irritate skin. Do not eat unripe fruit. Keep foliage and sap away from children and pets.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Overwatering and poor drainage can cause root injury and yellowing. Check for scale, mealybugs and other common indoor pests; identify the cause before treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm climates, respond to active growth rather than calendar seasons. Increase moisture checks during hot, bright growth but allow the mix to dry appropriately; reduce watering and feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-umn-monstera",
+            "source-ncsu-monstera"
+          ]
+        }
+      ]
+    },
+    "plant-009": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Monstera adansonii is an evergreen tropical climbing or trailing aroid from tropical America. It can be grown on a support or in a hanging container.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are generally smaller and thinner than those of M. deliciosa, with numerous enclosed holes in the blade rather than deep marginal splits. The RHS describes a climbing and trailing habit.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Provide bright, indirect light and protect from hot direct sun. The RHS recommends bright indirect exposure; avoid deep shade if growth becomes weak.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water freely during active growth while allowing the surface of the medium to dry slightly between waterings. Water more sparingly when growth slows and never leave the pot standing in water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a moisture-retentive but freely draining potting compost. Ensure the container drains well; avoid a dense mix that remains saturated.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep in warm tropical conditions and protect from cold. The reviewed RHS source does not specify a precise indoor temperature range.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Moderate to high humidity is recommended by RHS. Maintain good air movement in humid rooms and avoid leaving foliage wet for extended periods.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "RHS recommends balanced liquid fertilizer monthly during the growing season. Reduce feeding when growth slows and follow the product label.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Trim long stems to manage the plant or encourage branching; use clean tools and retain nodes on healthy cuttings.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "RHS lists seed, tip or leaf cuttings with bottom heat, and layering as propagation methods. For practical stem propagation, ensure the cutting includes a viable node.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "RHS states the plant is harmful if eaten and may irritate skin and eyes. Keep away from children and pets; wear gloves when handling sap.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "The RHS lists susceptibility to scale insects and glasshouse red spider mite, while describing diseases as generally uncommon. Check for pests and root problems before applying treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Maintain growth-based watering and feeding through warm periods. During slower growth, reduce watering and suspend routine feeding; do not assume a cool-winter dormancy in Dhaka.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-rhs-adansonii"
+          ]
+        }
+      ]
+    },
+    "plant-010": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Rhaphidophora tetrasperma is a tropical climbing aroid native to the Malay Peninsula and Thailand. It is often sold as mini monstera or dwarf monstera, but it belongs to a different genus.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are green, heart-shaped when young and become divided into distinct lobes as they mature. The plant climbs using aerial roots; the common trade name does not make it a Monstera.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Provide bright, indirect light and avoid harsh direct sun. Inadequate light can contribute to smaller leaves and weak growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water when the upper portion of the growing medium has begun to dry, then allow excess to drain. Avoid both prolonged saturation and severe drying; adjust checks to pot size and weather.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a loose, airy, well-drained aroid-style medium and a pot with drainage. Provide a support for climbing stems.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep warm and protect from cold drafts. The reviewed NC State profile supports tropical indoor culture but does not give a precise optimum temperature.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Moderate to high humidity can help maintain leaf quality, but avoid stagnant air. Brown margins may reflect low moisture or humidity, among other causes.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed conservatively with a balanced houseplant fertilizer during active growth, following the label. Reduce or pause feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Prune to control length or remove damaged growth. Use clean tools and retain node-bearing stem sections for propagation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "NC State lists stem cutting as the recommended propagation strategy. Take a cutting with at least one viable node and maintain warm, lightly moist rooting conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NC State warns that the plant is toxic if ingested and recommends caution around pets and children; gloves are advised to avoid skin irritation. Do not ingest any part.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "NC State lists spider mites, fungus gnats and scale among potential pests, and bacterial leaf spot and fungal problems such as root rot among possible diseases. Yellowing may also result from excess water or inadequate light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In Dhaka, maintain airflow during humid weather and check the medium before watering. Increase checks during hot active growth, but do not let a wet pot remain saturated through monsoon periods.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-rhaphidophora"
+          ]
+        }
+      ]
+    },
+    "plant-011": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Philodendron hederaceum is an evergreen tropical climbing or trailing aroid native from Mexico through tropical America. It can trail from a hanging pot or climb a support.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are glossy, simple and heart-shaped. NC State distinguishes it from pothos by its free stipules on new growth and non-grooved petioles; pothos has grooved petioles and lacks these conspicuous stipules.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Provide medium to bright indirect light; it tolerates lower light better than many variegated philodendrons. Avoid strong direct sun that can scorch foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep the medium slightly moist but not wet. Allow the surface to begin drying before watering again and reduce watering when growth slows; avoid standing water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a well-drained, moisture-retentive mix. RHS recommends an open mix; ensure the pot has drainage and avoid compacted or persistently saturated soil.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Average warm indoor temperatures are suitable. Keep away from cold drafts; RHS advises keeping philodendrons above 15°C.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average indoor humidity is tolerated, although moderate humidity is preferred. Good airflow is important; misting is not a substitute for sound watering and ventilation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed with a balanced liquid houseplant fertilizer during active growth according to label directions. Reduce feeding when growth slows or light is low.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Routine pruning is not essential. Trim trailing stems to shape the plant or remove damaged growth, using clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by stem-tip or leaf-bud cuttings. Each cutting should include a node; NC State lists stem cutting as the recommended strategy.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NC State identifies calcium oxalate crystals and reports oral irritation, swelling, drooling and vomiting if eaten; sap can cause contact dermatitis. Keep away from children and pets and use gloves when pruning.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Potential problems include root rot in overly wet soil and pests such as aphids, spider mites, mealybugs and scale. Leaf spots may occur; improve airflow and diagnose before treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm Dhaka conditions, growth may continue across much of the year. Water according to actual medium moisture and reduce fertilizer only when growth or light declines.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        }
+      ]
+    },
+    "plant-013": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Philodendron 'Birkin' is a cultivated ornamental philodendron grown for its patterned foliage. The RHS currently lists the cultivar name status as unresolved, so the catalog's horticultural name should not be treated as a settled botanical taxon.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "NC State describes an upright plant with dark green leaves bearing fine creamy-white pinstripes. The striping may vary; do not assume every leaf will have identical markings.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Use bright, filtered or indirect light. NC State notes insufficient light can cause loss of variegation and leggy growth; protect leaves from harsh direct sun.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water when the upper layer of the medium begins to dry, then drain thoroughly. Avoid keeping the root zone saturated; adjust frequency to pot size, temperature and actual moisture.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a loose, well-drained houseplant medium. Avoid water-retentive compacted soil and containers without drainage.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep in warm indoor conditions and protect from cold drafts. The RHS genus guide recommends keeping philodendrons above 15°C.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average to moderately humid indoor air is generally tolerated by philodendrons. Brown leaf tips can have several causes; check watering, root health and airflow before changing humidity.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Use a balanced liquid houseplant fertilizer during active growth, following label directions. Reduce feeding when growth slows.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged leaves and trim only as needed to maintain shape. Use clean tools and avoid removing healthy growth unnecessarily.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "RHS lists stem-tip or leaf-bud cuttings for philodendrons. The Birkin-specific propagation details are not established in the sources reviewed; retain a node on any cutting.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Philodendrons contain calcium oxalate crystals and are harmful if eaten; sap may irritate skin and eyes. Keep away from children and pets and wear gloves when handling.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "NC State notes loss of variegation and leggy growth in insufficient light, and brown leaf tips associated with low humidity. Monitor for common philodendron pests and root rot from overwatering.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Use observed growth rather than a fixed seasonal calendar in Dhaka. Maintain ventilation during humid periods and reduce watering or feeding only when the plant's growth slows.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-ncsu-birkin",
+            "source-rhs-philodendron"
+          ]
+        }
+      ]
+    },
+    "plant-014": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Philodendron 'Pink Princess' is a cultivated form of P. erubescens, a tropical climbing aroid native to Colombia. NParks records it as a climbing, epiphytic ornamental with a tropical cultivation preference.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "NParks describes glossy, leathery, heart-shaped leaves with bright pink and dark green variegation and reddish stems. It is distinct from plants sold as 'Pink Congo', which NParks notes have entire bright-pink leaves.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Provide bright indirect light to support healthy growth and visible variegation. Protect from hot direct sun, which can burn foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Water when approximately the upper 5 cm of medium has dried, then drain fully. Avoid leaving the pot in a saucer of water; NParks advises moderate watering.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a fertile, airy, well-drained medium. Ensure drainage holes are open and do not allow the root zone to remain waterlogged.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep warm in a tropical environment and protect from cold. The reviewed NParks source identifies a tropical preference but does not set a precise temperature range.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "NParks describes high humidity as beneficial. Maintain airflow, especially in Dhaka's humid months, and avoid prolonged leaf wetness.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "NParks recommends monthly fertilizing. Use a balanced houseplant fertilizer according to its label and reduce feeding when growth slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Prune above a node to maintain shape or encourage branching. NParks notes pruning just above variegated leaves to help maintain balanced variegation; use clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by stem cuttings containing at least one leaf and one node. NParks describes rooting in water or soil; it reports rooting may take about 4–5 weeks under suitable conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NParks identifies ingestion toxicity and irritating sap. Keep away from children and pets and wear gloves when pruning or handling damaged tissue.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Insufficient light may affect variegation; excessive direct sun can burn leaves. As a philodendron, it may also be affected by common sap-feeding pests and root rot where media stays wet.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm Dhaka conditions, monitor moisture frequently during active growth but prioritize drainage during monsoon humidity. Adjust feeding to visible growth rather than fixed temperate-climate seasons.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-pink-princess",
+            "source-nparks-erubescens",
+            "source-rhs-philodendron"
+          ]
+        }
+      ]
+    },
+    "plant-015": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Philodendron gloriosum is catalogued as a species of Philodendron, but the authoritative extension and botanical-garden care sources reviewed for this batch did not provide a species-specific profile. The following notes must therefore remain provisional.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Species-specific diagnostic details, including reliable leaf, stem and flowering characters, were not independently verified from an authoritative source in this review. Do not use trade photos alone as definitive identification.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "General Philodendron guidance recommends bright indirect light and protection from direct sun. This is genus-level context only, not a verified P. gloriosum light prescription.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "General Philodendron guidance recommends allowing the surface of the medium to dry slightly before watering and avoiding saturated soil. Species-specific dry-down requirements remain unverified.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "General Philodendron guidance favors loose, well-drained media. A P. gloriosum-specific substrate recipe or pH range was not established by the authoritative sources reviewed.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "General Philodendron guidance recommends warm conditions and avoiding temperatures below 15°C. A species-specific optimum range remains unverified.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Philodendrons generally tolerate average indoor humidity, with moderate humidity preferred. No P. gloriosum-specific numeric humidity target was verified.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "General Philodendron guidance supports balanced houseplant fertilizer during active growth. Species-specific feeding frequency and dose are not established; follow the product label.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Species-specific pruning guidance was not established. Remove only clearly dead or damaged foliage with clean tools until a reliable horticultural source is added.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "General Philodendron guidance supports propagation from stem-tip or leaf-bud cuttings. A species-specific propagation method for this catalog record was not independently verified.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "Philodendrons contain calcium oxalate crystals and are harmful if eaten; sap can irritate skin. Apply this genus-level safety warning provisionally and keep the plant away from children and pets.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "General Philodendron problems include root rot in saturated media and sap-feeding pests such as mealybugs, scale and spider mites. These are genus-level risks, not confirmed P. gloriosum host records.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "Use local plant growth and pot moisture to guide seasonal changes. These are general container-care principles; P. gloriosum-specific seasonal requirements remain unverified.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": [
+            "source-rhs-philodendron"
+          ]
+        }
+      ]
+    },
+    "plant-007": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Scindapsus pictus is an evergreen tropical aroid vine native to parts of Southeast Asia. It climbs by attaching roots or can trail from a hanging container. It is commonly called silver pothos or satin pothos, but it is not Epipremnum aureum.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Juvenile leaves are simple, entire and usually oval to heart-shaped, with dark green surfaces marked by silver or grey patches. Mature plants can develop a different leaf form. The RHS records a native range extending from southeastern Bangladesh through western and central Malesia.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Provide semi-shade to bright filtered light. Shade from hot direct sun; very low light can reduce growth and visual contrast. NParks lists semi-shade to full shade, while RHS recommends bright filtered light.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep the medium moderately moist but well drained. Check the mix before watering rather than following a fixed interval; allow excess water to escape and do not leave the pot in runoff.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a fertile, airy, moisture-retentive but freely draining medium. NParks lists fertile loamy, moist and well-drained root zones; avoid persistently waterlogged media.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Keep warm and frost-free. The sources reviewed describe it as a tropical glasshouse/houseplant but do not establish a precise optimum temperature range; avoid cold exposure.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Normal indoor humidity is generally workable; avoid stagnant, persistently wet foliage. The reviewed sources do not establish a numeric humidity target.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "RHS recommends a balanced liquid fertilizer monthly while the plant is actively growing. Reduce feeding when growth slows and follow the product label; do not apply a fixed dose.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Remove damaged or unwanted trailing stems with clean tools. RHS says routine pruning is not required; prune only to control shape or remove damaged growth.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Stem cuttings are a documented propagation method. NParks also lists seed propagation; for home propagation, use healthy stem sections with nodes and maintain warm, evenly moist rooting conditions.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "RHS identifies the plant as harmful if eaten and notes skin/eye irritation risk. Keep it away from children and pets and wear gloves when handling sap. The sources reviewed here do not specify the toxic principle.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "RHS and NParks describe it as generally easy to grow; no species-specific pest or disease list was established in the reviewed sources. Inspect routinely and diagnose symptoms before treating.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm Dhaka conditions, growth may continue for much of the year. Adjust watering to actual drying, airflow and seasonal rain-driven humidity; reduce feeding only when growth visibly slows.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-nparks-scindapsus",
+            "source-rhs-scindapsus",
+            "source-ncsu-scindapsus"
+          ]
+        }
+      ],
+      "identification": "‘Argyraeus’ is listed by NC State as a cultivar of Scindapsus pictus. The species has dark green leaves with silver markings; the reviewed source confirms the cultivar name but does not provide a sufficiently detailed diagnostic description unique to ‘Argyraeus’, so cultivar-specific identification remains unverified.",
+      "confidence": "low",
+      "status": "needs_review",
+      "sources": [
+        "source-ncsu-scindapsus"
+      ]
+    },
+    "plant-012": {
+      "sections": [
+        {
+          "key": "overview",
+          "title": "Overview",
+          "content": "Philodendron hederaceum is an evergreen tropical climbing or trailing aroid native from Mexico through tropical America. It can trail from a hanging pot or climb a support.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "identification",
+          "title": "Identification",
+          "content": "Leaves are glossy, simple and heart-shaped. NC State distinguishes it from pothos by its free stipules on new growth and non-grooved petioles; pothos has grooved petioles and lacks these conspicuous stipules.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "light",
+          "title": "Light",
+          "content": "Provide medium to bright indirect light; it tolerates lower light better than many variegated philodendrons. Avoid strong direct sun that can scorch foliage.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "watering",
+          "title": "Watering",
+          "content": "Keep the medium slightly moist but not wet. Allow the surface to begin drying before watering again and reduce watering when growth slows; avoid standing water.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "soil",
+          "title": "Soil and drainage",
+          "content": "Use a well-drained, moisture-retentive mix. RHS recommends an open mix; ensure the pot has drainage and avoid compacted or persistently saturated soil.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "temperature",
+          "title": "Temperature",
+          "content": "Average warm indoor temperatures are suitable. Keep away from cold drafts; RHS advises keeping philodendrons above 15°C.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "humidity",
+          "title": "Humidity",
+          "content": "Average indoor humidity is tolerated, although moderate humidity is preferred. Good airflow is important; misting is not a substitute for sound watering and ventilation.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "fertilizing",
+          "title": "Fertilizing",
+          "content": "Feed with a balanced liquid houseplant fertilizer during active growth according to label directions. Reduce feeding when growth slows or light is low.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "pruning",
+          "title": "Pruning",
+          "content": "Routine pruning is not essential. Trim trailing stems to shape the plant or remove damaged growth, using clean tools.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "propagation",
+          "title": "Propagation",
+          "content": "Propagate by stem-tip or leaf-bud cuttings. Each cutting should include a node; NC State lists stem cutting as the recommended strategy.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "toxicity",
+          "title": "Toxicity and safety",
+          "content": "NC State identifies calcium oxalate crystals and reports oral irritation, swelling, drooling and vomiting if eaten; sap can cause contact dermatitis. Keep away from children and pets and use gloves when pruning.",
+          "confidence": "high",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "common_problems",
+          "title": "Common problems",
+          "content": "Potential problems include root rot in overly wet soil and pests such as aphids, spider mites, mealybugs and scale. Leaf spots may occur; improve airflow and diagnose before treatment.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        },
+        {
+          "key": "seasonal_care",
+          "title": "Seasonal care",
+          "content": "In warm Dhaka conditions, growth may continue across much of the year. Water according to actual medium moisture and reduce fertilizer only when growth or light declines.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-ncsu-philodendron-hederaceum",
+            "source-rhs-philodendron",
+            "source-uconn-philodendron"
+          ]
+        }
+      ],
+      "identification": "‘Brasil’ is a named cultivar of Philodendron hederaceum. University of Connecticut Extension describes a yellow band along the center of each leaf. Exact pattern and color intensity can vary; no further cultivar-specific care difference was established.",
+      "confidence": "medium",
+      "status": "verified",
+      "sources": [
+        "source-uconn-philodendron",
+        "source-ncsu-philodendron-hederaceum"
+      ]
+    }
+  }
+}
