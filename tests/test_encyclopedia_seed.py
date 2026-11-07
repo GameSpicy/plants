@@ -122,6 +122,8 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert any(n["name"] == "Thaumatophyllum xanadu" for n in get_taxon("plant-016", path=path)["names"])
     golden = conn.execute("SELECT rank,parent_name,cultivar_epithet FROM taxa WHERE id='plant-002'").fetchone()
     assert tuple(golden) == ("cultivar", "Epipremnum aureum", "Golden")
+    assert conn.execute("SELECT parent_taxon_id FROM taxa WHERE id='plant-002'").fetchone()[0] == "plant-001"
+    assert conn.execute("SELECT parent_taxon_id FROM taxa WHERE id='plant-013'").fetchone()[0] is None
     assert conn.execute("SELECT COUNT(*) FROM content_references WHERE content_type='taxon' AND reference_id='source-powo'").fetchone()[0] == 3
 
     hibiscus = get_taxon("plant-073", path=path)
