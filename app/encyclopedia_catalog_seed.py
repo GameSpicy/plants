@@ -5,6 +5,7 @@ verification. Pest links are added only where the cited sources support them.
 """
 from __future__ import annotations
 import json
+import csv
 import re
 import sqlite3
 from pathlib import Path
@@ -153,6 +154,14 @@ TAXONOMY_OVERRIDES = {
 
 
 SOURCES = [
+ ("source-bmd-bangladesh-seasonal-climate","The Future Climate of Bangladesh","Bangladesh Meteorological Department","https://www.bmd.gov.bd/file/2025/11/20/pdf/195905.pdf","government_meteorological_source","Bangladesh season timing and rainfall/temperature patterns; supports local climate context, not plant-specific seasonal responses."),
+ ("source-aspca-canna","Canna — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/canna","toxicology","Lists Canna indica as non-toxic to dogs, cats and horses; does not establish human safety."),
+ ("source-aspca-ixora","Flame of the Woods — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/flame-woods","toxicology","Lists Ixora coccinea as non-toxic to dogs, cats and horses; does not establish human safety or cultivar-specific identity."),
+ ("source-aspca-gardenia","Gardenia — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/gardenia","toxicology","Lists Gardenia jasminoides as toxic to dogs, cats and horses; principles include geniposide and gardenoside."),
+ ("source-aspca-majesty-palm","Majesty Palm — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/majesty-palm","toxicology","Lists Ravenea rivularis as non-toxic to dogs, cats and horses; does not establish human safety."),
+ ("source-aspca-lady-palm","Lady Palm — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/lady-palm","toxicology","Lists Rhapis flabelliformis as non-toxic to dogs and cats; does not establish human safety or confirm every Rhapis taxon."),
+ ("source-aspca-ponytail-palm","Pony Tail — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/pony-tail","toxicology","Lists Beaucarnea recurvata as non-toxic to dogs, cats and horses; does not establish human safety."),
+ ("source-wcvp-v16","WCVP v16 catalog review snapshot","Royal Botanic Gardens, Kew","https://powo.science.kew.org/about-wcvp","taxonomic_backbone","Imported from the local WCVP v16 (2026-06-04) review CSV. Taxonomic snapshot only; cultivar-parent matches do not verify cultivar identity."),
  ('source-aspca-star-jasmine', 'Star Jasmine — Toxic and Non-Toxic Plants', 'ASPCA Animal Poison Control', 'https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/star-jasmine', 'toxicology', 'Lists Trachelospermum jasminoides as non-toxic to dogs, cats and horses; does not establish human safety.'),
  ('source-aspca-cast-iron-plant', 'Cast Iron Plant — Toxic and Non-Toxic Plants', 'ASPCA Animal Poison Control', 'https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cast-iron-plant', 'toxicology', 'Lists Aspidistra elatior as non-toxic to dogs, cats and horses; does not establish human safety.'),
  ('source-aspca-staghorn-fern', 'Common Staghorn Fern — Toxic and Non-Toxic Plants', 'ASPCA Animal Poison Control', 'https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/common-staghorn-fern', 'toxicology', 'Lists Platycerium bifurcatum as non-toxic to dogs, cats and horses; does not establish human safety.'),
@@ -198,7 +207,7 @@ SOURCES = [
  ("source-ncsu-houseplant-container","Plants Grown in Containers — Extension Gardener Handbook","North Carolina State Extension","https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers","extension","Container selection and broad plant-group context only; not species-specific care."),
  ("source-rhs-houseplants","How to grow houseplants","Royal Horticultural Society","https://www.rhs.org.uk/plants/types/houseplants/growing-guide","horticultural_society",""),
  ("source-powo","Plants of the World Online","Royal Botanic Gardens, Kew","https://powo.science.kew.org/","taxonomic_backbone","Accepted names and synonymy checked for the individually cited records only."),
- ("source-rhs-feeding","How to feed plants","Royal Horticultural Society","https://www.rhs.org.uk/garden-jobs/nutrition-feeding-plants","horticultural_society",""),
+ ("source-rhs-feeding","How to feed plants","Royal Horticultural Society","https://www.rhs.org.uk/garden-jobs/nutrition-feeding-plants","horticultural_society","General feeding principles only; not species-specific fertilizer type, dose or schedule."),
  ("source-rhs-sap-feeders","Indoor plants: sap feeders","Royal Horticultural Society","https://www.rhs.org.uk/biodiversity/indoor-plants-sap-feeding-insects","horticultural_society",""),
  ("source-umn-hibiscus","Hibiscus","University of Minnesota Extension","https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/hibiscus","extension",""),
  ("source-umn-peppers","Growing peppers","University of Minnesota Extension","https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peppers","extension",""),
@@ -284,6 +293,64 @@ IMAGES = [
  ("image-pothos-mokkie","https://commons.wikimedia.org/wiki/Special:FilePath/Money_plant_(Epipremnum_aureum).jpg","Epipremnum aureum","Mokkie","CC BY-SA 3.0","https://commons.wikimedia.org/wiki/File:Money_plant_(Epipremnum_aureum).jpg"),
  ("image-pothos-dinesh","https://commons.wikimedia.org/wiki/Special:FilePath/Epipremnum_aureum_(405626861).jpg","Epipremnum aureum","Dinesh Valke","CC BY-SA 2.0","https://commons.wikimedia.org/wiki/File:Epipremnum_aureum_(405626861).jpg"),
 ]
+
+def _load_wcvp_v16_overrides() -> dict[str, dict]:
+ """Load the checked WCVP snapshot without upgrading cultivar identity."""
+ path = Path(__file__).resolve().parent / "data" / "taxonomy" / "wcvp_v16_catalog_review_163.csv"
+ if not path.exists():
+  return {}
+ catalog = {item["id"]: item for item in PLANT_CATALOG}
+ result = {}
+ with path.open(encoding="utf-8-sig", newline="") as handle:
+  for row in csv.DictReader(handle):
+   taxon_id = row["catalog_id"].strip()
+   plant = catalog.get(taxon_id)
+   if plant is None:
+    raise ValueError(f"WCVP row references unknown catalog ID: {taxon_id}")
+   submitted = " ".join(row["submitted_name"].split())
+   current = " ".join(plant["species"].split())
+   if submitted.casefold() != current.casefold():
+    raise ValueError(f"WCVP name mismatch for {taxon_id}: {submitted!r} != {current!r}")
+   match = re.match(r"^(.+?)\s+'([^']+)'$", current)
+   outcome = row["review_status"].strip()
+   status = {"verified": "verified", "cultivar_parent_only": "needs_review", "unresolved": "unresolved"}.get(outcome)
+   if status is None:
+    raise ValueError(f"Unexpected WCVP review status for {taxon_id}: {outcome}")
+   accepted_name = row["accepted_name"].strip() or submitted
+   parent_name = match.group(1) if match else ""
+   cultivar_epithet = match.group(2) if match else ""
+   rank = "cultivar" if match else row["rank"].strip().casefold() or "species"
+   override = {
+    "accepted_name": accepted_name,
+    "rank": rank,
+    "parent_name": parent_name,
+    "cultivar_epithet": cultivar_epithet,
+    "status": status,
+    "source_url": row["powo_url"].strip(),
+    "source_id": "source-wcvp-v16",
+    "wcvp_review_status": outcome,
+    "taxonomy_review_note": row["review_note"].strip(),
+   }
+   if status == "verified" and not match and accepted_name.casefold() != submitted.casefold():
+    override["submitted_name_synonym"] = submitted
+   result[taxon_id] = override
+ return result
+
+TAXONOMY_OVERRIDES.update(_load_wcvp_v16_overrides())
+
+def _catalog_range_ids(batch: dict) -> list[str]:
+ """Expand either an inclusive pair of catalog endpoints or explicit IDs."""
+ values = batch.get("catalog_range", [])
+ if len(values) == 2:
+  first = re.fullmatch(r"(.*?)(\d+)", values[0])
+  last = re.fullmatch(r"(.*?)(\d+)", values[1])
+  if first and last and first.group(1) == last.group(1):
+   start, end = int(first.group(2)), int(last.group(2))
+   if end >= start:
+    width = max(len(first.group(2)), len(last.group(2)))
+    return [f"{first.group(1)}{n:0{width}d}" for n in range(start, end + 1)]
+ return values
+
 def _slug(v):
  return re.sub(r"[^a-z0-9]+","-",v.casefold()).strip("-") or "unknown"
 
@@ -322,8 +389,13 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
    counts["legacy_ids"]+=conn.execute("INSERT OR IGNORE INTO taxon_id_aliases(legacy_id,taxon_id,reason) VALUES(?,?,?)",(legacy_id,taxon,"same_submitted_scientific_name")).rowcount
   if submitted_synonym:
    counts["synonyms"]+=conn.execute("INSERT OR IGNORE INTO taxon_names(taxon_id,name,language,name_type,preferred) VALUES(?,?,'en','synonym',0)",(taxon,submitted_synonym)).rowcount
-  if override.get("source_url"):
-   conn.execute("INSERT OR IGNORE INTO content_references(content_type,content_id,reference_id,claim) VALUES('taxon',?,'source-powo',?)",(taxon,"Accepted name and synonymy checked against Kew POWO: "+accepted+"."))
+  if override.get("source_url") or override.get("source_id") == "source-wcvp-v16":
+   source_id = override.get("source_id", "source-powo")
+   claim = ("WCVP v16 result (" + override.get("wcvp_review_status", "checked") + "): "
+            + override.get("taxonomy_review_note", "Accepted name checked.")
+            if source_id == "source-wcvp-v16"
+            else "Accepted name and synonymy checked against Kew POWO: " + accepted + ".")
+   conn.execute("INSERT OR IGNORE INTO content_references(content_type,content_id,reference_id,claim) VALUES('taxon',?,?,?)",(taxon,source_id,claim))
 
   for name,typ,pref in [(p["name"],"common",1)]+[(a,"synonym",0) for a in p.get("aliases",[])]:
    cur=conn.execute("INSERT OR IGNORE INTO taxon_names(taxon_id,name,language,name_type,preferred) VALUES(?,?,'en',?,?)",(taxon,name,typ,pref)); counts["names"]+=cur.rowcount
@@ -373,7 +445,7 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
  # Resolve cultivar parents only when the exact parent species is present in this catalog.
  # A missing parent is left NULL rather than guessed (e.g. genus-only trade cultivar names).
  for cultivar in conn.execute("SELECT id,parent_name FROM taxa WHERE rank='cultivar' AND parent_name!=''").fetchall():
-  parent=conn.execute("SELECT id FROM taxa WHERE scientific_name=? OR accepted_name=? ORDER BY id LIMIT 1",(cultivar[1],cultivar[1])).fetchone()
+  parent=conn.execute("SELECT id FROM taxa WHERE id!=? AND (scientific_name=? OR accepted_name=?) ORDER BY id LIMIT 1",(cultivar[0],cultivar[1],cultivar[1])).fetchone()
   if parent:
    counts["parent_links"]+=conn.execute("UPDATE taxa SET parent_taxon_id=? WHERE id=? AND (parent_taxon_id IS NULL OR parent_taxon_id!=?)",(parent[0],cultivar[0],parent[0])).rowcount
  # Source-grounded host/problem relationships only. Taxon IDs checked against catalog.
@@ -415,10 +487,8 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
    batch = json.load(handle)
   shared = batch.get("shared_sections", [])
   batch_taxa = list(batch.get("taxa", {}))
-  batch_taxa.extend(
-   taxon_id for taxon_id in batch.get("catalog_range", [])
-   if taxon_id not in batch_taxa
-  )
+  batch_taxa.extend(taxon_id for taxon_id in _catalog_range_ids(batch)
+                    if taxon_id not in batch_taxa)
   processed_batch_taxa = set()
   for batch_taxon in batch_taxa:
    taxon = legacy_taxon_ids.get(batch_taxon, batch_taxon)
@@ -458,8 +528,13 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
        status,"Reviewed profile batch "+batch.get("batch_id","unknown"),now))
     counts["profile_sections"]+=cur.rowcount
     for source_id in section.get("sources", []):
+     claim = "Source cited for this profile section."
+     if source_id == "source-rhs-feeding":
+      claim = "General horticultural feeding principles only; not a species-specific dose or schedule."
+     elif source_id == "source-bmd-bangladesh-seasonal-climate":
+      claim = "Bangladesh seasonal climate context only; plant response is practical local guidance."
      conn.execute("""INSERT OR IGNORE INTO content_references
        (content_type,content_id,reference_id,claim)
        VALUES('taxon_section',?,?,?)""",
-       (f"{taxon}:{key}",source_id,"Source cited for this profile section."))
+       (f"{taxon}:{key}",source_id,claim))
  return counts

@@ -133,7 +133,9 @@
           "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -265,7 +267,9 @@
           "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -313,7 +317,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -445,7 +451,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -577,7 +585,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -925,7 +935,9 @@
           "content": "Feed sparingly while new fronds form using diluted houseplant fertilizer. Avoid concentrated fertilizer on the rhizome and reduce feeding during slow growth.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -1321,7 +1333,9 @@
           "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -1369,7 +1383,9 @@
           "content": "This fern-like plant prefers more even moisture than a succulent. Keep its pot elevated and draining in monsoon weather; water when the upper mix begins drying and check more often in hot spells.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -1451,7 +1467,9 @@
           "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -1499,7 +1517,9 @@
           "content": "The fine foliage of this asparagus is best kept out of harsh afternoon sun. In Dhaka monsoon weather keep the container draining; in hot dry spells check the mix more often and reduce watering when growth slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -1581,7 +1601,9 @@
           "content": "Feed Fittonia lightly with diluted balanced houseplant fertilizer during active growth. Pause if wilted, recently repotted or not growing; no exact species-specific dose is established here.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -1627,7 +1649,9 @@
           "content": "Maintain evenly moist mix and bright filtered light. Check more often in dry heat, while emptying saucers and protecting roots from prolonged monsoon saturation.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -1709,7 +1733,9 @@
           "content": "Feed Fittonia lightly with diluted balanced houseplant fertilizer during active growth. Pause if wilted, recently repotted or not growing; no exact species-specific dose is established here.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -1755,7 +1781,9 @@
           "content": "Maintain evenly moist mix and bright filtered light. Check more often in dry heat, while emptying saucers and protecting roots from prolonged monsoon saturation.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -1887,7 +1915,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -2019,7 +2049,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -2151,7 +2183,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -2365,7 +2399,9 @@
           "content": "Feed modestly with palm or balanced foliage fertilizer at label rate while actively growing. Avoid concentrated applications, check light and watering before diagnosing yellow leaves, and reduce feeding when growth slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -2413,7 +2449,9 @@
           "content": "Acclimate gradually to brighter light and avoid harsh afternoon sun. Keep drainage clear in monsoon and empty saucers; allow a little more dry-down when growth slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -2546,7 +2584,9 @@
           "content": "Acclimate gradually to brighter light and avoid harsh afternoon sun. Keep drainage clear in monsoon and empty saucers; allow a little more dry-down when growth slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -2655,10 +2695,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
+          "content": "ASPCA lists Rhapis flabelliformis as non-toxic to dogs and cats. The profile’s lady-palm name refers to Rhapis excelsa; this related listing does not securely establish that exact taxon’s status, so keep the species-level result provisional.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-aspca-lady-palm"
+          ]
         },
         {
           "key": "common_problems",
@@ -2676,7 +2718,9 @@
           "content": "Acclimate gradually to brighter light and avoid harsh afternoon sun. Keep drainage clear in monsoon and empty saucers; allow a little more dry-down when growth slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -2758,7 +2802,9 @@
           "content": "Feed modestly with palm or balanced foliage fertilizer at label rate while actively growing. Avoid concentrated applications, check light and watering before diagnosing yellow leaves, and reduce feeding when growth slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -2783,10 +2829,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "ASPCA lists Ravenea rivularis as non-toxic to dogs, cats and horses. This applies to those animal groups and the named palm; it does not establish human safety.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-aspca-majesty-palm"
+          ]
         },
         {
           "key": "common_problems",
@@ -2804,7 +2852,9 @@
           "content": "Acclimate gradually to brighter light and avoid harsh afternoon sun. Keep drainage clear in monsoon and empty saucers; allow a little more dry-down when growth slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -2913,10 +2963,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "ASPCA lists Beaucarnea recurvata as non-toxic to dogs, cats and horses. This applies to those animal groups and the named ponytail palm; it does not establish human safety.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-aspca-ponytail-palm"
+          ]
         },
         {
           "key": "common_problems",
@@ -2934,7 +2986,9 @@
           "content": "Give bright light and let the mix dry substantially between waterings. Shelter from prolonged monsoon rain and water sparingly when growth slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -3307,10 +3361,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "ASPCA lists Ixora coccinea as non-toxic to dogs, cats and horses. This applies to the named species and those animals; it does not establish human safety.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-aspca-ixora"
+          ]
         },
         {
           "key": "common_problems",
@@ -3412,7 +3468,9 @@
           "content": "This dwarf selection lacks a separate feeding recommendation. Use a conservative label-rate feed intended for acid-loving shrubs during active growth; do not feed a dry or stressed plant.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -3437,10 +3495,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
+          "content": "ASPCA lists the parent species Ixora coccinea as non-toxic to dogs, cats and horses; the dwarf cultivar is not separately assessed. This does not establish human safety.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-aspca-ixora"
+          ]
         },
         {
           "key": "common_problems",
@@ -3458,7 +3518,9 @@
           "content": "Keep warm, bright and ventilated. Check container moisture during hot dry weather but maintain free drainage during monsoon; avoid standing water.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -3567,11 +3629,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "NC State lists low-severity toxicity for Gardenia jasminoides and reports mild vomiting or diarrhea and hives. Keep ingestion risk in mind around children and pets.",
+          "content": "ASPCA lists Gardenia jasminoides as toxic to dogs, cats and horses; it names geniposide and gardenoside and reports mild vomiting/diarrhea and hives. NC State also reports low-severity toxicity. Prevent ingestion.",
           "confidence": "high",
           "status": "verified",
           "sources": [
-            "source-ncsu-gardenia-jasminoides"
+            "source-ncsu-gardenia-jasminoides",
+            "source-aspca-gardenia"
           ]
         },
         {
@@ -3674,7 +3737,9 @@
           "content": "Feed modestly during active growth with balanced flowering-plant fertilizer at label rate. Avoid excess nitrogen and reduce feeding when growth or flowering slows.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -3720,7 +3785,9 @@
           "content": "Keep warm, bright and ventilated. Check container moisture during hot dry weather but maintain free drainage during monsoon; avoid standing water.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -4118,7 +4185,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -4250,7 +4319,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -4332,7 +4403,9 @@
           "content": "Use a modest amount of general flower fertilizer during active growth and follow its label. Avoid heavy nitrogen feeding, which can favor foliage over flowers; fertile potting mix may need little extra feed.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -4380,7 +4453,9 @@
           "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -4462,7 +4537,9 @@
           "content": "Use a modest amount of general flower fertilizer during active growth and follow its label. Avoid heavy nitrogen feeding, which can favor foliage over flowers; fertile potting mix may need little extra feed.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -4510,7 +4587,9 @@
           "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -4642,7 +4721,9 @@
           "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -4772,7 +4853,9 @@
           "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -4854,7 +4937,9 @@
           "content": "Use a modest amount of general flower fertilizer during active growth and follow its label. Avoid heavy nitrogen feeding, which can favor foliage over flowers; fertile potting mix may need little extra feed.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -4902,7 +4987,9 @@
           "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -5032,7 +5119,9 @@
           "content": "Give bright light and airflow; where practical grow in Dhaka’s cooler, drier season. Keep containers draining in monsoon, remove storm-damaged growth and stake tall stems.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -5114,7 +5203,9 @@
           "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -5160,7 +5251,9 @@
           "content": "Keep Crossandra warm with bright filtered light. Check container moisture during Dhaka hot dry spells, but maintain airflow and drainage through monsoon weather; remove damaged flowers and leaves.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -5242,7 +5335,9 @@
           "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -5288,7 +5383,9 @@
           "content": "Give this tropical evergreen shrub bright light and airflow. In Dhaka, prevent monsoon waterlogging and check containers more often in hot dry weather; shelter from unusual cool spells.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -5370,7 +5467,9 @@
           "content": "During active growth, use balanced fertilizer diluted or applied at label rate; reduce or pause when growth slows. Avoid repeated heavy doses and flush the container if fertilizer salts accumulate.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -5416,7 +5515,9 @@
           "content": "Use the same practical routine as the listed Tabernaemontana species: bright light, airflow and free drainage. In Dhaka monsoon season empty saucers; check moisture more often during dry heat.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -5929,10 +6030,12 @@
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
-          "content": "No matching toxicology assessment is attached for this ornamental species or cultivar. Do not eat it or use it medicinally, and keep it from being chewed by children and pets; this precaution does not establish that it is poisonous.",
-          "confidence": "low",
-          "status": "draft",
-          "sources": []
+          "content": "ASPCA lists Canna indica as non-toxic to dogs, cats and horses. This applies to the named species and those animals; it does not establish human safety or edibility for ornamental cultivars.",
+          "confidence": "medium",
+          "status": "verified",
+          "sources": [
+            "source-aspca-canna"
+          ]
         },
         {
           "key": "common_problems",
@@ -5950,7 +6053,9 @@
           "content": "Keep warm and bright with free-draining mix. Do not leave bulbs or rhizomes in stagnant monsoon water; reduce watering only if foliage naturally slows or dies back.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -6080,7 +6185,9 @@
           "content": "Keep warm and bright with free-draining mix. Do not leave bulbs or rhizomes in stagnant monsoon water; reduce watering only if foliage naturally slows or dies back.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -6162,7 +6269,9 @@
           "content": "Feed lightly while leaves or flowers grow with a balanced bulb or flowering-plant fertilizer at label rate. Stop if the bulb becomes dormant and do not fertilize dry mix.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-rhs-feeding"
+          ]
         },
         {
           "key": "pruning",
@@ -6210,7 +6319,9 @@
           "content": "Keep warm and bright with free-draining mix. Do not leave bulbs or rhizomes in stagnant monsoon water; reduce watering only if foliage naturally slows or dies back.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -6342,7 +6453,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -6472,7 +6585,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     },
@@ -6602,7 +6717,9 @@
           "content": "Keep in bright filtered light; check the pot more often during hot dry spells, but empty saucers and avoid prolonged saturation in monsoon weather.",
           "confidence": "low",
           "status": "draft",
-          "sources": []
+          "sources": [
+            "source-bmd-bangladesh-seasonal-climate"
+          ]
         }
       ]
     }

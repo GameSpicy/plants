@@ -17,7 +17,7 @@ The shared encyclopedia now records:
 
 The schema update is additive and non-destructive. Existing encyclopedia databases gain missing columns; the personal `plants.db` is not opened or modified by this migration.
 
-## Individually checked POWO records
+## Initial POWO-checked records (21)
 
 The first two review batches have individually checked 21 catalog records against Kew Plants of the World Online (POWO). The accepted-name source is recorded per taxon in `TAXONOMY_OVERRIDES`.
 
@@ -45,7 +45,7 @@ The first two review batches have individually checked 21 catalog records agains
 | plant-035 | Dracaena fragrans | — | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:534207-1 |
 | plant-036 | Dracaena sanderiana | — | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60471006-2 |
 
-The remaining 163 normalized taxa stay `needs_review`; cultivar/trade-name entries are not upgraded merely because their parent species was checked. The broader plant profile remains `needs_review`: verifying a name does not verify care, toxicity, pests, disease or other horticultural content.
+The initial manually checked set contains 21 records. The subsequent WCVP v16 review is recorded in `app/data/taxonomy/wcvp_v16_catalog_review_163.csv` and imported by the taxonomy seeder. It adds 145 exact accepted-name matches, 12 cultivar-parent-only matches (retained as `needs_review` at cultivar rank), and 6 unresolved names. Combined with the initial set, 166 taxa have an exact accepted-name result; 12 cultivar identities remain pending and 6 names remain unresolved. A WCVP match verifies only the taxonomic name: it does not verify care, toxicity, pests, disease or horticultural content. The imported data records WCVP status, direct POWO taxon URL and review notes for each row.
 
 ## Duplicate ID preservation
 
@@ -57,8 +57,11 @@ Quoted cultivar epithets are now parsed into cultivar rank, parent-name text and
 
 ## Review boundary
 
-This is a foundation and a small verified pilot, not a completed taxonomic audit of all catalog entries. All other names remain `needs_review`. The remaining catalog needs individual accepted-name and synonym checks against POWO/WCVP or another appropriate botanical backbone. Cultivar/trade-name identification may also require horticultural registry or breeder evidence and should not be inferred from a quoted string alone.
+The WCVP v16 snapshot covers all 184 normalized catalog records when combined with the original 21 reviewed records. Six unresolved botanical or horticultural names and 12 cultivar identities remain open for follow-up. Cultivar/trade-name identification may require a horticultural registry or breeder evidence and is not inferred from a parent-species WCVP match.
 
 ## Validation
 
 Automated tests were expanded to cover schema fields, 21 cited POWO records, cultivar parsing, parent linking, duplicate-ID redirects, source references and idempotent seeding. These tests have not yet been executed in a runtime in this work session.
+
+
+The taxonomy importer validates every WCVP row against a current catalog ID and submitted name before applying it. Exact matches receive `verified`; cultivar-parent-only matches remain `needs_review`; unresolved rows remain `unresolved`. The full WCVP v16 source file is retained so the imported fields are reproducible.

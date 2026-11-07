@@ -45,6 +45,69 @@ def test_encyclopedia_database_does_not_create_personal_database(tmp_path):
     assert not (tmp_path / "plants.db").exists()
 
 
+def test_encyclopedia_v1_migration_preserves_locally_enriched_content(tmp_path):
+    path = tmp_path / "legacy-encyclopedia.db"
+    conn = sqlite3.connect(path)
+    conn.executescript("""
+        CREATE TABLE encyclopedia_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+        INSERT INTO encyclopedia_meta VALUES ('schema_version', '1');
+        CREATE TABLE taxa (
+            id TEXT PRIMARY KEY, scientific_name TEXT NOT NULL UNIQUE,
+            family TEXT, genus TEXT, rank TEXT NOT NULL DEFAULT 'species',
+            category TEXT, description TEXT NOT NULL DEFAULT '',
+            growth_habit TEXT NOT NULL DEFAULT '', native_range TEXT NOT NULL DEFAULT '',
+            mature_size TEXT NOT NULL DEFAULT '', growth_rate TEXT NOT NULL DEFAULT '',
+            toxicity TEXT NOT NULL DEFAULT '',
+            verification_status TEXT NOT NULL DEFAULT 'needs_review',
+            created_at TEXT NOT NULL, updated_at TEXT NOT NULL
+        );
+        INSERT INTO taxa(id,scientific_name,genus,description,toxicity,created_at,updated_at)
+        VALUES('plant-001','Epipremnum aureum','Epipremnum','My locally enriched description',
+               'My locally checked safety note','old','old');
+        CREATE TABLE care_profiles (
+            id INTEGER PRIMARY KEY, taxon_id TEXT NOT NULL UNIQUE,
+            light TEXT NOT NULL DEFAULT '', temperature_min_c REAL, temperature_max_c REAL,
+            humidity_min_pct INTEGER, humidity_max_pct INTEGER, soil TEXT NOT NULL DEFAULT '',
+            soil_ph_min REAL, soil_ph_max REAL, drainage TEXT NOT NULL DEFAULT '',
+            watering TEXT NOT NULL DEFAULT '', pruning TEXT NOT NULL DEFAULT '',
+            propagation TEXT NOT NULL DEFAULT '', notes TEXT NOT NULL DEFAULT '',
+            confidence TEXT NOT NULL DEFAULT 'unreviewed', updated_at TEXT NOT NULL
+        );
+        INSERT INTO care_profiles(taxon_id,light,notes,confidence,updated_at)
+        VALUES('plant-001','Custom light note','Locally enriched care history','high','old');
+        CREATE TABLE taxon_profile_sections (
+            id INTEGER PRIMARY KEY, taxon_id TEXT NOT NULL, section_key TEXT NOT NULL,
+            title TEXT NOT NULL, content TEXT NOT NULL DEFAULT '',
+            confidence TEXT NOT NULL DEFAULT 'unreviewed',
+            review_status TEXT NOT NULL DEFAULT 'needs_review', source_note TEXT NOT NULL DEFAULT '',
+            reviewed_at TEXT, updated_at TEXT NOT NULL,
+            UNIQUE(taxon_id,section_key)
+        );
+        INSERT INTO taxon_profile_sections(taxon_id,section_key,title,content,confidence,
+            review_status,source_note,updated_at)
+        VALUES('plant-001','overview','Overview','Human-reviewed profile text','high',
+               'verified','local editor','old');
+    """)
+    conn.commit()
+    conn.close()
+
+    init_encyclopedia_db(path)
+    conn = sqlite3.connect(path)
+    assert conn.execute(
+        "SELECT description,toxicity FROM taxa WHERE id='plant-001'"
+    ).fetchone() == ('My locally enriched description','My locally checked safety note')
+    assert conn.execute(
+        "SELECT light,notes,confidence FROM care_profiles WHERE taxon_id='plant-001'"
+    ).fetchone() == ('Custom light note','Locally enriched care history','high')
+    assert conn.execute(
+        "SELECT content,review_status,source_note FROM taxon_profile_sections "
+        "WHERE taxon_id='plant-001' AND section_key='overview'"
+    ).fetchone() == ('Human-reviewed profile text','verified','local editor')
+    assert conn.execute("SELECT value FROM encyclopedia_meta WHERE key='schema_version'").fetchone()[0] == '3'
+    assert conn.execute("PRAGMA foreign_key_check").fetchall() == []
+    conn.close()
+
+
 def test_read_only_service_returns_profiles_treatments_and_sources(tmp_path):
     from app.encyclopedia_service import get_problem, get_treatment, list_problems, list_treatments
 
@@ -114,7 +177,9 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert conn.execute("SELECT COUNT(*) FROM media WHERE rights_status='approved'").fetchone()[0] == 3
     assert conn.execute("PRAGMA foreign_key_check").fetchall() == []
     assert conn.execute("SELECT COUNT(*) FROM taxa WHERE verification_status!='needs_review'").fetchone()[0] == 0
-    assert conn.execute("SELECT COUNT(*) FROM taxa WHERE taxonomy_status='verified'").fetchone()[0] == 21
+    assert conn.execute("SELECT COUNT(*) FROM taxa WHERE taxonomy_status='verified'").fetchone()[0] == 166
+    assert conn.execute("SELECT COUNT(*) FROM taxa WHERE taxonomy_status='needs_review'").fetchone()[0] == 12
+    assert conn.execute("SELECT COUNT(*) FROM taxa WHERE taxonomy_status='unresolved'").fetchone()[0] == 6
     assert conn.execute("SELECT COUNT(*) FROM taxon_id_aliases").fetchone()[0] == 9
     assert conn.execute("SELECT COUNT(*) FROM taxon_names WHERE name_type='synonym'").fetchone()[0] >= 3
     xanadu = conn.execute("SELECT scientific_name, accepted_name, taxonomy_status FROM taxa WHERE id='plant-016'").fetchone()
@@ -125,6 +190,34 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert conn.execute("SELECT parent_taxon_id FROM taxa WHERE id='plant-002'").fetchone()[0] == "plant-001"
     assert conn.execute("SELECT parent_taxon_id FROM taxa WHERE id='plant-013'").fetchone()[0] is None
     assert conn.execute("SELECT COUNT(*) FROM content_references WHERE content_type='taxon' AND reference_id='source-powo'").fetchone()[0] == 21
+    assert conn.execute("SELECT COUNT(*) FROM content_references WHERE content_type='taxon' AND reference_id='source-wcvp-v16'").fetchone()[0] == 163
+    wcvp_cultivar_claim = conn.execute(
+        "SELECT claim FROM content_references WHERE content_id='plant-002' AND reference_id='source-wcvp-v16'"
+    ).fetchone()[0]
+    assert "cultivar_parent_only" in wcvp_cultivar_claim
+    assert "cultivar identity remains outside WCVP" in wcvp_cultivar_claim
+    seasonal_claim = conn.execute(
+        "SELECT claim FROM content_references WHERE content_id='plant-052:seasonal_care' "
+        "AND reference_id='source-bmd-bangladesh-seasonal-climate'"
+    ).fetchone()[0]
+    assert "climate context only" in seasonal_claim
+    feeding_claim = conn.execute(
+        "SELECT claim FROM content_references WHERE content_id='plant-051:fertilizing' "
+        "AND reference_id='source-rhs-feeding'"
+    ).fetchone()[0]
+    assert "not a species-specific dose" in feeding_claim
+    golden_taxonomy = conn.execute(
+        "SELECT accepted_name,rank,taxonomy_status FROM taxa WHERE id='plant-002'"
+    ).fetchone()
+    assert tuple(golden_taxonomy) == ('Epipremnum aureum','cultivar','needs_review')
+    unresolved_hybrid = conn.execute(
+        "SELECT taxonomy_status FROM taxa WHERE id='plant-038'"
+    ).fetchone()[0]
+    assert unresolved_hybrid == 'unresolved'
+    from app.encyclopedia_catalog_seed import _catalog_range_ids
+    assert _catalog_range_ids({'catalog_range':['plant-001','plant-005']}) == [
+        'plant-001','plant-002','plant-003','plant-004','plant-005'
+    ]
 
     hibiscus = get_taxon("plant-073", path=path)
     assert hibiscus is not None
@@ -259,6 +352,11 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert any(src["id"] == "source-aspca-staghorn-fern" for src in section(batch_051_100[8], "toxicity")["sources"])
     assert any(src["id"] == "source-aspca-cast-iron-plant" for src in section(batch_051_100[15], "toxicity")["sources"])
     assert any(src["id"] == "source-aspca-star-jasmine" for src in section(batch_051_100[28], "toxicity")["sources"])
+    assert any(src["id"] == "source-aspca-majesty-palm" for src in section(batch_051_100[20], "toxicity")["sources"])
+    assert any(src["id"] == "source-aspca-ponytail-palm" for src in section(batch_051_100[21], "toxicity")["sources"])
+    assert any(src["id"] == "source-aspca-gardenia" for src in section(batch_051_100[26], "toxicity")["sources"])
+    assert any(src["id"] == "source-aspca-ixora" for src in section(batch_051_100[24], "toxicity")["sources"])
+    assert any(src["id"] == "source-aspca-canna" for src in section(batch_051_100[44], "toxicity")["sources"])
     assert "No matching toxicology assessment" in section(batch_051_100[48], "toxicity")["content"]
     for profile in batch_051_100:
         for key in ("fertilizing", "toxicity", "seasonal_care", "temperature", "common_problems"):
