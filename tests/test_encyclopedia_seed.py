@@ -176,7 +176,7 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert section(satin, "identification")["review_status"] == "needs_review"
     assert "node" in section(monstera, "propagation")["content"]
     assert "marginal splits" in section(adansonii, "identification")["content"]
-    assert "different genus" in section(rhaphidophora, "identification")["content"]
+    assert "does not make it a Monstera" in section(rhaphidophora, "identification")["content"]
     assert section(brasil, "identification")["review_status"] == "verified"
     assert section(birkin, "overview")["review_status"] == "needs_review"
     assert section(gloriosum, "light")["review_status"] == "needs_review"
