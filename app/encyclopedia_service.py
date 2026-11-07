@@ -155,6 +155,17 @@ def get_taxon(item_id: str, path=None) -> dict[str, Any] | None:
         result["care"] = _dict(conn.execute(
             "SELECT * FROM care_profiles WHERE taxon_id=?", (canonical_id,)
         ).fetchone())
+        result["profile_sections"] = [dict(r) for r in conn.execute(
+            """SELECT section_key,title,content,confidence,review_status,source_note,
+                      reviewed_at,updated_at
+               FROM taxon_profile_sections
+               WHERE taxon_id=? AND review_status!='retired'
+               ORDER BY section_key""", (canonical_id,)
+        )]
+        for section in result["profile_sections"]:
+            section["sources"] = _sources(
+                conn, "taxon_section", f"{canonical_id}:{section['section_key']}"
+            )
         result["fertilizer_guides"] = [dict(r) for r in conn.execute(
             "SELECT * FROM fertilizer_guides WHERE taxon_id=? ORDER BY title", (canonical_id,)
         )]
