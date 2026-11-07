@@ -155,6 +155,32 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     for taxon_id in ("plant-001", "plant-002", "plant-003", "plant-004", "plant-005"):
         profile = get_taxon(taxon_id, path=path)
         assert len(profile["profile_sections"]) >= 13
+    # Ordered second profile batch: species care is separated, and unsupported cultivar claims stay pending.
+    scindapsus = get_taxon("plant-006", path=path)
+    satin = get_taxon("plant-007", path=path)
+    monstera = get_taxon("plant-008", path=path)
+    adansonii = get_taxon("plant-009", path=path)
+    rhaphidophora = get_taxon("plant-010", path=path)
+    heartleaf = get_taxon("plant-011", path=path)
+    brasil = get_taxon("plant-012", path=path)
+    birkin = get_taxon("plant-013", path=path)
+    pink_princess = get_taxon("plant-014", path=path)
+    gloriosum = get_taxon("plant-015", path=path)
+    for profile in (scindapsus, satin, monstera, adansonii, rhaphidophora, heartleaf, brasil, birkin, pink_princess, gloriosum):
+        assert len(profile["profile_sections"]) >= 13
+    def section(profile, key):
+        return next(item for item in profile["profile_sections"] if item["section_key"] == key)
+    assert "not Epipremnum" in section(scindapsus, "overview")["content"]
+    assert section(satin, "identification")["review_status"] == "needs_review"
+    assert "node" in section(monstera, "propagation")["content"]
+    assert "marginal splits" in section(adansonii, "identification")["content"]
+    assert "different genus" in section(rhaphidophora, "identification")["content"]
+    assert section(brasil, "identification")["review_status"] == "verified"
+    assert section(birkin, "overview")["review_status"] == "needs_review"
+    assert section(gloriosum, "light")["review_status"] == "needs_review"
+    assert section(pink_princess, "identification")["review_status"] == "verified"
+    assert any(src["id"] == "source-nparks-pink-princess" for src in section(pink_princess, "identification")["sources"])
+
     assert len(pothos["media"]) == 3
     assert pothos["media"][0]["license"] == "CC BY-SA 4.0"
     assert pothos["fertilizer_guides"]
