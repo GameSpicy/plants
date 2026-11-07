@@ -73,7 +73,7 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
   accepted=override.get("accepted_name", scientific)
   submitted_synonym=override.get("submitted_name_synonym", "")
   # Cultivar epithets are parsed as horticultural names, not treated as species names.
-  cultivar_match=re.match(r"^(.+?)\\s+'([^']+)'$", scientific)
+  cultivar_match=re.match(r"^(.+?)\s+'([^']+)'$", scientific)
   rank=override.get("rank") or ("cultivar" if cultivar_match else "species")
   parent_name=override.get("parent_name") or (cultivar_match.group(1) if cultivar_match else "")
   cultivar_epithet=override.get("cultivar_epithet") or (cultivar_match.group(2) if cultivar_match else "")
