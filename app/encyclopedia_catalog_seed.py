@@ -197,6 +197,29 @@ SOURCES = [
  ("source-ncsu-spider","Chlorophytum comosum","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/","extension","Identification, culture and propagation."),
  ("source-wi-spider","Spider plant","University of Wisconsin–Madison Extension","https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/","extension","Cultivar characteristics and propagation."),
  ("source-ifas-rubber","Ficus elastica: Rubber Tree","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/ST252","extension","Culture, propagation, cultivars and pests.")
+
+ ("source-ncsu-ficus-lyrata","Ficus lyrata","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/ficus-lyrata/","extension","Identification, culture and toxicity."),
+ ("source-ncsu-ficus-microcarpa","Ficus microcarpa 'Ginseng'","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng/","extension","Bonsai form, aerial roots and cultivation."),
+ ("source-clemson-ficus-benjamina","Weeping Ficus","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/weeping-ficus/","extension","Habit, light and indoor care."),
+ ("source-ncsu-pachira","Pachira aquatica","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/pachira-aquatica/","extension","Money tree description and toxicity."),
+ ("source-ncsu-croton","Codiaeum variegatum","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/codiaeum-variegatum/","extension","Croton light, water and foliage characteristics."),
+ ("source-ncsu-cordyline","Cordyline fruticosa","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/cordyline-fruticosa/","extension","Ti plant features and toxicity."),
+ ("source-ncsu-dracaena-reflexa","Dracaena reflexa var. reflexa","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/dracaena-reflexa-var-reflexa/","extension","Song of India growth and cultivation."),
+ ("source-ncsu-dracaena-fragrans","Dracaena fragrans","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/dracaena-fragrans/","extension","Corn plant care, propagation, pests and toxicity."),
+ ("source-ncsu-dracaena-sanderiana","Dracaena sanderiana","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/","extension","Lucky bamboo cultivation and toxicity."),
+ ("source-ncsu-caladium","Caladium bicolor","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/caladium-bicolor/","extension","Tuberous growth, seasonal care and toxicity."),
+ ("source-ufas-alocasia","Alocasia spp.","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/FP033/about","extension","Genus-level cultivation; not cultivar-specific."),
+ ("source-ncsu-alocasia","Alocasia","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/alocasia/","extension","Genus and species characteristics."),
+ ("source-ncsu-colocasia","Colocasia esculenta","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/colocasia-esculenta/","extension","Taro habit, moisture needs and toxicity."),
+ ("source-ncsu-orbifolia","Goeppertia orbifolia","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/","extension","Humidity, moisture and water-quality guidance."),
+ ("source-ncsu-insignis","Goeppertia insignis","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/goeppertia-insignis/","extension","Rattlesnake plant identification."),
+ ("source-ncsu-ornata","Goeppertia ornata","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/goeppertia-ornata/","extension","Pinstripe plant identification and cultivation."),
+ ("source-ncsu-maranta","Maranta leuconeura","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/maranta-leuconeura/","extension","Prayer plant identification and care."),
+ ("source-ncsu-peperomia-obtusifolia","Peperomia obtusifolia","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/","extension","Watering, light, pests and identification."),
+ ("source-ncsu-peperomia-argyreia","Peperomia argyreia","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/peperomia-argyreia/","extension","Watermelon peperomia leaf pattern and care."),
+ ("source-umn-hypoestes","Polka dot plant","University of Minnesota Extension","https://extension.umn.edu/houseplants/polka-dot-plant","extension","General care and propagation; check availability."),
+ ("source-ncsu-coleus","Coleus scutellarioides","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/coleus-scutellarioides/","extension","Coleus habit, light and propagation."),
+ ("source-ncsu-tradescantia-pallida","Tradescantia pallida","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/tradescantia-pallida/","extension","Purple heart growth, propagation and irritation.")
 ]
 IMAGES = [
  ("image-pothos-mithun","https://commons.wikimedia.org/wiki/Special:FilePath/Money_plant(Epipremnum_Aureum).jpg","Money plant / golden pothos","Mithun Mijar","CC BY-SA 4.0","https://commons.wikimedia.org/wiki/File:Money_plant(Epipremnum_Aureum).jpg"),
