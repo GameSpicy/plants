@@ -222,6 +222,22 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert section(batch_026_050[22], "identification")["review_status"] == "needs_review"
     assert any(src["id"] == "source-ncsu-heptapleurum" for src in section(batch_026_050[5], "overview")["sources"])
 
+    # Fifth ordered batch: plant-051 through plant-100.
+    batch_051_100 = [get_taxon(f"plant-{i:03d}", path=path) for i in range(51, 101)]
+    assert all(profile is not None and len(profile["profile_sections"]) >= 13 for profile in batch_051_100)
+    def section(profile, key):
+        return next(item for item in profile["profile_sections"] if item["section_key"] == key)
+    assert "silver" in section(batch_051_100[0], "identification")["content"].lower()
+    assert "purple" in section(batch_051_100[1], "identification")["content"].lower()
+    assert section(batch_051_100[11], "overview")["review_status"] == "verified"  # Fittonia
+    assert section(batch_051_100[22], "overview")["review_status"] == "verified"  # Hibiscus
+    assert section(batch_051_100[25], "overview")["review_status"] == "verified"  # Gardenia
+    assert section(batch_051_100[26], "overview")["review_status"] == "verified"  # Jasmine genus evidence
+    assert section(batch_051_100[41], "overview")["review_status"] == "verified"  # Oleander
+    assert section(batch_051_100[41], "toxicity")["review_status"] == "needs_review"
+    assert all(section(profile, "watering")["review_status"] == "needs_review" for profile in batch_051_100)
+    assert any(src["id"] == "source-ncsu-tradescantia" for src in section(batch_051_100[0], "overview")["sources"])
+
     assert len(pothos["media"]) == 3
     assert pothos["media"][0]["license"] == "CC BY-SA 4.0"
     assert pothos["fertilizer_guides"]
