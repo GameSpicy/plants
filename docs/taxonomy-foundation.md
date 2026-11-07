@@ -31,8 +31,6 @@ The first review batch expanded the individually checked set to eleven records:
 | plant-011 | Philodendron hederaceum | — | https://powo.science.kew.org/taxon/87797-1 |
 | plant-020 | Zamioculcas zamiifolia | — | https://powo.science.kew.org/taxon/89402-1 |
 | plant-024 | Chlorophytum comosum | — | https://powo.science.kew.org/taxon/532810-1 |
-| Catalog ID | Accepted name | Synonym retained | Source |
-|---|---|---|---|
 | plant-016 | Philodendron xanadu | Thaumatophyllum xanadu | https://powo.science.kew.org/taxon/20011461-1 |
 | plant-031 | Heptapleurum arboricola | Schefflera arboricola | https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:90845-1 |
 | plant-022 | Dracaena trifasciata | Sansevieria trifasciata | https://powo.science.kew.org/taxon/77164235-1 |
@@ -53,4 +51,4 @@ This is a foundation and a small verified pilot, not a completed taxonomic audit
 
 ## Validation
 
-Automated tests were expanded to cover schema fields, three cited POWO records, cultivar parsing, parent linking, duplicate-ID redirects, source references and idempotent seeding. These tests have not yet been executed in a runtime in this work session.
+Automated tests were expanded to cover schema fields, eleven cited POWO records, cultivar parsing, parent linking, duplicate-ID redirects, source references and idempotent seeding. These tests have not yet been executed in a runtime in this work session.
