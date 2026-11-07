@@ -114,7 +114,7 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert conn.execute("SELECT COUNT(*) FROM media WHERE rights_status='approved'").fetchone()[0] == 3
     assert conn.execute("PRAGMA foreign_key_check").fetchall() == []
     assert conn.execute("SELECT COUNT(*) FROM taxa WHERE verification_status!='needs_review'").fetchone()[0] == 0
-    assert conn.execute("SELECT COUNT(*) FROM taxa WHERE taxonomy_status='verified'").fetchone()[0] == 3
+    assert conn.execute("SELECT COUNT(*) FROM taxa WHERE taxonomy_status='verified'").fetchone()[0] == 21
     assert conn.execute("SELECT COUNT(*) FROM taxon_id_aliases").fetchone()[0] == 9
     assert conn.execute("SELECT COUNT(*) FROM taxon_names WHERE name_type='synonym'").fetchone()[0] >= 3
     xanadu = conn.execute("SELECT scientific_name, accepted_name, taxonomy_status FROM taxa WHERE id='plant-016'").fetchone()
@@ -124,7 +124,7 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert tuple(golden) == ("cultivar", "Epipremnum aureum", "Golden")
     assert conn.execute("SELECT parent_taxon_id FROM taxa WHERE id='plant-002'").fetchone()[0] == "plant-001"
     assert conn.execute("SELECT parent_taxon_id FROM taxa WHERE id='plant-013'").fetchone()[0] is None
-    assert conn.execute("SELECT COUNT(*) FROM content_references WHERE content_type='taxon' AND reference_id='source-powo'").fetchone()[0] == 3
+    assert conn.execute("SELECT COUNT(*) FROM content_references WHERE content_type='taxon' AND reference_id='source-powo'").fetchone()[0] == 21
 
     hibiscus = get_taxon("plant-073", path=path)
     assert hibiscus is not None
