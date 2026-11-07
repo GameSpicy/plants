@@ -170,6 +170,20 @@ SOURCES = [
  ("source-nybg-pothos","Pothos (Epipremnum aureum)","New York Botanical Garden","https://libguides.nybg.org/pothos","botanical_garden","Light, watering and humidity context."),
  ("source-nparks-epipremnum","Epipremnum aureum","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/3/1390","government_botanical_database","Plant features, propagation and ingestion/sap hazard."),
  ("source-ufifas-cultivars","New Florida Foliage Plant Cultivar: Pothos ‘Pearls and Jade’","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/EP441/pdf","extension","Cultivar descriptions for common pothos selections.")
+
+ ("source-nparks-scindapsus","Scindapsus pictus","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/6/0/6027","government_botanical_database","Plant features, habitat and cultivation."),
+ ("source-rhs-scindapsus","Scindapsus pictus","Royal Horticultural Society","https://www.rhs.org.uk/plants/93929/scindapsus-pictus-v/details","horticultural_society","Native range, cultivation and propagation."),
+ ("source-ncsu-scindapsus","Silver Pothos — Scindapsus pictus","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/scindapsus-pictus/common-name/silver-pothos/","extension","Identification and cultivar names."),
+ ("source-umn-monstera","Monstera deliciosa","University of Minnesota Extension","https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/propagating-monstera-deliciosa","extension","Propagation, node requirements and watering."),
+ ("source-ncsu-monstera","Monstera deliciosa","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/monstera-deliciosa/","extension","Identification, growing conditions and toxicity."),
+ ("source-rhs-adansonii","Monstera adansonii","Royal Horticultural Society","https://www.rhs.org.uk/plants/11191/monstera-adansonii/details","horticultural_society","Cultivation, propagation and hazard."),
+ ("source-ncsu-rhaphidophora","Rhaphidophora tetrasperma","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/rhaphidophora-tetrasperma/","extension","Identification, cultivation, pests and toxicity."),
+ ("source-ncsu-philodendron-hederaceum","Philodendron hederaceum","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/","extension","Species identification, culture and toxicity."),
+ ("source-rhs-philodendron","How to grow philodendrons","Royal Horticultural Society","https://www.rhs.org.uk/plants/philodendron/growing-guide","horticultural_society","Genus-level cultivation guidance only."),
+ ("source-uconn-philodendron","Philodendron","University of Connecticut Extension","https://homegarden.cahnr.uconn.edu/FactSheets/philodendron/","extension","Genus-level care and cultivar Brasil identification."),
+ ("source-ncsu-birkin","Philodendron 'Birkin'","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-birkin/","extension","Cultivar appearance and growing problems."),
+ ("source-nparks-pink-princess","Philodendron 'Pink Princess'","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/8/5/8541","government_botanical_database","Cultivar identification, care, propagation and hazard."),
+ ("source-nparks-erubescens","Philodendron erubescens","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/4/1475","government_botanical_database","Parent species growth form and native distribution.")
 ]
 IMAGES = [
  ("image-pothos-mithun","https://commons.wikimedia.org/wiki/Special:FilePath/Money_plant(Epipremnum_Aureum).jpg","Money plant / golden pothos","Mithun Mijar","CC BY-SA 4.0","https://commons.wikimedia.org/wiki/File:Money_plant(Epipremnum_Aureum).jpg"),
@@ -302,8 +316,8 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
    batch = json.load(handle)
   shared = batch.get("shared_sections", [])
   for taxon in batch.get("catalog_range", []):
-   taxon_sections = list(shared)
    specific = batch.get("taxa", {}).get(taxon, {})
+   taxon_sections = list(specific.get("sections", shared))
    if specific.get("identification"):
     taxon_sections = [s for s in taxon_sections if s["key"] != "identification"] + [{
      "key": "identification", "title": "Identification",
