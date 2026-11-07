@@ -219,7 +219,9 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent2); b
   .topbar { min-height: 54px; }
   .logo { font-size: 19px; }
   .user-badge { display: none; }
-  .tabs { gap: 6px; }
+  .tabs { gap: 6px; overflow-x: auto; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex: 0 0 auto; }
   .tab { flex: 1; min-height: 44px; padding: 0 8px; }
   button, .btn, .small { min-height: 44px; }
   .small { padding: 8px 12px; }
