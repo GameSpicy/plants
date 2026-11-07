@@ -181,6 +181,30 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert section(pink_princess, "identification")["review_status"] == "verified"
     assert any(src["id"] == "source-nparks-pink-princess" for src in section(pink_princess, "identification")["sources"])
 
+    xanadu_profile = get_taxon("plant-016", path=path)
+    aglaonema = get_taxon("plant-017", path=path)
+    chinese_evergreen = get_taxon("plant-018", path=path)
+    dieffenbachia = get_taxon("plant-019", path=path)
+    zz = get_taxon("plant-020", path=path)
+    raven = get_taxon("plant-021", path=path)
+    snake = get_taxon("plant-022", path=path)
+    hahnii = get_taxon("plant-023", path=path)
+    spider = get_taxon("plant-024", path=path)
+    rubber = get_taxon("plant-025", path=path)
+    for profile in (xanadu_profile, aglaonema, chinese_evergreen, dieffenbachia, zz, raven, snake, hahnii, spider, rubber):
+        assert len(profile["profile_sections"]) >= 13
+    def section(profile, key):
+        return next(item for item in profile["profile_sections"] if item["section_key"] == key)
+    assert "clumping" in section(xanadu_profile, "overview")["content"]
+    assert "top 1–2 inches" in section(aglaonema, "watering")["content"]
+    assert "lateral veins" in section(dieffenbachia, "identification")["content"]
+    assert "dry well" in section(zz, "watering")["content"]
+    assert "nearly black" in section(raven, "identification")["content"]
+    assert "dry between waterings" in section(snake, "watering")["content"]
+    assert "funnel-shaped rosette" in section(hahnii, "identification")["content"]
+    assert "plantlets" in section(spider, "overview")["content"]
+    assert "latex" in section(rubber, "toxicity")["content"]
+
     assert len(pothos["media"]) == 3
     assert pothos["media"][0]["license"] == "CC BY-SA 4.0"
     assert pothos["fertilizer_guides"]
