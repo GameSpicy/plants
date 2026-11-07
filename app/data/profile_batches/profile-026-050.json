@@ -45,12 +45,10 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Thick, leathery, broad oval leaves; 'Burgundy' is selected for deep maroon to nearly black coloration. Exact color varies with light and leaf age.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ifas-rubber"
-          ]
+          "content": "Thick, leathery, broad oval leaves; 'Burgundy' is selected for deep maroon to nearly black coloration. Exact color varies with light and leaf age. Cultivar/hybrid-specific naming and diagnostic features remain under review; species or genus-level care should not be treated as proof of the exact horticultural identity.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -709,7 +707,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -719,7 +717,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -729,7 +727,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -739,7 +737,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -749,7 +747,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -759,7 +757,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -769,7 +767,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -779,7 +777,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -789,7 +787,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -799,7 +797,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -809,7 +807,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -819,7 +817,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         },
         {
@@ -829,7 +827,7 @@
           "confidence": "medium",
           "status": "verified",
           "sources": [
-            "source-ncsu-xanadu"
+            "source-ncsu-heptapleurum"
           ]
         }
       ]
@@ -1653,12 +1651,10 @@
         {
           "key": "identification",
           "title": "Identification",
-          "content": "Compact upright plant with dark arrow-shaped leaves, prominent pale veins and wavy margins. The catalog identity should be treated as a horticultural hybrid rather than a confirmed botanical species.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ufas-alocasia"
-          ]
+          "content": "Compact upright plant with dark arrow-shaped leaves, prominent pale veins and wavy margins. The catalog identity should be treated as a horticultural hybrid rather than a confirmed botanical species. Cultivar/hybrid-specific naming and diagnostic features remain under review; species or genus-level care should not be treated as proof of the exact horticultural identity.",
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
@@ -2582,131 +2578,105 @@
           "key": "overview",
           "title": "Overview",
           "content": "A tropical creeping perennial in the prayer-plant family, grown for patterned foliage and its daily leaf movement.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
           "content": "Oval leaves with contrasting veins and markings; leaves fold upward at night and reopen in daylight, a nyctinastic movement.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
           "title": "Light",
           "content": "Bright indirect light or partial shade; avoid direct sun.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "watering",
           "title": "Watering",
           "content": "Keep evenly moist but not waterlogged. Allow only slight surface drying before watering again.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
           "content": "Moisture-retentive, airy, slightly acidic medium with good drainage.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "temperature",
           "title": "Temperature",
           "content": "Warm stable conditions; avoid cold drafts.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "humidity",
           "title": "Humidity",
           "content": "Moderate to high humidity is beneficial; maintain airflow.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "fertilizing",
           "title": "Fertilizing",
           "content": "Feed lightly with balanced fertilizer during active growth according to label; reduce in slow periods.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "pruning",
           "title": "Pruning",
           "content": "Pinch growing tips to encourage a fuller plant; remove damaged leaves.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "propagation",
           "title": "Propagation",
           "content": "Stem cuttings with nodes or division of rooted clumps are common methods; verify cultivar-specific details separately.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
           "content": "No specific toxicity conclusion is asserted here; verify the exact species before treating as pet-safe.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
           "content": "Dry edges can reflect low humidity, mineral-rich water or inconsistent moisture; watch for spider mites.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
           "content": "In Dhaka, avoid hot direct sun and stagnant wet soil; maintain steady moisture and ventilation.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-ncsu-maranta"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         }
       ]
     },
@@ -2984,131 +2954,105 @@
           "key": "overview",
           "title": "Overview",
           "content": "A tropical foliage plant grown for colorful speckled leaves, commonly called polka dot plant.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "identification",
           "title": "Identification",
           "content": "Opposite oval leaves marked with pink, red, white or other contrasting spots over green; color depends on cultivar.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "light",
           "title": "Light",
           "content": "Bright indirect light; adequate light helps maintain compact growth and color, but avoid harsh direct sun.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "watering",
           "title": "Watering",
           "content": "Keep evenly moist but well drained; do not allow repeated severe wilting or waterlogging.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "soil",
           "title": "Soil and drainage",
           "content": "Moisture-retentive but airy potting mix with good drainage.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "temperature",
           "title": "Temperature",
           "content": "Warm conditions; protect from cold and temperature swings.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "humidity",
           "title": "Humidity",
           "content": "Higher humidity supports foliage; maintain airflow.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "fertilizing",
           "title": "Fertilizing",
           "content": "Feed lightly during active growth with balanced fertilizer according to label.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "pruning",
           "title": "Pruning",
           "content": "Pinch tips regularly to maintain a bushy habit and delay flowering/legginess.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "propagation",
           "title": "Propagation",
           "content": "Stem cuttings root readily in moist medium or water; seed may also be used.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "toxicity",
           "title": "Toxicity and safety",
           "content": "Toxicity is not established by the cited source for this entry; do not assume pet safety without a reliable toxicology reference.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "common_problems",
           "title": "Common problems",
           "content": "Plants can become leggy if light is inadequate or pruning is neglected; watch for aphids and whiteflies.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         },
         {
           "key": "seasonal_care",
           "title": "Seasonal care",
           "content": "In Dhaka, keep evenly moist in active growth but avoid waterlogging; pinch often in warm weather.",
-          "confidence": "medium",
-          "status": "verified",
-          "sources": [
-            "source-umn-hypoestes"
-          ]
+          "confidence": "low",
+          "status": "needs_review",
+          "sources": []
         }
       ]
     },
