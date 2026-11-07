@@ -118,11 +118,18 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert conn.execute("SELECT COUNT(*) FROM taxon_id_aliases").fetchone()[0] == 9
     assert conn.execute("SELECT COUNT(*) FROM taxon_names WHERE name_type='synonym'").fetchone()[0] >= 3
     xanadu = conn.execute("SELECT scientific_name, accepted_name, taxonomy_status FROM taxa WHERE id='plant-016'").fetchone()
-    assert tuple(xanadu) == ('Thaumatophyllum xanadu', 'Philodendron xanadu', 'verified')
+    assert tuple(xanadu) == ('Philodendron xanadu', 'Philodendron xanadu', 'verified')
+    assert any(n["name"] == "Thaumatophyllum xanadu" for n in get_taxon("plant-016", path=path)["names"])
+    golden = conn.execute("SELECT rank,parent_name,cultivar_epithet FROM taxa WHERE id='plant-002'").fetchone()
+    assert tuple(golden) == ("cultivar", "Epipremnum aureum", "Golden")
     assert conn.execute("SELECT COUNT(*) FROM content_references WHERE content_type='taxon' AND reference_id='source-powo'").fetchone()[0] == 3
 
     hibiscus = get_taxon("plant-073", path=path)
     assert hibiscus is not None
+    legacy_hibiscus = get_taxon("plant-074", path=path)
+    assert legacy_hibiscus is not None
+    assert legacy_hibiscus["id"] == "plant-073"
+    assert "plant-074" in legacy_hibiscus["legacy_ids"]
     assert any(p["id"] == "pest-aphids" for p in hibiscus["pests"])
     assert any("University of Minnesota" in source["publisher"] for source in hibiscus["sources"])
 
