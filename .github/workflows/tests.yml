@@ -1,0 +1,60 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+      - feature/expanded-plant-catalog
+  pull_request:
+    branches:
+      - main
+      - feature/expanded-plant-catalog
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pytest httpx playwright
+      - name: Install Chromium for browser tests
+        run: python -m playwright install --with-deps chromium
+      - name: Compile application and tests
+        run: python -m compileall -q app tests
+      - name: Run test suite
+        env:
+          PYTHONPATH: .
+        run: python -m pytest -q
+      - name: Build Docker image
+        run: docker build --tag plants:ci .
+      - name: Smoke-test Docker container
+        run: |
+          mkdir -p "$RUNNER_TEMP/plants-smoke-data"
+          docker run --detach --name plants-smoke --publish 8000:8000 \
+            --env PLANTS_NOTIFY_WORKER=false \
+            --env PLANTS_WEATHER_OFFLINE=true \
+            --volume "$RUNNER_TEMP/plants-smoke-data:/app/data" plants:ci
+          cleanup() { docker logs plants-smoke || true; docker rm --force plants-smoke >/dev/null 2>&1 || true; }
+          trap cleanup EXIT
+          for attempt in $(seq 1 60); do
+            if curl --fail --silent http://127.0.0.1:8000/api/status > "$RUNNER_TEMP/plants-status.json"; then
+              cat "$RUNNER_TEMP/plants-status.json"
+              test -s "$RUNNER_TEMP/plants-smoke-data/plants.db"
+              test -s "$RUNNER_TEMP/plants-smoke-data/encyclopedia.db"
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Container did not become healthy in time."
+          exit 1

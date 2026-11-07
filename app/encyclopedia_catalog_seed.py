@@ -205,6 +205,7 @@ SOURCES = [
  ("source-aspca-boston-fern","Boston fern — Toxic and Non-Toxic Plants","ASPCA Animal Poison Control","https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/boston-fern","toxicology","Lists Nephrolepis exaltata bostoniensis as non-toxic to cats and dogs; does not establish safety for humans or other fern taxa."),
  ("source-ncsu-annual-ornamentals","Herbaceous Ornamentals — Extension Gardener Handbook","North Carolina State Extension","https://content.ces.ncsu.edu/extension-gardener-handbook/10-herbaceous-ornamentals","extension","General annual-flower pruning and cultivation context; not a substitute for species-specific care."),
  ("source-ncsu-houseplant-container","Plants Grown in Containers — Extension Gardener Handbook","North Carolina State Extension","https://content.ces.ncsu.edu/extension-gardener-handbook/18-plants-grown-in-containers","extension","Container selection and broad plant-group context only; not species-specific care."),
+
  ("source-rhs-houseplants","How to grow houseplants","Royal Horticultural Society","https://www.rhs.org.uk/plants/types/houseplants/growing-guide","horticultural_society",""),
  ("source-powo","Plants of the World Online","Royal Botanic Gardens, Kew","https://powo.science.kew.org/","taxonomic_backbone","Accepted names and synonymy checked for the individually cited records only."),
  ("source-rhs-feeding","How to feed plants","Royal Horticultural Society","https://www.rhs.org.uk/garden-jobs/nutrition-feeding-plants","horticultural_society","General feeding principles only; not species-specific fertilizer type, dose or schedule."),
@@ -222,6 +223,7 @@ SOURCES = [
  ("source-nybg-pothos","Pothos (Epipremnum aureum)","New York Botanical Garden","https://libguides.nybg.org/pothos","botanical_garden","Light, watering and humidity context."),
  ("source-nparks-epipremnum","Epipremnum aureum","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/3/1390","government_botanical_database","Plant features, propagation and ingestion/sap hazard."),
  ("source-ufifas-cultivars","New Florida Foliage Plant Cultivar: Pothos ‘Pearls and Jade’","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/EP441/pdf","extension","Cultivar descriptions for common pothos selections."),
+
  ("source-nparks-scindapsus","Scindapsus pictus","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/6/0/6027","government_botanical_database","Plant features, habitat and cultivation."),
  ("source-rhs-scindapsus","Scindapsus pictus","Royal Horticultural Society","https://www.rhs.org.uk/plants/93929/scindapsus-pictus-v/details","horticultural_society","Native range, cultivation and propagation."),
  ("source-ncsu-scindapsus","Silver Pothos — Scindapsus pictus","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/scindapsus-pictus/common-name/silver-pothos/","extension","Identification and cultivar names."),
@@ -235,8 +237,10 @@ SOURCES = [
  ("source-ncsu-birkin","Philodendron 'Birkin'","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-birkin/","extension","Cultivar appearance and growing problems."),
  ("source-nparks-pink-princess","Philodendron 'Pink Princess'","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/8/5/8541","government_botanical_database","Cultivar identification, care, propagation and hazard."),
  ("source-nparks-erubescens","Philodendron erubescens","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/4/1475","government_botanical_database","Parent species growth form and native distribution."),
+
  ("source-ncsu-heptapleurum","Heptapleurum arboricola","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/heptapleurum-arboricola/","extension","Dwarf umbrella tree identification, cultivation and toxicity."),
  ("source-ifas-xanadu","Philodendron x 'Xanadu'","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/FP474/about","extension","Cultivar identity and landscape characteristics."),
+ ("source-ncsu-xanadu","Xanadu Philodendron — Philodendron xanadu","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-xanadu/common-name/xanadu-philodendron/","extension","Species-level identification, growth habit, light, watering, temperature, pests and toxicity."),
  ("source-clemson-aglaonema","Chinese Evergreen (Aglaonema)","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/","extension","Care and cultivar background."),
  ("source-ifas-aglaonema","Aglaonema spp.","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/FP025","extension","Morphology, culture and toxicity."),
  ("source-ncsu-dieffenbachia","Dieffenbachia seguine","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/","extension","Identification, culture, propagation, pests and safety."),
@@ -247,6 +251,7 @@ SOURCES = [
  ("source-ncsu-spider","Chlorophytum comosum","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/","extension","Identification, culture and propagation."),
  ("source-wi-spider","Spider plant","University of Wisconsin–Madison Extension","https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/","extension","Cultivar characteristics and propagation."),
  ("source-ifas-rubber","Ficus elastica: Rubber Tree","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/ST252","extension","Culture, propagation, cultivars and pests."),
+
  ("source-ncsu-ficus-lyrata","Ficus lyrata","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/ficus-lyrata/","extension","Identification, culture and toxicity."),
  ("source-ncsu-ficus-microcarpa","Ficus microcarpa 'Ginseng'","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/ficus-microcarpa-ginseng/","extension","Bonsai form, aerial roots and cultivation."),
  ("source-clemson-ficus-benjamina","Weeping Ficus","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/weeping-ficus/","extension","Habit, light and indoor care."),
@@ -492,6 +497,15 @@ def seed_botanical_catalog(conn: sqlite3.Connection) -> dict[str,int]:
   processed_batch_taxa = set()
   for batch_taxon in batch_taxa:
    taxon = legacy_taxon_ids.get(batch_taxon, batch_taxon)
+   alias = conn.execute(
+    "SELECT taxon_id FROM taxon_id_aliases WHERE legacy_id=?", (taxon,)
+   ).fetchone()
+   taxon = alias[0] if alias else taxon
+   if not conn.execute("SELECT 1 FROM taxa WHERE id=?", (taxon,)).fetchone():
+    raise ValueError(
+     f"Profile batch {batch.get('batch_id', 'unknown')} references "
+     f"unknown catalog taxon {batch_taxon!r}"
+    )
    if taxon in processed_batch_taxa:
     continue
    processed_batch_taxa.add(taxon)

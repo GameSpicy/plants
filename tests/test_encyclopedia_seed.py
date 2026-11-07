@@ -235,7 +235,11 @@ def test_botanical_catalog_imports_normalized_profiles_and_reference_links(tmp_p
     assert all(sections[key]["review_status"] == "verified" for key in ("light", "watering", "soil", "temperature", "humidity", "toxicity"))
     assert sections["toxicity"]["confidence"] == "high"
     assert any(source["id"] == "source-rhs-houseplants" for source in sections["light"]["sources"])
-    assert any(source["id"] == "source-nparks-epipremnum" for source in sections["toxicity"]["sources"])
+    # This first batch contains sourced, reviewed Epipremnum guidance.
+    assert all(item["review_status"] == "verified" for item in sections.values())
+    assert all(item["confidence"] in {"medium", "high"} for item in sections.values())
+    toxicity_source_ids = {source["id"] for source in sections["toxicity"]["sources"]}
+    assert {"source-nparks-epipremnum", "source-ncsu-epipremnum", "source-wi-pothos"} <= toxicity_source_ids
     overview_sources = {source["id"] for source in sections["overview"]["sources"]}
     assert "source-kew-epipremnum" in overview_sources
     assert sections["overview"]["review_status"] == "verified"
