@@ -184,6 +184,19 @@ SOURCES = [
  ("source-ncsu-birkin","Philodendron 'Birkin'","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-birkin/","extension","Cultivar appearance and growing problems."),
  ("source-nparks-pink-princess","Philodendron 'Pink Princess'","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/8/5/8541","government_botanical_database","Cultivar identification, care, propagation and hazard."),
  ("source-nparks-erubescens","Philodendron erubescens","National Parks Board Singapore","https://www.nparks.gov.sg/florafaunaweb/flora/1/4/1475","government_botanical_database","Parent species growth form and native distribution.")
+
+ ("source-ncsu-xanadu","Philodendron xanadu","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/philodendron-xanadu/","extension","Species identity, habit and cultivation."),
+ ("source-ifas-xanadu","Philodendron x 'Xanadu'","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/FP474/about","extension","Cultivar identity and landscape characteristics."),
+ ("source-clemson-aglaonema","Chinese Evergreen (Aglaonema)","Clemson Cooperative Extension","https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/","extension","Care and cultivar background."),
+ ("source-ifas-aglaonema","Aglaonema spp.","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/FP025","extension","Morphology, culture and toxicity."),
+ ("source-ncsu-dieffenbachia","Dieffenbachia seguine","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/","extension","Identification, culture, propagation, pests and safety."),
+ ("source-iastate-zz","ZZ plant care","Iowa State University Extension","https://yardandgarden.extension.iastate.edu/faq/i-recently-purchased-zz-plant-how-do-i-care-it","extension","Care, propagation and toxicity."),
+ ("source-uconn-zz","ZZ plant","University of Connecticut Extension","https://homegarden.cahnr.uconn.edu/factsheets/zz-plant/","extension","Propagation, toxicity and Raven cultivar distinction."),
+ ("source-ifas-zz","Cultural Guidelines for Commercial Production of Interiorscape ZZ","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/EP252","extension","Production, low-light tolerance and propagation."),
+ ("source-ncsu-snake","Dracaena trifasciata","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/","extension","Identification, cultivation and cultivar descriptions."),
+ ("source-ncsu-spider","Chlorophytum comosum","North Carolina State Extension","https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/","extension","Identification, culture and propagation."),
+ ("source-wi-spider","Spider plant","University of Wisconsin–Madison Extension","https://hort.extension.wisc.edu/articles/spider-plant-chlorophytum-comosum/","extension","Cultivar characteristics and propagation."),
+ ("source-ifas-rubber","Ficus elastica: Rubber Tree","University of Florida IFAS Extension","https://ask.ifas.ufl.edu/publication/ST252","extension","Culture, propagation, cultivars and pests.")
 ]
 IMAGES = [
  ("image-pothos-mithun","https://commons.wikimedia.org/wiki/Special:FilePath/Money_plant(Epipremnum_Aureum).jpg","Money plant / golden pothos","Mithun Mijar","CC BY-SA 4.0","https://commons.wikimedia.org/wiki/File:Money_plant(Epipremnum_Aureum).jpg"),
